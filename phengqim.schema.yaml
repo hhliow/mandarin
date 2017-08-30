@@ -54,6 +54,7 @@ speller:
     - derive/(^[khgpbmq]|^kh|^ng|^ph)(w?)i/$1r$2i/
     - derive/v/y/
     - derive/ieo/v/
+    - derive/(^[ts]|ts)iek$/$1iaek/    
     - derive/^sc/sh/
     - derive/^zc/zh/
     - derive/^dc/dzh/
@@ -65,7 +66,6 @@ speller:
     - abbrev/iae(k|ng)/ie$1/
     - derive/iow(k|ng)/wio$1/
     - derive/iow(k|ng)/io$1/
-    - derive/(^[ts]|ts)iek$/$1iaek/
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^ph.+$/f/
     - abbrev/^kh.+$/x/
