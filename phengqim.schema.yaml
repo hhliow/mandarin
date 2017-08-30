@@ -65,6 +65,7 @@ speller:
     - abbrev/iae(k|ng)/ie$1/
     - derive/iow(k|ng)/wio$1/
     - derive/iow(k|ng)/io$1/
+    - derive/(^[ts]|ts)ie(k$|ng[xh]?$)/$1iae$2/
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^ph.+$/f/
     - abbrev/^kh.+$/x/
