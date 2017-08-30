@@ -50,11 +50,11 @@ speller:
   algebra:
     - "xform/'//"
     - derive/([szrjc]|tsh|ch)iu/$1iw/
-    - derive/(^[khgpbmq]|^kh|^ng|^ph)i([mp])/$1v$2/
-    - derive/(^[khgpbmq]|^kh|^ng|^ph)(w?)i/$1r$2i/
+    - derive/^([khgpbmq]h?|ng)i([mp])/$1v$2/
+    - derive/^([khgpbmq]h?|ng)(w?)i/$1r$2i/
     - derive/v/y/
     - derive/ieo/v/
-    - derive/(^[ts]|ts)iek$/$1iaek/    
+    - derive/^([td]?[szc]c?h?|j)iek/$1iaek/
     - derive/^sc/sh/
     - derive/^zc/zh/
     - derive/^dc/dzh/
