@@ -2,7 +2,8 @@ phengqimSyllableToIPA = function(s) {
   // TODO: assert s contains no space.
   
   // Initials.
-  
+
+  s = s.replace(/^['q]/, 'ʔ');  
   s = s.replace(/^gh/, 'ɦ');
   
   s = s.replace('ng', 'ŋ');
@@ -15,7 +16,9 @@ phengqimSyllableToIPA = function(s) {
 
   var apicalInitial = '^([dtsznʈɖʂʐɳ]|tsh?|dz|th|ʈh|ʈʂh?|ɖʐ)';
   var retroflexInitial = '^([ʈɖʂʐɳ]||ʈh|ʈʂh?|ɖʐ)';
-  s = s.replace(new RegExp('(' + retroflexInitial + ')' + '[rɣ](w?[iyv])'), '$1$2');
+  var velarOrGlottalInitial = '^([gk]h?|ng|[ŋxhɦ])';
+  
+  s = s.replace(new RegExp(retroflexInitial + '[rɣ](w?[iyv])'), '$1$2');
   
   s = s.replace(/^nj/, 'ȵʑ');
   s = s.replace(/^t?c/, 'tɕ');
@@ -26,12 +29,33 @@ phengqimSyllableToIPA = function(s) {
   
   // Medials.
 
-  s = s.replace(new RegExp('(' + apicalInitial + ')' + 'r(w?[aeou])'), '$1ɣ$2');
+  s = s.replace(new RegExp('(' + apicalInitial + ')' + 'r([wu]?[aeou])'), '$1ɣ$2');
   s = s.replace(/yi/, 'wi');
   
-  return s;
-  
   // Syllabics.
-  s = s.replace(/([^rɣji(([rɣj][wu])])a([^e]|[xh]|($))/, '$1ɑ$2');
   
+  s = s.replace(/([^rɣji(([rɣj][wu])])a([^e]|[xh]|($))/, '$1ɑ$2');
+  s = s.replace(new RegExp(velarOrGlottalInitial + '(w?i)a([xh]?$)'), '$1$2ɑ$3');
+  s = s.replace(/'(w?i)a([ntmpŋkiwu])'/, '$1ɑ$2');
+  s = s.replace('ae', 'a');
+  
+  s = s.replace('ea', 'ɛ');
+  s = s.replace(/([rɣ][wu]?)e/, '$1ɛ');
+  
+  s = s.replace('v', 'ɨ');
+  s = s.replace(/y((ng)?[xhk]?)$/, 'ɨ$1');
+  
+  s.replace(/eo([^xh($)])/, 'ə$1');
+  s.replace(/ieo([^xh($)])/, 'iɨ$1');  
+  
+  s.replace(/([^w]i)o([xh]?)$/, '$1ʌ$2');
+  
+  s.replace('([rɣ])o', '$1ɔ');
+  
+  // Tones.
+  
+  s = s.replace(\x$\, 'ˀ');
+  s = s.replace(\[hɦ]$\, 'ʱ');
+
+  return s;  
 }
