@@ -1,5 +1,10 @@
 phengqimSyllableToIPA = function(s) {
-  // TODO: assert s contains no space.
+  // TODO: might or might not compile, debug as necessary.
+  // TODO: maybe assert s contains no space?
+
+  var apicalInitial = '^([dtsznʈɖʂʐɳ]|tsh?|dz|th|ʈh|ʈʂh?|ɖʐ)';
+  var retroflexInitial = '^([ʈɖʂʐɳ]||ʈh|ʈʂh?|ɖʐ)';
+  var velarOrGlottalInitial = '^([gk]h?|ng|[ŋxhɦ])';
   
   // Initials.
 
@@ -14,10 +19,6 @@ phengqimSyllableToIPA = function(s) {
   s = s.replace(/^(.?)s([rɣ])/, '$1ʂ$2');
   s = s.replace(/^(.?)z([rɣ])/, '$1ʐ$2');
 
-  var apicalInitial = '^([dtsznʈɖʂʐɳ]|tsh?|dz|th|ʈh|ʈʂh?|ɖʐ)';
-  var retroflexInitial = '^([ʈɖʂʐɳ]||ʈh|ʈʂh?|ɖʐ)';
-  var velarOrGlottalInitial = '^([gk]h?|ng|[ŋxhɦ])';
-  
   s = s.replace(new RegExp(retroflexInitial + '[rɣ](w?[iyv])'), '$1$2');
   
   s = s.replace(/^nj/, 'ȵʑ');
