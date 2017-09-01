@@ -1,4 +1,4 @@
-phengqimSyllableToIPA = function(s) {
+MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   // TODO: might or might not compile, debug as necessary.
   // TODO: maybe assert s contains no space?
 
@@ -35,8 +35,8 @@ phengqimSyllableToIPA = function(s) {
   
   // Syllabics.
   
-  s = s.replace(/([^rɣji(([rɣj][wu])])a([^e]|[xh]|($))/, '$1ɑ$2');
-  s = s.replace(new RegExp(velarOrGlottalInitial + '(w?i)a([xh]?$)'), '$1$2ɑ$3');
+  s = s.replace(/([^rɣji(([rɣj][wu])])a([^e]|[xq'h]|($))/, '$1ɑ$2');
+  s = s.replace(new RegExp(velarOrGlottalInitial + '(w?i)a([xq\'h]?$)'), '$1$2ɑ$3');
   s = s.replace(/'(w?i)a([ntmpŋkiwu])'/, '$1ɑ$2');
   s = s.replace('ae', 'a');
   
@@ -44,19 +44,19 @@ phengqimSyllableToIPA = function(s) {
   s = s.replace(/([rɣ][wu]?)e/, '$1ɛ');
   
   s = s.replace('v', 'ɨ');
-  s = s.replace(/y((ng)?[xhk]?)$/, 'ɨ$1');
+  s = s.replace(/y((ng)?[xq'hk]?)$/, 'ɨ$1');
   
-  s.replace(/eo([^xh($)])/, 'ə$1');
-  s.replace(/ieo([^xh($)])/, 'iɨ$1');  
+  s.replace(/eo([^xq'h($)])/, 'ə$1');
+  s.replace(/ieo([^xq'h($)])/, 'iɨ$1');  
   
-  s.replace(/([^w]i)o([xh]?)$/, '$1ʌ$2');
+  s.replace(/([^w]i)o([xq'h]?)$/, '$1ʌ$2');
   
   s.replace('([rɣ])o', '$1ɔ');
   
   // Tones.
   
-  s = s.replace(\x$\, 'ˀ');
-  s = s.replace(\[hɦ]$\, 'ʱ');
+  s = s.replace(/[xq']$/, 'ˀ');
+  s = s.replace(/[hɦ]$/, 'ʱ');
 
   return s;  
 }
