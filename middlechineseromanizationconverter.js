@@ -1,3 +1,5 @@
+MiddleChineseRomanizationConverter = {};
+
 MiddleChineseRomanizationConverter.apicalInitial = '(?:[dtsznʈɖʂʐɳ]|tsh?|dz|th|ʈh|ʈʂh?|ɖʐ)';
 
 MiddleChineseRomanizationConverter.retroflexInitial = '(?:[ʈɖʂʐɳ]||ʈh|ʈʂh?|ɖʐ)';
@@ -8,16 +10,15 @@ MiddleChineseRomanizationConverter.tonalSuffix = '(?:[xq\'h]?$)';
 
 MiddleChineseRomanizationConverter.divisionTwoMedial = '[rɣ]';
 
-MiddleChineseRomanizationConverter.retroFlexT = new RegExp('^t(?=.?h?' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
+MiddleChineseRomanizationConverter.retroFlexT = new RegExp('^t(?=s?h?' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
 
-MiddleChineseRomanizationConverter.retroFlexD = new RegExp('^d(?=.?' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
+MiddleChineseRomanizationConverter.retroFlexD = new RegExp('^d(?=z?' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
 
 MiddleChineseRomanizationConverter.retroFlexN = new RegExp('^n(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
 
 MiddleChineseRomanizationConverter.retroFlexS = new RegExp('s(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
 
 MiddleChineseRomanizationConverter.retroFlexZ = new RegExp('z(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
-
 
 MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   // TODO: might or might not compile, debug as necessary.
@@ -36,7 +37,13 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   s = s.replace(MiddleChineseRomanizationConverter.retroFlexS, 'ʂ');
   s = s.replace(MiddleChineseRomanizationConverter.retroFlexZ, 'ʐ');
 
-  s = s.replace(new RegExp(retroflexInitial + '[rɣ](w?[iyv])'), '$1$2');
+  s =
+      s.replace(
+           new RegExp(
+               '(' + MiddleChineseRomanizationConverter.retroflexInitial + ')' +
+                   MiddleChineseRomanizationConverter.divisionTwoMedial +
+                   '(?=w?[iyv])'),
+           '$1');
   
   s = s.replace(/^nj/, 'ȵʑ');
   s = s.replace(/^t?c/, 'tɕ');
