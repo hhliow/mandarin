@@ -4,7 +4,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
 
   var apicalInitial = '^([dtsznʈɖʂʐɳ]|tsh?|dz|th|ʈh|ʈʂh?|ɖʐ)';
   var retroflexInitial = '^([ʈɖʂʐɳ]||ʈh|ʈʂh?|ɖʐ)';
-  var velarOrGlottalInitial = '^([gk]h?|ng|[ŋxhɦ])';
+  var velarOrGlottalInitial = '^([gk]h?|ng|[ŋxhɦqʔ\'])';
   
   // Initials.
 
@@ -32,6 +32,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
 
   s = s.replace(new RegExp('(' + apicalInitial + ')' + 'r([wu]?[aeou])'), '$1ɣ$2');
   s = s.replace(/yi/, 'wi');
+  s = s.replace(/^(([gkŋhxbpmqʔ']|kh|ph|ng)w?)i/, '$1ɨi');  
   
   // Syllabics.
   
