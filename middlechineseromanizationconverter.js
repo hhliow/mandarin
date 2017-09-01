@@ -1,11 +1,28 @@
+MiddleChineseRomanizationConverter.apicalInitial = '(?:[dtsznʈɖʂʐɳ]|tsh?|dz|th|ʈh|ʈʂh?|ɖʐ)';
+
+MiddleChineseRomanizationConverter.retroflexInitial = '(?:[ʈɖʂʐɳ]||ʈh|ʈʂh?|ɖʐ)';
+
+MiddleChineseRomanizationConverter.velarOrGlottalInitial = '(?:[gk]h?|ng|[ŋxhɦqʔ\'])';
+
+MiddleChineseRomanizationConverter.tonalSuffix = '(?:[xq\'h]?$)';
+
+MiddleChineseRomanizationConverter.divisionTwoMedial = '[rɣ]';
+
+MiddleChineseRomanizationConverter.retroFlexT = new RegExp('^t(?=.?h?' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
+
+MiddleChineseRomanizationConverter.retroFlexD = new RegExp('^d(?=.?' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
+
+MiddleChineseRomanizationConverter.retroFlexN = new RegExp('^n(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
+
+MiddleChineseRomanizationConverter.retroFlexS = new RegExp('s(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
+
+MiddleChineseRomanizationConverter.retroFlexZ = new RegExp('z(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
+
+
 MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   // TODO: might or might not compile, debug as necessary.
   // TODO: maybe assert s contains no space?
-
-  var apicalInitial = '^([dtsznʈɖʂʐɳ]|tsh?|dz|th|ʈh|ʈʂh?|ɖʐ)';
-  var retroflexInitial = '^([ʈɖʂʐɳ]||ʈh|ʈʂh?|ɖʐ)';
-  var velarOrGlottalInitial = '^([gk]h?|ng|[ŋxhɦqʔ\'])';
-  
+ 
   // Initials.
 
   s = s.replace(/^['q]/, 'ʔ');  
@@ -13,11 +30,11 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   
   s = s.replace('ng', 'ŋ');
   
-  s = s.replace(/^t(.?h?[rɣ])/, 'ʈ$1');
-  s = s.replace(/^d(.?[rɣ])/, 'ɖ$1');
-  s = s.replace(/^n([rɣ])/, 'ɳ$1');
-  s = s.replace(/^(.?)s([rɣ])/, '$1ʂ$2');
-  s = s.replace(/^(.?)z([rɣ])/, '$1ʐ$2');
+  s = s.replace(MiddleChineseRomanizationConverter.retroFlexT, 'ʈ');
+  s = s.replace(MiddleChineseRomanizationConverter.retroFlexD, 'ɖ');
+  s = s.replace(MiddleChineseRomanizationConverter.retroFlexN, 'ɳ');
+  s = s.replace(MiddleChineseRomanizationConverter.retroFlexS, 'ʂ');
+  s = s.replace(MiddleChineseRomanizationConverter.retroFlexZ, 'ʐ');
 
   s = s.replace(new RegExp(retroflexInitial + '[rɣ](w?[iyv])'), '$1$2');
   
