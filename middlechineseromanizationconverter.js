@@ -23,7 +23,7 @@ MiddleChineseRomanizationConverter.retroFlexS = new RegExp('s(?=' + MiddleChines
 MiddleChineseRomanizationConverter.retroFlexZ = new RegExp('z(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
 
 MiddleChineseRomanizationConverter.phengqimToIPA = function(s) {
-  var words = s.split(/(\s+)/);
+  var words = s.split(/([^A-Za-z']+)/);
   for (var i = 0; i < words.length; i++) {
     if (/^[A-Za-z']+$/.test(words[i])) {
       words[i] = MiddleChineseRomanizationConverter.phengqimSyllableToIPA(words[i].toLowerCase());
@@ -68,7 +68,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
 
   s = s.replace(/r(?=[wu]?[aeou])/, 'ɣ');
   s = s.replace(/yi/, 'wi');
-  s = s.replace(/^(([gkŋhxbpmqʔ']|kh|ph|ng)w?)i(?=a?e|[^aouw])/, '$1ɣi');  
+  s = s.replace(/^(([gkŋhxbpmqʔ']|kh|ph|ng)w?)i(?=a?e(?:[^o]|(?:$))|[^aeiouw])/, '$1ɣi');  
   
   // Syllabics.
   
@@ -77,20 +77,21 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   }
   s = s.replace(new RegExp('^(' + MiddleChineseRomanizationConverter.velarOrGlottalInitial + 'w?i)a(?=[xq\'h]?$)'), '$1ɑ');
   s = s.replace(/(w?i)a(?=[ntmpŋkiwu])/, '$1ɑ');
+  s = s.replace(/(w?i)ae(?=ng|k|ŋ)/, '$1æ');
   s = s.replace('ae', 'a');
   
   s = s.replace('ea', 'ɛ');
   s = s.replace(/([rɣ][wu]?)e/, '$1ɛ');
   
   s = s.replace('v', 'ɨ');
-  s = s.replace(/y(?=(?:ng|[mŋk])?[xq'h]?$)/, 'ɨ');
+  s = s.replace(/y(?=(?:ng|[mpŋk])?[xq'h]?$)/, 'ɨ');
   
-  s = s.replace(/eo(?![xq'h]?$)/, 'ə');
   s = s.replace(/ieo(?![xq'h]?$)/, 'iɨ');  
+  s = s.replace(/eo(?![xq'h]?$)/, 'ə');
   
   s = s.replace(/([^w]i)o(?=[xq'h]?$)/, '$1ʌ');
   
-  s = s.replace(/([rɣ])o/, '$1ɔ');
+  s = s.replace(/([rɣ])o/, '$1ɔw');
   
   // Tones.
   
