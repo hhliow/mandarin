@@ -89,7 +89,21 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
 }
 
 MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
-  // Initials.
+  var words = s.split('\b');
+  for (var i = 0; i < words.length; i++) {
+    if (/^[a-z]+$/.test(words[i])) {
+      words[i] = MiddleChineseRomanizationConverter.polyhedronSyllableToIPA(words[i]);
+    }
+  }
+  return words.join('');
+}
+  
+MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
+  return MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable(s) +
+      MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable(s) +
+      MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable(s) +
+      MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable(s) +
+      MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable(s);    
 }
 
 MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = function(s) {
