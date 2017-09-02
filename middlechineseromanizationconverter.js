@@ -71,7 +71,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   s = s.replace(/([rɣ][wu]?)e/, '$1ɛ');
   
   s = s.replace('v', 'ɨ');
-  s = s.replace(/y(?=(ng)?[xq'hk]?$)/, 'ɨ');
+  s = s.replace(/y(?=(?:ng|m)?[xq'hk]?$)/, 'ɨ');
   
   s.replace(/eo(?![xq'h]?$)/, 'ə');
   s.replace(/ieo(?![xq'h]?$)/, 'iɨ');  
