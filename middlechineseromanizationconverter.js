@@ -56,7 +56,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   
   // Medials.
 
-  s = s.replace(new RegExp('^(' + MiddleChineseRomanizationConverter.apicalInitial + ')' + 'r(?=[wu]?[aeou])'), '$1ɣ');
+  s = s.replace(/r(?=[wu]?[aeou])/, 'ɣ');
   s = s.replace(/yi/, 'wi');
   s = s.replace(/^(([gkŋhxbpmqʔ']|kh|ph|ng)w?)i/, '$1ɨi');  
   
