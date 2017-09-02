@@ -89,21 +89,21 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
 }
 
 MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
-  var words = s.split('\b');
+  var words = s.split(/\b/);
   for (var i = 0; i < words.length; i++) {
-    if (/^[a-z]+$/.test(words[i])) {
-      words[i] = MiddleChineseRomanizationConverter.polyhedronSyllableToIPA(words[i]);
+    if (/^[A-Za-z]+$/.test(words[i])) {
+      words[i] = MiddleChineseRomanizationConverter.polyhedronSyllableToIPA(words[i].toLowerCase());
     }
   }
   return words.join('');
 }
   
 MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
-  return MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable(s) +
+  return (MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable(s) +
       MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable(s) +
       MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable(s) +
       MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable(s) +
-      MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable(s);    
+      MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable(s)).replace(/^(n?[kghbpmq]h?w?)i(?![aou])/, '$1ɣi');  
 }
 
 MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = function(s) {
@@ -125,19 +125,17 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
     return 'ts';
   }
     
-  if (/^zj/.test(s)) {
-    return 'dʑ';
-  } else if (/^zr/.test(s)) {
-    return 'ɖʐ';
-  } else if (/^z/.test(s)) {
-    return 'dz';
-  }
-
   if (/^zsj/.test(s)) {
   } else if (/^zsr/.test(s)) {    
     return 'ʐ';
   } else if (/^zs/.test(s)) {
     return 'z';
+  } else if (/^zj/.test(s)) {k
+    return 'dʑ';
+  } else if (/^zr/.test(s)) {
+    return 'ɖʐ';
+  } else if (/^z/.test(s)) {
+    return 'dz';
   }
   
   if (/^sj/.test(s)) {
@@ -178,9 +176,17 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
 }
 
 MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function(s) {
-  if (/y[aeo]/.test(s)) {
+  if (/y[ae]/.test(s)) {
     return 'wi';
   }
+
+  if (/yo[nti]/.test(s)) {
+    return 'i';
+  }
+  
+  if (/yo[xh]?$/.test(s)) {
+    return 'wi';
+  }  
   
   if (/y[int]/.test(s)) {
     return 'w';
