@@ -10,6 +10,8 @@ MiddleChineseRomanizationConverter.tonalSuffix = '(?:[xq\'h]?$)';
 
 MiddleChineseRomanizationConverter.divisionTwoMedial = '[rɣ]';
 
+MiddleChineseRomanizationConverter.roundingMedial = '(?:w|u(?=[aeo]))';
+
 MiddleChineseRomanizationConverter.retroFlexT = new RegExp('^t(?=s?h?' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
 
 MiddleChineseRomanizationConverter.retroFlexD = new RegExp('^d(?=z?' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
@@ -40,7 +42,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   s =
       s.replace(
            new RegExp(
-               '(' + MiddleChineseRomanizationConverter.retroflexInitial + ')' +
+               '^(' + MiddleChineseRomanizationConverter.retroflexInitial + ')' +
                    MiddleChineseRomanizationConverter.divisionTwoMedial +
                    '(?=w?[iyv])'),
            '$1');
@@ -54,27 +56,27 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   
   // Medials.
 
-  s = s.replace(new RegExp('(' + apicalInitial + ')' + 'r([wu]?[aeou])'), '$1ɣ$2');
+  s = s.replace(new RegExp('^(' + MiddleChineseRomanizationConverter.apicalInitial + ')' + 'r(?=[wu]?[aeou])'), '$1ɣ');
   s = s.replace(/yi/, 'wi');
   s = s.replace(/^(([gkŋhxbpmqʔ']|kh|ph|ng)w?)i/, '$1ɨi');  
   
   // Syllabics.
   
-  s = s.replace(/([^rɣji(([rɣj][wu])])a([^e]|[xq'h]|($))/, '$1ɑ$2');
-  s = s.replace(new RegExp(velarOrGlottalInitial + '(w?i)a([xq\'h]?$)'), '$1$2ɑ$3');
-  s = s.replace(/'(w?i)a([ntmpŋkiwu])'/, '$1ɑ$2');
+  s = s.replace(/^((?![rɣji]|[rɣj][wu]).)a(?=[^e]|(?:$))/, '$1ɑ');
+  s = s.replace(new RegExp('^(' + MiddleChineseRomanizationConverter.velarOrGlottalInitial + 'w?i)a(?=[xq\'h]?$)'), '$1ɑ');
+  s = s.replace(/'(w?i)a(?=[ntmpŋkiwu])'/, '$1ɑ');
   s = s.replace('ae', 'a');
   
   s = s.replace('ea', 'ɛ');
   s = s.replace(/([rɣ][wu]?)e/, '$1ɛ');
   
   s = s.replace('v', 'ɨ');
-  s = s.replace(/y((ng)?[xq'hk]?)$/, 'ɨ$1');
+  s = s.replace(/y(?=(ng)?[xq'hk]?$)/, 'ɨ');
   
-  s.replace(/eo([^xq'h($)])/, 'ə$1');
-  s.replace(/ieo([^xq'h($)])/, 'iɨ$1');  
+  s.replace(/eo(?=[^xq'h($)])/, 'ə');
+  s.replace(/ieo(?=[^xq'h($)])/, 'iɨ');  
   
-  s.replace(/([^w]i)o([xq'h]?)$/, '$1ʌ$2');
+  s.replace(/([^w]i)o(?=[xq'h]?$)/, '$1ʌ');
   
   s.replace('([rɣ])o', '$1ɔ');
   
