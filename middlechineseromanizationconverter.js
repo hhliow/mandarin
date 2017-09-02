@@ -87,3 +87,68 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
 
   return s;  
 }
+
+MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
+  // Initials.
+}
+
+MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = function(s) {
+  if (/^ng/.test(s)) {
+    return 'ŋ';
+  }  
+  
+  if (/^ng/.test(s)) {
+    return 'ŋ';
+  } 
+  
+  if (/^chj/.test(s)) {
+    return 'tɕh';
+  } else if (/^chr/.test(s)) {
+    return 'ʈʂh';
+  } else if (/^cj/.test(s)) {
+    return 'tɕ';
+  } else if (/^cr/.test(s)) {
+    return 'ʈʂ';
+  } else if (/^ch/.test(s)) {
+    return 'tsh';
+  } else if (/^c/.test(s)) {
+    return 'ts';
+  }
+  
+  if (/^zj/.test(s)) {
+    return 'dʑ';
+  if (/^zr/.test(s)) {
+    return 'ɖʐ';
+  } else if (/^z/.test(s)) {
+    return 'dz';
+  }
+
+  if (/^zsj/.test(s)) {
+  } else if (/^zsr/.test(s)) {    
+    return 'ʐ';
+  } else if (/^zs/.test(s)) {
+    return 'z';
+  }
+  
+  if (/^sj/.test(s)) {
+    return 'ɕ';
+  } else if (/^sr/.test(s)) {
+    return 'ʂ';
+  }
+    
+  if (/^tr/.test(s)) {
+    return 'ʈ';
+  }
+    
+  if (/^thr/.test(s)) {
+    return 'ʈh';
+  }
+   
+  if (/^dr/.test(s)) {
+    return 'ɖ';
+  }
+    
+  if (/^nr/.test(s)) {
+    return 'ɳ';
+  }    
+}
