@@ -99,11 +99,17 @@ MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
 }
   
 MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
-  return (MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable(s) +
-      MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable(s) +
-      MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable(s) +
-      MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable(s) +
-      MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable(s)).replace(/^(n?[kghbpmq]h?w?)i(?![aou])/, '$1ɣi');  
+  var converted =
+    MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable(s) +
+        MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable(s) +
+        MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable(s) +
+        MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable(s) +
+        MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable(s));
+  
+  // Since you insist that division 3B has an additional medial that is similar to that of division 2, it get inserted here.
+  converted = converted.replace(/^(n?[kghbpmq]h?w?)i(?![aou])/, '$1ɣi');  
+  
+  return converted;
 }
 
 MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = function(s) {
