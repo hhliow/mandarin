@@ -49,6 +49,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   s = s.replace(MiddleChineseRomanizationConverter.retroFlexS, 'ʂ');
   s = s.replace(MiddleChineseRomanizationConverter.retroFlexZ, 'ʐ');
 
+  // After converting all retroflex initials to IPA, remove r markers from division III syllables.
   s =
       s.replace(
            new RegExp(
@@ -66,8 +67,10 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   
   // Medials.
 
+  // Division II
   s = s.replace(/r(?=[wu]?[aeou])/, 'ɣ');
   s = s.replace(/yi/, 'wi');
+  // Division III-B
   s = s.replace(/^(([gkŋhxbpmqʔ']|kh|ph|ng)w?)i(?=a?e(?:[^o]|(?:$))|[^aeiouw])/, '$1ɣi');  
   
   // Syllabics.
@@ -77,6 +80,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   }
   s = s.replace(new RegExp('^(' + MiddleChineseRomanizationConverter.velarOrGlottalInitial + 'w?i)a(?=[xq\'h]?$)'), '$1ɑ');
   s = s.replace(/(w?i)a(?=[ntmpŋkiwu])/, '$1ɑ');
+  // 庚三
   s = s.replace(/(w?i)ae(?=ng|k|ŋ)/, '$1æ');
   s = s.replace('ae', 'a');
   
@@ -86,16 +90,21 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   s = s.replace('v', 'ɨ');
   s = s.replace(/y(?=(?:ng|[mpŋk])?[xq'h]?$)/, 'ɨ');
   
+  // 欣云微
   s = s.replace(/ieo(?![xq'h]?$)/, 'iɨ');  
   s = s.replace(/eo(?![xq'h]?$)/, 'ə');
   
+  // 魚
   s = s.replace(/([^w]i)o(?=[xq'h]?$)/, '$1ʌ');
   
+  // 江
   s = s.replace(/([rɣ])o/, '$1ɔw');
   
   // Tones.
   
+  // 上
   s = s.replace(/[xq']$/, 'ˀ');
+  // 去
   s = s.replace(/[hɦ]$/, 'ʱ');
 
   return s;  
