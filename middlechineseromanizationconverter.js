@@ -105,10 +105,7 @@ MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
         MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable(s) +
         MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable(s) +
         MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable(s);
-  
-  // Since you insist that division 3B has an additional medial that is similar to that of division 2, it get inserted here.
-  converted = converted.replace(/^(n?[kghbpmq]h?w?)i(?![aou])/, '$1ɣi');  
-  
+
   return converted;
 }
 
@@ -132,11 +129,12 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
   }
     
   if (/^zsj/.test(s)) {
+    return 'ʑ';
   } else if (/^zsr/.test(s)) {    
     return 'ʐ';
   } else if (/^zs/.test(s)) {
     return 'z';
-  } else if (/^zj/.test(s)) {k
+  } else if (/^zj/.test(s)) {
     return 'dʑ';
   } else if (/^zr/.test(s)) {
     return 'ɖʐ';
@@ -169,8 +167,10 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
   if (/^nj/.test(s)) {
     return 'ȵʑ';
   }
-    
-  if (/^q/.test(s)) {
+  
+  if (/^qj/.test(s)) {
+    return 'ʔj';
+  } else if (/^q/.test(s)) {
     return 'ʔ';
   }
     
@@ -178,37 +178,41 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
     return 'ɦ';
   }
   
-  return s.match(/^[^aeiouyr]+/)[0];
+  return (s.match(/^[^aeiouyr]+/) || [''])[0];
 }
 
 MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function(s) {
+  medial = '';
+  
+  if (/^(n?[kghbpmq]h?w?)i(?![aou])/.test(s)) {
+    medial = medial + 'ɣ';
+  }
+  
   if (/y[ae]/.test(s)) {
-    return 'wi';
+    return medial + 'wi';
   }
 
   if (/yo[nti]/.test(s)) {
-    return 'i';
+    return medial + 'i';
   }
   
   if (/yo[xh]?$/.test(s)) {
-    return 'wi';
+    return medial + 'wi';
   }  
   
   if (/y[int]/.test(s)) {
-    return 'w';
+    return medial + 'w';
   }
   
   if (/yu/.test(s)) {
-    return 'i'
+    return medial + 'i'
   }
   if (/[ij](?=[aeou])/.test(s)) {
-    return 'i';
+    return medial + 'i';
   }
   
-  var medial = '';
-  
   if (/r(?![iy])/.test(s)) {
-    medial = medial + 'ɣ';
+    medial = 'ɣ';
   }
 
   if (/u(?=[aeo])/.test(s)) {
@@ -219,6 +223,7 @@ MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function
 }
 
 MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = function(s) {
+  // Polyhedron a
   if (/ru?ai/.test(s)) {
     return 'ɛ';    
   } else if (/uai/.test(s)) {
@@ -229,25 +234,27 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
     return 'a';
   } else if (/^n?[kgqh]h?[iy]a[xh]?$/.test(s)) {
     return 'ɑ';    
-  } else if (/[iy]a[xh]?$/.test(s)) {
+  } else if (/[jiy]a[xh]?$/.test(s)) {
     return 'a';
   } else if (/a/.test(s)) {
     return 'ɑ';
   }
   
+  // Polyhedron e
   if (/ru?e/.test(s)) {
     return 'ɛ';
   } else if (/^n?[kgqhpbm]h?[iy]e(?:k|ng)/.test(s)) {
-    return 'a';
+    return 'æ';
   } else if (/e/.test(s)) {
     return 'e';
   }
   
+  // Polyhedron o
   if (/io[int]/.test(s)) {
     return 'ɨ';
   } else if (/yo[int]/.test(s)) {
     return 'u';
-  } else if (/io/.test(s)) {
+  } else if (/[ji]o/.test(s)) {
     return 'ʌ';
   } else if (/uo[nt][xh]?$/.test(s)) {
     return 'o';
@@ -257,6 +264,7 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
     return 'ə';
   }
   
+  // Polyhedron u
   if (/[yu]u(?:ng|k)/.test(s)) {
     return 'o';
   } else if (/ru/.test(s)) {
@@ -265,19 +273,23 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
     return 'u';
   }
     
+  // Polyhedron i
   if (/(?:(?:^)|[^aeiouy])i(?:k|ng)?[xh]?$/.test(s)) {
     return 'ɨ';
   } else if (/i/.test(s)) {
     return 'i';
   }  
-  
+
+  // Polyhedron y
   if (/y[xh]?$/.test(s)) {
     return 'i';
-  }
-    
+  }    
   if (/yk|yng/.test(s)) {
     return 'ɨ';
   }
+  if (/y[t|n]/.test(s)) {
+    return 'i';
+  }  
 }
 
 MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(s) {
@@ -293,13 +305,13 @@ MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(
     return 'w';
   }
   
-  if (/[yu]ung/.test(s)) {
+  if (/[ru]ung/.test(s)) {
     return 'wŋ';
-  } else if (/ng$/.test(s)) {
+  } else if (/ng[xh]?$/.test(s)) {
     return 'ŋ';
   }
   
-  if (/[yu]uk/.test(s)) {
+  if (/[ru]uk/.test(s)) {
     return 'wk';
   }
   
