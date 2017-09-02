@@ -227,13 +227,14 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
     return 'o';
   } else if (/o/.test(s)) {
     return 'ə';
+  }
   
   if (/[y|u]u(?:ng|k)/.test(s)) {
     return 'o';
   } else if (/u/.test(a)) {
     return 'u';
   }
-  
+    
   if (/(?:(?:^)|[^aeiouy])i(?:k|ng)?[xh]?$/.test(s)) {
     return 'ɨ';
   } else if (/i/.test(s)) {
@@ -243,7 +244,7 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
   if (/y[xh]?$/.test(s)) {
     return 'i';
   }
-  
+    
   if (/yk|yng/.test(s)) {
     return 'ɨ';
   }
