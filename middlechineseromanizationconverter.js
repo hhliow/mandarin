@@ -277,5 +277,17 @@ MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(
     return 'wk';
   }
   
-  return (s.match(/[mnptk]+(?=[xh]?$)/) || [""])[0];
+  return (s.match(/[mnptk]+(?=[xh]?$)/) || [''])[0];
+}
+
+MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable = function(s) {
+  if (/x$/.test(s)) {
+    return 'ˀ';
+  }
+  
+  if (/[hd]$/.test(s)) {
+    return 'ʱ';
+  }
+  
+  return '';
 }
