@@ -193,18 +193,20 @@ MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function
 }
 
 MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = function(s) {
-  if (/^((?![rjiy]|ru).)a(?!i)/.test(s)) {
-    return 'ɑ';
-  } else if (/^n?[kgqh]h?[iy]a[xh]?$/.test(s)) {
-    return 'ɑ';    
-  } else if (/[yi]a[ntmpkd])/.test(s)) {
-    return 'ɑ';    
-  } else if (/ru?ai/.test(s)) {
+  if (/ru?ai/.test(s)) {
     return 'ɛ';    
+  } else if (/uai/.test(s)) {
+    return 'o';
   } else if (/ai/.test(s)) {
     return 'ə';
-  } else if (/a/.test(s)) {
+  } else if (/ru?a/.test(s)) {
     return 'a';
+  } else if (/^n?[kgqh]h?[iy]a[xh]?$/.test(s)) {
+    return 'ɑ';    
+  } else if (/[iy]a[xh]?$/.test(s)) {
+    return 'a';
+  } else if (/a/.test(s)) {
+    return 'ɑ';
   }
   
   if (/ru?e/.test(s)) {
@@ -215,9 +217,9 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
     return 'e';
   }
   
-  if (/io[nt]/.test(s)) {
+  if (/io[int]/.test(s)) {
     return 'ɨ';
-  } else if (/yo[nt]/.test(s)) {
+  } else if (/yo[int]/.test(s)) {
     return 'u';
   } else if (/io/.test(s)) {
     return 'ʌ';
@@ -231,7 +233,7 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
   
   if (/[y|u]u(?:ng|k)/.test(s)) {
     return 'o';
-  } else if (/u/.test(a)) {
+  } else if (/u/.test(s)) {
     return 'u';
   }
     
