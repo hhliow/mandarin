@@ -175,7 +175,6 @@ MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function
   if (/yu/.test(s)) {
     return 'i'
   }
-  
   if (/[ij](?=[aeou])/.test(s)) {
     return 'i';
   }
@@ -191,4 +190,61 @@ MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function
   }
   
   return medial;
+}
+
+MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = function(s) {
+  if (/^((?![rjiy]|ru).)a(?!i)/.test(s)) {
+    return 'ɑ';
+  } else if (/^n?[kgqh]h?[iy]a[xh]?$/.test(s)) {
+    return 'ɑ';    
+  } else if (/[yi]a[ntmpkd])/.test(s)) {
+    return 'ɑ';    
+  } else if (/ru?ai/.test(s)) {
+    return 'ɛ';    
+  } else if (/ai/.test(s)) {
+    return 'ə';
+  } else if (/a/.test(s)) {
+    return 'a';
+  }
+  
+  if (/ru?e/.test(s)) {
+    return 'ɛ';
+  } else if (/^n?[kgqhpbm]h?[iy]e(?:k|ng)/.test(s)) {
+    return 'a';
+  } else if (/e/.test(s)) {
+    return 'e';
+  }
+  
+  if (/io[nt]/.test(s)) {
+    return 'ɨ';
+  } else if (/yo[nt]/.test(s)) {
+    return 'u';
+  } else if (/io/.test(s)) {
+    return 'ʌ';
+  } else if (/uo[nt][xh]?$/.test(s)) {
+    return 'o';
+  } else if (/y?o[xh]?$/.test(s)) {
+    return 'o';
+  } else if (/o/.test(s)) {
+    return 'ə';
+  
+  if (/[y|u]u(?:ng|k)/.test(s)) {
+    return 'o';
+  } else if (/u/.test(a)) {
+    return 'u';
+  }
+  
+  if (/(?:(?:^)|[^aeiouy])i(?:k|ng)?[xh]?$/.test(s)) {
+    return 'ɨ';
+  } else if (/i/.test(s)) {
+    return 'i';
+  }  
+  
+  if (/y[xh]?$/.test(s)) {
+    return 'i';
+  }
+  
+  if (/yk|yng/.test(s)) {
+    return 'ɨ';
+  }
 }
