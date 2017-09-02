@@ -64,7 +64,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   
   s = s.replace(/^((?![rɣji]|[rɣj][wu]).)a(?=[^e]|(?:$))/, '$1ɑ');
   s = s.replace(new RegExp('^(' + MiddleChineseRomanizationConverter.velarOrGlottalInitial + 'w?i)a(?=[xq\'h]?$)'), '$1ɑ');
-  s = s.replace(/'(w?i)a(?=[ntmpŋkiwu])'/, '$1ɑ');
+  s = s.replace(/(w?i)a(?=[ntmpŋkiwu])/, '$1ɑ');
   s = s.replace('ae', 'a');
   
   s = s.replace('ea', 'ɛ');
