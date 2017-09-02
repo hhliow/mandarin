@@ -32,6 +32,16 @@ MiddleChineseRomanizationConverter.phengqimToIPA = function(s) {
   return words.join('');
 }
 
+MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
+  var words = s.split(/\b/);
+  for (var i = 0; i < words.length; i++) {
+    if (/^[A-Za-z]+$/.test(words[i])) {
+      words[i] = MiddleChineseRomanizationConverter.polyhedronSyllableToIPA(words[i].toLowerCase());
+    }
+  }
+  return words.join('');
+}
+
 MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   // TODO: debug, maybe write tests.
   // TODO: maybe assert s contains no space?
@@ -110,16 +120,6 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   return s;  
 }
 
-MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
-  var words = s.split(/\b/);
-  for (var i = 0; i < words.length; i++) {
-    if (/^[A-Za-z]+$/.test(words[i])) {
-      words[i] = MiddleChineseRomanizationConverter.polyhedronSyllableToIPA(words[i].toLowerCase());
-    }
-  }
-  return words.join('');
-}
-  
 MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
   var converted =
     MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable(s) +
