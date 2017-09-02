@@ -182,11 +182,15 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
 }
 
 MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function(s) {
-  medial = '';
+  var medial = '';
   
-  if (/^(n?[kghbpmq]h?w?)i(?![aou])/.test(s)) {
-    medial = medial + 'ɣ';
+  if (/^(n?[kghbpmq]h?w?)[yi](?:e|(?:[impnt][xh]?$))/.test(s)) {
+    medial = 'ɣ';
   }
+
+  if (/r(?![iy])/.test(s)) {
+    medial = 'ɣ';
+  }  
   
   if (/y[ae]/.test(s)) {
     return medial + 'wi';
@@ -211,10 +215,6 @@ MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function
     return medial + 'i';
   }
   
-  if (/r(?![iy])/.test(s)) {
-    medial = 'ɣ';
-  }
-
   if (/u(?=[aeo])/.test(s)) {
     medial = medial + 'w';
   }
