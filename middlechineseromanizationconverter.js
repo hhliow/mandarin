@@ -319,7 +319,7 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
     
   // Polyhedron i
   if (/(?:(?:^)|[^aeiouy])i(?:k|ng)?[xh]?$/.test(s)) {
-    // 之職開
+    // 之蒸開
     return 'ɨ';
   } else if (/i/.test(s)) {
     return 'i';
