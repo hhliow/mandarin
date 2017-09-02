@@ -162,3 +162,33 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
   
   return s.match(/^[^aeiouyr]+/)[0];
 }
+
+MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function(s) {
+  if (/y[aeo]/.test(s)) {
+    return 'wi';
+  }
+  
+  if (/y[int]/.test(s)) {
+    return 'w';
+  }
+  
+  if (/yu/.test(s)) {
+    return 'i'
+  }
+  
+  if (/[ij](?=[aeou])/.test(s)) {
+    return 'i';
+  }
+  
+  var medial = '';
+  
+  if (/r(?![iy])/.test(s)) {
+    medial = medial + 'ɣ';
+  }
+
+  if (/u(?=[aeo])/.test(s)) {
+    medial = medial + 'w';
+  }
+  
+  return medial;
+}
