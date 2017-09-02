@@ -268,11 +268,11 @@ MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(
   }
   
   if ('[yu]ung'.test(s)) {
-    retunr 'wng';
+    return 'wng';
   }
   
   if ('[yu]uk'.test(s)) {
-    retunr 'wk';
+    return 'wk';
   }
   
   return (s.match(/[mngptk]+$/)  || [""])[0];
