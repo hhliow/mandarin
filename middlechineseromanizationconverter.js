@@ -267,13 +267,15 @@ MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(
     return 'w';
   }
   
-  if ('[yu]ung'.test(s)) {
-    return 'wng';
+  if (/[yu]ung/.test(s)) {
+    return 'wŋ';
+  } else if (/ng$/.test(s)) {
+    return 'ŋ';
   }
   
-  if ('[yu]uk'.test(s)) {
+  if (/[yu]uk/.test(s)) {
     return 'wk';
   }
   
-  return (s.match(/[mngptk]+$/)  || [""])[0];
+  return (s.match(/[mnptk]+(?=[xh]?$)/) || [""])[0];
 }
