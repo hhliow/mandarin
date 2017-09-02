@@ -95,10 +95,6 @@ MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
 MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = function(s) {
   if (/^ng/.test(s)) {
     return 'ŋ';
-  }  
-  
-  if (/^ng/.test(s)) {
-    return 'ŋ';
   } 
   
   if (/^chj/.test(s)) {
@@ -114,10 +110,10 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
   } else if (/^c/.test(s)) {
     return 'ts';
   }
-  
+    
   if (/^zj/.test(s)) {
     return 'dʑ';
-  if (/^zr/.test(s)) {
+  } else if (/^zr/.test(s)) {
     return 'ɖʐ';
   } else if (/^z/.test(s)) {
     return 'dz';
@@ -150,5 +146,19 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
     
   if (/^nr/.test(s)) {
     return 'ɳ';
-  }    
+  }
+    
+  if (/^nj/.test(s)) {
+    return 'ȵʑ';
+  }
+    
+  if (/^q/.test(s)) {
+    return 'ʔ';
+  }
+    
+  if (/^(?:gh|i|y)/.test(s)) {
+    return 'ɦ';
+  }
+  
+  return s.match(/^[^aeiouyr]+/)[0];
 }
