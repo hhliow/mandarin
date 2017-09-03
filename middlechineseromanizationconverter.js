@@ -22,6 +22,8 @@ MiddleChineseRomanizationConverter.retroFlexS = new RegExp('s(?=' + MiddleChines
 
 MiddleChineseRomanizationConverter.retroFlexZ = new RegExp('z(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
 
+// Converts Phjong's Middle Chinese Romanization systems to IPA. Does not do sanity check, may attempt to convert all contiguous
+// Latin-alphabetical blocks as Middle Chinese.
 MiddleChineseRomanizationConverter.phengqimToIPA = function(s) {
   var words = s.split(/([^A-Za-z']+)/);
   for (var i = 0; i < words.length; i++) {
@@ -32,11 +34,16 @@ MiddleChineseRomanizationConverter.phengqimToIPA = function(s) {
   return words.join('');
 }
 
+// Converts Polyhedron's Middle Chinese romanization to IPA. Does not do exhaustive sanity check, may attempt to convert all contiguous
+// Latin-alphabetical blocks as Polyhedron Middle Chinese.
 MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
   var words = s.split(/\b/);
   for (var i = 0; i < words.length; i++) {
     if (/^[A-Za-z]+$/.test(words[i])) {
-      words[i] = MiddleChineseRomanizationConverter.polyhedronSyllableToIPA(words[i].toLowerCase());
+      var converted = MiddleChineseRomanizationConverter.polyhedronSyllableToIPA(words[i].toLowerCase());
+      if (converted != null) {
+        words[i] = converted;
+      }
     }
   }
   return words.join('');
@@ -121,13 +128,24 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
 }
 
 MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
-  var converted =
-    MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable(s) +
-        MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable(s) +
-        MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable(s) +
-        MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable(s) +
-        MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable(s);
-
+  var converted = '';
+  var polyhedronPartialConverters =
+      [
+        MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable,
+        MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable,
+        MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable,
+        MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable,
+        MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable
+      ];
+  
+  for (i = 0; i < polyhedronPartialConverters.length; i++) {
+    var appendum = polyhedronPartialConverters[i](s);
+    if (appendum == null) {
+      return null;
+    }
+    converted += appendum;
+  }
+  
   return converted;
 }
 
@@ -201,7 +219,7 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
   }
 
   // Default to literal initials.
-  return (s.match(/^[^aeiouyr]+/) || [''])[0];
+  return (s.match(/^[^aeiouyr]+/) || [null])[0];
 }
 
 MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function(s) {
@@ -231,8 +249,8 @@ MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function
     return medial + 'wi';
   }  
   
-  // 真臻
-  if (/y[int]/.test(s)) {
+  // 真合臻合職合
+  if (/y[iknt]/.test(s)) {
     return medial + 'w';
   }
   
@@ -336,7 +354,9 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
   } else if (/y[tn]/.test(s)) {
     // 真合臻合
     return 'i';
-  }  
+  }
+  
+  return null;
 }
 
 MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(s) {
@@ -366,7 +386,17 @@ MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(
   }
   
   // Default to literal finals
-  return (s.match(/[mnptk]+(?=[xh]?$)/) || [''])[0];
+  var matched = s.match(/[mnptk]+(?=[xh]?$)/);
+  if (matched != null) {
+    return matched[0];
+  }
+ 
+  // No finals
+  if (/[aeiouy][xh]?$/.test(s)) {
+    return '';
+  }
+  
+  return null;
 }
 
 MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable = function(s) {
