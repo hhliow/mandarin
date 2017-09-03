@@ -54,10 +54,9 @@ MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
 }
 
 MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
-  // TODO: debug, maybe write tests.
   // TODO: maybe assert s contains no space?
  
-  // Initials.
+  // Initials
 
   s = s.replace(/^['q]/, 'ʔ');  
   s = s.replace(/^gh/, 'ɦ');
@@ -86,7 +85,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   s = s.replace(/^z[cj]/, 'ʑ');
   s = s.replace(/^([dn]?)zh/, '$1ʑ');
   
-  // Medials.
+  // Medials
 
   // Division II
   s = s.replace(/r(?=[wu]?[aeou])/, 'ɣ');
@@ -94,7 +93,7 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   // Division III-B
   s = s.replace(/^(([gkŋhxbpmqʔ']|kh|ph|ng)w?)i(?=a?e(?:[^o]|(?:$))|[^aeiouw])/, '$1ɣi');  
   
-  // Syllabics.
+  // Syllabics
   
   if (!/(?:[rɣji]|[rɣj][wu])a/.test(s)) {
     s = s.replace(/a(?!e)/, 'ɑ');
@@ -120,8 +119,8 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   
   // 江
   s = s.replace(/([rɣ])o/, '$1ɔw');
-  
-  // Tones.
+
+  // Tones
   
   // 上
   s = s.replace(/[xq']$/, 'ˀ');
@@ -229,12 +228,12 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
 MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function(s) {
   var medial = '';
   
-  // Divsion III-B.
+  // Divsion III-B
   if (/^(n?[kghbpmq]h?w?)[yi](?:e|(?:[impnt][xh]?$))/.test(s)) {
     medial = 'ɣ';
   }
 
-  // Divsion II.
+  // Divsion II
   if (/r(?![iy])/.test(s)) {
     medial = 'ɣ';
   }  
@@ -266,7 +265,7 @@ MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function
     return medial + 'i';
   }
   
-  // Division I/II/IV rounded.
+  // Division I/II/IV rounded
   if (/u(?=[aeo])/.test(s)) {
     medial = medial + 'w';
   }
@@ -286,6 +285,7 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
     // 咍
     return 'ə';
   } else if (/ru?a/.test(s)) {
+    // Division II excluding 皆
     return 'a';
   } else if (/^n?[kgqh]h?[iy]a[xh]?$/.test(s)) {
     // 戈三
@@ -299,6 +299,7 @@ MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = functi
   
   // Polyhedron e
   if (/ru?e/.test(s)) {
+    // Divsion II
     return 'ɛ';
   } else if (/^n?[kgqhpbm]h?[iy]e(?:k|ng)/.test(s)) {
     // 庚三
@@ -385,11 +386,11 @@ MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(
   }
   
   if (/[ru]uk/.test(s)) {
-    // 沃角
+    // 沃覺
     return 'wk';
   }
   
-  // Default to literal finals
+  // Literal consonantal finals
   var matched = s.match(/[mnptk]+(?=[xh]?$)/);
   if (matched != null) {
     return matched[0];
