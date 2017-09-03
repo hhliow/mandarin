@@ -253,7 +253,7 @@ MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function
     return medial + 'wi';
   }  
   
-  // 真合臻合職合
+  // 脂合真合臻合職合
   if (/y[iknt]/.test(s)) {
     return medial + 'w';
   }
