@@ -1,3 +1,7 @@
+/*
+ * Author: hhliow https://github.com/hhliow/
+ */
+
 MiddleChineseRomanizationConverter = {};
 
 MiddleChineseRomanizationConverter.apicalInitial = '(?:[dtsznʈɖʂʐɳ]|tsh?|dz|th|ʈh|ʈʂh?|ɖʐ)';
