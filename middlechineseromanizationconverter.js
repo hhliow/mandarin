@@ -131,6 +131,11 @@ MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
 }
 
 MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
+  if (!/^[A-Za-z]+$/.test(s)) {
+    // Obviously not a Polyhedron Middle Chinese syllable, return the string literally.
+    return s;
+  }
+  
   var converted = '';
   var polyhedronPartialConverters =
       [
@@ -144,7 +149,8 @@ MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
   for (i = 0; i < polyhedronPartialConverters.length; i++) {
     var appendum = polyhedronPartialConverters[i](s);
     if (appendum == null) {
-      return null;
+      // Obviously not a Polyhedron Middle Chinese syllable, return the string literally.
+      return s;
     }
     converted += appendum;
   }
