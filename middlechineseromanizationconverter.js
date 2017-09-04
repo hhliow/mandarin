@@ -29,32 +29,22 @@ MiddleChineseRomanizationConverter.retroFlexZ = new RegExp('z(?=' + MiddleChines
 // Converts Phjong's Middle Chinese Romanization systems to IPA. Does not do sanity check, may attempt to convert all contiguous
 // Latin-alphabetical blocks as Middle Chinese.
 MiddleChineseRomanizationConverter.phengqimToIPA = function(s) {
-  return s.split(/([^A-Za-z']+)/);
-  for (var i = 0; i < words.length; i++) {
-    if (/^[A-Za-z']+$/.test(words[i])) {
-      words[i] = MiddleChineseRomanizationConverter.phengqimSyllableToIPA(words[i].toLowerCase());
-    }
-  }
-  return words.join('');
+  return s.split(/([^A-Za-z']+)/).map(MiddleChineseRomanizationConverter.phengqimSyllableToIPA).join('');
 }
 
 // Converts Polyhedron's Middle Chinese romanization to IPA. Does not do exhaustive sanity check, may attempt to convert all contiguous
 // Latin-alphabetical blocks as Polyhedron Middle Chinese.
 MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
-  var words = s.split(/\b/);
-  for (var i = 0; i < words.length; i++) {
-    if (/^[A-Za-z]+$/.test(words[i])) {
-      var converted = MiddleChineseRomanizationConverter.polyhedronSyllableToIPA(words[i].toLowerCase());
-      if (converted != null) {
-        words[i] = converted;
-      }
-    }
-  }
-  return words.join('');
+  return s.split(/\b/).map(MiddleChineseRomanizationConverter.polyhedronSyllableToIPA).join('');
 }
 
 MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
-  // TODO: maybe assert s contains no space?
+  if (!/^[A-Za-z']+$/.test(words[i])) {
+    // Obviously not pheng qim, return the string without conversion.
+    return s;
+  }
+  
+  s = s.toLowerCase();
  
   // Initials
 
