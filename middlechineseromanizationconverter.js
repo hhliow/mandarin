@@ -29,7 +29,7 @@ MiddleChineseRomanizationConverter.retroFlexZ = new RegExp('z(?=' + MiddleChines
 // Converts Phjong's Middle Chinese Romanization systems to IPA. Does not do sanity check, may attempt to convert all contiguous
 // Latin-alphabetical blocks as Middle Chinese.
 MiddleChineseRomanizationConverter.phengqimToIPA = function(s) {
-  var words = s.split(/([^A-Za-z']+)/);
+  return s.split(/([^A-Za-z']+)/);
   for (var i = 0; i < words.length; i++) {
     if (/^[A-Za-z']+$/.test(words[i])) {
       words[i] = MiddleChineseRomanizationConverter.phengqimSyllableToIPA(words[i].toLowerCase());
@@ -136,6 +136,7 @@ MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
     return s;
   }
   
+  var lowerCased = s.toLowerCase(s);
   var converted = '';
   var polyhedronPartialConverters =
       [
@@ -147,7 +148,7 @@ MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
       ];
   
   for (i = 0; i < polyhedronPartialConverters.length; i++) {
-    var appendum = polyhedronPartialConverters[i](s);
+    var appendum = polyhedronPartialConverters[i](lowerCased);
     if (appendum == null) {
       // Obviously not a Polyhedron Middle Chinese syllable, return the string literally.
       return s;
