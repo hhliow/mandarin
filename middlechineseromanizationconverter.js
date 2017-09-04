@@ -152,6 +152,16 @@ MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
   return converted;
 }
 
+MiddleChineseRomanizationConverter.matchAndMap = function(s, mappings) {
+  for(var i = 0; i < mappings.length; i++) {
+    if (mappings[i][0].test(s)) {
+      return mappings[i][1];
+    }
+  }
+  
+  return null;  
+}
+
 MiddleChineseRomanizationConverter.polyhedronToIPAInitialNonLiteralMapping =
     [[/^ng/, 'ŋ'],
      [/^(?:gh|i|y)/, 'ɦ'],
@@ -177,16 +187,6 @@ MiddleChineseRomanizationConverter.polyhedronToIPAInitialNonLiteralMapping =
      [/^qj/, 'ʔj'],
      [/^q/, 'ʔ']];
 
-MiddleChineseRomanizationConverter.matchAndMap = function(s, mappings) {
-  for(var i = 0; i < mappings.length; i++) {
-    if (mappings[i][0].test(s)) {
-      return mappings[i][1];
-    }
-  }
-  
-  return null;  
-}
-
 MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = function(s) {
   var initial =
       MiddleChineseRomanizationConverter.matchAndMap(s, MiddleChineseRomanizationConverter.polyhedronToIPAInitialNonLiteralMapping);
@@ -197,11 +197,8 @@ MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = functio
 MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function(s) {
   var medial = '';
   
-  if (/r[aeou]/.test(s)) {
-    // Divsion II
-    medial += 'ɣ';
-  } else if (/^(?:[kghbpmq]|ng|kh|gh|ph)[yi](?:e|[impnt][xh]?$)/.test(s)) {
-    // Divsion III-B
+  if (/r[aeou]/.test(s) || // Divsion II
+      /^(?:[kghbpmq]|ng|kh|gh|ph)[yi](?:e|[impnt][xh]?$)/.test(s)) { // Divsion III-B
     medial += 'ɣ';
   }  
   
