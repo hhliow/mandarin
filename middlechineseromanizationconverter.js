@@ -4,6 +4,18 @@
 
 MiddleChineseRomanizationConverter = {};
 
+// Converts Phjong's Middle Chinese Romanization systems to IPA. Does not do sanity check, may attempt to convert all contiguous
+// Latin-alphabetical blocks as Middle Chinese.
+MiddleChineseRomanizationConverter.phengqimToIPA = function(s) {
+  return s.split(/([^A-Za-z']+)/).map(MiddleChineseRomanizationConverter.phengqimSyllableToIPA).join('');
+}
+
+// Converts Polyhedron's Middle Chinese romanization to IPA. Does not do exhaustive sanity check, may attempt to convert all contiguous
+// Latin-alphabetical blocks as Polyhedron Middle Chinese.
+MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
+  return s.split(/\b/).map(MiddleChineseRomanizationConverter.polyhedronSyllableToIPA).join('');
+}
+
 MiddleChineseRomanizationConverter.apicalInitial = '(?:[dtsznʈɖʂʐɳ]|tsh?|dz|th|ʈh|ʈʂh?|ɖʐ)';
 
 MiddleChineseRomanizationConverter.retroflexInitial = '(?:[ʈɖʂʐɳ]||ʈh|ʈʂh?|ɖʐ)';
@@ -25,18 +37,6 @@ MiddleChineseRomanizationConverter.retroFlexN = new RegExp('^n(?=' + MiddleChine
 MiddleChineseRomanizationConverter.retroFlexS = new RegExp('s(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
 
 MiddleChineseRomanizationConverter.retroFlexZ = new RegExp('z(?=' + MiddleChineseRomanizationConverter.divisionTwoMedial + ')');
-
-// Converts Phjong's Middle Chinese Romanization systems to IPA. Does not do sanity check, may attempt to convert all contiguous
-// Latin-alphabetical blocks as Middle Chinese.
-MiddleChineseRomanizationConverter.phengqimToIPA = function(s) {
-  return s.split(/([^A-Za-z']+)/).map(MiddleChineseRomanizationConverter.phengqimSyllableToIPA).join('');
-}
-
-// Converts Polyhedron's Middle Chinese romanization to IPA. Does not do exhaustive sanity check, may attempt to convert all contiguous
-// Latin-alphabetical blocks as Polyhedron Middle Chinese.
-MiddleChineseRomanizationConverter.polyhedronToIPA = function(s) {
-  return s.split(/\b/).map(MiddleChineseRomanizationConverter.polyhedronSyllableToIPA).join('');
-}
 
 MiddleChineseRomanizationConverter.phengqimSyllableToIPA = function(s) {
   if (!/^[A-Za-z']+$/.test(words[i])) {
