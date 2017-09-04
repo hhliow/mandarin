@@ -152,242 +152,160 @@ MiddleChineseRomanizationConverter.polyhedronSyllableToIPA = function(s) {
   return converted;
 }
 
-MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = function(s) {
-  if (/^ng/.test(s)) {
-    return 'ŋ';
-  } 
-  
-  if (/^chj/.test(s)) {
-    return 'tɕh';
-  } else if (/^chr/.test(s)) {
-    return 'ʈʂh';
-  } else if (/^cj/.test(s)) {
-    return 'tɕ';
-  } else if (/^cr/.test(s)) {
-    return 'ʈʂ';
-  } else if (/^ch/.test(s)) {
-    return 'tsh';
-  } else if (/^c/.test(s)) {
-    return 'ts';
-  }
-    
-  if (/^zsj/.test(s)) {
-    return 'ʑ';
-  } else if (/^zsr/.test(s)) {    
-    return 'ʐ';
-  } else if (/^zs/.test(s)) {
-    return 'z';
-  } else if (/^zj/.test(s)) {
-    return 'dʑ';
-  } else if (/^zr/.test(s)) {
-    return 'ɖʐ';
-  } else if (/^z/.test(s)) {
-    return 'dz';
-  }
-  
-  if (/^sj/.test(s)) {
-    return 'ɕ';
-  } else if (/^sr/.test(s)) {
-    return 'ʂ';
-  }
-    
-  if (/^tr/.test(s)) {
-    return 'ʈ';
-  }
-    
-  if (/^thr/.test(s)) {
-    return 'ʈh';
-  }
-   
-  if (/^dr/.test(s)) {
-    return 'ɖ';
-  }
-    
-  if (/^nr/.test(s)) {
-    return 'ɳ';
-  }
-    
-  if (/^nj/.test(s)) {
-    return 'ȵʑ';
-  }
-  
-  if (/^qj/.test(s)) {
-    return 'ʔj';
-  } else if (/^q/.test(s)) {
-    return 'ʔ';
-  }
-    
-  if (/^(?:gh|i|y)/.test(s)) {
-    return 'ɦ';
-  }
+MiddleChineseRomanizationConverter.polyhedronToIPAInitialNonLiteralMapping =
+    [[/^ng/, 'ŋ'],
+     [/^(?:gh|i|y)/, 'ɦ'],
+     [/^chj/, 'tɕh'],
+     [/^chr/, 'ʈʂh'],
+     [/^cj/, 'tɕ'],
+     [/^cr/, 'ʈʂ'],
+     [/^ch/, 'tsh'],
+     [/^c/, 'ts'],
+     [/^zsj/, 'ʑ'],
+     [/^zsr/, 'ʐ'],
+     [/^zs/, 'z'],
+     [/^zj/, 'dʑ'],
+     [/^zr/, 'ɖʐ'],
+     [/^z/, 'dz'],    
+     [/^sj/, 'ɕ'],
+     [/^sr/, 'ʂ'],
+     [/^tr/, 'ʈ'],
+     [/^thr/, 'ʈh'],
+     [/^dr/, 'ɖ'],
+     [/^nr/, 'ɳ'],
+     [/^nj/, 'ȵʑ'],
+     [/^qj/, 'ʔj'],
+     [/^q/, 'ʔ']];
 
-  // Default to literal initials.
-  return (s.match(/^[^aeiouyr]+/) || [null])[0];
+MiddleChineseRomanizationConverter.matchAndMap = function(s, mappings) {
+  for(var i = 0; i < mappings.length; i++) {
+    if (mappings[i][0].test(s)) {
+      return mappings[i][1];
+    }
+  }
+  
+  return null;  
+}
+
+MiddleChineseRomanizationConverter.getIPAInitialFromPolyhedronSyllable = function(s) {
+  var initial =
+      MiddleChineseRomanizationConverter.matchAndMap(s, MiddleChineseRomanizationConverter.polyhedronToIPAInitialNonLiteralMapping);
+  
+  return initial || (s.match(/^[^aeiouyr]+/) || [null])[0];  
 }
 
 MiddleChineseRomanizationConverter.getIPAMedialFromPolyhedronSyllable = function(s) {
   var medial = '';
   
-  // Divsion III-B
-  if (/^(n?[kghbpmq]h?w?)[yi](?:e|(?:[impnt][xh]?$))/.test(s)) {
-    medial = 'ɣ';
+  if (/r[aeou]/.test(s)) {
+    // Divsion II
+    medial += 'ɣ';
+  } else if (/^(?:[kghbpmq]|ng|kh|gh|ph)[yi](?:e|[impnt][xh]?$)/.test(s)) {
+    // Divsion III-B
+    medial += 'ɣ';
+  }  
+  
+  if (/y[aeiknt]|yo[xh]?$|u[aeo]/.test(s)) {
+    medial += 'w';
+  }
+  
+  if (/[ijy][aeou]/.test(s)) {
+    medial += 'i';
   }
 
-  // Divsion II
-  if (/r(?![iy])/.test(s)) {
-    medial = 'ɣ';
-  }  
-  
-  if (/y[ae]/.test(s)) {
-    return medial + 'wi';
-  }
-
-  // 云微合
-  if (/yo[nti]/.test(s)) {
-    return medial + 'i';
-  }
-  
-  // 虞
-  if (/yo[xh]?$/.test(s)) {
-    return medial + 'wi';
-  }  
-  
-  // 脂合真合臻合職合
-  if (/y[iknt]/.test(s)) {
-    return medial + 'w';
-  }
-  
-  if (/yu/.test(s)) {
-    // 鍾
-    return medial + 'i'
-  }  
-  if (/[ij](?=[aeou])/.test(s)) {
-    return medial + 'i';
-  }
-  
-  // Division I/II/IV rounded
-  if (/u(?=[aeo])/.test(s)) {
-    medial = medial + 'w';
-  }
-  
   return medial;
 }
 
 MiddleChineseRomanizationConverter.getIPASyllabicFromPolyhedronSyllable = function(s) {
+  var syllabic;
+
   // Polyhedron a
-  if (/ru?ai/.test(s)) {
-    // 皆
-    return 'ɛ';    
-  } else if (/uai/.test(s)) {
-    // 灰
-    return 'o';
-  } else if (/ai/.test(s)) {
-    // 咍
-    return 'ə';
-  } else if (/ru?a/.test(s)) {
-    // Division II excluding 皆
-    return 'a';
-  } else if (/^n?[kgqh]h?[iy]a[xh]?$/.test(s)) {
-    // 戈三
-    return 'ɑ';    
-  } else if (/[jiy]a[xh]?$/.test(s)) {
-    // 麻三
-    return 'a';
-  } else if (/a/.test(s)) {
-    return 'ɑ';
+  syllabic =
+      MiddleChineseRomanizationConverter.matchAndMap(
+          s,
+          [[/ru?ai/, 'ɛ'], // 皆
+           [/uai/, 'o'], // 灰
+           [/ai/, 'ə'], // 咍
+           [/ru?a/, 'a'], // Division II excluding 皆
+           [/^n?[kgqh]h?[iy]a[xh]?$/, 'ɑ'], // 戈三
+           [/[jiy]a[xh]?$/, 'a'], // 麻三
+           [/a/, 'ɑ']]);
+  if (syllabic != null) {
+    return syllabic;
   }
-  
+
   // Polyhedron e
-  if (/ru?e/.test(s)) {
-    // Divsion II
-    return 'ɛ';
-  } else if (/^n?[kgqhpbm]h?[iy]e(?:k|ng)/.test(s)) {
-    // 庚三
-    return 'æ';
-  } else if (/e/.test(s)) {
-    // Division IV
-    return 'e';
+  syllabic =
+      MiddleChineseRomanizationConverter.matchAndMap(
+          s,
+          [[/ru?e/, 'ɛ'], // e in Divsion II
+           [/^n?[kgqhpbm]h?[iy]e(?:k|ng)/, 'æ'], // 庚三
+           [/e/, 'e']]); // Division IV
+  if (syllabic != null) {
+    return syllabic;
   }
   
   // Polyhedron o
-  if (/io[int]/.test(s)) {
-    // 欣微開
-    return 'ɨ';
-  } else if (/yo[int]/.test(s)) {
-    // 云微合
-    return 'u';
-  } else if (/[ji]o/.test(s)) {
-    // 魚
-    return 'ʌ';
-  } else if (/uo[nt][xh]?$/.test(s)) {
-    // 魂
-    return 'o';
-  } else if (/y?o[xh]?$/.test(s)) {
-    // 模虞
-    return 'o';
-  } else if (/o/.test(s)) {
-    return 'ə';
+  syllabic =
+      MiddleChineseRomanizationConverter.matchAndMap(
+          s,
+          [[/io[int]/, 'ɨ'], // 欣微開
+           [/yo[int]/, 'u'], // 云微合
+           [/[ji]o/, 'ʌ'], // 魚
+           [/uo[nt][xh]?$/, 'o'], // 魂
+           [/y?o[xh]?$/, 'o'], // 模虞
+           [/o/, 'ə']]);
+  if (syllabic != null) {
+    return syllabic;
   }
   
   // Polyhedron u
-  if (/[yu]u(?:ng|k)/.test(s)) {
-    // 冬鍾
-    return 'o';
-  } else if (/ru/.test(s)) {
-    // 江
-    return 'ɔ';    
-  } else if (/u/.test(s)) {
-    return 'u';
-  }
-    
-  // Polyhedron i
-  if (/(?:(?:^)|[^aeiouy])i(?:k|ng)?[xh]?$/.test(s)) {
-    // 之蒸開
-    return 'ɨ';
-  } else if (/i/.test(s)) {
-    return 'i';
-  }  
-
-  // Polyhedron y
-  if (/y[xh]?$/.test(s)) {
-    // 幽
-    return 'i';
-  }    
-  if (/yk|yng/.test(s)) {
-    // 職合
-    return 'ɨ';
-  } else if (/y[tn]/.test(s)) {
-    // 真合臻合
-    return 'i';
+  syllabic =
+      MiddleChineseRomanizationConverter.matchAndMap(
+          s,
+          [[/[yu]u(?:ng|k)/, 'o'], // 冬鍾
+           [/ru/, 'ɔ'], // 江
+           [/u/, 'u']]);
+  if (syllabic != null) {
+    return syllabic;
   }
   
+  // Polyhedron i
+  syllabic =
+      MiddleChineseRomanizationConverter.matchAndMap(
+          s,
+          [[/(?:(?:^)|[^aeiouy])i(?:k|ng)?[xh]?$/, 'ɨ'], // 之蒸開
+           [/i/, 'i']]);
+  if (syllabic != null) {
+    return syllabic;
+  }
+
+  // Polyhedron y
+  syllabic =
+      MiddleChineseRomanizationConverter.matchAndMap(
+          s,
+          [[/y[xh]?$/, 'i'], // 幽
+           [/yk|yng/, 'ɨ'], // 職合
+           [/y[tn]/, 'i']]); // 真合臻合
+  if (syllabic != null) {
+    return syllabic;
+  }
+
   return null;
 }
 
 MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(s) {
-  if (/[aeo][id]/.test(s)) {
-    return 'i';
-  }
-  
-  if (/[aeo]u[xh]?$/.test(s)) {
-    return 'w';
-  }
-  
-  if (/y[xh]?$/.test(s)) {
-    // 幽
-    return 'w';
-  }
-  
-  if (/[ru]ung/.test(s)) {
-    // 冬江
-    return 'wŋ';
-  } else if (/ng[xh]?$/.test(s)) {
-    return 'ŋ';
-  }
-  
-  if (/[ru]uk/.test(s)) {
-    // 沃覺
-    return 'wk';
+  var final = 
+      MiddleChineseRomanizationConverter.matchAndMap(
+          s,
+          [[/[aeo][id]/, 'i'],
+           [/[aeo]u[xh]?$/, 'w'],
+           [/y[xh]?$/, 'w'], // 幽
+           [/[ru]ung/, 'wŋ'], // 冬江
+           [/ng[xh]?$/, 'ŋ'],
+           [/[ru]uk/, 'wk']]); // 沃覺
+  if (final != null) {
+    return final;
   }
   
   // Literal consonantal finals
@@ -405,13 +323,13 @@ MiddleChineseRomanizationConverter.getIPAFinalFromPolyhedronSyllable = function(
 }
 
 MiddleChineseRomanizationConverter.getTonalSuperscriptFromPolyhedronSyllable = function(s) {
-  // 上
   if (/x$/.test(s)) {
+    // 上
     return 'ˀ';
   }
   
-  // 去  
   if (/[hd]$/.test(s)) {
+    // 去
     return 'ʱ';
   }
   
