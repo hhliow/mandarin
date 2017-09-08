@@ -24,7 +24,7 @@
 /^..二|[知徹澄娘莊初崇生俟]$/	r
 /^..四..[章昌常日書船以崇]/	'	// separator between division II and III consonants and division IV syllabic
 /^.合三.[^尤東]|^....[幽鍾]/	y	# medial or syllabic y
-/^(?:.開三.[祭廢支戈仙元欣清庚陽嚴]|..三.[魚尤東麻宵鹽]).*[^章昌常日書船以A]$/	i	# medial i
+/^(?:.開三.[^脂之侵眞真臻蒸]|..三.[魚尤東麻宵鹽]).*[^章昌常日書船以A]$/	i	# medial i
 /^.合[一二四].[^模東侯]|^....冬/	u	 # medial	u
 /^.開三.[脂之侵眞真臻蒸]/	i	# syllabic i
 /^通|^....[侯尤江]/	u	# syllabic u
