@@ -9,7 +9,7 @@ readMapFromTsvString = function(s) {
     result.set(key, table[i][1]);
   }
   return result;
-}
+};
 
 readArrayFromTsvString = function(s) {
   var result = [];
@@ -18,10 +18,10 @@ readArrayFromTsvString = function(s) {
     result.push(lines[i].split('\t'));
   }
   return result;
-}
+};
 
 // Reads from a file at the specified url and push the content string to the array dest.
-function readStringFromFile(url, dest) {
+readStringFromFile = function(url, dest) {
   var x = new XMLHttpRequest();
   x.open('GET', url);
   x.onload = function() {
@@ -29,16 +29,39 @@ function readStringFromFile(url, dest) {
     setTimeout(readStringFromFile, 5000);
   };
   x.send();
-}
+};
 
-applyRegexCumulativeLy = function(s, map) {
-  var result = '';
-  map.forEach(
-      function(value, key) {
-        if (key.test(s)) {
-          result += value;
+getRegexCumulativeApplication = function(map) {
+  return function(s) {
+    var result = '';
+    map.forEach(
+        function(value, key) {
+          if (key.test(s)) {
+            result += value;
+          }
         }
-      }
-  ); 
-  return result;
-}
+    );
+    return result;
+  };
+};
+
+getReverseMappingObject = function(keys, f) {
+  var r = new Object(null);
+  for (var i = 0; i < keys.length; i++) {
+    var key = keys[i];
+    var value = f(key);
+    if (r.hasOwnProperty(value)) {
+      console.warn(key + ' and ' + r[value] + ' both map to ' + value);
+    } else {
+      r[value] = key;
+    }
+  }
+  return r;
+};
+
+getReverseFunction = function(keys, f) {
+  var obj = getReverseMappingObject(keys, f);
+  return function(x) {
+    return obj[x];
+  };
+};
