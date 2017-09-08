@@ -20,9 +20,9 @@
 /匣$/	gh
 /來$/	l
 /[章昌常日書船以A]$|^....[諄清][幫滂並明見溪谿羣群疑影曉]/	j
-/^..二.[從端清]/  ' // separator between non-division II consonants and division II syllabic
+/^..二.[從端清]/	'	// separator between non-division II consonants and division II syllabic
 /^..二|[知徹澄娘莊初崇生俟]$/	r
-/^..四.[章昌常日書船以崇]/ ' // separator between division II and III consonants and division IV syllabic
+/^..四.[章昌常日書船以崇]/	'	// separator between division II and III consonants and division IV syllabic
 /^.合三.[^尤東]|^....[幽鍾]/	y	# medial or syllabic y
 /^(?:.開三.[祭廢支戈仙元欣清庚陽嚴]|..三.[魚尤東麻宵鹽]).*[^章昌常日書船以A]$/	i	# medial i
 /^.合[一二四].[^模東侯]|^....冬/	u	 # medial	u
