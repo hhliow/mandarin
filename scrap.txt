@@ -1,3 +1,38 @@
+var dest = [];
+
+pushFileContentToArray('https://raw.githubusercontent.com/rime/rime-middle-chinese/master/zyenpheng.dict.yaml', dest);
+
+// wait until file loading completes.
+
+pushFileContentToArray('https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalForms.txt', dest);
+
+// wait until file loading completes.
+
+readCumulativeRegexpApplicationFromFile(
+    'https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalToPolyhedron.tsv', dest);
+
+// wait until file loading completes.
+
+var zyenpheng = dest[0];
+
+var canonicalForms = dest[1];
+
+var canonicalToPolyhedron = dest[2];
+
+zyenpheng = readArrayFromTsvString(zyenpheng).map(function(x) {return x[1]});
+zyenpheng = zyenpheng.slice(17, zyenpheng.length);
+var polyhedronSyllables = Array.from(new Set(zyenpheng));
+
+canonicalForms = readArrayFromTsvString(canonicalForms).map(function(x) {return x[2]});
+canonicalForms = canonicalForms.slice(1, canonicalForms.length);
+
+var polyhedronToCanonical = getReverseFunction(canonicalForms, canonicalToPolyhedron);
+
+var converted = polyhedronSyllables.map(polyhedronToCanonical);
+var backConverted = converted.map(canonicalToPolyhedron);
+
+
+
 // Canonical from -> William Baxter, accumulative
 /幫[AB]?$/ p
 /滂[AB]?$/ ph
