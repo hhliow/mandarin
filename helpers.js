@@ -1,6 +1,7 @@
 // Reads key-value pairs from a tab-separated string, where each line represents one key-value pair.
 readMapFromTsvString = function(s) {
   var table = readArrayFromTsvString(s);
+  var result = new Map();
   for (var i = 0; i < table.length; i++) {
     var key = table[i][0];
     if (/^\/.*\/$/.test(key)) {
@@ -20,8 +21,19 @@ readArrayFromTsvString = function(s) {
   return result;
 };
 
+// Executes the function callback on the content of the file as a string.
+readStringFromFile = function(url, callback) {
+  var x = new XMLHttpRequest();
+  x.open('GET', url);
+  x.onload = function() {
+    callback(x.responseText);
+    setTimeout(readStringFromFile, 5000);
+  };
+  x.send();
+};
+
 // Reads from a file at the specified url and push the content string to the array dest.
-readStringFromFile = function(url, dest) {
+pushFileContentToArray = function(url, dest) {
   var x = new XMLHttpRequest();
   x.open('GET', url);
   x.onload = function() {
@@ -31,7 +43,7 @@ readStringFromFile = function(url, dest) {
   x.send();
 };
 
-getRegexCumulativeApplication = function(map) {
+getCumulativeRegexApplication = function(map) {
   return function(s) {
     var result = '';
     map.forEach(
@@ -64,4 +76,12 @@ getReverseFunction = function(keys, f) {
   return function(x) {
     return obj[x];
   };
+};
+
+readCumulativeRegexpApplicationFromFile = function(url, dest) {
+  readStringFromFile(
+      url,
+      function(s) {
+        dest[0] = getCumulativeRegexApplication(readMapFromTsvString(s));
+      });
 };
