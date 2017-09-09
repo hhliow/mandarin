@@ -21,6 +21,19 @@ var canonicalForms = dest[2];
 
 canonicalForms = readArrayFromTsvString(canonicalForms).map(function(x) {return x[2]});
 canonicalForms = canonicalForms.slice(1, canonicalForms.length);
+for (var i = canonicalForms.length - 1; i >= 0; i--) {
+  var s = canonicalForms[i];
+  if (/A$/.test(s)) {
+    canonicalForms.push(s.replace(/^(.*)A$/, '$1B'));
+  }
+}
+for (var i = canonicalForms.length - 1; i >= 0; i--) {
+  var s = canonicalForms[i];
+  canonicalForms.push(s.replace(/^(...).$/, '$1平'));
+  canonicalForms.push(s.replace(/^(...).$/, '$1上'));  
+  canonicalForms.push(s.replace(/^(...).$/, '$1去'));
+}
+canonicalForms = Array.from(new Set(canonicalForms));
 
 zyenpheng = readArrayFromTsvString(zyenpheng).map(function(x) {return x[1]});
 zyenpheng = zyenpheng.slice(15, zyenpheng.length);
