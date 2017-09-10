@@ -8,7 +8,7 @@ readCumulativeRegexpApplicationFromFile(
 readReplacementChainFromFile(
     'https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalToPolyhedron.tsv', dest1);
 pushFileContentToArray('https://raw.githubusercontent.com/rime/rime-middle-chinese/master/zyenpheng.dict.yaml', dest2);
-pushFileContentToArray('https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalForms.txt', dest2);
+pushFileContentToArray('https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalForms.txt', dest3);
 
 // wait until file loading completes.
 
