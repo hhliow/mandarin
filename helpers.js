@@ -59,7 +59,7 @@ getCumulativeRegexApplication = function(map) {
 
 getReplacementChain = function(map) {
   return function(s) {
-    var result = s;
+    var result = s || '';
     map.forEach((value, key) => result = result.replace(key, value));
     return result;
   };
