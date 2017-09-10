@@ -14,8 +14,8 @@ pushFileContentToArray('https://raw.githubusercontent.com/hhliow/middle_chinese/
 
 var canonicalToPolyhedronCumulative = dest0[0];
 var canonicalToPolyhedronReplacementChain = dest1[0];
-var zyenpheng = dest2[1];
-var canonicalForms = dest3[2];
+var zyenpheng = dest2[0];
+var canonicalForms = dest3[0];
 
 canonicalForms = readArrayFromTsvString(canonicalForms).map(function(x) {return x[2]});
 canonicalForms = canonicalForms.slice(1, canonicalForms.length);
