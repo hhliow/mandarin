@@ -1,25 +1,21 @@
 var dest0 = [];
 var dest1 = [];
 var dest2 = [];
+var dest3 = [];
 
 readCumulativeRegexpApplicationFromFile(
     'https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalToPolyhedron.tsv', dest0);
-
-// wait until file loading completes.
-
-pushFileContentToArray('https://raw.githubusercontent.com/rime/rime-middle-chinese/master/zyenpheng.dict.yaml', dest1);
-
-// wait until file loading completes.
-
+readReplacementChainFromFile(
+    'https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalToPolyhedron.tsv', dest1);
+pushFileContentToArray('https://raw.githubusercontent.com/rime/rime-middle-chinese/master/zyenpheng.dict.yaml', dest2);
 pushFileContentToArray('https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalForms.txt', dest2);
 
 // wait until file loading completes.
 
-var canonicalToPolyhedron = dest0[0];
-
-var zyenpheng = dest1[0];
-
-var canonicalForms = dest2[0];
+var canonicalToPolyhedronCumulative = dest0[0];
+var canonicalToPolyhedronReplacementChain = dest1[0];
+var zyenpheng = dest2[1];
+var canonicalForms = dest3[2];
 
 canonicalForms = readArrayFromTsvString(canonicalForms).map(function(x) {return x[2]});
 canonicalForms = canonicalForms.slice(1, canonicalForms.length);
@@ -39,14 +35,18 @@ canonicalForms = Array.from(new Set(canonicalForms));
 
 zyenpheng = readArrayFromTsvString(zyenpheng).map(function(x) {return x[1]});
 zyenpheng = zyenpheng.slice(15, zyenpheng.length);
-var polyhedronSyllables = Array.from(new Set(zyenpheng));
+var polyhedronSyllables = new Set(zyenpheng.filter(x => !/ /.test(x)));
 
-var polyhedronToCanonical = getReverseFunction(canonicalForms, canonicalToPolyhedron);
+var polyhedronToCanonical1 = getReverseFunction(canonicalForms, canonicalToPolyhedronCumulative);
+var polyhedronToCanonical2 = getReverseFunction(canonicalForms, canonicalToPolyhedronReplacementChain);
 
-var converted = polyhedronSyllables.map(polyhedronToCanonical);
-var backConverted = converted.map(canonicalToPolyhedron);
+var converted1 = polyhedronSyllables.map(polyhedronToCanonical);
+var backConverted1 = converted.map(canonicalToPolyhedron);
+var converted2 = polyhedronSyllables.map(polyhedronToCanonical2);
+var backConverted2 = converted.map(canonicalToPolyhedronReplacementChain);
 
-
+var correct1 = converted1.map((v, i) => v == polyhedronToCanonical[i]);
+var correct2 = converted2.map((v, i) => v == polyhedronToCanonical[i]);
 
 // Canonical from -> William Baxter, accumulative
 /幫[AB]?$/ p
