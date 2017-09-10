@@ -1,38 +1,40 @@
-var dest = [];
+var dest0 = [];
+var dest1 = [];
+var dest2 = [];
 
 readCumulativeRegexpApplicationFromFile(
-    'https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalToPolyhedron.tsv', dest);
+    'https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalToPolyhedron.tsv', dest0);
 
 // wait until file loading completes.
 
-pushFileContentToArray('https://raw.githubusercontent.com/rime/rime-middle-chinese/master/zyenpheng.dict.yaml', dest);
+pushFileContentToArray('https://raw.githubusercontent.com/rime/rime-middle-chinese/master/zyenpheng.dict.yaml', dest1);
 
 // wait until file loading completes.
 
-pushFileContentToArray('https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalForms.txt', dest);
+pushFileContentToArray('https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalForms.txt', dest2);
 
 // wait until file loading completes.
 
-var canonicalToPolyhedron = dest[0];
+var canonicalToPolyhedron = dest0[0];
 
-var zyenpheng = dest[1];
+var zyenpheng = dest1[0];
 
-var canonicalForms = dest[2];
+var canonicalForms = dest2[0];
 
 canonicalForms = readArrayFromTsvString(canonicalForms).map(function(x) {return x[2]});
 canonicalForms = canonicalForms.slice(1, canonicalForms.length);
-for (var i = canonicalForms.length - 1; i >= 0; i--) {
-  var s = canonicalForms[i];
-  if (/A$/.test(s)) {
-    canonicalForms.push(s.replace(/^(.*)A$/, '$1B'));
-  }
-}
-for (var i = canonicalForms.length - 1; i >= 0; i--) {
-  var s = canonicalForms[i];
-  canonicalForms.push(s.replace(/^(...)[上入]/, '$1平'));
-  canonicalForms.push(s.replace(/^(...)[平入]/, '$1上'));  
-  canonicalForms.push(s.replace(/^(...)./, '$1去'));
-}
+//for (var i = canonicalForms.length - 1; i >= 0; i--) {
+//  var s = canonicalForms[i];
+//  if (/A$/.test(s)) {
+//    canonicalForms.push(s.replace(/^(.*)A$/, '$1B'));
+//  }
+//}
+//for (var i = canonicalForms.length - 1; i >= 0; i--) {
+//  var s = canonicalForms[i];
+//  canonicalForms.push(s.replace(/^(...)[上入]/, '$1平'));
+//  canonicalForms.push(s.replace(/^(...)[平入]/, '$1上'));  
+//  canonicalForms.push(s.replace(/^(...)./, '$1去'));
+//}
 canonicalForms = Array.from(new Set(canonicalForms));
 
 zyenpheng = readArrayFromTsvString(zyenpheng).map(function(x) {return x[1]});
