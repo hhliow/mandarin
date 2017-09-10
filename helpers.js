@@ -57,6 +57,14 @@ getCumulativeRegexApplication = function(map) {
   };
 };
 
+getReplacementChain = function(map) {
+  return function(s) {
+    var result = '';
+    map.forEach((value, key) => result.replace(key, value));
+    return result;
+  };
+};
+
 getReverseMappingObject = function(keys, f) {
   var r = new Object(null);
   for (var i = 0; i < keys.length; i++) {
@@ -84,4 +92,10 @@ readCumulativeRegexpApplicationFromFile = function(url, dest) {
       function(s) {
         dest[0] = getCumulativeRegexApplication(readMapFromTsvString(s));
       });
+};
+
+readReplacementChainFromFile = function(url, dest) {
+  readStringFromFile(
+      url,
+      s => (dest[0] = getReplacementChain(readMapFromTsvString(s))));
 };
