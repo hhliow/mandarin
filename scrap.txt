@@ -6,7 +6,7 @@ var dest3 = [];
 readCumulativeRegexpApplicationFromFile(
     'https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalToPolyhedron.tsv', dest0);
 readReplacementChainFromFile(
-    'https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalToPolyhedron.tsv', dest1);
+    'https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalToPolyhedronReplacingRules.tsv', dest1);
 pushFileContentToArray('https://raw.githubusercontent.com/rime/rime-middle-chinese/master/zyenpheng.dict.yaml', dest2);
 pushFileContentToArray('https://raw.githubusercontent.com/hhliow/middle_chinese/master/canonicalForms.txt', dest3);
 
