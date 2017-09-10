@@ -36,8 +36,8 @@
 /^(.....來.*)$/	$1l
 /^(.....日.*)$/	$1nj
 /^(.....以.*)$/	$1j
-/^(..三.[麻諄清].)./	$1A	# Consider 麻三 諄 清 as 重紐A類 by default
-/^(.....[幫滂並明見溪谿羣群疑影曉]A[!j]*)$/	$1j	# 重紐A medial
+/^(..三.[麻諄清][幫滂並明見溪谿羣群疑影曉])./	$1A	# Consider 麻三 諄 清 as 重紐A類 by default
+/^(......A[^j]*)$/	$1j	# 重紐A medial
 /^(..二..[從端透定泥清].*|..二.*j)$/	$1'	# separator between non-division II consonants and division II syllabics
 /^(..二[^r]*)$/	$1r
 /^(..[一四].*[jr])$/	$1'	# separator between division II and III consonants and division I and IV syllabics
@@ -46,8 +46,8 @@
 /^(..三....[^jy]*)$/	$1i	# medial or syllabic i for any division III syllables without j or y
 /^(.開三.[脂之侵眞真臻蒸][^i]*)$/	$1i	# syllabic i for all the remaining cases
 /^(.合[一二四].[^模東侯].*|....冬.*)$/	$1u	 # medial	u
-/^(.通.*|....[侯尤江].*)$/	$1u	# syllabic u
-/^(.[果假宕].*|....[咍皆灰皆泰夬廢豪肴談銜嚴凡寒刪元桓元].*|..二.庚.*)$/	$1a
+/^(通.*|....[侯尤江].*)$/	$1u	# syllabic u
+/^([果假宕].*|....[咍皆灰皆泰夬廢豪肴談銜嚴凡寒刪元桓元].*|..二.庚.*)$/	$1a
 /^(..四.*|....[佳祭支宵咸鹽山仙耕清].*|^..三.庚.*)$/	$1e
 /^(遇.*|....[覃微痕魂欣文登].*)$/	$1o
 /^(....[泰夬祭廢].*)$/	$1d	# 次入
