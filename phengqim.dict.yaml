@@ -3966,7 +3966,7 @@ use_preset_vocabulary: true
 啑	sraep
 啑	teh
 𠗨	dep
-𠗨	traep
+𠗨	draep
 镻	det
 堞	dep
 揲	dep
@@ -3976,7 +3976,7 @@ use_preset_vocabulary: true
 耋	det
 喋	dep
 喋	tep
-喋	traep
+喋	draep
 㥈	dep
 詄	det
 惵	dep
@@ -21831,7 +21831,7 @@ use_preset_vocabulary: true
 䊝	sit
 𤏻	sep
 鞢	sep
-鞢	traep
+鞢	draep
 䵦	ziaex
 䉣	siaeh
 㒠	ghreaih
@@ -23317,7 +23317,7 @@ use_preset_vocabulary: true
 燁	ghiep
 擖	khreat
 擖	kraet
-擖	traep
+擖	draep
 𠟪	tshiep
 𠟪	ngiap
 鄴	ngiap
@@ -25517,12 +25517,12 @@ use_preset_vocabulary: true
 霅	tciep
 霅	ghraep
 霅	seop
-霅	traep
+霅	draep
 𧼰	dzreap
 𩿤	tsreat
 鍘	dzraet
 鍘	dzreat
-𤁳	traep
+𤁳	draep
 䮢	dzreap
 𨰉	dzraet
 厏	tsraex
