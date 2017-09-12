@@ -1,4 +1,4 @@
-﻿# Rime dictionary
+# Rime dictionary
 # vim: set ts=8 sw=8 noet:
 # encoding: utf-8
 #
@@ -2268,7 +2268,7 @@ use_preset_vocabulary: true
 騬	zcvng
 逞	thriengx
 徎	thengx
-徎	triengx
+徎	driengx
 悜	thriengx
 庱	thrvng
 庱	thrvngx
@@ -24088,7 +24088,7 @@ use_preset_vocabulary: true
 迎	ngiaeng
 迎	ngiaengh
 盈	jieng
-𣵹	triengx
+𣵹	driengx
 𦳖	ghwengx
 桯	gheng
 桯	theng
