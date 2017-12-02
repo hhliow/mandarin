@@ -59,7 +59,7 @@ patch:
     name: "mc_onsets"
     ascii_mode: 0
     height: 44
-    width: 20
+    width: 12
     keys:
       # 第一行  
       - {click: "q{Keyboard_mc_rhymes}", label: "ʔ", swipe_left: "qj{Keyboard_mc_rhymes}"}
