@@ -1,0 +1,39 @@
+# trime.custom.yaml  
+patch:  
+  "preset_keyboards/mc_onsets":
+    author: "hliow <hxliow@gmail.com>"
+    name: "mc_onsets"
+    ascii_mode: 1
+    height: 44
+    width: 20
+    keys:
+      # 第一行  
+      - {click: q, label: '影', swipe_left: 'qj'}
+      - {click: ts, label: '精', swipe_left: 'tc', swipe_right: 'tsr'}
+      - {click: k, label: '見', swipe_left: 'kj'} 
+      - {click: t, label: '端', swipe_right: 'tr'}
+      - {click: p, label: '幫', swipe_left: 'pj'}
+      # 第二行  
+      - {click: h, label: '曉', swipe_left: 'hj'} 
+      - {click: tsh, label: '清', swipe_left: 'tch', swipe_right: 'tshr'}
+      - {click: kh, label: '溪', swipe_left: 'khj'} 
+      - {click: th, label: '透', swipe_right: 'thr'}
+      - {click: ph, label: '滂', swipe_left: 'phj'}
+      # 第三行  
+      - {click: gh, label: '云匣', swipe_left: 'j'} 
+      - {click: dz, label: '從', swipe_left: 'dc', swipe_right: 'dzr'}
+      - {click: g, label: '羣', swipe_left: 'gj'} 
+      - {click: d, label: '定', swipe_right: 'dr', swipe_down: 'l'}
+      - {click: b, label: '並', swipe_left: 'bj'}
+      # 第四行  
+      - {click: s, label: '心', swipe_left: 'sc'} 
+      - {click: z, label: '邪', swipe_left: 'zc', swipe_right: 'zr'}
+      - {click: ng, label: '疑', swipe_left: 'ngj'} 
+      - {click: n, label: '泥', swipe_left: 'nj', swipe_right: 'nr'}
+      - {click: m, label: '明', swipe_left: 'mj'}
+      # 第五行  
+      - {click: Keyboard_default, long_click: Menu}  
+      - {click: "。", swipe_up: '、'}
+      - {click: BackSpace}
+      - {click: space}
+      - {click: Return}
