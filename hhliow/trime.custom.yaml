@@ -146,7 +146,6 @@ patch:
       - {click: space}
       - {click: Return}
       
-      
   "preset_keyboards/mc_onsets_hanh":
     author: "hliow <hxliow@gmail.com>"
     name: "mc_onsets_hanh"
@@ -218,7 +217,7 @@ patch:
       - {click: "jie", label: "jie", swipe_left: "jie{Keyboard_mc_onsets}", swipe_up: "jiex{Keyboard_mc_onsets}", swipe_down: "jieh{Keyboard_mc_onsets}"}
       - {click: "ji", label: "ji", swipe_left: "ji{Keyboard_mc_onsets}", swipe_up: "jix{Keyboard_mc_onsets}", swipe_down: "jih{Keyboard_mc_onsets}"}      
       - {click: "v", label: "ɨ", swipe_left: "v{Keyboard_mc_onsets}", swipe_up: "vx{Keyboard_mc_onsets}", swipe_down: "vh{Keyboard_mc_onsets}"} 
-      - {click: Keyboard_mc_onsets, width: 50}
+      - {click: Keyboard_mc_onsets, width: 36}
       # 第五行  
       - {click: Keyboard_default, long_click: Menu}  
       - {click: BackSpace}
@@ -268,7 +267,7 @@ patch:
     send: Eisu_toggle
     select: mc_onsets
     
-  "preset_keys/Keyboard_mc_onsets":
+  "preset_keys/Keyboard_mc_rhymes":
     label: 韻
     send: Eisu_toggle
     select: mc_rhymes
