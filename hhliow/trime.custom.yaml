@@ -8,6 +8,44 @@ patch:
     width: 20
     keys:
       # 第一行  
+      - {click: "q{Keyboard_mc_rhymes}", label: "ʔ", swipe_left: "qj{Keyboard_mc_rhymes}"}
+      - {click: "ts{Keyboard_mc_rhymes}", label: "ts", swipe_left: "tc{Keyboard_mc_rhymes}", swipe_right: "tsr{Keyboard_mc_rhymes}"}
+      - {click: "k{Keyboard_mc_rhymes}", label: "k", swipe_left: "kj{Keyboard_mc_rhymes}"} 
+      - {click: "t{Keyboard_mc_rhymes}", label: "t", swipe_right: "tr{Keyboard_mc_rhymes}"}
+      - {click: "p{Keyboard_mc_rhymes}", label: "p", swipe_left: "pj{Keyboard_mc_rhymes}"}
+      # 第二行  
+      - {click: "h{Keyboard_mc_rhymes}", label: "h", swipe_left: "hj{Keyboard_mc_rhymes}"} 
+      - {click: "tsh{Keyboard_mc_rhymes}", label: "tsh", swipe_left: "tch{Keyboard_mc_rhymes}", swipe_right: "tshr{Keyboard_mc_rhymes}"}
+      - {click: "kh{Keyboard_mc_rhymes}", label: "kh", swipe_left: "khj{Keyboard_mc_rhymes}"} 
+      - {click: "th{Keyboard_mc_rhymes}", label: "th", swipe_right: "thr{Keyboard_mc_rhymes}"}
+      - {click: "ph{Keyboard_mc_rhymes}", label: "ph", swipe_left: "phj{Keyboard_mc_rhymes}"}
+      # 第三行  
+      - {click: "gh{Keyboard_mc_rhymes}", label: "ɦ", swipe_left: "j{Keyboard_mc_rhymes}"} 
+      - {click: "dz{Keyboard_mc_rhymes}", label: "dz", swipe_left: "dc", swipe_right: "dzr{Keyboard_mc_rhymes}"}
+      - {click: "g{Keyboard_mc_rhymes}", label: "g", swipe_left: "gj{Keyboard_mc_rhymes}"} 
+      - {click: "d{Keyboard_mc_rhymes}", label: "d", swipe_right: "dr", swipe_down: "l{Keyboard_mc_rhymes}"}
+      - {click: "b{Keyboard_mc_rhymes}", label: "b", swipe_left: "bj{Keyboard_mc_rhymes}"}
+      # 第四行  
+      - {click: "s{Keyboard_mc_rhymes}", label: "s", swipe_left: "sc{Keyboard_mc_rhymes}"} 
+      - {click: "z{Keyboard_mc_rhymes}", label: "z", swipe_left: "zc{Keyboard_mc_rhymes}", swipe_right: "zr{Keyboard_mc_rhymes}"}
+      - {click: "ng{Keyboard_mc_rhymes}", label: "ŋ", swipe_left: "ngj{Keyboard_mc_rhymes}"} 
+      - {click: "n{Keyboard_mc_rhymes}", label: "n", swipe_left: "nj{Keyboard_mc_rhymes}", swipe_right: "nr{Keyboard_mc_rhymes}"}
+      - {click: "m{Keyboard_mc_rhymes}", label: "m", swipe_left: "mj{Keyboard_mc_rhymes}"}
+      # 第五行  
+      - {click: Keyboard_default, long_click: Menu}  
+      - {click: "。", swipe_up: "、"}
+      - {click: BackSpace}
+      - {click: space}
+      - {click: Return}
+      
+  "preset_keyboards/mc_onsets_hanh":
+    author: "hliow <hxliow@gmail.com>"
+    name: "mc_onsets_hanh"
+    ascii_mode: 0
+    height: 44
+    width: 20
+    keys:
+      # 第一行  
       - {click: "q{Keyboard_mc_rhymes}", label: "影", swipe_left: "qj{Keyboard_mc_rhymes}"}
       - {click: "ts{Keyboard_mc_rhymes}", label: "精", swipe_left: "tc{Keyboard_mc_rhymes}", swipe_right: "tsr{Keyboard_mc_rhymes}"}
       - {click: "k{Keyboard_mc_rhymes}", label: "見", swipe_left: "kj{Keyboard_mc_rhymes}"} 
@@ -36,7 +74,7 @@ patch:
       - {click: "。", swipe_up: "、"}
       - {click: BackSpace}
       - {click: space}
-      - {click: Return}
+      - {click: Return}      
 
   "preset_keyboards/mc_rhymes":
     author: "hliow <hxliow@gmail.com>"
