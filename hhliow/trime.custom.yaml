@@ -3,7 +3,7 @@ patch:
   "preset_keyboards/mc_onsets":
     author: "hliow <hxliow@gmail.com>"
     name: "mc_onsets"
-    ascii_mode: 1
+    ascii_mode: 0
     height: 44
     width: 20
     keys:
@@ -41,7 +41,7 @@ patch:
   "preset_keyboards/mc_rhymes":
     author: "hliow <hxliow@gmail.com>"
     name: "mc_rhymes"
-    ascii_mode: 1
+    ascii_mode: 0
     height: 44
     width: 20
     keys:
