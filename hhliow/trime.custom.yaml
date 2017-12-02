@@ -90,23 +90,22 @@ patch:
       - {click: "b{Keyboard_mc_rhymes}", label: "b", swipe_left: "bj{Keyboard_mc_rhymes}"}
       # 第四行  
       - {click: "j{Keyboard_mc_rhymes}", label: "j"}
-      - {click: "zc{Keyboard_mc_rhymes}", label: "ʑ"}
-      - {click: "zr{Keyboard_mc_rhymes}", label: "ʐ"}
-      - {click: "z{Keyboard_mc_rhymes}", label: "z"}
+      - {click: "sc{Keyboard_mc_rhymes}", label: "ɕ"}      
+      - {click: "sr{Keyboard_mc_rhymes}", label: "ʂ"}
+      - {click: "s{Keyboard_mc_rhymes}", label: "s"}
       - {click: "ng{Keyboard_mc_rhymes}", label: "ŋ", swipe_left: "ngj{Keyboard_mc_rhymes}"} 
       - {click: "nr{Keyboard_mc_rhymes}", label: "ɳ"}
       - {click: "n{Keyboard_mc_rhymes}", label: "n", swipe_left: "nj{Keyboard_mc_rhymes}"}
       - {click: "m{Keyboard_mc_rhymes}", label: "m", swipe_left: "mj{Keyboard_mc_rhymes}"}
       # 第五行
       - {click: "l{Keyboard_mc_rhymes}", label: "l"}      
-      - {click: "sc{Keyboard_mc_rhymes}", label: "ɕ"}      
-      - {click: "sr{Keyboard_mc_rhymes}", label: "ʂ"}
-      - {click: "s{Keyboard_mc_rhymes}", label: "s"}
+      - {click: "zc{Keyboard_mc_rhymes}", label: "ʑ"}
+      - {click: "zr{Keyboard_mc_rhymes}", label: "ʐ"}
+      - {click: "z{Keyboard_mc_rhymes}", label: "z"}
+      - {click: "nj{Keyboard_mc_rhymes}", label: "nʑ"}
       - {click: Keyboard_default, long_click: Menu}  
       - {click: "。", swipe_up: "、"}
-      - {click: BackSpace}
-      - {click: space}
-      - {click: Return}
+      - {click: space, swipe_left: BackSpace, swipe_down: Return}
       
   "preset_keyboards/mc_onsets_small":
     author: "hliow <hxliow@gmail.com>"
@@ -141,10 +140,10 @@ patch:
       - {click: "m{Keyboard_mc_rhymes}", label: "m", swipe_left: "mj{Keyboard_mc_rhymes}"}
       # 第五行  
       - {click: Keyboard_default, long_click: Menu}  
-      - {click: "。", swipe_up: "、"}
+      - {click: "。{Keyboard_mc_rhymes}", swipe_up: "、{Keyboard_mc_rhymes}"}
       - {click: BackSpace}
-      - {click: space}
-      - {click: Return}
+      - {click: space{Keyboard_mc_rhymes}}
+      - {click: Return{Keyboard_mc_rhymes}}
       
   "preset_keyboards/mc_onsets_hanh":
     author: "hliow <hxliow@gmail.com>"
