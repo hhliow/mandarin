@@ -1,5 +1,59 @@
 # trime.custom.yaml  
 patch:  
+  "preset_keyboards/mc_phonemes":
+    author: "hliow <hxliow@gmail.com>"
+    name: "mc_phonemes"
+    ascii_mode: 0
+    height: 44
+    width: 11
+    keys:
+      # 第一行  
+      - {click: "eo", label: "ə", swipe_up: "eox", swipe_down: "eoh"}
+      - {click: "a", label: "ɑ", swipe_up: "ax", swipe_down: "ah"}
+      - {click: "o", label: "o", swipe_up: "ox", swipe_down: "oh"}
+      - {click: "u", label: "u", swipe_up: "ux", swipe_down: "uh"}      
+      - {click: "q", label: "ʔ", swipe_left: "qj"}
+      - {click: "ts", label: "ts", swipe_left: "tc", swipe_right: "tsr"}
+      - {click: "k", label: "k", swipe_left: "kj"} 
+      - {click: "t", label: "t", swipe_right: "tr"}
+      - {click: "p", label: "p", swipe_left: "pj"}
+      # 第二行  
+      - {click: "ea", label: "ɛ", swipe_up: "eax", swipe_down: "eah"} 
+      - {click: "ae", label: "æ", swipe_up: "aex", swipe_down: "aeh"}
+      - {click: "aew", label: "ɔ", swipe_up: "aewx", swipe_down: "aewh"}
+      - {click: "w", label: "w", swipe_up: "wx", swipe_down: "wh"}      
+      - {click: "h", label: "h", swipe_left: "hj"} 
+      - {click: "tsh", label: "tsh", swipe_left: "tch", swipe_right: "tshr"}
+      - {click: "kh", label: "kh", swipe_left: "khj"} 
+      - {click: "th", label: "th", swipe_right: "thr"}
+      - {click: "ph", label: "ph", swipe_left: "phj"}
+      # 第三行
+      - {click: "ie", label: "ie", swipe_up: "iex", swipe_down: "ieh"} 
+      - {click: "iae", label: "iæ", swipe_up: "iaex", swipe_down: "iaeh"}
+      - {click: "wio", label: "wio", swipe_up: "wiox", swipe_down: "wioh"}       
+      - {click: "iu", label: "iu", swipe_up: "iux", swipe_down: "iuh"}
+      - {click: "i", label: "j/i/ɦ", swipe_left: "j", swipe_up: "ix", swipe_down: "ih", swipe_right: "gh"}      
+      - {click: "dz", label: "dz", swipe_left: "dc", swipe_right: "dzr"}
+      - {click: "g", label: "g", swipe_left: "gj"} 
+      - {click: "d", label: "d", swipe_right: "dr", swipe_down: "l"}
+      - {click: "b", label: "b", swipe_left: "bj"}
+      # 第四行  
+      - {click: "e", label: "e", "e", swipe_up: "ex", swipe_down: "eh"}
+      - {click: "ia", label: "iɑ", "ia", swipe_up: "iax", swipe_down: "iah"}
+      - {click: "io", label: "iʌ", "io", swipe_up: "iox", swipe_down: "ioh"}      
+      - {click: "v", label: "ɨ", "v", swipe_up: "vx", swipe_down: "vh"} 
+      - {click: "s", label: "s", swipe_left: "sc"} 
+      - {click: "z", label: "z", swipe_left: "zc", swipe_right: "zr"}
+      - {click: "ng", label: "ŋ", swipe_left: "ngj", swipe_up: "ngx", swipe_down: "ngh"}
+      - {click: "n", label: "n", swipe_left: "nj", swipe_up: "nx", swipe_down: "nh"}
+      - {click: "m", label: "m", swipe_left: "mj", swipe_up: "mx", swipe_down: "mh"}
+      # 第五行
+      - {click: Keyboard_default, long_click: Menu}  
+      - {click: "。", swipe_up: "、"}
+      - {click: BackSpace}
+      - {click: space, width: 56}
+      - {click: Return}
+
   "preset_keyboards/mc_onsets":
     author: "hliow <hxliow@gmail.com>"
     name: "mc_onsets"
@@ -8,8 +62,8 @@ patch:
     width: 20
     keys:
       # 第一行  
-      - {click: "q{Keyboard_mc_rhymes}", label: "ʔ", hint: "ʔj", swipe_left: "qj{Keyboard_mc_rhymes}"}
-      - {click: "ts{Keyboard_mc_rhymes}", label: "ts", hint: "tɕ ʈʂ", swipe_left: "tc{Keyboard_mc_rhymes}", swipe_right: "tsr{Keyboard_mc_rhymes}"}
+      - {click: "q{Keyboard_mc_rhymes}", label: "ʔ", swipe_left: "qj{Keyboard_mc_rhymes}"}
+      - {click: "ts{Keyboard_mc_rhymes}", label: "ts", swipe_left: "tc{Keyboard_mc_rhymes}", swipe_right: "tsr{Keyboard_mc_rhymes}"}
       - {click: "k{Keyboard_mc_rhymes}", label: "k", swipe_left: "kj{Keyboard_mc_rhymes}"} 
       - {click: "t{Keyboard_mc_rhymes}", label: "t", swipe_right: "tr{Keyboard_mc_rhymes}"}
       - {click: "p{Keyboard_mc_rhymes}", label: "p", swipe_left: "pj{Keyboard_mc_rhymes}"}
@@ -118,9 +172,19 @@ patch:
     label: 紐
     send: Eisu_toggle
     select: mc_onsets
+    
+  "preset_keys/Keyboard_mc_onsets":
+    label: 韻
+    send: Eisu_toggle
+    select: mc_rhymes
+    
+  "preset_keys/Keyboard_mc_phonemes":
+    label: tshet
+    send: Eisu_toggle
+    select: mc_phonemes
 
   "preset_keyboards/qwerty/keys/@31/long_click": Keyboard_mc_onsets
-  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_rhymes
+  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes
 
   "style/keyboards":  
     - .default  
@@ -129,3 +193,4 @@ patch:
     - symbols  
     - mc_onsets
     - mc_rhymes
+    - mc_phonemes
