@@ -8,8 +8,8 @@ patch:
     width: 20
     keys:
       # 第一行  
-      - {click: "q{Keyboard_mc_rhymes}", label: "ʔ", swipe_left: "qj{Keyboard_mc_rhymes}"}
-      - {click: "ts{Keyboard_mc_rhymes}", label: "ts", swipe_left: "tc{Keyboard_mc_rhymes}", swipe_right: "tsr{Keyboard_mc_rhymes}"}
+      - {click: "q{Keyboard_mc_rhymes}", label: "ʔ", hint: "ʔj", swipe_left: "qj{Keyboard_mc_rhymes}"}
+      - {click: "ts{Keyboard_mc_rhymes}", label: "ts", hint: "tɕ ʈʂ", swipe_left: "tc{Keyboard_mc_rhymes}", swipe_right: "tsr{Keyboard_mc_rhymes}"}
       - {click: "k{Keyboard_mc_rhymes}", label: "k", swipe_left: "kj{Keyboard_mc_rhymes}"} 
       - {click: "t{Keyboard_mc_rhymes}", label: "t", swipe_right: "tr{Keyboard_mc_rhymes}"}
       - {click: "p{Keyboard_mc_rhymes}", label: "p", swipe_left: "pj{Keyboard_mc_rhymes}"}
