@@ -8,32 +8,32 @@ patch:
     width: 20
     keys:
       # 第一行  
-      - {click: q, label: '影', swipe_left: 'qj'}
-      - {click: ts, label: '精', swipe_left: 'tc', swipe_right: 'tsr'}
-      - {click: k, label: '見', swipe_left: 'kj'} 
-      - {click: t, label: '端', swipe_right: 'tr'}
-      - {click: p, label: '幫', swipe_left: 'pj'}
+      - {click: "q{Keyboard_mc_rhymes}", label: "影", swipe_left: "qj{Keyboard_mc_rhymes}"}
+      - {click: "ts{Keyboard_mc_rhymes}", label: "精", swipe_left: "tc{Keyboard_mc_rhymes}", swipe_right: "tsr{Keyboard_mc_rhymes}"}
+      - {click: "k{Keyboard_mc_rhymes}", label: "見", swipe_left: "kj{Keyboard_mc_rhymes}"} 
+      - {click: "t{Keyboard_mc_rhymes}", label: "端", swipe_right: "tr{Keyboard_mc_rhymes}"}
+      - {click: "p{Keyboard_mc_rhymes}", label: "幫", swipe_left: "pj{Keyboard_mc_rhymes}"}
       # 第二行  
-      - {click: h, label: '曉', swipe_left: 'hj'} 
-      - {click: tsh, label: '清', swipe_left: 'tch', swipe_right: 'tshr'}
-      - {click: kh, label: '溪', swipe_left: 'khj'} 
-      - {click: th, label: '透', swipe_right: 'thr'}
-      - {click: ph, label: '滂', swipe_left: 'phj'}
+      - {click: "h", label: "曉{Keyboard_mc_rhymes}", swipe_left: "hj{Keyboard_mc_rhymes}"} 
+      - {click: "tsh", label: "清{Keyboard_mc_rhymes}", swipe_left: "tch{Keyboard_mc_rhymes}", swipe_right: "tshr{Keyboard_mc_rhymes}"}
+      - {click: "kh", label: "溪{Keyboard_mc_rhymes}", swipe_left: "khj{Keyboard_mc_rhymes}"} 
+      - {click: "th", label: "透{Keyboard_mc_rhymes}", swipe_right: "thr{Keyboard_mc_rhymes}"}
+      - {click: "ph", label: "滂{Keyboard_mc_rhymes}", swipe_left: "phj{Keyboard_mc_rhymes}"}
       # 第三行  
-      - {click: gh, label: '云匣', swipe_left: 'j'} 
-      - {click: dz, label: '從', swipe_left: 'dc', swipe_right: 'dzr'}
-      - {click: g, label: '羣', swipe_left: 'gj'} 
-      - {click: d, label: '定', swipe_right: 'dr', swipe_down: 'l'}
-      - {click: b, label: '並', swipe_left: 'bj'}
+      - {click: "gh", label: "云匣", swipe_left: "j"} 
+      - {click: "dz", label: "從", swipe_left: "dc", swipe_right: "dzr"}
+      - {click: "g", label: "羣", swipe_left: "gj"} 
+      - {click: "d", label: "定", swipe_right: "dr", swipe_down: "l"}
+      - {click: "b", label: "並", swipe_left: "bj"}
       # 第四行  
-      - {click: s, label: '心', swipe_left: 'sc'} 
-      - {click: z, label: '邪', swipe_left: 'zc', swipe_right: 'zr'}
-      - {click: ng, label: '疑', swipe_left: 'ngj'} 
-      - {click: n, label: '泥', swipe_left: 'nj', swipe_right: 'nr'}
-      - {click: m, label: '明', swipe_left: 'mj'}
+      - {click: "s", label: "心", swipe_left: "sc"} 
+      - {click: "z", label: "邪", swipe_left: "zc", swipe_right: "zr"}
+      - {click: "ng", label: "疑", swipe_left: "ngj"} 
+      - {click: "n", label: "泥", swipe_left: "nj", swipe_right: "nr"}
+      - {click: "m", label: "明", swipe_left: "mj"}
       # 第五行  
       - {click: Keyboard_default, long_click: Menu}  
-      - {click: "。", swipe_up: '、'}
+      - {click: "。", swipe_up: "、"}
       - {click: BackSpace}
       - {click: space}
       - {click: Return}
@@ -46,32 +46,32 @@ patch:
     width: 20
     keys:
       # 第一行  
-      - {click: w, label: 'w', swipe_left: 'w', swipe_up: 'wx', swipe_down: 'wh'}
-      - {click: a, label: 'ɑ', swipe_left: 'a', swipe_up: 'ax', swipe_down: 'ah'}
-      - {click: eo, label: 'ə', swipe_left: 'eo', swipe_up: 'eox', swipe_down: 'eoh'}
-      - {click: o, label: 'o/ʌ', swipe_left: 'o', swipe_up: 'ox', swipe_down: 'oh'}
-      - {click: m, label: 'm', swipe_left: 'm', swipe_up: 'mx', swipe_down: 'mh', swipe_right: 'p'}
+      - {click: w, label: "w", swipe_left: "w{Keyboard_mc_onsets}", swipe_up: "wx{Keyboard_mc_onsets}", swipe_down: "wh{Keyboard_mc_onsets}"}
+      - {click: a, label: "ɑ", swipe_left: "a", swipe_up: "ax", swipe_down: "ah"}
+      - {click: eo, label: "ə", swipe_left: "eo", swipe_up: "eox", swipe_down: "eoh"}
+      - {click: o, label: "o/ʌ", swipe_left: "o", swipe_up: "ox", swipe_down: "oh"}
+      - {click: m, label: "m", swipe_left: "m", swipe_up: "mx", swipe_down: "mh", swipe_right: "p"}
       # 第二行  
-      - {click: ea, label: 'ɛ', swipe_left: 'ea', swipe_up: 'eax', swipe_down: 'eah'} 
-      - {click: ae, label: 'æ', swipe_left: 'ae', swipe_up: 'aex', swipe_down: 'aeh'}
-      - {click: aew, label: 'ɔ', swipe_left: 'aew', swipe_up: 'aewx', swipe_down: 'aewh'}
-      - {click: u, label: 'u', swipe_left: 'u', swipe_up: 'ux', swipe_down: 'uh'}
-      - {click: n, label: 'n', swipe_left: 'n', swipe_up: 'nx', swipe_down: 'nh', swipe_right: 't'}
+      - {click: ea, label: "ɛ", swipe_left: "ea", swipe_up: "eax", swipe_down: "eah"} 
+      - {click: ae, label: "æ", swipe_left: "ae", swipe_up: "aex", swipe_down: "aeh"}
+      - {click: aew, label: "ɔ", swipe_left: "aew", swipe_up: "aewx", swipe_down: "aewh"}
+      - {click: u, label: "u", swipe_left: "u", swipe_up: "ux", swipe_down: "uh"}
+      - {click: n, label: "n", swipe_left: "n", swipe_up: "nx", swipe_down: "nh", swipe_right: "t"}
       # 第三行  
-      - {click: ie, label: 'ie', swipe_left: 'ie', swipe_up: 'iex', swipe_down: 'ieh'} 
-      - {click: iae, label: 'iæ', swipe_left: 'iae', swipe_up: 'iaex', swipe_down: 'iaeh'}
-      - {click: v, label: 'ɨ', swipe_left: 'v', swipe_up: 'vx', swipe_down: 'vh'} 
-      - {click: iu, label: 'iu', swipe_left: 'iu', swipe_up: 'iux', swipe_down: 'iuh'}
-      - {click: ng, label: 'ŋ', swipe_left: 'ng', swipe_up: 'ngx', swipe_down: 'ngh', swipe_right: 'k'}
+      - {click: ie, label: "ie", swipe_left: "ie", swipe_up: "iex", swipe_down: "ieh"} 
+      - {click: iae, label: "iæ", swipe_left: "iae", swipe_up: "iaex", swipe_down: "iaeh"}
+      - {click: v, label: "ɨ", swipe_left: "v", swipe_up: "vx", swipe_down: "vh"} 
+      - {click: iu, label: "iu", swipe_left: "iu", swipe_up: "iux", swipe_down: "iuh"}
+      - {click: ng, label: "ŋ", swipe_left: "ng", swipe_up: "ngx", swipe_down: "ngh", swipe_right: "k"}
       # 第四行  
-      - {click: e, label: 'e', swipe_left: 'e', swipe_up: 'ex', swipe_down: 'eh'}
-      - {click: ia, label: 'iɑ', swipe_left: 'ia', swipe_up: 'iax', swipe_down: 'iah'}
-      - {click: i, label: 'i', swipe_left: 'i', swipe_up: 'ix', swipe_down: 'ih'}
-      - {click: h, label: 'ʱ'}
-      - {click: x, label: '˦˥'}
+      - {click: e, label: "e", swipe_left: "e", swipe_up: "ex", swipe_down: "eh"}
+      - {click: ia, label: "iɑ", swipe_left: "ia", swipe_up: "iax", swipe_down: "iah"}
+      - {click: i, label: "i", swipe_left: "i", swipe_up: "ix", swipe_down: "ih"}
+      - {click: h, label: "ʱ"}
+      - {click: x, label: "˦˥"}
       # 第五行  
       - {click: Keyboard_default, long_click: Menu}  
-      - {click: "。", swipe_up: '、'}
+      - {click: "。", swipe_up: "、"}
       - {click: BackSpace}
       - {click: space}
       - {click: Return}
@@ -92,4 +92,4 @@ patch:
     - number  
     - symbols  
     - mc_onsets
-    - mc_rhymes    
+    - mc_rhymes
