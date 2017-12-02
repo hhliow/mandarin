@@ -87,6 +87,7 @@ patch:
     select: mc_rhymes
 
   "preset_keyboards/qwerty/keys/@31/long_click": Keyboard_mc_onsets
+  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_onsets  
 
   "style/keyboards":  
     - .default  
