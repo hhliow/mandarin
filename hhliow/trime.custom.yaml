@@ -8,45 +8,45 @@ patch:
     width: 11
     keys:
       # 第一行  
-      - {click: "eo", label: "ə", swipe_up: "eox", swipe_down: "eoh"}
-      - {click: "a", label: "ɑ", swipe_up: "ax", swipe_down: "ah"}
-      - {click: "o", label: "o", swipe_up: "ox", swipe_down: "oh"}
-      - {click: "u", label: "u", swipe_up: "ux", swipe_down: "uh"}      
-      - {click: "q", label: "ʔ", swipe_left: "qj"}
-      - {click: "ts", label: "ts", swipe_left: "tc", swipe_right: "tsr"}
-      - {click: "k", label: "k", swipe_left: "kj"} 
-      - {click: "t", label: "t", swipe_right: "tr"}
-      - {click: "p", label: "p", swipe_left: "pj"}
+      - {click: "eo", label: "ə", swipe_up: "eox", swipe_down: "eoh", swipe_left: "eok", swipe_right: "eoih"}
+      - {click: "a", label: "ɑ", swipe_up: "ax", swipe_down: "ah", swipe_left: "ak", swipe_right: "aih"}
+      - {click: "o", label: "o", swipe_up: "ox", swipe_down: "oh",  swipe_left: "ok", swipe_right: "oih"}
+      - {click: "u", label: "u", swipe_up: "ux", swipe_down: "uh",  swipe_left: "uk",}      
+      - {click: "q", label: "ʔ", hint: "ʔj - ", swipe_left: "qj"}
+      - {click: "ts", label: "ts", hint: "tɕ - ʈʂ", swipe_left: "tc", swipe_right: "tsr"}
+      - {click: "k", label: "k", hint: "kj - ", swipe_left: "kj"} 
+      - {click: "t", label: "t", hint: " - ʈ", swipe_right: "tr"}
+      - {click: "p", label: "p", hint: "pj - ", swipe_left: "pj"}
       # 第二行  
-      - {click: "ea", label: "ɛ", swipe_up: "eax", swipe_down: "eah"} 
-      - {click: "ae", label: "æ", swipe_up: "aex", swipe_down: "aeh"}
-      - {click: "aew", label: "ɔ", swipe_up: "aewx", swipe_down: "aewh"}
+      - {click: "ea", label: "ɣɛ", swipe_up: "eax", swipe_down: "eah", swipe_left: "eak", swipe_right: "eaih"}
+      - {click: "ae", label: "ɣæ", swipe_up: "aex", swipe_down: "aeh", swipe_left: "aek", swipe_right: "aeih"}
+      - {click: "aew", label: "ɣɔ/ɣæw", swipe_up: "aewx", swipe_down: "aewh"}
       - {click: "w", label: "w", swipe_up: "wx", swipe_down: "wh"}      
-      - {click: "h", label: "h", swipe_left: "hj"} 
-      - {click: "tsh", label: "tsh", swipe_left: "tch", swipe_right: "tshr"}
-      - {click: "kh", label: "kh", swipe_left: "khj"} 
-      - {click: "th", label: "th", swipe_right: "thr"}
-      - {click: "ph", label: "ph", swipe_left: "phj"}
+      - {click: "h", label: "h", hint: "hj - ", swipe_left: "hj"} 
+      - {click: "tsh", label: "tsh", hint: "tɕh - ʈʂh", swipe_left: "tch", swipe_right: "tshr"}
+      - {click: "kh", label: "kh", hint: "khj - ", swipe_left: "khj"} 
+      - {click: "th", label: "th", hint: " - ʈh", swipe_right: "thr"}
+      - {click: "ph", label: "ph", hint: "phj - ", swipe_left: "phj"}
       # 第三行
-      - {click: "ie", label: "ie", swipe_up: "iex", swipe_down: "ieh"} 
-      - {click: "iae", label: "iæ", swipe_up: "iaex", swipe_down: "iaeh"}
-      - {click: "wio", label: "wio", swipe_up: "wiox", swipe_down: "wioh"}       
-      - {click: "iu", label: "iu", swipe_up: "iux", swipe_down: "iuh"}
-      - {click: "i", label: "j/i/ɦ", swipe_left: "j", swipe_up: "ix", swipe_down: "ih", swipe_right: "gh"}      
-      - {click: "dz", label: "dz", swipe_left: "dc", swipe_right: "dzr"}
-      - {click: "g", label: "g", swipe_left: "gj"} 
-      - {click: "d", label: "d", swipe_right: "dr", swipe_down: "l"}
-      - {click: "b", label: "b", swipe_left: "bj"}
+      - {click: "ie", label: "ie", swipe_up: "iex", swipe_down: "ieh", swipe_left: "iek", swipe_right: "ieih"}
+      - {click: "iae", label: "iæ", swipe_up: "iaex", swipe_down: "iaeh", swipe_left: "iaek"}
+      - {click: "wio", label: "wio", swipe_up: "wiox", swipe_down: "wioh", swipe_left: "wiok", swipe_right: "wiaih"}
+      - {click: "iu", label: "iu", swipe_up: "iux", swipe_down: "iuh", swipe_left: "iuk", swipe_right: "iuih"}
+      - {click: "i", label: "i", hint: "j - ɦ", swipe_left: "j", swipe_up: "ix", swipe_down: "ih", swipe_right: "gh"}      
+      - {click: "dz", label: "dz", hint: "dʑ - ɖʐ", swipe_left: "dc", swipe_right: "dzr"}
+      - {click: "g", label: "g", hint: "gj - ", swipe_left: "gj"} 
+      - {click: "d", label: "d", hint: " l ɖ", swipe_right: "dr", swipe_down: "l"}
+      - {click: "b", label: "b", hint: "bj - ", swipe_left: "bj"}
       # 第四行  
-      - {click: "e", label: "e", "e", swipe_up: "ex", swipe_down: "eh"}
-      - {click: "ia", label: "iɑ", "ia", swipe_up: "iax", swipe_down: "iah"}
-      - {click: "io", label: "iʌ", "io", swipe_up: "iox", swipe_down: "ioh"}      
-      - {click: "v", label: "ɨ", "v", swipe_up: "vx", swipe_down: "vh"} 
-      - {click: "s", label: "s", swipe_left: "sc", swipe_right: "sr"} 
-      - {click: "z", label: "z", swipe_left: "zc", swipe_right: "zr"}
-      - {click: "ng", label: "ŋ", swipe_left: "ngj", swipe_up: "ngx", swipe_down: "ngh"}
-      - {click: "n", label: "n", swipe_left: "nj", swipe_up: "nx", swipe_down: "nh"}
-      - {click: "m", label: "m", swipe_left: "mj", swipe_up: "mx", swipe_down: "mh"}
+      - {click: "e", label: "e", "e", swipe_up: "ex", swipe_down: "eh", swipe_left: "ek"}
+      - {click: "ia", label: "iɑ", "ia", swipe_up: "iax", swipe_down: "iah", swipe_left: "iak", swipe_right: "iaih"}
+      - {click: "io", label: "iʌ", "io", swipe_up: "iox", swipe_down: "ioh", swipe_left: "iak", swipe_right: "iaih"}
+      - {click: "v", label: "ɨ", "v", swipe_up: "vx", swipe_down: "vh", swipe_left: "vk", swipe_right: "vih"}
+      - {click: "s", label: "s", hint: "ɕ - ʂ", swipe_left: "sc", swipe_right: "sr"} 
+      - {click: "z", label: "z", hint: "ʑ - ʐ", swipe_left: "zc", swipe_right: "zr"}
+      - {click: "ng", label: "ŋ", hint: "ŋj - ", swipe_left: "ngj", swipe_up: "ngx", swipe_down: "ngh"}
+      - {click: "n", label: "n", hint: "nʑ - ɳ", swipe_left: "nj", swipe_up: "nx", swipe_down: "nh"}
+      - {click: "m", label: "m", hint: "mj - ", swipe_left: "mj", swipe_up: "mx", swipe_down: "mh"}
       # 第五行
       - {click: Keyboard_default, long_click: Menu}  
       - {click: "。", swipe_up: "、"}
