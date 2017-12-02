@@ -14,11 +14,11 @@ patch:
       - {click: "t{Keyboard_mc_rhymes}", label: "端", swipe_right: "tr{Keyboard_mc_rhymes}"}
       - {click: "p{Keyboard_mc_rhymes}", label: "幫", swipe_left: "pj{Keyboard_mc_rhymes}"}
       # 第二行  
-      - {click: "h", label: "曉{Keyboard_mc_rhymes}", swipe_left: "hj{Keyboard_mc_rhymes}"} 
-      - {click: "tsh", label: "清{Keyboard_mc_rhymes}", swipe_left: "tch{Keyboard_mc_rhymes}", swipe_right: "tshr{Keyboard_mc_rhymes}"}
-      - {click: "kh", label: "溪{Keyboard_mc_rhymes}", swipe_left: "khj{Keyboard_mc_rhymes}"} 
-      - {click: "th", label: "透{Keyboard_mc_rhymes}", swipe_right: "thr{Keyboard_mc_rhymes}"}
-      - {click: "ph", label: "滂{Keyboard_mc_rhymes}", swipe_left: "phj{Keyboard_mc_rhymes}"}
+      - {click: "h{Keyboard_mc_rhymes}", label: "曉", swipe_left: "hj{Keyboard_mc_rhymes}"} 
+      - {click: "tsh{Keyboard_mc_rhymes}", label: "清", swipe_left: "tch{Keyboard_mc_rhymes}", swipe_right: "tshr{Keyboard_mc_rhymes}"}
+      - {click: "kh{Keyboard_mc_rhymes}", label: "溪", swipe_left: "khj{Keyboard_mc_rhymes}"} 
+      - {click: "th{Keyboard_mc_rhymes}", label: "透", swipe_right: "thr{Keyboard_mc_rhymes}"}
+      - {click: "ph{Keyboard_mc_rhymes}", label: "滂", swipe_left: "phj{Keyboard_mc_rhymes}"}
       # 第三行  
       - {click: "gh", label: "云匣", swipe_left: "j"} 
       - {click: "dz", label: "從", swipe_left: "dc", swipe_right: "dzr"}
