@@ -10,8 +10,8 @@ patch:
       # 第一行  
       - {click: "eo", label: "ə", swipe_up: "eox", swipe_down: "eoh", swipe_left: "eok", swipe_right: "eoih"}
       - {click: "a", label: "ɑ", swipe_up: "ax", swipe_down: "ah", swipe_left: "ak", swipe_right: "aih"}
-      - {click: "o", label: "o", swipe_up: "ox", swipe_down: "oh",  swipe_left: "ok", swipe_right: "oih"}
-      - {click: "u", label: "u", swipe_up: "ux", swipe_down: "uh",  swipe_left: "uk",}      
+      - {click: "o", label: "o", swipe_up: "ox", swipe_down: "oh",  swipe_left: "ok", swipe_right: "woih"}
+      - {click: "u", label: "u", swipe_up: "ux", swipe_down: "uh",  swipe_left: "uk", swipe_right: "woih"}
       - {click: "q", label: "ʔ", hint: "ʔj - ", swipe_left: "qj"}
       - {click: "ts", label: "ts", hint: "tɕ - ʈʂ", swipe_left: "tc", swipe_right: "tsr"}
       - {click: "k", label: "k", hint: "kj - ", swipe_left: "kj"} 
