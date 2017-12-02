@@ -46,29 +46,29 @@ patch:
     width: 20
     keys:
       # 第一行  
-      - {click: "w", label: "w", swipe_left: "w{Keyboard_mc_onsets}", swipe_up: "wx{Keyboard_mc_onsets}", swipe_down: "wh{Keyboard_mc_onsets}"}
-      - {click: "a", label: "ɑ", swipe_left: "a{Keyboard_mc_onsets}", swipe_up: "ax{Keyboard_mc_onsets}", swipe_down: "ah{Keyboard_mc_onsets}"}
       - {click: "eo", label: "ə", swipe_left: "eo{Keyboard_mc_onsets}", swipe_up: "eox{Keyboard_mc_onsets}", swipe_down: "eoh{Keyboard_mc_onsets}"}
-      - {click: "o", label: "o/ʌ", swipe_left: "o{Keyboard_mc_onsets}", swipe_up: "ox{Keyboard_mc_onsets}", swipe_down: "oh{Keyboard_mc_onsets}"}
+      - {click: "a", label: "ɑ", swipe_left: "a{Keyboard_mc_onsets}", swipe_up: "ax{Keyboard_mc_onsets}", swipe_down: "ah{Keyboard_mc_onsets}"}
+      - {click: "o", label: "o", swipe_left: "o{Keyboard_mc_onsets}", swipe_up: "ox{Keyboard_mc_onsets}", swipe_down: "oh{Keyboard_mc_onsets}"}
+      - {click: "u", label: "u", swipe_left: "u{Keyboard_mc_onsets}", swipe_up: "ux{Keyboard_mc_onsets}", swipe_down: "uh{Keyboard_mc_onsets}"}      
       - {click: "m{Keyboard_mc_onsets}", label: "m", swipe_left: "m{Keyboard_mc_onsets}", swipe_up: "mx{Keyboard_mc_onsets}", swipe_down: "mh{Keyboard_mc_onsets}", swipe_right: "p{Keyboard_mc_onsets}"}
       # 第二行  
       - {click: "ea", label: "ɛ", swipe_left: "ea{Keyboard_mc_onsets}", swipe_up: "eax{Keyboard_mc_onsets}", swipe_down: "eah{Keyboard_mc_onsets}"} 
       - {click: "ae", label: "æ", swipe_left: "ae{Keyboard_mc_onsets}", swipe_up: "aex{Keyboard_mc_onsets}", swipe_down: "aeh{Keyboard_mc_onsets}"}
       - {click: "aew", label: "ɔ", swipe_left: "aew{Keyboard_mc_onsets}", swipe_up: "aewx{Keyboard_mc_onsets}", swipe_down: "aewh{Keyboard_mc_onsets}"}
-      - {click: "u", label: "u", swipe_left: "u{Keyboard_mc_onsets}", swipe_up: "ux{Keyboard_mc_onsets}", swipe_down: "uh{Keyboard_mc_onsets}"}
+      - {click: "w", label: "w", swipe_left: "w{Keyboard_mc_onsets}", swipe_up: "wx{Keyboard_mc_onsets}", swipe_down: "wh{Keyboard_mc_onsets}"}      
       - {click: "n{Keyboard_mc_onsets}", label: "n", swipe_left: "n{Keyboard_mc_onsets}", swipe_up: "nx{Keyboard_mc_onsets}", swipe_down: "nh{Keyboard_mc_onsets}", swipe_right: "t{Keyboard_mc_onsets}"}
       # 第三行  
       - {click: "ie", label: "ie", swipe_left: "ie{Keyboard_mc_onsets}", swipe_up: "iex{Keyboard_mc_onsets}", swipe_down: "ieh{Keyboard_mc_onsets}"} 
       - {click: "iae", label: "iæ", swipe_left: "iae{Keyboard_mc_onsets}", swipe_up: "iaex{Keyboard_mc_onsets}", swipe_down: "iaeh{Keyboard_mc_onsets}"}
-      - {click: "v", label: "ɨ", swipe_left: "v{Keyboard_mc_onsets}", swipe_up: "vx{Keyboard_mc_onsets}", swipe_down: "vh{Keyboard_mc_onsets}"} 
+      - {click: "wio", label: "wio", swipe_left: "wio{Keyboard_mc_onsets}", swipe_up: "wiox{Keyboard_mc_onsets}", swipe_down: "wioh{Keyboard_mc_onsets}"}       
       - {click: "iu", label: "iu", swipe_left: "iu{Keyboard_mc_onsets}", swipe_up: "iux{Keyboard_mc_onsets}", swipe_down: "iuh{Keyboard_mc_onsets}"}
       - {click: "ng{Keyboard_mc_onsets}", label: "ŋ", swipe_left: "ng{Keyboard_mc_onsets}", swipe_up: "ngx{Keyboard_mc_onsets}", swipe_down: "ngh{Keyboard_mc_onsets}", swipe_right: "k{Keyboard_mc_onsets}"}
       # 第四行  
       - {click: "e", label: "e", swipe_left: "e{Keyboard_mc_onsets}", swipe_up: "ex{Keyboard_mc_onsets}", swipe_down: "eh{Keyboard_mc_onsets}"}
       - {click: "ia", label: "iɑ", swipe_left: "ia{Keyboard_mc_onsets}", swipe_up: "iax{Keyboard_mc_onsets}", swipe_down: "iah{Keyboard_mc_onsets}"}
+      - {click: "io", label: "iʌ", swipe_left: "io{Keyboard_mc_onsets}", swipe_up: "iox{Keyboard_mc_onsets}", swipe_down: "ioh{Keyboard_mc_onsets}"}      
+      - {click: "v", label: "ɨ", swipe_left: "v{Keyboard_mc_onsets}", swipe_up: "vx{Keyboard_mc_onsets}", swipe_down: "vh{Keyboard_mc_onsets}"} 
       - {click: "i", label: "i", swipe_left: "i{Keyboard_mc_onsets}", swipe_up: "ix{Keyboard_mc_onsets}", swipe_down: "ih{Keyboard_mc_onsets}"}
-      - {click: "h{Keyboard_mc_onsets}", label: "ʱ"}
-      - {click: "x{Keyboard_mc_onsets}", label: "˦˥"}
       # 第五行  
       - {click: Keyboard_default, long_click: Menu}  
       - {click: "。", swipe_up: "、"}
