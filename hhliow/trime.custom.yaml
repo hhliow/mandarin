@@ -37,3 +37,41 @@ patch:
       - {click: BackSpace}
       - {click: space}
       - {click: Return}
+
+  "preset_keyboards/mc_rhymes":
+    author: "hliow <hxliow@gmail.com>"
+    name: "mc_rhymes"
+    ascii_mode: 1
+    height: 44
+    width: 20
+    keys:
+      # 第一行  
+      - {click: w, label: 'w', swipe_left: 'w', swipe_up: 'wx', swipe_down: 'wh'}
+      - {click: a, label: 'ɑ', swipe_left: 'a', swipe_up: 'ax', swipe_down: 'ah'}
+      - {click: eo, label: 'ə', swipe_left: 'eo', swipe_up: 'eox', swipe_down: 'eoh'}
+      - {click: o, label: 'o/ʌ', swipe_left: 'o', swipe_up: 'ox', swipe_down: 'oh'}
+      - {click: m, label: 'm', swipe_left: 'm', swipe_up: 'mx', swipe_down: 'mh', swipe_right: 'p'}
+      # 第二行  
+      - {click: ea, label: 'ɛ', swipe_left: 'ea', swipe_up: 'eax', swipe_down: 'eah'} 
+      - {click: ae, label: 'æ', swipe_left: 'ae', swipe_up: 'aex', swipe_down: 'aeh'}
+      - {click: aew, label: 'ɔ', swipe_left: 'aew', swipe_up: 'aewx', swipe_down: 'aewh'}
+      - {click: u, label: 'u', swipe_left: 'u', swipe_up: 'ux', swipe_down: 'uh'}
+      - {click: n, label: 'n', swipe_left: 'n', swipe_up: 'nx', swipe_down: 'nh', swipe_right: 't'}
+      # 第三行  
+      - {click: ie, label: 'ie', swipe_left: 'ie', swipe_up: 'iex', swipe_down: 'ieh'} 
+      - {click: iae, label: 'iæ', swipe_left: 'iae', swipe_up: 'iaex', swipe_down: 'iaeh'}
+      - {click: v, label: 'ɨ', swipe_left: 'v', swipe_up: 'vx', swipe_down: 'vh'} 
+      - {click: iu, label: 'iu', swipe_left: 'iu', swipe_up: 'iux', swipe_down: 'iuh'}
+      - {click: ng, label: 'ŋ', swipe_left: 'ng', swipe_up: 'ngx', swipe_down: 'ngh', swipe_right: 'k'}
+      # 第四行  
+      - {click: e, label: 'e', swipe_left: 'e', swipe_up: 'ex', swipe_down: 'eh'}
+      - {click: ia, label: 'iɑ', swipe_left: 'ia', swipe_up: 'iax', swipe_down: 'iah'}
+      - {click: i, label: 'i', swipe_left: 'i', swipe_up: 'ix', swipe_down: 'ih'}
+      - {click: h, label: 'ʱ'}
+      - {click: x, label: '˦˥'}
+      # 第五行  
+      - {click: Keyboard_default, long_click: Menu}  
+      - {click: "。", swipe_up: '、'}
+      - {click: BackSpace}
+      - {click: space}
+      - {click: Return}
