@@ -50,8 +50,10 @@ patch:
       # 第五行
       - {click: Keyboard_default, long_click: Menu}  
       - {click: "。", swipe_up: "、"}
+      - {click: "「", swipe_up: "〈"}      
+      - {click: space, width: 34}    
+      - {click: "」", swipe_up: "〉"}      
       - {click: BackSpace}
-      - {click: space, width: 56}
       - {click: Return}
 
   "preset_keyboards/mc_onsets":
