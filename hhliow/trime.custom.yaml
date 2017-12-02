@@ -47,7 +47,7 @@ patch:
     keys:
       # 第一行  
       - {click: "w", label: "w", swipe_left: "w{Keyboard_mc_onsets}", swipe_up: "wx{Keyboard_mc_onsets}", swipe_down: "wh{Keyboard_mc_onsets}"}
-      - {click: "a", label: "ɑ", swipe_left: "a"{Keyboard_mc_onsets}, swipe_up: "ax"{Keyboard_mc_onsets}, swipe_down: "ah"{Keyboard_mc_onsets}}
+      - {click: "a", label: "ɑ", swipe_left: "a{Keyboard_mc_onsets}", swipe_up: "ax{Keyboard_mc_onsets}", swipe_down: "ah{Keyboard_mc_onsets}"}
       - {click: "eo", label: "ə", swipe_left: "eo{Keyboard_mc_onsets}", swipe_up: "eox{Keyboard_mc_onsets}", swipe_down: "eoh{Keyboard_mc_onsets}"}
       - {click: "o", label: "o/ʌ", swipe_left: "o{Keyboard_mc_onsets}", swipe_up: "ox{Keyboard_mc_onsets}", swipe_down: "oh{Keyboard_mc_onsets}"}
       - {click: "m{Keyboard_mc_onsets}", label: "m", swipe_left: "m{Keyboard_mc_onsets}", swipe_up: "mx{Keyboard_mc_onsets}", swipe_down: "mh{Keyboard_mc_onsets}", swipe_right: "p{Keyboard_mc_onsets}"}
