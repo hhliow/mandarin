@@ -140,10 +140,10 @@ patch:
       - {click: "m{Keyboard_mc_rhymes}", label: "m", swipe_left: "mj{Keyboard_mc_rhymes}"}
       # 第五行  
       - {click: Keyboard_default, long_click: Menu}  
-      - {click: "。{Keyboard_mc_rhymes}", swipe_up: "、{Keyboard_mc_rhymes}"}
+      - {click: "。", swipe_up: "、"}
       - {click: BackSpace}
-      - {click: space{Keyboard_mc_rhymes}}
-      - {click: Return{Keyboard_mc_rhymes}}
+      - {click: space}
+      - {click: Return}
       
   "preset_keyboards/mc_onsets_hanh":
     author: "hliow <hxliow@gmail.com>"
@@ -219,9 +219,10 @@ patch:
       - {click: Keyboard_mc_onsets, width: 36}
       # 第五行  
       - {click: Keyboard_default, long_click: Menu}  
+      - {click: "。{Keyboard_mc_rhymes}", swipe_up: "、{Keyboard_mc_rhymes}"}
       - {click: BackSpace}
-      - {click: space}
-      - {click: Return}
+      - {click: "{space}{Keyboard_mc_rhymes}"}
+      - {click: "{Return}{Keyboard_mc_rhymes}"}
 
   "preset_keyboards/mc_rhymes_small":
     author: "hliow <hxliow@gmail.com>"
