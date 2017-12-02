@@ -85,7 +85,9 @@ patch:
     label: 124
     send: Eisu_toggle
     select: mc_rhymes
-    
+
+  "preset_keyboards/qwerty/keys/@31/long_click": Keyboard_mc_onsets
+
   "style/keyboards":  
     - .default  
     - default  
