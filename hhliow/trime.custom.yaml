@@ -20,17 +20,17 @@ patch:
       - {click: "th{Keyboard_mc_rhymes}", label: "透", swipe_right: "thr{Keyboard_mc_rhymes}"}
       - {click: "ph{Keyboard_mc_rhymes}", label: "滂", swipe_left: "phj{Keyboard_mc_rhymes}"}
       # 第三行  
-      - {click: "gh", label: "云匣", swipe_left: "j"} 
-      - {click: "dz", label: "從", swipe_left: "dc", swipe_right: "dzr"}
-      - {click: "g", label: "羣", swipe_left: "gj"} 
-      - {click: "d", label: "定", swipe_right: "dr", swipe_down: "l"}
-      - {click: "b", label: "並", swipe_left: "bj"}
+      - {click: "gh{Keyboard_mc_rhymes}", label: "云匣", swipe_left: "j{Keyboard_mc_rhymes}"} 
+      - {click: "dz{Keyboard_mc_rhymes}", label: "從", swipe_left: "dc", swipe_right: "dzr{Keyboard_mc_rhymes}"}
+      - {click: "g{Keyboard_mc_rhymes}", label: "羣", swipe_left: "gj{Keyboard_mc_rhymes}"} 
+      - {click: "d{Keyboard_mc_rhymes}", label: "定", swipe_right: "dr", swipe_down: "l{Keyboard_mc_rhymes}"}
+      - {click: "b{Keyboard_mc_rhymes}", label: "並", swipe_left: "bj{Keyboard_mc_rhymes}"}
       # 第四行  
-      - {click: "s", label: "心", swipe_left: "sc"} 
-      - {click: "z", label: "邪", swipe_left: "zc", swipe_right: "zr"}
-      - {click: "ng", label: "疑", swipe_left: "ngj"} 
-      - {click: "n", label: "泥", swipe_left: "nj", swipe_right: "nr"}
-      - {click: "m", label: "明", swipe_left: "mj"}
+      - {click: "s{Keyboard_mc_rhymes}", label: "心", swipe_left: "sc{Keyboard_mc_rhymes}"} 
+      - {click: "z{Keyboard_mc_rhymes}", label: "邪", swipe_left: "zc{Keyboard_mc_rhymes}", swipe_right: "zr{Keyboard_mc_rhymes}"}
+      - {click: "ng{Keyboard_mc_rhymes}", label: "疑", swipe_left: "ngj{Keyboard_mc_rhymes}"} 
+      - {click: "n{Keyboard_mc_rhymes}", label: "泥", swipe_left: "nj{Keyboard_mc_rhymes}", swipe_right: "nr{Keyboard_mc_rhymes}"}
+      - {click: "m{Keyboard_mc_rhymes}", label: "明", swipe_left: "mj{Keyboard_mc_rhymes}"}
       # 第五行  
       - {click: Keyboard_default, long_click: Menu}  
       - {click: "。", swipe_up: "、"}
@@ -52,23 +52,23 @@ patch:
       - {click: "o", label: "o/ʌ", swipe_left: "o{Keyboard_mc_onsets}", swipe_up: "ox{Keyboard_mc_onsets}", swipe_down: "oh{Keyboard_mc_onsets}"}
       - {click: "m{Keyboard_mc_onsets}", label: "m", swipe_left: "m{Keyboard_mc_onsets}", swipe_up: "mx{Keyboard_mc_onsets}", swipe_down: "mh{Keyboard_mc_onsets}", swipe_right: "p{Keyboard_mc_onsets}"}
       # 第二行  
-      - {click: "ea", label: "ɛ", swipe_left: "ea", swipe_up: "eax", swipe_down: "eah"} 
-      - {click: "ae", label: "æ", swipe_left: "ae", swipe_up: "aex", swipe_down: "aeh"}
-      - {click: "aew", label: "ɔ", swipe_left: "aew", swipe_up: "aewx", swipe_down: "aewh"}
-      - {click: "u", label: "u", swipe_left: "u", swipe_up: "ux", swipe_down: "uh"}
-      - {click: "n", label: "n", swipe_left: "n", swipe_up: "nx", swipe_down: "nh", swipe_right: "t"}
+      - {click: "ea", label: "ɛ", swipe_left: "ea{Keyboard_mc_onsets}", swipe_up: "eax{Keyboard_mc_onsets}", swipe_down: "eah{Keyboard_mc_onsets}"} 
+      - {click: "ae", label: "æ", swipe_left: "ae{Keyboard_mc_onsets}", swipe_up: "aex{Keyboard_mc_onsets}", swipe_down: "aeh{Keyboard_mc_onsets}"}
+      - {click: "aew", label: "ɔ", swipe_left: "aew{Keyboard_mc_onsets}", swipe_up: "aewx{Keyboard_mc_onsets}", swipe_down: "aewh{Keyboard_mc_onsets}"}
+      - {click: "u", label: "u", swipe_left: "u{Keyboard_mc_onsets}", swipe_up: "ux{Keyboard_mc_onsets}", swipe_down: "uh{Keyboard_mc_onsets}"}
+      - {click: "n{Keyboard_mc_onsets}", label: "n", swipe_left: "n{Keyboard_mc_onsets}", swipe_up: "nx{Keyboard_mc_onsets}", swipe_down: "nh{Keyboard_mc_onsets}", swipe_right: "t{Keyboard_mc_onsets}"}
       # 第三行  
-      - {click: "ie", label: "ie", swipe_left: "ie", swipe_up: "iex", swipe_down: "ieh"} 
-      - {click: "iae", label: "iæ", swipe_left: "iae", swipe_up: "iaex", swipe_down: "iaeh"}
-      - {click: "v", label: "ɨ", swipe_left: "v", swipe_up: "vx", swipe_down: "vh"} 
-      - {click: "iu", label: "iu", swipe_left: "iu", swipe_up: "iux", swipe_down: "iuh"}
-      - {click: "ng", label: "ŋ", swipe_left: "ng", swipe_up: "ngx", swipe_down: "ngh", swipe_right: "k"}
+      - {click: "ie", label: "ie", swipe_left: "ie{Keyboard_mc_onsets}", swipe_up: "iex{Keyboard_mc_onsets}", swipe_down: "ieh{Keyboard_mc_onsets}"} 
+      - {click: "iae", label: "iæ", swipe_left: "iae{Keyboard_mc_onsets}", swipe_up: "iaex{Keyboard_mc_onsets}", swipe_down: "iaeh{Keyboard_mc_onsets}"}
+      - {click: "v", label: "ɨ", swipe_left: "v{Keyboard_mc_onsets}", swipe_up: "vx{Keyboard_mc_onsets}", swipe_down: "vh{Keyboard_mc_onsets}"} 
+      - {click: "iu", label: "iu", swipe_left: "iu{Keyboard_mc_onsets}", swipe_up: "iux{Keyboard_mc_onsets}", swipe_down: "iuh{Keyboard_mc_onsets}"}
+      - {click: "ng{Keyboard_mc_onsets}", label: "ŋ", swipe_left: "ng{Keyboard_mc_onsets}", swipe_up: "ngx{Keyboard_mc_onsets}", swipe_down: "ngh{Keyboard_mc_onsets}", swipe_right: "k{Keyboard_mc_onsets}"}
       # 第四行  
-      - {click: "e", label: "e", swipe_left: "e", swipe_up: "ex", swipe_down: "eh"}
-      - {click: "ia", label: "iɑ", swipe_left: "ia", swipe_up: "iax", swipe_down: "iah"}
-      - {click: "i", label: "i", swipe_left: "i", swipe_up: "ix", swipe_down: "ih"}
-      - {click: "h", label: "ʱ"}
-      - {click: "x", label: "˦˥"}
+      - {click: "e", label: "e", swipe_left: "e{Keyboard_mc_onsets}", swipe_up: "ex{Keyboard_mc_onsets}", swipe_down: "eh{Keyboard_mc_onsets}"}
+      - {click: "ia", label: "iɑ", swipe_left: "ia{Keyboard_mc_onsets}", swipe_up: "iax{Keyboard_mc_onsets}", swipe_down: "iah{Keyboard_mc_onsets}"}
+      - {click: "i", label: "i", swipe_left: "i{Keyboard_mc_onsets}", swipe_up: "ix{Keyboard_mc_onsets}", swipe_down: "ih{Keyboard_mc_onsets}"}
+      - {click: "h{Keyboard_mc_onsets}", label: "ʱ"}
+      - {click: "x{Keyboard_mc_onsets}", label: "˦˥"}
       # 第五行  
       - {click: Keyboard_default, long_click: Menu}  
       - {click: "。", swipe_up: "、"}
