@@ -20,7 +20,7 @@ patch:
       # 第二行  
       - {click: "ea", label: "ɣɛ", swipe_up: "eax", swipe_down: "eah", swipe_left: "eak", swipe_right: "eaih"}
       - {click: "ae", label: "ɣæ", swipe_up: "aex", swipe_down: "aeh", swipe_left: "aek", swipe_right: "aeih"}
-      - {click: "aew", label: "ɣɔ/ɣæw", swipe_up: "aewx", swipe_down: "aewh"}
+      - {click: "aew", label: "ɣæw", swipe_up: "aewx", swipe_down: "aewh"}
       - {click: "w", label: "w", swipe_up: "wx", swipe_down: "wh"}      
       - {click: "h", label: "h", hint: "hj - ", swipe_left: "hj"} 
       - {click: "tsh", label: "tsh", hint: "tɕh - ʈʂh", swipe_left: "tch", swipe_right: "tshr"}
