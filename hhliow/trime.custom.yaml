@@ -295,6 +295,15 @@ patch:
       - {click: 'k', long_click: ':', swipe_up: 'K'}
       - {click: 'l', long_click: ';', swipe_up: 'L'}
       - {width: 5}
+      - {click: Shift_L, send_bindings: false, width: 15}
+      - {click: 'z', long_click: '`', swipe_up: 'Z'}
+      - {click: 'x', long_click: cut, swipe_up: 'X'}
+      - {click: 'c', long_click: copy, swipe_up: 'C'}
+      - {click: 'v', long_click: paste, swipe_up: 'V'}
+      - {click: 'b', long_click: Time, swipe_up: 'B', swipe_down: Date}
+      - {click: 'n', long_click: '"', swipe_up: 'N'}
+      - {click: 'm', long_click: "'", swipe_up: 'M'}
+      - {click: BackSpace, width: 15}
 
   "preset_keys/Keyboard_mc_onsets":
     label: 紐
