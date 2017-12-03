@@ -50,7 +50,7 @@ patch:
       - {click: "n", label: "n", hint: "nʑ - ɳ", swipe_left: "nj", swipe_up: "nx", swipe_down: "nh"}
       - {click: "m", label: "m", hint: "mj - ", swipe_left: "mj", swipe_up: "mx", swipe_down: "mh"}
       # 第五行
-      - {click: "{Keyboard_latin}{Mode_switch}, long_click: Menu}  
+      - {click: "{Keyboard_latin}{Mode_switch}", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
       - {click: "「", swipe_up: "〈"}      
       - {click: space, width: 34}    
@@ -266,29 +266,6 @@ patch:
       - {click: space}
       - {click: Return}
       
-  "preset_keys/Keyboard_mc_onsets":
-    label: 紐
-    send: Eisu_toggle
-    select: mc_onsets
-    
-  "preset_keys/Keyboard_mc_rhymes":
-    label: 韻
-    send: Eisu_toggle
-    select: mc_rhymes
-    
-  "preset_keys/Keyboard_mc_phonemes":
-    label: tshet
-    send: Eisu_toggle
-    select: mc_phonemes
-
-  "preset_keys/Keyboard_latin":
-    label: Latin
-    send: Eisu_toggle
-    select: latin
-
-  "preset_keyboards/qwerty/keys/@31/long_click": Keyboard_mc_onsets
-  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes
-  
   "preset_keyboards/latin":
     name: latin
     author: "hliow <hxliow@gmail.com>"
@@ -340,6 +317,29 @@ patch:
       - {click: '.', long_click: '>'}
       - {click: '/', long_click: '?'}
       - {click: Return, long_click: CommitComment, width: 15}
+      
+  "preset_keys/Keyboard_mc_onsets":
+    label: 紐
+    send: Eisu_toggle
+    select: mc_onsets
+    
+  "preset_keys/Keyboard_mc_rhymes":
+    label: 韻
+    send: Eisu_toggle
+    select: mc_rhymes
+    
+  "preset_keys/Keyboard_mc_phonemes":
+    label: tshet
+    send: Eisu_toggle
+    select: mc_phonemes
+
+  "preset_keys/Keyboard_latin":
+    label: Latin
+    send: Eisu_toggle
+    select: latin
+
+  "preset_keyboards/qwerty/keys/@31/long_click": Keyboard_mc_onsets
+  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes      
 
   "style/keyboards":  
     - .default  
