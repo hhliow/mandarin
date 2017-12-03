@@ -50,7 +50,7 @@ patch:
       - {click: "n", label: "n", hint: "nʑ - ɳ", swipe_left: "nj", swipe_up: "nx", swipe_down: "nh"}
       - {click: "m", label: "m", hint: "mj - ", swipe_left: "mj", swipe_up: "mx", swipe_down: "mh"}
       # 第五行
-      - {click: "{Keyboard_latin}{Mode_switch}", long_click: Menu}  
+      - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
       - {click: "「", swipe_up: "〈"}      
       - {click: space, width: 34}    
@@ -304,7 +304,7 @@ patch:
       - {click: 'n', long_click: '"', swipe_up: 'N'}
       - {click: 'm', long_click: "'", swipe_up: 'M'}
       - {click: BackSpace, width: 15}
-      - {click: "{Mode_switch}{Keyboard_mc_phonemes}", long_click: Menu, width: 15}
+      - {click: "{Mode_switch}{Keyboard_mc_phonemes}", label: "Tshet", long_click: Menu, width: 15}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
       - {click: ',', long_click: '<'}
       - {click: space, width: 30, swipe_right: Schema_switch}
