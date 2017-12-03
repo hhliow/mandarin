@@ -274,18 +274,28 @@ patch:
     height: 55
     lock: true    
     keys:
-      - {click: 'q', long_click: '!', swipe_up: 'Q', swipe_down: 1}
-      - {click: 'w', long_click: '@', swipe_up: 'W', swipe_down: 2}
-      - {click: 'e', long_click: '#', swipe_up: 'E', swipe_down: 3}
-      - {click: 'r', long_click: '$', swipe_up: 'R', swipe_down: 4}
-      - {click: 't', long_click: '%', swipe_up: 'T', swipe_down: 5}
-      - {click: 'y', long_click: '^', swipe_up: 'Y', swipe_down: 6}
-      - {click: 'u', long_click: '&', swipe_up: 'U', swipe_down: 7}
-      - {click: 'i', long_click: '*', swipe_up: 'I', swipe_down: 8}
-      - {click: 'o', long_click: '(){Left}', swipe_up: 'O', swipe_down: 9}
-      - {click: 'p', long_click: 'Hide', swipe_up: 'P', swipe_down: 0}
+      - {click: 'q', long_click: '!', swipe_up: 'Q', swipe_down: 1, hint: '1'}
+      - {click: 'w', long_click: '@', swipe_up: 'W', swipe_down: 2, hint: '2'}
+      - {click: 'e', long_click: '#', swipe_up: 'E', swipe_down: 3, hint: '3'}
+      - {click: 'r', long_click: '$', swipe_up: 'R', swipe_down: 4, hint: '4'}
+      - {click: 't', long_click: '%', swipe_up: 'T', swipe_down: 5, hint: '5'}
+      - {click: 'y', long_click: '^', swipe_up: 'Y', swipe_down: 6, hint: '6'}
+      - {click: 'u', long_click: '&', swipe_up: 'U', swipe_down: 7, hint: '7'}
+      - {click: 'i', long_click: '*', swipe_up: 'I', swipe_down: 8, hint: '8'}
+      - {click: 'o', long_click: '(){Left}', swipe_up: 'O', swipe_down: 9, hint: '9'}
+      - {click: 'p', long_click: 'Hide', swipe_up: 'P', swipe_down: 0, hint: '0'}
       - {width: 5}
-      
+      - {click: 'a', long_click: select_all, swipe_up: 'A', swipe_down: '@', hint: '@'}
+      - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: 'S', swipe_down: '*', hint: '*'}
+      - {click: 'd', long_click: '-', swipe_up: 'D', swipe_down: '_', hint: '-'}
+      - {click: 'f', long_click: '+', swipe_up: 'F', swipe_down: '=', hint: '='}
+      - {click: 'g', long_click: '\', swipe_up: 'G', swipe_down: '|', hint: '|'}
+      - {click: 'h', long_click: '[]{Left}', swipe_up: 'H', swipe_left: '[', swipe_right: ']'}
+      - {click: 'j', long_click: '{}{Left}', swipe_up: 'J', swipe_left: '{', swipe_right: '}'}
+      - {click: 'k', long_click: ':', swipe_up: 'K'}
+      - {click: 'l', long_click: ';', swipe_up: 'L'}
+      - {width: 5}
+
   "preset_keys/Keyboard_mc_onsets":
     label: 紐
     send: Eisu_toggle
