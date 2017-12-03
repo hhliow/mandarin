@@ -303,7 +303,7 @@ patch:
       - {click: 'n', long_click: '"', swipe_up: 'N'}
       - {click: 'm', long_click: "'", swipe_up: 'M'}
       - {click: BackSpace, width: 15}
-      - {click: "{Mode_switch}{Keyboard_mc_phonemes}", label: "Tshet", long_click: Menu, width: 15}
+      - {click: Keyboard_mc_phonemes, long_click: Menu, width: 15}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
       - {click: ',', long_click: '<'}
       - {click: space, width: 30, swipe_right: Schema_switch}
