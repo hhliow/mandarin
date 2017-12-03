@@ -4,6 +4,7 @@ patch:
     author: "hliow <hxliow@gmail.com>"
     name: "mc_phonemes"
     ascii_mode: 0
+    ascii_keyboard: latin
     height: 44
     width: 11
     keys:
@@ -281,6 +282,57 @@ patch:
 
   "preset_keyboards/qwerty/keys/@31/long_click": Keyboard_mc_onsets
   "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes
+  
+  "preset_keyboards/latin":
+    name: latin
+    author: "hliow <hxliow@gmail.com>"
+    ascii_mode: 1
+    width: 10
+    height: 55
+    key_symbol_offset_x: 0
+    key_symbol_offset_y: 0
+    key_text_offset_x: 0
+    key_text_offset_y: 0
+    key_hint_offset_x: 0
+    key_hint_offset_y: 0
+    keys:
+      - {click: 'q', long_click: '!', swipe_up: 'Q', swipe_down: 1}
+      - {click: 'w', long_click: '@', swipe_up: 'W', swipe_down: 2}
+      - {click: 'e', long_click: '#', swipe_up: 'E', swipe_down: 3}
+      - {click: 'r', long_click: '$', swipe_up: 'R', swipe_down: 4}
+      - {click: 't', long_click: '%', swipe_up: 'T', swipe_down: 5}
+      - {click: 'y', long_click: '^', swipe_up: 'Y', swipe_down: 6}
+      - {click: 'u', long_click: '&', swipe_up: 'U', swipe_down: 7}
+      - {click: 'i', long_click: '*', swipe_up: 'I', swipe_down: 8}
+      - {click: 'o', long_click: '(){Left}', swipe_up: 'O', swipe_down: 9}
+      - {click: 'p', long_click: 'Hide', swipe_up: 'P', swipe_down: 0}
+      - {width: 5}
+      - {click: 'a', long_click: select_all, swipe_up: 'A', swipe_down: @}
+      - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: 'S', swipe_down: '*'}
+      - {click: 'd', long_click: '-', swipe_up: 'D', swipe_down: '_'}
+      - {click: 'f', long_click: '+', swipe_up: 'F', swipe_down: '='}
+      - {click: 'g', long_click: '\', swipe_up: 'G', swipe_down: '|'}
+      - {click: 'h', long_click: '[]{Left}', swipe_up: 'H', swipe_left: '[', swipe_right: ']'}
+      - {click: 'j', long_click: '{}{Left}', swipe_up: 'J', swipe_left: '{', swipe_right: '}'}
+      - {click: 'k', long_click: ':', swipe_up: 'K'}
+      - {click: 'l', long_click: ';', swipe_up: 'L'}
+      - {width: 5}
+      - {click: Shift_L, send_bindings: false, width: 15}
+      - {click: 'z', long_click: '`', swipe_up: 'Z'}
+      - {click: 'x', long_click: cut, swipe_up: 'X'}
+      - {click: 'c', long_click: copy, swipe_up: 'C'}
+      - {click: 'v', long_click: paste, swipe_up: 'V'}
+      - {click: 'b', long_click: Time, swipe_up: 'B', swipe_down: Date}
+      - {click: 'n', long_click: '"', swipe_up: 'N'}
+      - {click: 'm', long_click: "'", swipe_up: 'M'}
+      - {click: BackSpace, width: 15}
+      - {click: Keyboard_mc_phonemes, swipe_up: Mode_switch, long_click: Menu, width: 15}
+      - {click: Keyboard_symbols, long_click: Keyboard_number}
+      - {click: ',', long_click: '<'}
+      - {click: space, width: 30, swipe_right: Schema_switch}
+      - {click: '.', long_click: '>'}
+      - {click: '/', long_click: '?'}
+      - {click: Return, long_click: CommitComment, width: 15}
 
   "style/keyboards":  
     - .default  
@@ -290,3 +342,4 @@ patch:
     - mc_onsets
     - mc_rhymes
     - mc_phonemes
+    - latin
