@@ -288,7 +288,7 @@ patch:
       - {click: 's', long_click: '~', swipe_left: Home, swipe_right: End, swipe_up: 'S', swipe_down: '*', hint: '*'}
       - {click: 'd', long_click: '-', swipe_up: 'D', swipe_down: "_", hint: "_"}
       - {click: 'f', long_click: '+', swipe_up: 'F', swipe_down: '=', hint: '='}
-      - {click: 'g', long_click: '\', swipe_up: 'G', swipe_down: "\|", hint: '|'}
+      - {click: 'g', long_click: '\', swipe_up: 'G', swipe_down: "|", hint: '|'}
       - {click: 'h', long_click: '[]{Left}', swipe_up: 'H', swipe_left: '[', swipe_right: ']'}
       - {click: 'j', long_click: '{}{Left}', swipe_up: 'J', swipe_left: '{', swipe_right: '}'}
       - {click: 'k', long_click: ':', swipe_up: 'K'}
