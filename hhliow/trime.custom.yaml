@@ -30,7 +30,7 @@ patch:
       - {click: "f", label: "滂", hint: "合二"}
       # 第三行
       - {click: "z", label: "邪", hint: "幽", swipe_up: "zX", swipe_down: "zH"}
-      - {click: "i", label: "云以", hint: "脂", swipe_up: "iX", swipe_down: "iH"}
+      - {click: "i", label: "云", hint: "脂以", swipe_up: "iX", swipe_down: "iH"}
       - {click: "o", label: "禪", hint: "魚虞模", swipe_up: "oX", swipe_down: "oH"}
       - {click: "J", label: "崇", hint: "侵", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
       - {click: "I", label: "從", hint: "臻諄真", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
@@ -52,9 +52,9 @@ patch:
       - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
       - {click: "「", swipe_up: "〈"}      
-      - {click: space, label: "式機手法入輸音古中", width: 34}    
+      - {click: space, label: "式機手法入輸韻切", width: 34}    
       - {click: "」", swipe_up: "〉"}      
-      - {click: BackSpace}
+      - {click: BackSpace, label = "格退"}
       - {click: Return}
       
   "preset_keyboards/mc_phonemes_overloaded":
@@ -109,9 +109,9 @@ patch:
       - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
       - {click: "「", swipe_up: "〈"}      
-      - {click: space, label: "式機手法入輸音古中", width: 34}    
+      - {click: space, label: "式機手音拼古中", width: 34}    
       - {click: "」", swipe_up: "〉"}      
-      - {click: BackSpace}
+      - {click: BackSpace, label = "格退"}
       - {click: Return}
 
   "preset_keyboards/mc_phonemes":
