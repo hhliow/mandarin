@@ -54,7 +54,7 @@ patch:
       - {click: "「", swipe_up: "〈"}      
       - {click: space, label: "式機手法入輸韻切", width: 34}    
       - {click: "」", swipe_up: "〉"}      
-      - {click: BackSpace, label = "格退"}
+      - {click: BackSpace, label: "格退"}
       - {click: Return}
       
   "preset_keyboards/mc_phonemes_overloaded":
@@ -111,7 +111,7 @@ patch:
       - {click: "「", swipe_up: "〈"}      
       - {click: space, label: "式機手音拼古中", width: 34}    
       - {click: "」", swipe_up: "〉"}      
-      - {click: BackSpace, label = "格退"}
+      - {click: BackSpace, label: "格退"}
       - {click: Return}
 
   "preset_keyboards/mc_phonemes":
