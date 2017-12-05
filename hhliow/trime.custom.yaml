@@ -71,7 +71,7 @@ patch:
       - {click: "a", label: "tɕ", hint: "ɑ a", swipe_up: "aX", swipe_down: "aH"}
       - {click: "C", label: "ʈʂ", hint: "ɑm am", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK"}
       - {click: "A", label: "ts", hint: "ɑn an", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
-      - {click: "k", label: "j", hint: "ɑŋ aŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: "K"}
+      - {click: "k", label: "k", hint: "ɑŋ aŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: "K"}
       - {click: "T", label: "ʈ"}
       - {click: "t", label: "t", long_click: "K"}
       - {click: "p", label: "p", hint: "-w-", long_click: "K"}
