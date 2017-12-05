@@ -52,7 +52,7 @@ patch:
       - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
       - {click: "「", swipe_up: "〈"}      
-      - {click: space, width: 34}    
+      - {click: space, label: "式機手法入輸音古中", width: 34}    
       - {click: "」", swipe_up: "〉"}      
       - {click: BackSpace}
       - {click: Return}
@@ -109,7 +109,7 @@ patch:
       - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
       - {click: "「", swipe_up: "〈"}      
-      - {click: space, width: 34}    
+      - {click: space, label: "式機手法入輸音古中", width: 34}    
       - {click: "」", swipe_up: "〉"}      
       - {click: BackSpace}
       - {click: Return}
