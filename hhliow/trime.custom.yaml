@@ -30,7 +30,7 @@ patch:
       - {click: "f", label: "滂", hint: "合二"}
       # 第三行
       - {click: "z", label: "邪", hint: "幽", swipe_up: "zX", swipe_down: "zH"}
-      - {click: "i", label: "云", hint: "脂", swipe_up: "iX", swipe_down: "iH"}
+      - {click: "i", label: "云", hint: "脂匣", swipe_up: "iX", swipe_down: "iH"}
       - {click: "o", label: "禪", hint: "魚虞模", swipe_up: "oX", swipe_down: "oH"}
       - {click: "J", label: "崇", hint: "侵", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
       - {click: "I", label: "從", hint: "臻諄真", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
@@ -417,7 +417,7 @@ patch:
       - {click: 'n', long_click: '"', swipe_up: 'N'}
       - {click: 'm', long_click: "'", swipe_up: 'M'}
       - {click: BackSpace, width: 15}
-      - {click: Keyboard_mc_phonemes_overloaded, long_click: Menu, swipe_left: Keyboard_mc_phonemes_overloaded_chinese, width: 15}
+      - {click: Keyboard_mc_phonemes_overloaded, long_click: Menu, swipe_right: Keyboard_mc_phonemes_overloaded_chinese, width: 15}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
       - {click: ',', long_click: '<'}
       - {click: space, width: 30, swipe_right: Schema_switch}
