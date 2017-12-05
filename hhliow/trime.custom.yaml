@@ -35,7 +35,7 @@ patch:
       - {click: "J", label: "崇", hint: "侵", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
       - {click: "I", label: "從", hint: "真諄臻", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
       - {click: "g", label: "羣", hint: "冬江鍾", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
-      - {click: "D", label: "澄", hint: "庚"} 
+      - {click: "D", label: "澄", hint: "庚", swipe_up: "DX", swipe_down: "DH", swipe_right: "DK"}
       - {click: "d", label: "定", hint: "三開"}
       - {click: "b", label: "並", hint: "三合"}
       # 第四行  
@@ -92,7 +92,7 @@ patch:
       - {click: "J", label: "ɖʐ", hint: "im", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
       - {click: "I", label: "dz", hint: "in", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
       - {click: "g", label: "g", hint: "ɔŋ oŋ", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
-      - {click: "D", label: "ɖ", hint: "aŋ"} 
+      - {click: "D", label: "ɖ", hint: "aŋ", swipe_up: "DX", swipe_down: "DH", swipe_right: "DK"}
       - {click: "d", label: "d", hint: "-i-"}
       - {click: "b", label: "b", hint: "-wi-"}
       # 第四行  
