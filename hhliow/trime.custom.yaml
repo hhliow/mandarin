@@ -24,7 +24,7 @@ patch:
       - {click: "e", label: "昌", hint: "佳支", swipe_up: "eX", swipe_down: "eH"}
       - {click: "M", label: "初", hint: "咸鹽添", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
       - {click: "E", label: "清", hint: "山仙先", swipe_up: "EX", swipe_down: "EH", swipe_right: "EK"}
-      - {click: "x", label: "溪", hint: "耕庚三清青", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
+      - {click: "x", label: "溪", hint: "耕清青", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
       - {click: "R", label: "徹"} 
       - {click: "r", label: "透", hint: "二開"}
       - {click: "f", label: "滂", hint: "二合"}
@@ -35,7 +35,7 @@ patch:
       - {click: "J", label: "崇", hint: "侵", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
       - {click: "I", label: "從", hint: "真諄臻", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
       - {click: "g", label: "羣", hint: "冬江鍾", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
-      - {click: "D", label: "澄"} 
+      - {click: "D", label: "澄", hint: "庚"} 
       - {click: "d", label: "定", hint: "三開"}
       - {click: "b", label: "並", hint: "三合"}
       # 第四行  
@@ -71,7 +71,7 @@ patch:
       - {click: "a", label: "tɕ", hint: "ɑ a", swipe_up: "aX", swipe_down: "aH"}
       - {click: "C", label: "ʈʂ", hint: "ɑm am", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK"}
       - {click: "A", label: "ts", hint: "ɑn an", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
-      - {click: "k", label: "k", hint: "ɑŋ aŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: Njip_shieng}
+      - {click: "k", label: "k", hint: "ɑŋ ɣaŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: Njip_shieng}
       - {click: "T", label: "ʈ"}
       - {click: "t", label: "t", long_click: Njip_shieng}
       - {click: "p", label: "p", hint: "-w-", long_click: Njip_shieng}
@@ -92,7 +92,7 @@ patch:
       - {click: "J", label: "ɖʐ", hint: "im", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
       - {click: "I", label: "dz", hint: "in", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
       - {click: "g", label: "g", hint: "ɔŋ oŋ", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
-      - {click: "D", label: "ɖ"} 
+      - {click: "D", label: "ɖ", hint: "aŋ"} 
       - {click: "d", label: "d", hint: "-i-"}
       - {click: "b", label: "b", hint: "-wi-"}
       # 第四行  
