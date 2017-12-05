@@ -30,7 +30,7 @@ patch:
       - {click: "f", label: "滂", hint: "合二"}
       # 第三行
       - {click: "z", label: "邪", hint: "幽", swipe_up: "zX", swipe_down: "zH"}
-      - {click: "i", label: "云", hint: "脂以", swipe_up: "iX", swipe_down: "iH"}
+      - {click: "i", label: "云", hint: "脂", swipe_up: "iX", swipe_down: "iH"}
       - {click: "o", label: "禪", hint: "魚虞模", swipe_up: "oX", swipe_down: "oH"}
       - {click: "J", label: "崇", hint: "侵", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
       - {click: "I", label: "從", hint: "臻諄真", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
@@ -39,8 +39,8 @@ patch:
       - {click: "d", label: "定", hint: "開三"}
       - {click: "b", label: "並", hint: "合三"}
       # 第四行  
-      - {click: "u", label: "船", hint: "尤侯", swipe_up: "uX", swipe_down: "uH"}
-      - {click: "Z", label: "俟", hint: "微灰咍", swipe_up: "ZX", swipe_down: "ZH"}
+      - {click: "u", label: "船", hint: "尤侯俟", swipe_up: "uX", swipe_down: "uH"}
+      - {click: "j", label: "以", hint: "微灰咍", swipe_up: "ZX", swipe_down: "ZH"}
       - {click: "Y", label: "書", hint: "之", swipe_up: "YX", swipe_down: "YH"}
       - {click: "S", label: "生", hint: "覃", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK"}
       - {click: "s", label: "心", hint: "文欣魂痕", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK"}
@@ -87,7 +87,7 @@ patch:
       - {click: "f", label: "ph", hint: "-ɣw-"}
       # 第三行
       - {click: "z", label: "z", hint: "iw", swipe_up: "zX", swipe_down: "zH"}
-      - {click: "i", label: "ɦ/j", hint: "i", swipe_up: "iX", swipe_down: "iH"}
+      - {click: "i", label: "ɦ", hint: "i", swipe_up: "iX", swipe_down: "iH"}
       - {click: "o", label: "dʑ", hint: "o ʌ", swipe_up: "oX", swipe_down: "oH"}
       - {click: "J", label: "ɖʐ", hint: "im", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
       - {click: "I", label: "dz", hint: "in", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
@@ -96,8 +96,8 @@ patch:
       - {click: "d", label: "d", hint: "-i-"}
       - {click: "b", label: "b", hint: "-wi-"}
       # 第四行  
-      - {click: "u", label: "ʑ", hint: "u", swipe_up: "uX", swipe_down: "uH"}
-      - {click: "Z", label: "ʐ", hint: "əi oi ɨi ui", swipe_up: "ZX", swipe_down: "ZH"}
+      - {click: "u", label: "ʑ ʐ", hint: "u", swipe_up: "uX", swipe_down: "uH"}
+      - {click: "j", label: "j", hint: "əi oi ɨi ui", swipe_up: "ZX", swipe_down: "ZH"}
       - {click: "Y", label: "ɕ", hint: "ɨ", swipe_up: "YX", swipe_down: "YH"}
       - {click: "S", label: "ʂ", hint: "əm", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK"}
       - {click: "s", label: "s", hint: "ən on ɨn", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK"}
