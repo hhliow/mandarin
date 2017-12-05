@@ -127,7 +127,7 @@ patch:
       - {click: "q", label: "ʔ", hint: "ɑ", swipe_up: "qX", swipe_down: "qH", long_click: Dzhiangx_shieng}
       - {click: "c", label: "tɕ", hint: "ɑm", swipe_up: "aX", swipe_down: "aH"}
       - {click: "C", label: "ʈʂ", hint: "ɑn", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK"}
-      - {click: "", label: "ts", hint: "ɑŋ", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
+      - {click: "A", label: "ts", hint: "ɑŋ", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
       - {click: "k", label: "k", hint: "im", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: Njip_shieng}
       - {click: "T", label: "ʈ", hint: "in"}
       - {click: "t", label: "t", hint: "i", long_click: Njip_shieng}
@@ -136,8 +136,8 @@ patch:
       - {click: "o", label: "nʑ", hint: "aw", swipe_up: "WX", swipe_down: "WH"}
       - {click: "h", label: "h", hint: "a", swipe_up: "hX", swipe_down: "hH", long_click: Khioh_shieng}
       - {click: "a", label: "tɕh", hint: "am", swipe_up: "eX", swipe_down: "eH"}
-      - {click: "", label: "ʈʂh", hint: "an", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
-      - {click: "", label: "tsh", hint: "aŋ", swipe_up: "EX", swipe_down: "EH", swipe_right: "EK"}
+      - {click: "an", label: "ʈʂh", hint: "an", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
+      - {click: "ang", label: "tsh", hint: "aŋ", swipe_up: "EX", swipe_down: "EH", swipe_right: "EK"}
       - {click: "x", label: "kh", hint: "oŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
       - {click: "i", label: "ʈh", hint: "o"} 
       - {click: "o", label: "th", hint: "uŋ"}
@@ -147,7 +147,7 @@ patch:
       - {click: "G", label: "ɦ", hint: "ɛ", swipe_up: "iX", swipe_down: "iH"}
       - {click: "E", label: "dʑ", hint: "ɛm", swipe_up: "oX", swipe_down: "oH"}
       - {click: "M", label: "ɖʐ", hint: "ɛn", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
-      - {click: "", label: "dz", hint: "ɛŋ", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
+      - {click: "Z", label: "dz", hint: "ɛŋ", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
       - {click: "g", label: "g", hint: "əi", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
       - {click: "D", label: "ɖ", hint: "ən", swipe_up: "DX", swipe_down: "DH", swipe_right: "DK"}
       - {click: "d", label: "d", hint: "əm"}
