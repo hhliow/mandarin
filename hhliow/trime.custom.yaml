@@ -1,5 +1,119 @@
 # trime.custom.yaml  
 patch:  
+  "preset_keyboards/mc_phonemes_overloaded_chinese":
+    author: "hliow <hxliow@gmail.com>"
+    name: "mc_phonemes_overloaded_chinese"
+    ascii_mode: 0
+    height: 44
+    width: 11
+    lock: true
+    keys:
+      # 第一行  
+      - {click: "l", label: "來", hint: "豪肴", swipe_up: "lX", swipe_down: "lH"}
+      - {click: "q", label: "影", hint: "泰夬廢", swipe_up: "qX", swipe_down: "qH", long_click: "X"}
+      - {click: "a", label: "章", hint: "歌戈麻", swipe_up: "aX", swipe_down: "aH"}
+      - {click: "C", label: "莊", hint: "談銜嚴凡", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK"}
+      - {click: "A", label: "精", hint: "寒桓刪元", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
+      - {click: "k", label: "見", hint: "唐庚二陽", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: "K"}
+      - {click: "T", label: "知"}
+      - {click: "t", label: "端", long_click: "K"}
+      - {click: "p", label: "幫", hint: "-w-", long_click: "K"}
+      # 第二行  
+      - {click: "W", label: "日", hint: "宵蕭", swipe_up: "WX", swipe_down: "WH"}
+      - {click: "h", label: "曉", hint: "皆際齊", swipe_up: "hX", swipe_down: "hH", long_click: "H"}
+      - {click: "e", label: "昌", hint: "佳支", swipe_up: "eX", swipe_down: "eH"}
+      - {click: "M", label: "初", hint: "咸鹽添", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
+      - {click: "E", label: "清", hint: "山仙先", swipe_up: "EX", swipe_down: "EH", swipe_right: "EK"}
+      - {click: "x", label: "溪", hint: "耕庚三清青", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
+      - {click: "R", label: "徹"} 
+      - {click: "r", label: "透", hint: "二開"}
+      - {click: "f", label: "滂", hint: "二合"}
+      # 第三行
+      - {click: "z", label: "邪", hint: "幽", swipe_up: "zX", swipe_down: "zH"}
+      - {click: "i", label: "云以", hint: "脂", swipe_up: "iX", swipe_down: "iH"}
+      - {click: "o", label: "禪", hint: "模虞魚", swipe_up: "oX", swipe_down: "oH"}
+      - {click: "J", label: "崇", hint: "侵", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
+      - {click: "I", label: "從", hint: "真諄臻", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
+      - {click: "g", label: "羣", hint: "冬江鍾", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
+      - {click: "D", label: "澄"} 
+      - {click: "d", label: "定", hint: "三開"}
+      - {click: "b", label: "並", hint: "三合"}
+      # 第四行  
+      - {click: "u", label: "船", hint: "侯尤", swipe_up: "uX", swipe_down: "uH"}
+      - {click: "Z", label: "俟", hint: "咍灰微", swipe_up: "ZX", swipe_down: "ZH"}
+      - {click: "Y", label: "書", hint: "之", swipe_up: "YX", swipe_down: "YH"}
+      - {click: "S", label: "生", hint: "覃", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK"}
+      - {click: "s", label: "心", hint: "痕魂欣文", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK"}
+      - {click: "N", label: "疑", hint: "登蒸", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK"}
+      - {click: "U", label: "孃", hint: "東", swipe_up: "UX", swipe_down: "UH", swipe_right: "UK"}
+      - {click: "n", label: "泥", hint: "三甲開"}
+      - {click: "m", label: "明", hint: "三乙開"}
+      # 第五行
+      - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
+      - {click: "。", swipe_up: "、"}
+      - {click: "「", swipe_up: "〈"}      
+      - {click: space, width: 34}    
+      - {click: "」", swipe_up: "〉"}      
+      - {click: BackSpace}
+      - {click: Return}
+      
+  "preset_keyboards/mc_phonemes_overloaded":
+    author: "hliow <hxliow@gmail.com>"
+    name: "mc_phonemes_overloaded"
+    ascii_mode: 0
+    height: 44
+    width: 11
+    lock: true
+    keys:
+      # 第一行  
+      - {click: "l", label: "l", hint: "ɑw aw", swipe_up: "lX", swipe_down: "lH"}
+      - {click: "q", label: "ʔ", hint: "ɑi ai", swipe_up: "qX", swipe_down: "qH", long_click: "X"}
+      - {click: "a", label: "tɕ", hint: "ɑ a", swipe_up: "aX", swipe_down: "aH"}
+      - {click: "C", label: "ʈʂ", hint: "ɑm am", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK"}
+      - {click: "A", label: "ts", hint: "ɑn an", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
+      - {click: "k", label: "k", hint: "ɑŋ aŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: "K"}
+      - {click: "T", label: "ʈ"}
+      - {click: "t", label: "t", long_click: "K"}
+      - {click: "p", label: "p", hint: "-w-", long_click: "K"}
+      # 第二行  
+      - {click: "W", label: "nʑ", hint: "ew", swipe_up: "WX", swipe_down: "WH"}
+      - {click: "h", label: "h", hint: "ɛi ei", swipe_up: "hX", swipe_down: "hH", long_click: "H"}
+      - {click: "e", label: "tɕh", hint: "ɛ e", swipe_up: "eX", swipe_down: "eH"}
+      - {click: "M", label: "ʈʂh", hint: "ɛm em", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
+      - {click: "E", label: "tsh", hint: "ɛn en", swipe_up: "EX", swipe_down: "EH", swipe_right: "EK"}
+      - {click: "x", label: "kh", hint: "ɛŋ eŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
+      - {click: "R", label: "ʈh"} 
+      - {click: "r", label: "th", hint: "-ɣ-"}
+      - {click: "f", label: "ph", hint: "-ɣw-"}
+      # 第三行
+      - {click: "z", label: "z", hint: "iw", swipe_up: "zX", swipe_down: "zH"}
+      - {click: "i", label: "ɦ/j", hint: "i", swipe_up: "iX", swipe_down: "iH"}
+      - {click: "o", label: "dʑ", hint: "o ʌ", swipe_up: "oX", swipe_down: "oH"}
+      - {click: "J", label: "ɖʐ", hint: "im", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
+      - {click: "I", label: "dz", hint: "in", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
+      - {click: "g", label: "g", hint: "ɔŋ oŋ", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
+      - {click: "D", label: "ɖ"} 
+      - {click: "d", label: "d", hint: "-i-"}
+      - {click: "b", label: "b", hint: "-wi-"}
+      # 第四行  
+      - {click: "u", label: "ʑ", hint: "u", swipe_up: "uX", swipe_down: "uH"}
+      - {click: "Z", label: "ʐ", hint: "əi oi ɨi ui", swipe_up: "ZX", swipe_down: "ZH"}
+      - {click: "Y", label: "ɕ", hint: "ɨ", swipe_up: "YX", swipe_down: "YH"}
+      - {click: "S", label: "ʂ", hint: "əm", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK"}
+      - {click: "s", label: "s", hint: "ən on ɨn", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK"}
+      - {click: "N", label: "ŋ", hint: "əŋ ɨŋ", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK"}
+      - {click: "U", label: "ɳ", hint: "uŋ", swipe_up: "UX", swipe_down: "UH", swipe_right: "UK"}
+      - {click: "n", label: "n", hint: "-ji-"}
+      - {click: "m", label: "m", hint: "-jw-"}
+      # 第五行
+      - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
+      - {click: "。", swipe_up: "、"}
+      - {click: "「", swipe_up: "〈"}      
+      - {click: space, width: 34}    
+      - {click: "」", swipe_up: "〉"}      
+      - {click: BackSpace}
+      - {click: Return}
+
   "preset_keyboards/mc_phonemes":
     author: "hliow <hxliow@gmail.com>"
     name: "mc_phonemes"
@@ -55,64 +169,7 @@ patch:
       - {click: space, width: 34}    
       - {click: "」", swipe_up: "〉"}      
       - {click: BackSpace}
-      - {click: Return}
-
-  "preset_keyboards/mc_phonemes_overloaded":
-    author: "hliow <hxliow@gmail.com>"
-    name: "mc_phonemes_overloaded"
-    ascii_mode: 0
-    height: 44
-    width: 11
-    lock: true
-    keys:
-      # 第一行  
-      - {click: "l", label: "l", hint: "ɑw aw", swipe_up: "lX", swipe_down: "lH"}
-      - {click: "q", label: "ʔ", hint: "ɑi ai", swipe_up: "qX", swipe_down: "qH", long_click: "X"}
-      - {click: "a", label: "tɕ", hint: "ɑ a", swipe_up: "aX", swipe_down: "aH"}
-      - {click: "C", label: "ʈʂ", hint: "ɑm am", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK"}
-      - {click: "A", label: "ts", hint: "ɑn an", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
-      - {click: "k", label: "k", hint: "ɑŋ aŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: "K"}
-      - {click: "T", label: "ʈ"}
-      - {click: "t", label: "t", long_click: "K"}
-      - {click: "p", label: "p", hint: "-w-", long_click: "K"}
-      # 第二行  
-      - {click: "W", label: "nʑ", hint: "ew", swipe_up: "WX", swipe_down: "WH"}
-      - {click: "h", label: "h", hint: "ɛi ei", swipe_up: "hX", swipe_down: "hH", long_click: "H"}
-      - {click: "e", label: "tɕh", hint: "ɛ e", swipe_up: "eX", swipe_down: "eH"}
-      - {click: "M", label: "ʈʂh", hint: "ɛm em", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
-      - {click: "E", label: "tsh", hint: "ɛn en", swipe_up: "EX", swipe_down: "EH", swipe_right: "EK"}
-      - {click: "x", label: "kh", hint: "ɛŋ eŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
-      - {click: "R", label: "ʈh"} 
-      - {click: "r", label: "th", hint: "-ɣ-"}
-      - {click: "f", label: "ph", hint: "-ɣw-"}
-      # 第三行
-      - {click: "z", label: "z", hint: "iw", swipe_up: "zX", swipe_down: "zH"}
-      - {click: "i", label: "ɦ/j", hint: "i", swipe_up: "iX", swipe_down: "iH"}
-      - {click: "o", label: "dʑ", hint: "o ʌ", swipe_up: "oX", swipe_down: "oH"}
-      - {click: "J", label: "ɖʐ", hint: "im", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
-      - {click: "I", label: "dz", hint: "in", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
-      - {click: "g", label: "g", hint: "ɔŋ oŋ", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
-      - {click: "D", label: "ɖ"} 
-      - {click: "d", label: "d", hint: "-i-"}
-      - {click: "b", label: "b", hint: "-wi-"}
-      # 第四行  
-      - {click: "u", label: "ʑ", hint: "u", "e", swipe_up: "uX", swipe_down: "uH"}
-      - {click: "Z", label: "ʐ", hint: "əi oi ɨi", swipe_up: "ZX", swipe_down: "ZH"}
-      - {click: "Y", label: "ɕ", hint: "ɨ", swipe_up: "YX", swipe_down: "YH"}
-      - {click: "S", label: "ʂ", hint: "əm", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK"}
-      - {click: "s", label: "s", hint: "ən ɨn", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK"}
-      - {click: "N", label: "ŋ", hint: "əŋ ɨŋ", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK"}
-      - {click: "U", label: "ɳ", hint: "uŋ", swipe_up: "UX", swipe_down: "UH", swipe_right: "UK"}
-      - {click: "n", label: "n", hint: "-ji-"}
-      - {click: "m", label: "m", hint: "-jw-"}
-      # 第五行
-      - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
-      - {click: "。", swipe_up: "、"}
-      - {click: "「", swipe_up: "〈"}      
-      - {click: space, width: 34}    
-      - {click: "」", swipe_up: "〉"}      
-      - {click: BackSpace}
-      - {click: Return}
+      - {click: Return}      
 
   "preset_keyboards/mc_onsets":
     author: "hliow <hxliow@gmail.com>"
@@ -360,7 +417,7 @@ patch:
       - {click: 'n', long_click: '"', swipe_up: 'N'}
       - {click: 'm', long_click: "'", swipe_up: 'M'}
       - {click: BackSpace, width: 15}
-      - {click: Keyboard_mc_phonemes, long_click: Menu, width: 15}
+      - {click: Keyboard_mc_phonemes_overloaded, long_click: Menu, swipe_left: Keyboard_mc_phonemes_overloaded_chinese, width: 15}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
       - {click: ',', long_click: '<'}
       - {click: space, width: 30, swipe_right: Schema_switch}
@@ -383,17 +440,21 @@ patch:
     send: Eisu_toggle
     select: qwerty    
     
+  "preset_keys/Keyboard_mc_phonemes_overloaded_chinese":
+    label: 紐韻
+    send: Eisu_toggle
+    select: mc_phonemes_overloaded_chinese
+    
   "preset_keys/Keyboard_mc_phonemes_overloaded":
     label: 紐韻
     send: Eisu_toggle
-    select: mc_phonemes_overloaded
+    select: mc_phonemes_overloaded    
 
   "preset_keys/Keyboard_latin":
     label: Latin
     send: Eisu_toggle
     select: qwerty
 
-  "preset_keyboards/qwerty/keys/@31/long_click": Keyboard_mc_phonemes_overloaded
   "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes      
 
   "style/keyboards":  
@@ -406,3 +467,4 @@ patch:
     - mc_phonemes
     - latin
     - mc_phonemes_overloaded
+    - mc_phonemes_overloaded_chinese
