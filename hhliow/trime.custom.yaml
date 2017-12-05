@@ -11,8 +11,8 @@ patch:
       # 第一行  
       - {click: "eo", label: "ə", swipe_up: "eox", swipe_down: "eoh", swipe_left: "eok", swipe_right: "eoih"}
       - {click: "a", label: "ɑ", swipe_up: "ax", swipe_down: "ah", swipe_left: "ak", swipe_right: "aih"}
-      - {click: "o", label: "o", swipe_up: "ox", swipe_down: "oh",  swipe_left: "ok", swipe_right: "woih"}
-      - {click: "u", label: "u", swipe_up: "ux", swipe_down: "uh",  swipe_left: "uk", swipe_right: "woih"}
+      - {click: "o", label: "o", swipe_up: "ox", swipe_down: "oh", swipe_left: "ok", swipe_right: "woih"}
+      - {click: "u", label: "u", swipe_up: "ux", swipe_down: "uh", swipe_left: "uk", swipe_right: "woih"}
       - {click: "q", label: "ʔ", hint: "ʔj - ", swipe_left: "qj"}
       - {click: "ts", label: "ts", hint: "tɕ - ʈʂ", swipe_left: "tc", swipe_right: "tsr"}
       - {click: "k", label: "k", hint: "kj - ", swipe_left: "kj"} 
@@ -84,7 +84,7 @@ patch:
       - {click: "x", label: "kh", hint: "ɛŋ eŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
       - {click: "R", label: "ʈh"} 
       - {click: "r", label: "th", hint: "-ɣ-"}
-      - {click: "f" label: "ph", hint: "-ɣw-"}
+      - {click: "f", label: "ph", hint: "-ɣw-"}
       # 第三行
       - {click: "z", label: "z", hint: "iw", swipe_up: "zX", swipe_down: "zH"}
       - {click: "i", label: "ɦ/j", hint: "i", swipe_up: "iX", swipe_down: "iH"}
@@ -98,7 +98,7 @@ patch:
       # 第四行  
       - {click: "u", label: "ʑ", hint: "u", "e", swipe_up: "uX", swipe_down: "uH"}
       - {click: "Z", label: "ʐ", hint: "əi oi ɨi", swipe_up: "ZX", swipe_down: "ZH"}
-      - {click: "Y", label: "ɕ", hint: "ɨ", "io", swipe_up: "YX", swipe_down: "YH"}
+      - {click: "Y", label: "ɕ", hint: "ɨ", swipe_up: "YX", swipe_down: "YH"}
       - {click: "S", label: "ʂ", hint: "əm", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK"}
       - {click: "s", label: "s", hint: "ən ɨn", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK"}
       - {click: "N", label: "ŋ", hint: "əŋ ɨŋ", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK"}
