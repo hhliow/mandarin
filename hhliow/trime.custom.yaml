@@ -10,17 +10,17 @@ patch:
     keys:
       # 第一行  
       - {click: "l", label: "來", hint: "豪肴", swipe_up: "lX", swipe_down: "lH"}
-      - {click: "q", label: "影", hint: "泰夬廢", swipe_up: "qX", swipe_down: "qH", long_click: "X"}
+      - {click: "q", label: "影", hint: "泰夬廢", swipe_up: "qX", swipe_down: "qH", long_click: Dzhiangx_shieng}
       - {click: "a", label: "章", hint: "歌戈麻", swipe_up: "aX", swipe_down: "aH"}
       - {click: "C", label: "莊", hint: "談銜嚴凡", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK"}
       - {click: "A", label: "精", hint: "寒桓刪元", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
-      - {click: "k", label: "見", hint: "唐庚二陽", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: "K"}
+      - {click: "k", label: "見", hint: "唐庚二陽", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: Njip_shieng}
       - {click: "T", label: "知"}
-      - {click: "t", label: "端", long_click: "K"}
-      - {click: "p", label: "幫", hint: "-w-", long_click: "K"}
+      - {click: "t", label: "端", long_click: Njip_shieng}
+      - {click: "p", label: "幫", hint: "一四合", long_click: Njip_shieng}
       # 第二行  
       - {click: "W", label: "日", hint: "宵蕭", swipe_up: "WX", swipe_down: "WH"}
-      - {click: "h", label: "曉", hint: "皆際齊", swipe_up: "hX", swipe_down: "hH", long_click: "H"}
+      - {click: "h", label: "曉", hint: "皆際齊", swipe_up: "hX", swipe_down: "hH", long_click: Khioh_shieng}
       - {click: "e", label: "昌", hint: "佳支", swipe_up: "eX", swipe_down: "eH"}
       - {click: "M", label: "初", hint: "咸鹽添", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
       - {click: "E", label: "清", hint: "山仙先", swipe_up: "EX", swipe_down: "EH", swipe_right: "EK"}
@@ -47,7 +47,7 @@ patch:
       - {click: "N", label: "疑", hint: "登蒸", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK"}
       - {click: "U", label: "孃", hint: "東", swipe_up: "UX", swipe_down: "UH", swipe_right: "UK"}
       - {click: "n", label: "泥", hint: "三甲開"}
-      - {click: "m", label: "明", hint: "三乙開"}
+      - {click: "m", label: "明", hint: "三甲合"}
       # 第五行
       - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
@@ -67,17 +67,17 @@ patch:
     keys:
       # 第一行  
       - {click: "l", label: "l", hint: "ɑw aw", swipe_up: "lX", swipe_down: "lH"}
-      - {click: "q", label: "ʔ", hint: "ɑi ai", swipe_up: "qX", swipe_down: "qH", long_click: "X"}
+      - {click: "q", label: "ʔ", hint: "ɑi ai", swipe_up: "qX", swipe_down: "qH", long_click: Dzhiangx_shieng}
       - {click: "a", label: "tɕ", hint: "ɑ a", swipe_up: "aX", swipe_down: "aH"}
       - {click: "C", label: "ʈʂ", hint: "ɑm am", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK"}
       - {click: "A", label: "ts", hint: "ɑn an", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
-      - {click: "k", label: "k", hint: "ɑŋ aŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: "K"}
+      - {click: "k", label: "k", hint: "ɑŋ aŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: Njip_shieng}
       - {click: "T", label: "ʈ"}
-      - {click: "t", label: "t", long_click: "K"}
-      - {click: "p", label: "p", hint: "-w-", long_click: "K"}
+      - {click: "t", label: "t", long_click: Njip_shieng}
+      - {click: "p", label: "p", hint: "-w-", long_click: Njip_shieng}
       # 第二行  
       - {click: "W", label: "nʑ", hint: "ew", swipe_up: "WX", swipe_down: "WH"}
-      - {click: "h", label: "h", hint: "ɛi ei", swipe_up: "hX", swipe_down: "hH", long_click: "H"}
+      - {click: "h", label: "h", hint: "ɛi ei", swipe_up: "hX", swipe_down: "hH", long_click: Khioh_shieng}
       - {click: "e", label: "tɕh", hint: "ɛ e", swipe_up: "eX", swipe_down: "eH"}
       - {click: "M", label: "ʈʂh", hint: "ɛm em", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
       - {click: "E", label: "tsh", hint: "ɛn en", swipe_up: "EX", swipe_down: "EH", swipe_right: "EK"}
@@ -425,6 +425,23 @@ patch:
       - {click: '/', long_click: '?'}
       - {click: Return, long_click: CommitComment, width: 15}
 
+  "preset_keys/Dzhiangx_shieng":
+    label: 上
+    send: X
+    
+  "preset_keys/Khioh_shieng":
+    label: 去
+    send: H
+
+  "preset_keys/Njip_shieng":
+    label: 入
+    send: K
+
+  "preset_keys/Keyboard_latin":
+    label: Latin
+    send: Eisu_toggle
+    select: qwerty   
+
   "preset_keys/Keyboard_mc_onsets":
     label: 紐
     send: Eisu_toggle
@@ -434,11 +451,6 @@ patch:
     label: 韻
     send: Eisu_toggle
     select: mc_rhymes
-    
-  "preset_keys/Keyboard_latin":
-    label: Latin
-    send: Eisu_toggle
-    select: qwerty    
     
   "preset_keys/Keyboard_mc_phonemes_overloaded_chinese":
     label: 紐韻
