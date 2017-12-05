@@ -106,7 +106,7 @@ patch:
       - {click: "n", label: "n", hint: "-ji-"}
       - {click: "m", label: "m", hint: "-jw-"}
       # 第五行
-      - {click: Keyboard_latin, label: "Latin", long_click: Menu, swipe_right: Keyboard_mc_phonemes_overloaded_flat, width: 15}  
+      - {click: Keyboard_latin, label: "Latin", long_click: Menu, swipe_right: Keyboard_mc_phonemes_overloaded_flat}
       - {click: "。", swipe_up: "、"}
       - {click: "「", swipe_up: "〈"}      
       - {click: space, label: "式機手音拼古中", width: 34}    
@@ -503,7 +503,12 @@ patch:
     send: Eisu_toggle
     select: qwerty   
 
-  "preset_keys/Keyboard_mc_onsets":
+  "preset_keys/Keyboard_mc_phonemes":
+    label: 紐
+    send: Eisu_toggle
+    select: mc_phonemes
+
+ "preset_keys/Keyboard_mc_onsets":
     label: 紐
     send: Eisu_toggle
     select: mc_onsets
