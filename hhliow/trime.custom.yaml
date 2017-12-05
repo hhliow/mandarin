@@ -384,7 +384,7 @@ patch:
     select: qwerty    
     
   "preset_keys/Keyboard_mc_phonemes_overloaded":
-    label: tshet
+    label: 紐韻
     send: Eisu_toggle
     select: mc_phonemes_overloaded
 
