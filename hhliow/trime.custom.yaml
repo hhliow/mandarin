@@ -134,10 +134,10 @@ patch:
       - {click: "p", label: "p", hint: "-w-", long_click: Njip_shieng}
       # 第二行  
       - {click: "r", label: "nʑ", hint: "ɣæw ew3", swipe_up: "rX", swipe_down: "rH"}
-      - {click: "h", label: "h", hint: "ɣæ", swipe_up: "hX", swipe_down: "hH", long_click: Khioh_shieng}
+      - {click: "h", label: "h", hint: "(ɣ)æ", swipe_up: "hX", swipe_down: "hH", long_click: Khioh_shieng}
       - {click: "B", label: "tɕh", hint: "ɣæm", swipe_up: "BX", swipe_down: "BH", swipe_right: "BK"}
       - {click: "D", label: "ʈʂh", hint: "ɣæn", swipe_up: "DX", swipe_down: "DH", swipe_right: "DK", swipe_left: "DKH"}
-      - {click: "G", label: "tsh", hint: "ɣæŋ", swipe_up: "GX", swipe_down: "GH", swipe_right: "GK"}
+      - {click: "G", label: "tsh", hint: "(ɣ)æŋ", swipe_up: "GX", swipe_down: "GH", swipe_right: "GK"}
       - {click: "x", label: "kh", hint: "owŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
       - {click: "o", label: "ʈh", hint: "o ʌ", swipe_up: "oX", swipe_down: "oH"}
       - {click: "I", label: "th", hint: "-(j)i-"}
