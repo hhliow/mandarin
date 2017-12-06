@@ -133,7 +133,7 @@ patch:
       - {click: "t", label: "t", hint: "ɨ", swipe_up: "tX", swipe_down: "tH", swipe_right: "INK", long_click: Njip_shieng}
       - {click: "p", label: "p", hint: "-w-", long_click: Njip_shieng}
       # 第二行  
-      - {click: "r", label: "nʑ", hint: "ɣæm em3", swipe_up: "rX", swipe_down: "rH", swipe_right: "rK"}
+      - {click: "r", label: "nʑ", hint: "ɣæm", swipe_up: "rX", swipe_down: "rH", swipe_right: "rK"}
       - {click: "h", label: "h", hint: "(ɣ)æn", swipe_up: "hX", swipe_down: "hH", swipe_right: "hK", swipe_left: "hKH", long_click: Khioh_shieng}
       - {click: "a", label: "tɕh", hint: "ɣæ", swipe_up: "aX", swipe_down: "aH", swipe_left: "hKH"}
       - {click: "O", label: "ʈʂh", hint: "ɣæw ew3", swipe_up: "OX", swipe_down: "OH"}
