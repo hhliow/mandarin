@@ -106,7 +106,7 @@ patch:
       - {click: "n", label: "n", hint: "-ji-"}
       - {click: "m", label: "m", hint: "-jw-"}
       # 第五行
-      - {click: Keyboard_latin, label: "Latin", long_click: Menu, swipe_right: Keyboard_mc_phonemes_overloaded_flat}
+      - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
       - {click: "「", swipe_up: "〈"}      
       - {click: space, label: "式機手音拼古中", width: 34}    
@@ -125,43 +125,43 @@ patch:
       # 第一行  
       - {click: "l", label: "l", hint: "ɑw", swipe_up: "lX", swipe_down: "lH"}
       - {click: "q", label: "ʔ", hint: "ɑ", swipe_up: "qX", swipe_down: "qH", long_click: Dzhiangx_shieng}
-      - {click: "c", label: "tɕ", hint: "ɑm", swipe_up: "aX", swipe_down: "aH"}
-      - {click: "C", label: "ʈʂ", hint: "ɑn", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK"}
+      - {click: "c", label: "tɕ", hint: "ɑm", swipe_up: "cX", swipe_down: "cH", swipe_left: "cK"}
+      - {click: "C", label: "ʈʂ", hint: "ɑn", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK", swipe_left: "CKH"}
       - {click: "A", label: "ts", hint: "ɑŋ", swipe_up: "AX", swipe_down: "AH", swipe_right: "AK"}
-      - {click: "k", label: "k", hint: "im", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: Njip_shieng}
-      - {click: "T", label: "ʈ", hint: "in"}
-      - {click: "t", label: "t", hint: "i", long_click: Njip_shieng}
-      - {click: "p", label: "p", hint: "ɔŋ", long_click: Njip_shieng}
+      - {click: "k", label: "k", hint: "uŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", long_click: Njip_shieng}
+      - {click: "u", label: "ʈ", hint: "u", swipe_up: "uX", swipe_down: "uH"}
+      - {click: "t", label: "t", hint: "ɨ", swipe_up: "tX", swipe_down: "tH", long_click: Njip_shieng}
+      - {click: "p", label: "p", hint: "-w-", long_click: Njip_shieng}
       # 第二行  
-      - {click: "o", label: "nʑ", hint: "aw", swipe_up: "WX", swipe_down: "WH"}
+      - {click: "r", label: "nʑ", hint: "aw ɛw", swipe_up: "rX", swipe_down: "rH"}
       - {click: "h", label: "h", hint: "a", swipe_up: "hX", swipe_down: "hH", long_click: Khioh_shieng}
-      - {click: "a", label: "tɕh", hint: "am", swipe_up: "eX", swipe_down: "eH"}
-      - {click: "an", label: "ʈʂh", hint: "an", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
-      - {click: "ang", label: "tsh", hint: "aŋ", swipe_up: "EX", swipe_down: "EH", swipe_right: "EK"}
-      - {click: "x", label: "kh", hint: "oŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
-      - {click: "i", label: "ʈh", hint: "o"} 
-      - {click: "o", label: "th", hint: "uŋ"}
-      - {click: "f", label: "ph", hint: "u"}
+      - {click: "B", label: "tɕh", hint: "am", swipe_up: "BX", swipe_down: "BH", swipe_right: "BK"}
+      - {click: "D", label: "ʈʂh", hint: "an", swipe_up: "DX", swipe_down: "DH", swipe_right: "DK", swipe_left: "DKH"}
+      - {click: "G", label: "tsh", hint: "aŋ", swipe_up: "GX", swipe_down: "GH", swipe_right: "GK"}
+      - {click: "x", label: "kh", hint: "owŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK"}
+      - {click: "o", label: "ʈh", hint: "o", swipe_up: "oX", swipe_down: "oH"}
+      - {click: "I", label: "th", hint: "-(j)i-"}
+      - {click: "f", label: "ph", hint: "-(j)y-"}
       # 第三行
       - {click: "z", label: "z", hint: "ɛi", swipe_up: "zX", swipe_down: "zH"}
-      - {click: "G", label: "ɦ", hint: "ɛ", swipe_up: "iX", swipe_down: "iH"}
-      - {click: "E", label: "dʑ", hint: "ɛm", swipe_up: "oX", swipe_down: "oH"}
-      - {click: "M", label: "ɖʐ", hint: "ɛn", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK"}
-      - {click: "Z", label: "dz", hint: "ɛŋ", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK"}
-      - {click: "g", label: "g", hint: "əi", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
-      - {click: "D", label: "ɖ", hint: "ən", swipe_up: "DX", swipe_down: "DH", swipe_right: "DK"}
-      - {click: "d", label: "d", hint: "əm"}
-      - {click: "b", label: "b", hint: "əŋ"}
+      - {click: "E", label: "ɦ", hint: "ɛ", swipe_up: "EX", swipe_down: "EH"}
+      - {click: "M", label: "dʑ", hint: "ɛm", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK"}
+      - {click: "J", label: "ɖʐ", hint: "ɛn", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK", swipe_left: "JKH"}
+      - {click: "Z", label: "dz", hint: "ɛŋ", swipe_up: "ZX", swipe_down: "ZH", swipe_right: "ZK"}
+      - {click: "g", label: "g", hint: "ɔŋ", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK"}
+      - {click: "i", label: "ɖ", hint: "i", swipe_up: "iX", swipe_down: "iH", swipe_right: "dK"}
+      - {click: "d", label: "d", hint: "in", swipe_up: "dX", swipe_down: "dH", swipe_right: "dK"}
+      - {click: "b", label: "b", hint: "im", swipe_up: "bX", swipe_down: "bH", swipe_right: "bK"}
       # 第四行  
-      - {click: "u", label: "ʑ ʐ", hint: "ew", swipe_up: "uX", swipe_down: "uH"}
-      - {click: "j", label: "j", hint: "e", swipe_up: "ZX", swipe_down: "ZH"}
-      - {click: "e", label: "ɕ", hint: "em", swipe_up: "YX", swipe_down: "YH"}
-      - {click: "S", label: "ʂ", hint: "en", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK"}
+      - {click: "W", label: "ʑ ʐ", hint: "ew", swipe_up: "WX", swipe_down: "WH"}
+      - {click: "j", label: "j", hint: "e", swipe_up: "jX", swipe_down: "jH"}
+      - {click: "L", label: "ɕ", hint: "em", swipe_up: "LX", swipe_down: "LH", swipe_right: "LK"}
+      - {click: "S", label: "ʂ", hint: "en", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK", swipe_left: "SKH"}
       - {click: "s", label: "s", hint: "eŋ", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", long_click: Tshih_njip}
-      - {click: "N", label: "ŋ", hint: "ɨ", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK"}
-      - {click: "U", label: "ɳ", hint: "-w-", swipe_up: "UX", swipe_down: "UH", swipe_right: "UK"}
-      - {click: "n", label: "n", hint: "-wi-"}
-      - {click: "m", label: "n", hint: "-i-"}
+      - {click: "N", label: "ŋ", hint: "əŋ ɨŋ", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK"}
+      - {click: "Y", label: "ɳ", hint: "əi oi ɨi ui", swipe_up: "YX", swipe_down: "YH", swipe_right: "YK"}
+      - {click: "n", label: "n", hint: "ən", swipe_up: "nX", swipe_down: "nH", swipe_right: "nK"}
+      - {click: "m", label: "m", hint: "əm", swipe_up: "mX", swipe_down: "mH", swipe_right: "mK"}
       # 第五行
       - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
@@ -474,7 +474,7 @@ patch:
       - {click: 'n', long_click: '"', swipe_up: 'N'}
       - {click: 'm', long_click: "'", swipe_up: 'M'}
       - {click: BackSpace, width: 15}
-      - {click: Keyboard_mc_phonemes_overloaded, long_click: Menu, swipe_right: Keyboard_mc_phonemes_overloaded_chinese, width: 15}
+      - {click: Keyboard_mc_phonemes_overloaded_flat, long_click: Menu, swipe_right: Keyboard_mc_phonemes_overloaded_chinese, width: 15}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
       - {click: ',', long_click: '<'}
       - {click: space, width: 30, swipe_right: Schema_switch}
@@ -493,22 +493,17 @@ patch:
   "preset_keys/Njip_shieng":
     label: 入
     send: K
-    
+
   "preset_keys/Tshih_njip":
     label: 入次
-    send: KH
+    text: "KH"
 
   "preset_keys/Keyboard_latin":
     label: Latin
     send: Eisu_toggle
     select: qwerty   
 
-  "preset_keys/Keyboard_mc_phonemes":
-    label: 紐韻
-    send: Eisu_toggle
-    select: mc_phonemes
-
- "preset_keys/Keyboard_mc_onsets":
+  "preset_keys/Keyboard_mc_onsets":
     label: 紐
     send: Eisu_toggle
     select: mc_onsets
@@ -526,19 +521,24 @@ patch:
   "preset_keys/Keyboard_mc_phonemes_overloaded":
     label: 紐韻
     send: Eisu_toggle
-    select: mc_phonemes_overloaded    
+    select: mc_phonemes_overloaded
 
   "preset_keys/Keyboard_mc_phonemes_overloaded_flat":
     label: 紐韻
     send: Eisu_toggle
     select: mc_phonemes_overloaded_flat
 
+  "preset_keys/Keyboard_mc_phonemes":
+    label: 紐韻
+    send: Eisu_toggle
+    select: mc_phonemes
+
   "preset_keys/Keyboard_latin":
     label: Latin
     send: Eisu_toggle
     select: qwerty
 
-  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes      
+  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes_overloaded
 
   "style/keyboards":  
     - .default  
@@ -552,4 +552,3 @@ patch:
     - mc_phonemes_overloaded
     - mc_phonemes_overloaded_chinese
     - mc_phonemes_overloaded_flat
-
