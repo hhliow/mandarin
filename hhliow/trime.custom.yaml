@@ -178,13 +178,15 @@ patch:
     height: 44
     width: 11
     lock: true
+    horizontal_gap: 3
+    vertical_gap: 1
     keys:
       # 第一行  
       - {click: "l", label: "l", hint: "ɑm", swipe_up: "lX", swipe_down: "lH", swipe_right: "lK", swipe_left: "lKH"}
       - {click: "q", label: "ʔ", hint: "ɑn", swipe_up: "qX", swipe_down: "qH", swipe_right: "qK", swipe_left: "qKH", long_click: Dzhiangx_shieng}
       - {click: "c", label: "tɕ", hint: "ɑ", swipe_up: "cX", swipe_down: "cH", swipe_right: "cK", swipe_left: "cKH"}
-      - {click: "C", label: "ʈʂ", hint: "ɑw", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK", swipe_left: "CKH"}
-      - {click: "P", label: "ts", hint: "ɑŋ", swipe_up: "PX", swipe_down: "PH", swipe_right: "PK", swipe_left: "PKH"}
+      - {click: "C", label: "ʈʂ", hint: "ɑŋ", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK", swipe_left: "CKH"}
+      - {click: "P", label: "ts", hint: "ɑw", swipe_up: "PX", swipe_down: "PH", swipe_right: "PK", swipe_left: "PKH"}
       - {click: "k", label: "k", hint: "uŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", swipe_left: "kKH", long_click: Njip_shieng}
       - {click: "T", label: "ʈ", hint: "u", swipe_up: "TX", swipe_down: "TH", swipe_right: "TK", swipe_left: "TKH"}
       - {click: "t", label: "t", hint: "ɨ", swipe_up: "tX", swipe_down: "tH", swipe_right: "tK", long_click: Njip_shieng}
@@ -193,9 +195,9 @@ patch:
       - {click: "U", label: "nʑ", hint: "ɣam em3", swipe_up: "UX", swipe_down: "UH", swipe_right: "UK", swipe_left: "UKH"}
       - {click: "h", label: "h", hint: "ɣan en3", swipe_up: "hX", swipe_down: "hH", swipe_right: "hK", swipe_left: "hKH", long_click: Khioh_shieng}
       - {click: "Q", label: "tɕh", hint: "(ɣ)a", swipe_up: "QX", swipe_down: "QH", swipe_right: "QK", swipe_left: "QKH"}
-      - {click: "I", label: "ʈʂh", hint: "ɣaw ew3", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK", swipe_left: "lKH"}
-      - {click: "F", label: "tsh", hint: "(ɣ)aŋ", swipe_up: "FX", swipe_down: "FH", swipe_right: "FK", swipe_left: "FKH"}
-      - {click: "x", label: "kh", hint: "owŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK", swipe_left: "xKH"}
+      - {click: "I", label: "ʈʂh", hint: "(ɣ)aŋ", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK", swipe_left: "lKH"}
+      - {click: "F", label: "tsh", hint: "ɣaw ew3", swipe_up: "FX", swipe_down: "FH", swipe_right: "FK", swipe_left: "FKH"}
+      - {click: "x", label: "kh", hint: "ɣɔŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK", swipe_left: "xKH"}
       - {click: "R", label: "ʈh", hint: "o ʌ", swipe_up: "RX", swipe_down: "RH", swipe_right: "RK", swipe_left: "RKH"}
       - {click: "r", label: "th", hint: "-(j)i-", swipe_up: "rX", swipe_down: "rH", swipe_right: "rK", swipe_left: "rKH"}
       - {click: "f", label: "ph", hint: "-(j)y-", swipe_up: "fX", swipe_down: "fH", swipe_right: "fK", swipe_left: "fK"}
@@ -203,9 +205,9 @@ patch:
       - {click: "z", label: "z", hint: "ɣɛm im3", swipe_up: "zX", swipe_right: "JK", swipe_down: "zH", swipe_right: "zK", swipe_left: "zKH"}
       - {click: "G", label: "ɦ", hint: "ɣɛn in3", swipe_up: "GX", swipe_down: "GH", swipe_right: "GK", swipe_left: "GKH"}
       - {click: "V", label: "dʑ", hint: "ɣɛi i3", swipe_up: "VX", swipe_down: "VH", swipe_right: "VK", swipe_left: "VKH"}
-      - {click: "J", label: "ɖʐ", hint: "ɣɛ e3", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK", swipe_left: "JKH"}
-      - {click: "B", label: "dz", hint: "ɣɛŋ", swipe_up: "BX", swipe_down: "BH", swipe_right: "BK", swipe_left: "BKH"}
-      - {click: "g", label: "g", hint: "ɣɔŋ", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK", swipe_left: "gKH"}
+      - {click: "J", label: "ɖʐ", hint: "ɣɛŋ", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK", swipe_left: "JKH"}
+      - {click: "B", label: "dz", hint: "ɣɛ e3", swipe_up: "BX", swipe_down: "BH", swipe_right: "BK", swipe_left: "BKH"}
+      - {click: "g", label: "g", hint: "owŋ", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK", swipe_left: "gKH"}
       - {click: "D", label: "ɖ", hint: "i", swipe_up: "DX", swipe_down: "DH", swipe_right: "DK", swipe_left: "DKH"}
       - {click: "d", label: "d", hint: "in", swipe_up: "dX", swipe_down: "dH", swipe_right: "dK", swipe_left: "dKH"}
       - {click: "b", label: "b", hint: "im", swipe_up: "bX", swipe_down: "bH", swipe_right: "bK", swipe_left: "bKH"}
@@ -213,11 +215,11 @@ patch:
       - {click: "Z", label: "ʑ ʐ", hint: "em", swipe_up: "ZX", swipe_down: "ZH", swipe_right: "ZK", swipe_left: "ZKH"}
       - {click: "j", label: "j", hint: "en", swipe_up: "jX", swipe_down: "jH", swipe_right: "jK", swipe_left: "jKH"}
       - {click: "L", label: "ɕ", hint: "e", swipe_up: "LX", swipe_down: "LH", swipe_right: "LK", swipe_left: "LKH"}
-      - {click: "S", label: "ʂ", hint: "ew", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK", swipe_right: "SK", swipe_left: "SKH"}
-      - {click: "s", label: "s", hint: "eŋ", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH", long_click: Tshih_njip}
+      - {click: "S", label: "ʂ", hint: "eŋ", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK", swipe_right: "SK", swipe_left: "SKH"}
+      - {click: "s", label: "s", hint: "ew", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH", long_click: Tshih_njip}
       - {click: "N", label: "ŋ", hint: "əŋ ɨŋ", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK", swipe_left: "NKH"}
-      - {click: "M", label: "ɳ", hint: "əi oi ɨi", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK", swipe_left: "MKH"}
-      - {click: "n", label: "n", hint: "ən on ɨn", swipe_up: "nX", swipe_down: "nH", swipe_right: "nK", swipe_left: "nKH"}
+      - {click: "M", label: "ɳ", hint: "əi ɨi", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK", swipe_left: "MKH"}
+      - {click: "n", label: "n", hint: "ən ɨn", swipe_up: "nX", swipe_down: "nH", swipe_right: "nK", swipe_left: "nKH"}
       - {click: "m", label: "m", hint: "əm", swipe_up: "mX", swipe_down: "mH", swipe_right: "mK", swipe_left: "mK"}
       # 第五行
       - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
@@ -227,6 +229,65 @@ patch:
       - {click: "」", swipe_up: "〉"}      
       - {click: BackSpace, label: "格退"}
       - {click: Return}
+      
+  "preset_keyboards/mc_phonemes_overloaded_tonal":
+    author: "hliow <hxliow@gmail.com>"
+    name: "mc_phonemes_overloaded_tonal"
+    ascii_mode: 0
+    height: 44
+    width: 11
+    lock: true
+    horizontal_gap: 3
+    vertical_gap: 1
+    keys:
+      # 第一行  
+      - {click: "l", label: "l", hint: "ɑm", swipe_up: "lX", swipe_down: "lH", swipe_right: "lK", swipe_left: "lKH"}
+      - {click: "q", label: "ʔ", hint: "ɑn", swipe_up: "qX", swipe_down: "qH", swipe_right: "qK", swipe_left: "qKH", long_click: Dzhiangx_shieng}
+      - {click: "c", label: "tɕ", hint: "ɑ", swipe_up: "cX", swipe_down: "cH", swipe_right: "cK", swipe_left: "cKH"}
+      - {click: "C", label: "ʈʂ", hint: "ɑŋ", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK", swipe_left: "CKH"}
+      - {click: "P", label: "ts", hint: "ɑw", swipe_up: "PX", swipe_down: "PH", swipe_right: "PK", swipe_left: "PKH"}
+      - {click: "k", label: "k", hint: "uŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", swipe_left: "kKH", long_click: Njip_shieng}
+      - {click: "T", label: "ʈ", hint: "u", swipe_up: "TX", swipe_down: "TH", swipe_right: "TK", swipe_left: "TKH"}
+      - {click: "t", label: "t z", hint: "ɨ", swipe_up: "tX", swipe_down: "tH", swipe_right: "tK", long_click: Njip_shieng}
+      - {click: "p", label: "p", hint: "-w-", swipe_up: "pX", swipe_down: "pH", swipe_right: "pK", swipe_left: "pK", long_click: Njip_shieng}
+      # 第二行  
+      - {click: "X", label: "上", hint: "ɣam em3", swipe_up: "XX", swipe_down: "XH", swipe_right: "XK", swipe_left: "XKH"}
+      - {click: "h", label: "h", hint: "ɣan en3", swipe_up: "hX", swipe_down: "hH", swipe_right: "hK", swipe_left: "hKH", long_click: Khioh_shieng}
+      - {click: "Q", label: "tɕh", hint: "(ɣ)a", swipe_up: "QX", swipe_down: "QH", swipe_right: "QK", swipe_left: "QKH"}
+      - {click: "I", label: "ʈʂh", hint: "(ɣ)aŋ", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK", swipe_left: "lKH"}
+      - {click: "F", label: "tsh", hint: "ɣaw ew3", swipe_up: "FX", swipe_down: "FH", swipe_right: "FK", swipe_left: "FKH"}
+      - {click: "x", label: "kh", hint: "ɣɔŋ", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK", swipe_left: "xKH"}
+      - {click: "R", label: "ʈh", hint: "o ʌ", swipe_up: "RX", swipe_down: "RH", swipe_right: "RK", swipe_left: "RKH"}
+      - {click: "r", label: "th j", hint: "-(j)i-", swipe_up: "rX", swipe_down: "rH", swipe_right: "rK", swipe_left: "rKH"}
+      - {click: "f", label: "ph", hint: "-(j)y-", swipe_up: "fX", swipe_down: "fH", swipe_right: "fK", swipe_left: "fK"}
+      # 第三行
+      - {click: "H", label: "去", hint: "ɣɛm im3", swipe_up: "HX", swipe_right: "HK", swipe_down: "HH", swipe_right: "HK", swipe_left: "HKH"}
+      - {click: "G", label: "ɦ", hint: "ɣɛn in3", swipe_up: "GX", swipe_down: "GH", swipe_right: "GK", swipe_left: "GKH"}
+      - {click: "V", label: "dʑ", hint: "ɣɛi i3", swipe_up: "VX", swipe_down: "VH", swipe_right: "VK", swipe_left: "VKH"}
+      - {click: "J", label: "ɖʐ", hint: "ɣɛŋ", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK", swipe_left: "JKH"}
+      - {click: "B", label: "dz", hint: "ɣɛ e3", swipe_up: "BX", swipe_down: "BH", swipe_right: "BK", swipe_left: "BKH"}
+      - {click: "g", label: "g", hint: "owŋ", swipe_up: "gX", swipe_down: "gH", swipe_right: "gK", swipe_left: "gKH"}
+      - {click: "D", label: "ɖ", hint: "i", swipe_up: "DX", swipe_down: "DH", swipe_right: "DK", swipe_left: "DKH"}
+      - {click: "d", label: "d ʑ ʐ", hint: "in", swipe_up: "dX", swipe_down: "dH", swipe_right: "dK", swipe_left: "dKH"}
+      - {click: "b", label: "b", hint: "im", swipe_up: "bX", swipe_down: "bH", swipe_right: "bK", swipe_left: "bKH"}
+      # 第四行  
+      - {click: "K", label: "入", hint: "em", swipe_up: "KX", swipe_down: "KH", swipe_right: "KK", swipe_left: "KKH"}
+      - {click: "j", label: "j", hint: "en", swipe_up: "jX", swipe_down: "jH", swipe_right: "jK", swipe_left: "jKH"}
+      - {click: "L", label: "ɕ", hint: "e", swipe_up: "LX", swipe_down: "LH", swipe_right: "LK", swipe_left: "LKH"}
+      - {click: "S", label: "ʂ", hint: "eŋ", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK", swipe_right: "SK", swipe_left: "SKH"}
+      - {click: "s", label: "s", hint: "ew", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH", long_click: Tshih_njip}
+      - {click: "N", label: "ŋ", hint: "əŋ ɨŋ", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK", swipe_left: "NKH"}
+      - {click: "M", label: "ɳ", hint: "əi ɨi", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK", swipe_left: "MKH"}
+      - {click: "n", label: "n nʑ", hint: "ən ɨn", swipe_up: "nX", swipe_down: "nH", swipe_right: "nK", swipe_left: "nKH"}
+      - {click: "m", label: "m", hint: "əm", swipe_up: "mX", swipe_down: "mH", swipe_right: "mK", swipe_left: "mK"}
+      # 第五行
+      - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
+      - {click: "。", swipe_up: "、"}
+      - {click: "「", swipe_up: "〈"}      
+      - {click: space, label: "式機手音拼古中", width: 34}    
+      - {click: "」", swipe_up: "〉"}      
+      - {click: BackSpace, label: "格退"}
+      - {click: Return}      
 
   "preset_keyboards/mc_phonemes":
     author: "hliow <hxliow@gmail.com>"
@@ -589,6 +650,11 @@ patch:
     label: 紐韻
     send: Eisu_toggle
     select: mc_phonemes_overloaded_asymmetric
+    
+  "preset_keys/Keyboard_mc_phonemes_overloaded_tonal":
+    label: 紐韻
+    send: Eisu_toggle
+    select: mc_phonemes_overloaded_tonal
 
   "preset_keys/Keyboard_mc_phonemes":
     label: 紐韻
@@ -600,7 +666,7 @@ patch:
     send: Eisu_toggle
     select: qwerty
 
-  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes_overloaded
+  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes_overloaded_tonal
 
   "style/keyboards":  
     - .default  
@@ -615,3 +681,4 @@ patch:
     - mc_phonemes_overloaded_chinese
     - mc_phonemes_overloaded_flat
     - mc_phonemes_overloaded_asymmetric
+    - mc_phonemes_overloaded_tonal
