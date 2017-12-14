@@ -251,7 +251,7 @@ patch:
       - {click: "t", label: "t z", hint: "ɨ", swipe_up: "tX", swipe_down: "tH", swipe_right: "tK", long_click: Njip_shieng}
       - {click: "p", label: "p", hint: "-w-", swipe_up: "pX", swipe_down: "pH", swipe_right: "pK", swipe_left: "pK", long_click: Njip_shieng}
       # 第二行  
-      - {click: "X", label: "上", hint: "ɣam em3", swipe_up: "XX", swipe_down: "XH", swipe_right: "XK", swipe_left: "XKH"}
+      - {click: "u", label: "上", hint: "ɣam em3", swipe_up: "uX", swipe_down: "uH", swipe_right: "uK", swipe_left: "uKH"}
       - {click: "h", label: "h", hint: "ɣan en3", swipe_up: "hX", swipe_down: "hH", swipe_right: "hK", swipe_left: "hKH", long_click: Khioh_shieng}
       - {click: "Q", label: "tɕh", hint: "(ɣ)a", swipe_up: "QX", swipe_down: "QH", swipe_right: "QK", swipe_left: "QKH"}
       - {click: "I", label: "ʈʂh", hint: "(ɣ)aŋ", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK", swipe_left: "lKH"}
@@ -261,7 +261,7 @@ patch:
       - {click: "r", label: "th j", hint: "-(j)i-", swipe_up: "rX", swipe_down: "rH", swipe_right: "rK", swipe_left: "rKH"}
       - {click: "f", label: "ph", hint: "-(j)y-", swipe_up: "fX", swipe_down: "fH", swipe_right: "fK", swipe_left: "fK"}
       # 第三行
-      - {click: "H", label: "去", hint: "ɣɛm im3", swipe_up: "HX", swipe_right: "HK", swipe_down: "HH", swipe_right: "HK", swipe_left: "HKH"}
+      - {click: "i", label: "去", hint: "ɣɛm im3", swipe_up: "iX", swipe_down: "iH", swipe_right: "iK", swipe_left: "iKH"}
       - {click: "G", label: "ɦ", hint: "ɣɛn in3", swipe_up: "GX", swipe_down: "GH", swipe_right: "GK", swipe_left: "GKH"}
       - {click: "V", label: "dʑ", hint: "ɣɛi i3", swipe_up: "VX", swipe_down: "VH", swipe_right: "VK", swipe_left: "VKH"}
       - {click: "J", label: "ɖʐ", hint: "ɣɛŋ", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK", swipe_left: "JKH"}
@@ -271,7 +271,7 @@ patch:
       - {click: "d", label: "d ʑ ʐ", hint: "in", swipe_up: "dX", swipe_down: "dH", swipe_right: "dK", swipe_left: "dKH"}
       - {click: "b", label: "b", hint: "im", swipe_up: "bX", swipe_down: "bH", swipe_right: "bK", swipe_left: "bKH"}
       # 第四行  
-      - {click: "K", label: "入", hint: "em", swipe_up: "KX", swipe_down: "KH", swipe_right: "KK", swipe_left: "KKH"}
+      - {click: "e", label: "入", hint: "em", swipe_up: "eX", swipe_down: "eH", swipe_right: "eK", swipe_left: "eKH"}
       - {click: "j", label: "j", hint: "en", swipe_up: "jX", swipe_down: "jH", swipe_right: "jK", swipe_left: "jKH"}
       - {click: "L", label: "ɕ", hint: "e", swipe_up: "LX", swipe_down: "LH", swipe_right: "LK", swipe_left: "LKH"}
       - {click: "S", label: "ʂ", hint: "eŋ", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK", swipe_right: "SK", swipe_left: "SKH"}
