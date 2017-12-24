@@ -18,6 +18,7 @@
 /^(.....[徹初昌].*)$/	$1chr
 /^(...[平].[澄崇常禪].*)$/	$1chr
 /^(...[^平].[澄崇常禪].*)$/	$1zhr
+/^(...[^平].[常禪].*)$/	$1shr
 /^(.....[生俟書船].*)$/	$1shr
 /^([^通止].[三四]..精.*)$/	$1j
 /^(.....精.*[^j])$/	$1z
@@ -107,10 +108,10 @@
 /^(......[AB_])/		# Remove canonical form part of the result
 /^ü/	yu	# Orthographic corrections start here
 /^([jqxy])ü/	$1u
-/^i([aeou])/	y$1
 /^i/	yi
-/^u([aeou])/	w$1
+/^yi([aeou])/	y$1
 /^u/	wu
+/^wu([aeou])/	w$1
 /^r([RXH]?)$/	er$1
 /^ong/	weng
 /iou/	iu
