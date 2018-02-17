@@ -95,7 +95,7 @@ patch:
       - {click: 'n', long_click: '"', swipe_up: 'N'}
       - {click: 'm', long_click: "'", swipe_up: 'M'}
       - {click: BackSpace, width: 15}
-      - {click: Keyboard_mc_phonemes_overloaded_asymmetric, long_click: Menu, swipe_right: Keyboard_mc_phonemes_overloaded_flat, width: 15}
+      - {click: Keyboard_mc_phonemes_3, long_click: Menu, width: 15}
       - {click: Keyboard_symbols, long_click: Keyboard_number}
       - {click: ',', long_click: '<'}
       - {click: space, width: 30, swipe_right: Schema_switch}
@@ -134,42 +134,15 @@ patch:
     send: Eisu_toggle
     select: mc_rhymes
     
-  "preset_keys/Keyboard_mc_phonemes_overloaded_chinese":
+  "preset_keys/Keyboard_mc_phonemes_3":
     label: 紐韻
     send: Eisu_toggle
-    select: mc_phonemes_overloaded_chinese
-    
-  "preset_keys/Keyboard_mc_phonemes_overloaded":
-    label: 紐韻
-    send: Eisu_toggle
-    select: mc_phonemes_overloaded
-
-  "preset_keys/Keyboard_mc_phonemes_overloaded_flat":
-    label: 紐韻
-    send: Eisu_toggle
-    select: mc_phonemes_overloaded_flat
-
-  "preset_keys/Keyboard_mc_phonemes_overloaded_asymmetric":
-    label: 紐韻
-    send: Eisu_toggle
-    select: mc_phonemes_overloaded_asymmetric
-    
-  "preset_keys/Keyboard_mc_phonemes_overloaded_tonal":
-    label: 紐韻
-    send: Eisu_toggle
-    select: mc_phonemes_overloaded_tonal
-
-  "preset_keys/Keyboard_mc_phonemes":
-    label: 紐韻
-    send: Eisu_toggle
-    select: mc_phonemes
+    select: mc_phonemes_3
 
   "preset_keys/Keyboard_latin":
     label: Latin
     send: Eisu_toggle
     select: qwerty
-
-  "preset_keyboards/qwerty/keys/@32/long_click": Keyboard_mc_phonemes_overloaded_tonal
 
   "style/keyboards":  
     - .default  
@@ -180,8 +153,4 @@ patch:
     - mc_rhymes
     - mc_phonemes
     - latin
-    - mc_phonemes_overloaded
-    - mc_phonemes_overloaded_chinese
-    - mc_phonemes_overloaded_flat
-    - mc_phonemes_overloaded_asymmetric
-    - mc_phonemes_overloaded_tonal
+    - mc_phonemes_3
