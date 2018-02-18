@@ -10,17 +10,17 @@ patch:
     keys:
       # 第一行  
       - {click: "l", label: "l", hint: "əm", swipe_up: "lX", swipe_down: "lH", swipe_right: "lK", swipe_left: "lKH"}
-      - {click: "q", label: "ʔ", hint: "ən ɨn", swipe_up: "qX", swipe_down: "qH", swipe_right: "qK", swipe_left: "qKH", long_click: Dzhiangx_shieng}
+      - {click: "q", label: "ʔ", hint: "ən ɨn", swipe_up: "qX", swipe_down: "qH", swipe_right: "qK", swipe_left: "qKH"}
       - {click: "c", label: "tɕ", hint: "əi ɨi", swipe_up: "cX", swipe_down: "cH", swipe_right: "cK", swipe_left: "cKH"}
       - {click: "C", label: "ʈʂ", hint: "əŋ ɨŋ", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK", swipe_left: "CKH"}
       - {click: "P", label: "ts", hint: "ɑw", swipe_up: "PX", swipe_down: "PH", swipe_right: "PK", swipe_left: "PKH"}
-      - {click: "k", label: "k", hint: "ɑŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", swipe_left: "kKH", long_click: Njip_shieng}
+      - {click: "k", label: "k", hint: "ɑŋ", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", swipe_left: "kKH"}
       - {click: "X", label: "上", hint: "ɑ", swipe_up: "TX", swipe_down: "TH", swipe_right: "TK", swipe_left: "TKH"}
-      - {click: "t", label: "t ʈ", hint: "ɑn", swipe_up: "tX", swipe_down: "tH", swipe_right: "tK", long_click: Njip_shieng}
-      - {click: "p", label: "p", hint: "ɑm", swipe_up: "pX", swipe_down: "pH", swipe_right: "pK", swipe_left: "pK", long_click: Njip_shieng}
+      - {click: "t", label: "t ʈ", hint: "ɑn", swipe_up: "tX", swipe_down: "tH", swipe_right: "tK"}
+      - {click: "p", label: "p", hint: "ɑm", swipe_up: "pX", swipe_down: "pH", swipe_right: "pK", swipe_left: "pK"}
       # 第二行  
       - {click: "U", label: "nʑ", hint: "ɣɛm im3", swipe_up: "UX", swipe_down: "UH", swipe_right: "UK", swipe_left: "UKH"}
-      - {click: "h", label: "h", hint: "ɣɛn in3", swipe_up: "hX", swipe_down: "hH", swipe_right: "hK", swipe_left: "hKH", long_click: Khioh_shieng}
+      - {click: "h", label: "h", hint: "ɣɛn in3", swipe_up: "hX", swipe_down: "hH", swipe_right: "hK", swipe_left: "hKH"}
       - {click: "Q", label: "tɕh", hint: "ɣɛi i3", swipe_up: "QX", swipe_down: "QH", swipe_right: "QK", swipe_left: "QKH"}
       - {click: "I", label: "ʈʂh", hint: "ɣɛŋ", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK", swipe_left: "lKH"}
       - {click: "F", label: "tsh", hint: "ɣɛ e3", swipe_up: "FX", swipe_down: "FH", swipe_right: "FK", swipe_left: "FKH"}
@@ -43,7 +43,7 @@ patch:
       - {click: "j", label: "j", hint: "-i-", swipe_up: "jX", swipe_down: "jH", swipe_right: "jK", swipe_left: "jKH"}
       - {click: "L", label: "ɕ", hint: "u", swipe_up: "LX", swipe_down: "LH", swipe_right: "LK", swipe_left: "LKH"}
       - {click: "S", label: "ʂ", hint: "uŋ", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK", swipe_right: "SK", swipe_left: "SKH"}
-      - {click: "s", label: "s", hint: "ew", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH", long_click: Tshih_njip}
+      - {click: "s", label: "s", hint: "ew", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH"}
       - {click: "N", label: "ŋ", hint: "eŋ", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK", swipe_left: "NKH"}
       - {click: "M", label: "ɳ", hint: "e", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK", swipe_left: "MKH"}
       - {click: "n", label: "n", hint: "en", swipe_up: "nX", swipe_down: "nH", swipe_right: "nK", swipe_left: "nKH"}
@@ -67,17 +67,17 @@ patch:
     keys:
       # 第一行  
       - {click: "l", label: "來", hint: "覃", swipe_up: "lX", swipe_down: "lH", swipe_right: "lK", swipe_left: "lKH"}
-      - {click: "q", label: "影", hint: "痕魂欣文", swipe_up: "qX", swipe_down: "qH", swipe_right: "qK", swipe_left: "qKH", long_click: Dzhiangx_shieng}
+      - {click: "q", label: "影", hint: "痕魂欣文", swipe_up: "qX", swipe_down: "qH", swipe_right: "qK", swipe_left: "qKH"}
       - {click: "c", label: "章", hint: "咍灰微", swipe_up: "cX", swipe_down: "cH", swipe_right: "cK", swipe_left: "cKH"}
       - {click: "C", label: "莊", hint: "登蒸", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK", swipe_left: "CKH"}
       - {click: "P", label: "精", hint: "豪", swipe_up: "PX", swipe_down: "PH", swipe_right: "PK", swipe_left: "PKH"}
-      - {click: "k", label: "見", hint: "唐", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", swipe_left: "kKH", long_click: Njip_shieng}
+      - {click: "k", label: "見", hint: "唐", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", swipe_left: "kKH"}
       - {click: "X", label: "上", hint: "歌戈", swipe_up: "TX", swipe_down: "TH", swipe_right: "TK", swipe_left: "TKH"}
-      - {click: "t", label: "端", hint: "知寒", swipe_up: "tX", swipe_down: "tH", swipe_right: "tK", long_click: Njip_shieng}
-      - {click: "p", label: "幫", hint: "談", swipe_up: "pX", swipe_down: "pH", swipe_right: "pK", swipe_left: "pK", long_click: Njip_shieng}
+      - {click: "t", label: "端", hint: "知寒", swipe_up: "tX", swipe_down: "tH", swipe_right: "tK"}
+      - {click: "p", label: "幫", hint: "談", swipe_up: "pX", swipe_down: "pH", swipe_right: "pK", swipe_left: "pK"}
       # 第二行  
       - {click: "U", label: "日", hint: "咸", swipe_up: "UX", swipe_down: "UH", swipe_right: "UK", swipe_left: "UKH"}
-      - {click: "h", label: "曉", hint: "山真", swipe_up: "hX", swipe_down: "hH", swipe_right: "hK", swipe_left: "hKH", long_click: Khioh_shieng}
+      - {click: "h", label: "曉", hint: "山真", swipe_up: "hX", swipe_down: "hH", swipe_right: "hK", swipe_left: "hKH"}
       - {click: "Q", label: "昌", hint: "皆脂", swipe_up: "QX", swipe_down: "QH", swipe_right: "QK", swipe_left: "QKH"}
       - {click: "I", label: "初", hint: "耕", swipe_up: "IX", swipe_down: "IH", swipe_right: "IK", swipe_left: "lKH"}
       - {click: "F", label: "清", hint: "佳支", swipe_up: "FX", swipe_down: "FH", swipe_right: "FK", swipe_left: "FKH"}
@@ -100,7 +100,7 @@ patch:
       - {click: "j", label: "已", hint: "三開", swipe_up: "jX", swipe_down: "jH", swipe_right: "jK", swipe_left: "jKH"}
       - {click: "L", label: "書", hint: "侯尤", swipe_up: "LX", swipe_down: "LH", swipe_right: "LK", swipe_left: "LKH"}
       - {click: "S", label: "生", hint: "東", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK", swipe_right: "SK", swipe_left: "SKH"}
-      - {click: "s", label: "心", hint: "蕭 宵四", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH", long_click: Tshih_njip}
+      - {click: "s", label: "心", hint: "蕭 宵四", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH"}
       - {click: "N", label: "疑", hint: "青清", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK", swipe_left: "NKH"}
       - {click: "M", label: "娘", hint: "齊 支四", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK", swipe_left: "MKH"}
       - {click: "n", label: "泥", hint: "先 仙四", swipe_up: "nX", swipe_down: "nH", swipe_right: "nK", swipe_left: "nKH"}
