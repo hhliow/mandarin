@@ -7,6 +7,8 @@ patch:
     height: 44
     width: 11
     lock: true
+    horizontal_gap: 3
+    vertical_gap: 1    
     keys:
       # 第一行  
       - {click: "l", label: "l", hint: "əm", swipe_up: "lX", swipe_down: "lH", swipe_right: "lK", swipe_left: "lKH"}
@@ -64,6 +66,8 @@ patch:
     height: 44
     width: 11
     lock: true
+    horizontal_gap: 3
+    vertical_gap: 1    
     keys:
       # 第一行  
       - {click: "l", label: "來", hint: "覃", swipe_up: "lX", swipe_down: "lH", swipe_right: "lK", swipe_left: "lKH"}
