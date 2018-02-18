@@ -71,10 +71,10 @@ patch:
       - {click: "c", label: "章", hint: "咍灰微", swipe_up: "cX", swipe_down: "cH", swipe_right: "cK", swipe_left: "cKH"}
       - {click: "C", label: "莊", hint: "登蒸", swipe_up: "CX", swipe_down: "CH", swipe_right: "CK", swipe_left: "CKH"}
       - {click: "P", label: "精", hint: "豪", swipe_up: "PX", swipe_down: "PH", swipe_right: "PK", swipe_left: "PKH"}
-      - {click: "k", label: "見", hint: "唐", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", swipe_left: "kKH"}
+      - {click: "k", label: "見", hint: "唐陽", swipe_up: "kX", swipe_down: "kH", swipe_right: "kK", swipe_left: "kKH"}
       - {click: "X", label: "上", hint: "歌戈", swipe_up: "TX", swipe_down: "TH", swipe_right: "TK", swipe_left: "TKH"}
-      - {click: "t", label: "端", hint: "知寒", swipe_up: "tX", swipe_down: "tH", swipe_right: "tK"}
-      - {click: "p", label: "幫", hint: "談", swipe_up: "pX", swipe_down: "pH", swipe_right: "pK", swipe_left: "pK"}
+      - {click: "t", label: "端", hint: "知寒元", swipe_up: "tX", swipe_down: "tH", swipe_right: "tK"}
+      - {click: "p", label: "幫", hint: "談嚴凡", swipe_up: "pX", swipe_down: "pH", swipe_right: "pK", swipe_left: "pK"}
       # 第二行  
       - {click: "U", label: "日", hint: "咸", swipe_up: "UX", swipe_down: "UH", swipe_right: "UK", swipe_left: "UKH"}
       - {click: "h", label: "曉", hint: "山 真乙", swipe_up: "hX", swipe_down: "hH", swipe_right: "hK", swipe_left: "hKH"}
