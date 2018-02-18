@@ -83,7 +83,7 @@ patch:
       - {click: "F", label: "清", hint: "佳支", swipe_up: "FX", swipe_down: "FH", swipe_right: "FK", swipe_left: "FKH"}
       - {click: "x", label: "溪", hint: "庚", swipe_up: "xX", swipe_down: "xH", swipe_right: "xK", swipe_left: "xKH"}
       - {click: "H", label: "去", hint: "麻", swipe_up: "RX", swipe_down: "RH", swipe_right: "RK", swipe_left: "RKH"}
-      - {click: "r", label: "透 ʈh", hint: "徹刪仙", swipe_up: "rX", swipe_down: "rH", swipe_right: "rK", swipe_left: "rKH"}
+      - {click: "r", label: "透", hint: "徹刪仙", swipe_up: "rX", swipe_down: "rH", swipe_right: "rK", swipe_left: "rKH"}
       - {click: "f", label: "滂", hint: "銜鹽", swipe_up: "fX", swipe_down: "fH", swipe_right: "fK", swipe_left: "fK"}
       # 第三行
       - {click: "K", label: "入", hint: "侵", swipe_up: "zX", swipe_right: "JK", swipe_down: "zH", swipe_right: "zK", swipe_left: "zKH"}
