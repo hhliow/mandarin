@@ -98,7 +98,7 @@ patch:
       # 第四行  
       - {click: "Z", label: "船", hint: "俟 三合", swipe_up: "ZX", swipe_down: "ZH", swipe_right: "ZK", swipe_left: "ZKH"}
       - {click: "j", label: "已", hint: "三開", swipe_up: "jX", swipe_down: "jH", swipe_right: "jK", swipe_left: "jKH"}
-      - {click: "L", label: "書", hint: "侯尤", swipe_up: "LX", swipe_down: "LH", swipe_right: "LK", swipe_left: "LKH"}
+      - {click: "L", label: "書", hint: "侯尤幽", swipe_up: "LX", swipe_down: "LH", swipe_right: "LK", swipe_left: "LKH"}
       - {click: "S", label: "生", hint: "東", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK", swipe_right: "SK", swipe_left: "SKH"}
       - {click: "s", label: "心", hint: "蕭 宵四", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH"}
       - {click: "N", label: "疑", hint: "青清", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK", swipe_left: "NKH"}
