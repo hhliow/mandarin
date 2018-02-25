@@ -61,7 +61,7 @@ patch:
       
   "preset_keyboards/mc_phonemes_3_chinese":
     author: "hliow <hxliow@gmail.com>"
-    name: "mc_phonemes_3"
+    name: "mc_phonemes_3_chinese"
     ascii_mode: 0
     height: 44
     width: 11
@@ -180,21 +180,6 @@ patch:
     label: 入次
     text: "KH"
 
-  "preset_keys/Keyboard_latin":
-    label: Latin
-    send: Eisu_toggle
-    select: qwerty   
-
-  "preset_keys/Keyboard_mc_onsets":
-    label: 紐
-    send: Eisu_toggle
-    select: mc_onsets
-    
-  "preset_keys/Keyboard_mc_rhymes":
-    label: 韻
-    send: Eisu_toggle
-    select: mc_rhymes
-    
   "preset_keys/Keyboard_mc_phonemes_3":
     label: 紐韻
     send: Eisu_toggle
@@ -215,9 +200,6 @@ patch:
     - default  
     - number  
     - symbols  
-    - mc_onsets
-    - mc_rhymes
-    - mc_phonemes
     - latin
     - mc_phonemes_3
     - mc_phonemes_3_chinese
