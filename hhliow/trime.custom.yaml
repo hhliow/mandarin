@@ -90,7 +90,7 @@ patch:
       - {click: "r", label: "透", hint: "乙仙 刪徹", swipe_up: "rX", swipe_down: "rH", swipe_right: "rK", swipe_left: "rKH"}
       - {click: "f", label: "滂", hint: "鹽銜", swipe_up: "fX", swipe_down: "fH", swipe_right: "fK", swipe_left: "fK"}
       # 第三行
-      - {click: "K", label: "入", hint: "侵 入次", swipe_up: "zX", swipe_right: "JK", swipe_down: "zH", swipe_right: "zK", swipe_left: "zKH"}
+      - {click: "K", label: "入", hint: "入次 侵", swipe_up: "zX", swipe_right: "JK", swipe_down: "zH", swipe_right: "zK", swipe_left: "zKH"}
       - {click: "G", label: "云", hint: "真匣", swipe_up: "GX", swipe_down: "GH", swipe_right: "GK", swipe_left: "GKH"}
       - {click: "V", label: "禪", hint: "脂", swipe_up: "VX", swipe_down: "VH", swipe_right: "VK", swipe_left: "VKH"}
       - {click: "J", label: "崇", hint: "江", swipe_up: "JX", swipe_down: "JH", swipe_right: "JK", swipe_left: "JKH"}
@@ -104,11 +104,11 @@ patch:
       - {click: "j", label: "已", hint: "開三", swipe_up: "jX", swipe_down: "jH", swipe_right: "jK", swipe_left: "jKH"}
       - {click: "L", label: "書", hint: "幽尤侯", swipe_up: "LX", swipe_down: "LH", swipe_right: "LK", swipe_left: "LKH"}
       - {click: "S", label: "生", hint: "東", swipe_up: "SX", swipe_down: "SH", swipe_right: "SK", swipe_right: "SK", swipe_left: "SKH"}
-      - {click: "s", label: "心", hint: "宵蕭", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH"}
-      - {click: "N", label: "疑", hint: "清青", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK", swipe_left: "NKH"}
-      - {click: "M", label: "娘", hint: "祭支齊", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK", swipe_left: "MKH"}
-      - {click: "n", label: "泥", hint: "仙先", swipe_up: "nX", swipe_down: "nH", swipe_right: "nK", swipe_left: "nKH"}
-      - {click: "m", label: "明", hint: "鹽添", swipe_up: "mX", swipe_down: "mH", swipe_right: "mK", swipe_left: "mK"}
+      - {click: "s", label: "心", hint: "蕭宵", swipe_up: "sX", swipe_down: "sH", swipe_right: "sK", swipe_left: "sKH"}
+      - {click: "N", label: "疑", hint: "青清", swipe_up: "NX", swipe_down: "NH", swipe_right: "NK", swipe_left: "NKH"}
+      - {click: "M", label: "娘", hint: "齊祭支", swipe_up: "MX", swipe_down: "MH", swipe_right: "MK", swipe_left: "MKH"}
+      - {click: "n", label: "泥", hint: "先仙", swipe_up: "nX", swipe_down: "nH", swipe_right: "nK", swipe_left: "nKH"}
+      - {click: "m", label: "明", hint: "添鹽", swipe_up: "mX", swipe_down: "mH", swipe_right: "mK", swipe_left: "mK"}
       # 第五行
       - {click: Keyboard_latin, label: "Latin", long_click: Menu}  
       - {click: "。", swipe_up: "、"}
