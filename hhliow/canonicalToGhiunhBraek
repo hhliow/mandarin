@@ -95,11 +95,11 @@
 /^(...去.*)$/	$1˩˧
 /^(......[AB_])/		# Remove canonical form part of the result
 /^ɦ/	ɦ/h/x	# variant realization starts here
-/yj/ y
-/^ʈʂ(h?ɦ?w?[yji])/ /tʃ$1/
-/^ʂ(h?ɦ?w?[yji])/ /ʃ$1/
-/^ɖʐ(h?ɦ?w?[yji])/ /dʒ$1/
-/^ŋ([yji])/ /(ŋ)$1/
-/^ʔ([yji])/ /(ʔ)$1/
-/wi([^mnŋptk])/ /ui/
+/yj/	y
+/^ʈʂ(h?ɦ?w?[yji])/	/tʃ$1/
+/^ʂ(h?ɦ?w?[yji])/	/ʃ$1/
+/^ɖʐ(h?ɦ?w?[yji])/	/dʒ$1/
+/^ŋ([yji])/	/(ŋ)$1/
+/^ʔ([yji])/	/(ʔ)$1/
+/wi([^mnŋptk])/	/ui/
 /(.)ɦ/	$1(ɦ)
