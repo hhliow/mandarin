@@ -1,1 +1,1 @@
-# middle_chinese
+# mandarin
