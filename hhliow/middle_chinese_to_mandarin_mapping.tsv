@@ -26,6 +26,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 下haeH	ɦiǎ	18729
 丌gi	khȉ	1673
 丌ki	ki	1749
+不pjuw	put	8638
 不pjuwX	fôw	13833
 不pjut	fut	21332
 丏menX	miɛ̂n	12154
@@ -33,10 +34,12 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 丑trhjuwX	tʃhiôw	13786
 且tsjo	tsy	2195
 且tshjaeX	tshiɛ̂	13134
+丕phij	phui	1570
 世syejH	ʃiɨ̌	16397
 丗syejH	ʃiɨ̌	16397
 丘khjuw	khiow	8615
 丙pjaengX	pîŋ	13487
+丞dzying	tʃhȉŋ	8236
 丠khjuw	khiow	8616
 丣yuwX	jiôw	13867
 並bengX	bǐŋ'	13732
@@ -62,7 +65,9 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 乏bjop	fvȁp	25322
 乕xuX	hû	11014
 乖kweaj	kwai	3347
+乗zying	tʃhȉŋ	8278
 乗zyingH	ʃʒǐŋ	19208
+乘zying	tʃhȉŋ	8278
 乘zyingH	ʃʒǐŋ	19208
 乙qit	ʔit	21179
 九kjuwX	kiôw	13798
@@ -79,11 +84,14 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 了lewX	liɛ̂w	12509
 了lew	liɛ̏w	5709
 予yo	jy̏	2074
+亊dzriH	ʃʒiɨ̌	15331
+事dzriH	ʃʒiɨ̌	15331
 二nyijH	ɻ̌	15140
 亍trhjowk	tʃhyuk	20691
 亍kea	kiai	3236
 亍keaj	kiai	3326
 于hju	jy̏	2267
+云hjun	jyȕn	4126
 互huH	ɦǔ	15842
 亓gi	khȉ	1673
 亓ki	ki	1749
@@ -260,6 +268,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 侍dzyiH	ʃʒiɨ̌	15328
 侎mjieX	mî	10163
 侏tsyu	tʃy	2453
+侐xwik	hyuək	24239
 侑hjuwH	jiǒw	19296
 侔mjuw	mȍw	8813
 侗duwng	thȕŋ	38
@@ -282,6 +291,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 便bjienH	biɛ̌n	18151
 俁ngjuX	jŷ	10754
 係kejH	kǐ	16037
+促tshjowk	tshuk	20672
 俄nga	ŋɔ̏	6489
 俅gjuw	khiȍw	8762
 俊tswinH	tsyǔn	17242
@@ -322,6 +332,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 倉tshang	tshɑŋ	7330
 個kaH	kɔ̌	18545
 倌kwan	kwɔn	4802
+倍bojX	bǔi'	11414
 倒tawX	tâw	12823
 倒tawH	tǎw	18443
 倓dam	thȁm	9363
@@ -365,6 +376,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 偋bjiengH	bǐŋ	19131
 偎qwoj	ʔui	3420
 偏phjien	phiɛn	5371
+偓qaewk	ʔiɔk	20868
 偕keaj	kiai	3313
 偘khanH	khɔ̌n	17562
 停deng	thȉŋ	8023
@@ -400,6 +412,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 傑gjet	giɛ̏t	22563
 傒hej	ɦȉ	3062
 傔khemH	khiɛ̌m	19837
+傕kaewk	kiɔk	20712
 傖dzraeng	ʈʂhə̏ŋ	7622
 傘sanX	sân	11870
 備bijH	bǐ	15018
@@ -420,6 +433,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 傷syang	ʃiɑŋ	7017
 傷syangH	ʃiɑ̌ŋ	18844
 傺trhjejH	tʃhiɨ̌	16413
+傾khjwieng	khyuəŋ	7962
 僁set	siɛt	22238
 僂luw	lȍw	8885
 僂ljuX	lŷ	10911
@@ -499,7 +513,9 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 儼ngjaemX	jiɛ̂m	14474
 儾nangH	nɑ̌ŋ	19010
 兀ngwot	ŋȕt	21652
+允ywinX	jyûn	11544
 元ngjwon	jyuɛ̏n	4262
+兄xjwaeng	hyuəŋ	7677
 充tsyhuwng	tʃhyuŋ	163
 兆drjewX	dʒiɛ̌w'	12579
 兇xjowng	hyuŋ	518
@@ -525,6 +541,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 兪yu	jy̏	2409
 八peat	pat	22061
 公kuwng	kuŋ	190
+六ljuwk	lȕk	20209
 兮hej	ɦȉ	3064
 共kjowng	kyuŋ	632
 共gjowngH	gyǔŋ	14684
@@ -538,12 +555,14 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 兼kem	kiɛm	9618
 兼kemH	kiɛ̌m	19835
 兾kijH	kǐ	15118
+兿hjun	jyȕn	4116
 兿ngjiejH	jǐ	16351
 冀kijH	kǐ	15117
 内nwojH	nǔi	16918
 円hjwen	jyuɛ̏n	5528
 冉nyemX	ʒiɛ̂m	14389
 冊tsrheak	tʂhək	23460
+冋kweng	kyuəŋ	8224
 再tsojH	tsǎi	16952
 冐mawH	mǎw	18470
 冐mok	mə̏k	24347
@@ -566,6 +585,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 冬towng	tuŋ	357
 冰ping	piŋ	8271
 冱huH	ɦǔ	15845
+况xjwangH	hwɑ̌ŋ	18926
 冶yaeX	jiɛ̂	13100
 冷leng	lȉŋ	8139
 冷laengX	lə̂ŋ	13558
@@ -773,6 +793,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 勸khjwonH	khyuɛ̌n	17356
 勺tsyak	tʃiɔk	22809
 勺dzyak	ʃʒiɔ̏k	22853
+勻ywin	jyȕn	4039
 勿mjut	vȕt	21316
 匃kajH	kǎi	16436
 匃kat	kɔt	21835
@@ -909,7 +930,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 叛banH	bwɔ̌n	17726
 叜suwX	sôw	13991
 叟suwX	sôw	13992
-叡ywejH	ǔi	16222
 叢dzuwng	tshȕŋ	279
 口khuwX	khôw	14036
 古kuX	kû	10975
@@ -1023,6 +1043,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 咍xoj	hai	3564
 咎kaw	kaw	6208
 咎gjuwX	giǒw'	13855
+咏hjwaengH	jyuə̌ŋ	19065
 咒tsyuwH	tʃiǒw	19339
 咠tship	tship	24410
 咡nyiH	ɻ̌	15300
@@ -1052,12 +1073,14 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 哀qoj	ʔai	3572
 哂syinX	ʃîn	11453
 哄huwngH	ɦǔŋ	14654
+哄haewngH	ɦiɑ̌ŋ	14723
 哆tsyheX	tʃhiɨ̂	10184
 哆taX	tɔ̂	12924
 哆tsyhaeX	tʃhiɛ̂	13189
 哇qwae	ʔwa	6909
 哉tsoj	tsai	3652
 哌ku	ku	2678
+員hjun	jyȕn	4129
 哢luwngH	lǔŋ	14582
 哤maewng	mɑ̏ŋ	673
 哥ka	kɔ	6418
@@ -1134,6 +1157,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 喑qom	ʔam	9275
 喑qimH	ʔǐm	19636
 喓qjiew	ʔiɛw	5933
+喔qaewk	ʔiɔk	20872
 喘tsyhwenX	tʃhyuɛ̂n	12416
 喙xjwojH	hǔi	17051
 喚xwanH	hwɔ̌n	17689
@@ -1155,6 +1179,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 單tan	tan	4609
 單dzyenX	ʃʒiɛ̌n'	12298
 單dzyenH	ʃʒiɛ̌n	17995
+営yweng	jyuə̏ŋ	7893
 嗁dej	thȉ	2964
 嗂yew	jiɛ̏w	5869
 嗃xaew	hiaw	6099
@@ -1286,6 +1311,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 因qjin	ʔin	3720
 団dwan	thwɔ̏n	4773
 囤dwonX	dǔn'	11791
+囧kjwaengX	kyuə̂ŋ	13528
 囪tshuwng	tshuŋ	302
 囬hwoj	ɦȕi	3426
 园ngwan	ŋwɔ̏n	4737
@@ -1350,6 +1376,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 坫temH	tiɛ̌m	19817
 坯kweajH	kwǎi	16667
 坯hweajH	ɦwǎi	16737
+坰kweng	kyuəŋ	8223
 坱qangX	ʔɑ̂ŋ	13430
 坲bjut	fvȕt	21380
 坳qaew	ʔiaw	6173
@@ -1380,10 +1407,12 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 垽ngj+nH	jǐn	17345
 垾hanH	ɦɔ̌n	17494
 埃qoj	ʔai	3573
+埆khaewk	khiɔk	20848
 埇yowngX	jyûŋ	9882
 埈swinH	syǔn	17229
 埋meaj	mȁi	3375
 埌langH	lɑ̌ŋ	18960
+城dzyeng	tʃhȉŋ	7922
 埏yen	jiɛ̏n	5289
 埏syen	ʃiɛn	5323
 埒ljwet	lyuɛ̏t	22674
@@ -1391,6 +1420,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 埜dzyoX	ʃʒy̌'	10747
 埜yaeX	jiɛ̂	13097
 埝nep	niɛ̏p	25074
+域hwik	jyuə̏k	24224
 埤bjie	phȉ	1099
 埭dojH	dǎi	16943
 埯qjaemX	ʔiɛ̂m	14484
@@ -1450,6 +1480,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 塈xj+jH	hǐ	15481
 塉dzjek	dzȉk	23722
 塊khwojH	khǔi	16910
+塋yweng	jyuə̏ŋ	7895
 塏khojX	khâi	11357
 塐suH	sǔ	15865
 塑suH	sǔ	15864
@@ -1541,6 +1572,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 壞hweajH	ɦwǎi	16737
 壤nyangX	ʒiɑ̂ŋ	13305
 壩paeH	pǎ	18769
+士dzriX	ʂʐiɨ̌'	10476
 壬nyim	ʒȉm	9095
 売meaH	mǎi	16617
 壷hu	ɦȕ	2644
@@ -1640,6 +1672,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 妒tuH	tǔ	15792
 妓gjeX	gǐ'	10044
 妖qjew	ʔiɛw	5964
+妘hjun	jyȕn	4122
 妙mjiewH	miɛ̌w	18281
 妛tsyhi	tʃhi	1824
 妝tsrjang	tʂwɑŋ	7166
@@ -1804,6 +1837,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 嬙dzjang	tshiɑ̏ŋ	7190
 嬛xjwien	hyuɛn	5428
 嬛qjwien	ʔyuɛn	5471
+嬛gjwieng	khyuə̏ŋ	7978
 嬝newX	niɛ̂w	12546
 嬥dewX	diɛ̌w'	12564
 嬪bjin	phȉn	3861
@@ -1844,6 +1878,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 孵phju	fu	2527
 孶tsi	tsɨ	1835
 孶dziH	dzɨ̌	15286
+學haewk	ɦiɔ̏k	20897
 孺nyuH	ʒy̌	15696
 孼ngjet	jiɛ̏t	22593
 孽ngjet	jiɛ̏t	22593
@@ -2024,6 +2059,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 岫zjuwH	sziǒw	19332
 岯bij	phȉ	1567
 岱dojH	dǎi	16939
+岳ngaewk	jiɔ̏k	20716
 岵huX	ɦǔ'	11047
 岷min	mȉn	3907
 岸nganH	ŋɔ̌n	17552
@@ -2125,6 +2161,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 嶸hweang	ɦwə̏ŋ	7750
 嶺ljengX	lîŋ	13605
 嶼zjoX	szy̌'	10734
+嶽ngaewk	jiɔ̏k	20715
 巇xje	hi	955
 巉dzraem	ʈʂhȁm	9710
 巉dzraemX	ɖʐǎm'	14547
@@ -2157,6 +2194,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 巳ziX	szɨ̌'	10425
 巴pae	pa	6833
 巵tsye	tʃiɨ	770
+巷haewngH	ɦiɑ̌ŋ	14721
 巺swonH	sǔn	17430
 巻gjwen	khyuɛ̏n	5570
 巻kjwenX	kyuɛ̂n	12389
@@ -2201,6 +2239,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 帷hwij	ȕi	1563
 常dzyang	ʃʒiɑ̏ŋ	7169
 帽mawH	mǎw	18463
+幄qaewk	ʔiɔk	20870
 幅pjuwk	fuk	20149
 幅pik	pik	24217
 幇pang	pɑŋ	7529
@@ -2431,6 +2470,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 彷bang	phɑ̏ŋ	7508
 彷phjangX	fɑ̂ŋ	13319
 彸tsyowng	tʃyuŋ	429
+役ywek	jyuə̏k	23739
 彼pjeX	pî	9989
 彿phjut	fut	21409
 彿phj+jH	fǐ	15412
@@ -2620,6 +2660,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 悪qu	ʔu	2835
 悪quH	ʔǔ	15885
 悪qak	ʔɔk	23084
+悫khaewk	khiɔk	20833
 悮nguH	ŋǔ	15824
 悰dzowng	tshȕŋ	388
 悱phj+jX	fî	10544
@@ -2634,6 +2675,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 悼dawH	dǎw	18430
 悽tshej	tshi	2935
 悾khuwng	khuŋ	182
+悾khaewng	khiɑŋ	740
 悾khuwngH	khǔŋ	14594
 惂khomX	khâm	14238
 惄nek	nȉk	23949
@@ -2665,6 +2707,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 惴tsyweH	tʃǔi	14747
 惶hwang	ɦwɑ̏ŋ	7390
 惷tsyhwinX	tʃhyûn	11564
+惸gjwieng	khyuə̏ŋ	7975
 惹nyaeX	ʒiɛ̂	13176
 惺seng	siŋ	8065
 惺sjengX	sîŋ	13634
@@ -2687,6 +2730,8 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 愞nwanH	nwɔ̌n	17731
 感komX	kâm	14163
 愧kwijH	kǔi	15036
+愨khaewk	khiɔk	20833
+愪hwinX	jyûn	11536
 愬suH	sǔ	15855
 愬sreak	ʂək	23553
 愭gij	khȉ	1421
@@ -2722,6 +2767,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 慟duwngH	dǔŋ	14620
 慢maenH	mǎn	17761
 慣kwaenH	kwǎn	17778
+慤khaewk	khiɔk	20833
 慥tshawH	tshǎw	18492
 慧hwejH	ɦǔi	16096
 慨khojH	khǎi	16973
@@ -2764,6 +2810,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 憩khjejH	khǐ	16391
 憪hean	ɦiȁn	4988
 憫minX	mîn	11509
+憬kjwaengX	kyuə̂ŋ	13527
 憭lewX	liɛ̂w	12515
 憭ljewX	liɛ̂w	12693
 憮mjuX	vû	10798
@@ -2877,6 +2924,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 扁benX	biɛ̌n'	12196
 扁bjienX	biɛ̌n'	12456
 扂demX	diɛ̌m'	14456
+扃kweng	kyuəŋ	8220
 扅ye	jȉ	808
 扆qj+jX	ʔî	10529
 扇syen	ʃiɛn	5325
@@ -2891,7 +2939,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 打tengX	tîŋ	13672
 扔nyingH	ʒǐŋ	19216
 払phjut	fut	21399
-扛kaewng	kɑŋ	658
 扞hanH	ɦɔ̌n	17491
 扣khuwX	khôw	14037
 扣khuwH	khǒw	19464
@@ -2917,6 +2964,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 把paeX	pâ	13153
 抌yuw	jiȍw	8519
 抍tsyingX	tʃîŋ	13739
+抎hjunX	jyûn	11627
 抏ngwan	ŋwɔ̏n	4743
 抑qik	ʔik	24134
 抓tsraewX	tʂâw	12742
@@ -3026,6 +3074,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 捎sjew	siɛw	5750
 捎sraew	ʂaw	6069
 捐ywen	jyuɛ̏n	5446
+捔kaewk	kiɔk	20708
 捕buH	bǔ	15905
 捘tshwin	tshyun	4027
 捘tswonH	tsǔn	17481
@@ -3078,6 +3127,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 掣tsyhet	tʃhiɛt	22756
 掤ping	piŋ	8272
 接tsjep	tsiɛp	24851
+控khaewng	khiɑŋ	738
 控khuwngH	khǔŋ	14592
 推tsyhwij	tʃhui	1593
 推thwoj	thui	3554
@@ -3111,6 +3161,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 揜qjemX	ʔiɛ̂m	14415
 揞qomX	ʔâm	14192
 揠qeat	ʔiat	22116
+握qaewk	ʔiɔk	20867
 揢khaek	khək	23317
 揣tsrhjweX	tʂhûi	10202
 揣twaX	twɔ̂	12999
@@ -3135,6 +3186,8 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 揺yew	jiɛ̏w	5853
 搄kongH	kə̌ŋ	19257
 搆kuwH	kǒw	19552
+搉kaewk	kiɔk	20709
+搉khaewk	khiɔk	20834
 損swonX	sûn	11778
 搏pak	pɔk	23149
 搒baeng	phə̏ŋ	7601
@@ -3163,7 +3216,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 搷den	thiɛ̏n	5145
 摂syep	ʃiɛp	24862
 摂nep	niɛ̏p	25081
-摃kaewng	kɑŋ	658
 摋sat	sat	21842
 摏syowng	ʃyuŋ	452
 摑kweak	kwək	23421
@@ -3369,6 +3421,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 斉dzejH	dzǐ	15957
 斌pin	pin	3935
 斍kaewH	kiǎw	18342
+斍kaewk	kiɔk	20697
 斎tsreaj	tʂai	3379
 斐phj+jX	fî	10541
 斑paen	pan	4937
@@ -3384,6 +3437,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 斜zjae	sziɛ̏	6896
 斝kaeX	kiâ	13113
 斟tsyim	tʃim	9062
+斠kaewk	kiɔk	20698
 斡qwat	ʔwɔt	21958
 斤kj+n	kin	4246
 斥tsyhek	tʃhik	23670
@@ -3521,6 +3575,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 暄xjwon	hyuɛn	4348
 暆ye	jȉ	810
 暇haeH	ɦiǎ	18727
+暈hjunH	jyǔn	17278
 暋minX	mîn	11513
 暋min	mȉn	3919
 暍qjot	ʔiɛt	21535
@@ -3659,7 +3714,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 杜duX	dǔ'	10936
 杞khiX	khî	10472
 束syowk	ʃyuk	20623
-杠kaewng	kɑŋ	659
 杪mjiewX	miɛ̂w	12632
 杭hang	ɦɑ̏ŋ	7478
 杮phjojH	fǐ	17038
@@ -3759,6 +3813,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 柶sijH	sɨ̌	15167
 柷tsyhuwk	tʃhyuk	20290
 査dzrae	ʈʂhȁ	6919
+栄hjwaeng	jyuə̏ŋ	7670
 栔khejH	khǐ	16063
 栔khet	khiɛt	22472
 栖sej	si	3108
@@ -3809,6 +3864,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 桴bjuw	fvȍw	8786
 桵nywij	ʒȕi	1469
 桶thuwngX	thûŋ	9777
+桷kaewk	kiɔk	20700
 桹lang	lɑ̏ŋ	7292
 桻phjowng	fuŋ	583
 桼tshit	tshit	20974
@@ -3817,6 +3873,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 梄yuwX	jiôw	13882
 梅mwoj	mȕi	3440
 梏kowk	kuk	20527
+梏kaewk	kiɔk	20711
 梐bejX	bǐ'	11171
 梓tsiX	tsɨ̂	10494
 梔tsye	tʃiɨ	771
@@ -3866,6 +3923,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 棣dejH	dǐ	15995
 棧dzraenH	ɖʐǎn	17789
 棨khejX	khî	11144
+棫hwik	jyuə̏k	24227
 棬khjwen	khyuɛn	5587
 森srim	ʂəm	9202
 棱long	lə̏ŋ	8335
@@ -3883,6 +3941,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 椇kjuX	kŷ	10907
 椋ljang	liɑ̏ŋ	7003
 椌khuwng	khuŋ	179
+椌khaewng	khiɑŋ	739
 植driH	dʒǐ	15255
 植dzyik	ʃʒȉk	24083
 椎drwij	tʃhȕi	1589
@@ -3895,7 +3954,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 椒tsjew	tsiɛw	5821
 椒kaew	kiaw	6031
 椔tsri	tʂɨ	1791
-椔tsriH	tʂɨ	15277
 椘tsrhjoX	tʂhû	10698
 椘tsrhjoH	tʂhǔ	15612
 検kjemX	kiɛ̂m	14379
@@ -3950,6 +4008,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 楸tshjuw	tshiow	8483
 楹yeng	jȉŋ	7886
 楽ngaewH	jiǎw	18417
+楽ngaewk	jiɔ̏k	20717
 楽lak	lɔ̏k	22977
 榆yu	jy̏	2420
 榔lang	lɑ̏ŋ	7294
@@ -3963,8 +4022,10 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 榥hwangX	ɦwɑ̌ŋ'	13452
 榦kanH	kɔ̌n	17542
 榭zjaeH	sziɛ̌	18719
+榮hjwaeng	jyuə̏ŋ	7670
 榰tsye	tʃiɨ	787
 榴ljuw	liȍw	8445
+榷kaewk	kiɔk	20707
 榻thap	thap	24771
 槀kawX	kâw	12864
 槃ban	phwɔ̏n	4839
@@ -3995,6 +4056,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 槿kj+nX	kîn	11647
 樀tek	tik	23861
 樂ngaewH	jiǎw	18417
+樂ngaewk	jiɔ̏k	20717
 樂lak	lɔ̏k	22977
 樅tsjowng	tsyuŋ	593
 樊bjon	fvȁn	4307
@@ -4070,6 +4132,8 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 檻haemX	ɦiǎm'	14529
 檼qj+nH	ʔǐn	17340
 檼qj+nX	ʔîn	11638
+檾khjwiengX	khyuə̂ŋ	13619
+檾khwengX	khyuə̂ŋ	13717
 檿qjiemX	ʔiɛ̂m	14383
 櫂draewH	ɖʐǎw	18389
 櫃gwijH	gǔi	15007
@@ -4170,14 +4234,18 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 殃qjang	ʔiɑŋ	7227
 殄denX	diɛ̌n'	12118
 殆dojX	dǎi'	11368
+殈xwek	hyuək	24026
 殉zwinH	szyǔn	17237
 殊dzyu	ʃʒy̏	2386
 殍phju	fu	2523
 殍bjewX	biɛ̌w'	12664
+殒hwinX	jyûn	11531
+殒hwinX	jyûn	11534
 殖dzyik	ʃʒȉk	24082
 殘dzan	tshȁn	4661
 殙xwon	hun	4572
 殛kik	kik	24153
+殞hwinX	jyûn	11531
 殣ginH	gǐn	17186
 殤syang	ʃiɑŋ	7019
 殪qejH	ʔǐ	16078
@@ -4198,6 +4266,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 殿tenH	tiɛ̌n	17977
 毀xjweX	hûi	9996
 毀xjweH	hǔi	14890
+毃khaewk	khiɔk	20832
 毅ngj+jH	jǐ	15467
 毇xjweX	hûi	9999
 毈dwanH	dwɔ̌n	17673
@@ -4280,6 +4349,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 汜ziX	szɨ̌'	10428
 汝nyoX	ʒŷ	10635
 汞huwngX	ɦǔŋ'	9799
+江kaewng	kiɑŋ	657
 池drje	tʃhȉ	1201
 池da	thɔ̏	6453
 污quH	ʔǔ	15884
@@ -4300,6 +4370,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 沁tshimH	tshǐm	19601
 沂ngj+j	jȉ	1983
 沃qowk	ʔuk	20479
+沄hjun	jyȕn	4132
 沄hwon	ɦȕn	4431
 沅ngjwon	jyuɛ̏n	4269
 沆hangX	ɦɑ̌ŋ'	13390
@@ -4341,6 +4412,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 沽kuH	kǔ	15814
 沾trjem	tʃiɛm	9525
 況hwang	ɦwɑ̏ŋ	7402
+泂hwengX	ɦyuə̌ŋ'	13644
 泄yejH	jǐ	16321
 泄sjet	siɛt	22525
 泆yit	jȉt	21004
@@ -4380,6 +4452,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 泰thajH	thǎi	16431
 泱qjang	ʔiɑŋ	7233
 泱qangX	ʔɑ̂ŋ	13433
+泳hjwaengH	jyuə̌ŋ	19066
 泺bak	bɔ̏k	23088
 洄hwoj	ɦȕi	3427
 洊dzenH	dziɛ̌n	17967
@@ -4395,6 +4468,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 洙dzyu	ʃʒy̏	2388
 洚huwng	ɦȕŋ	269
 洚howng	ɦȕŋ	412
+洚kaewngH	kiɑ̌ŋ	14720
 洛lak	lɔ̏k	22974
 洞duwngH	dǔŋ	14612
 洟yij	jȉ	1301
@@ -4405,6 +4479,8 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 洩yejH	jǐ	16322
 洪huwng	ɦȕŋ	257
 洪howng	ɦȕŋ	412
+洪kaewngH	kiɑ̌ŋ	14720
+洫xwik	hyuək	24238
 洮yew	jiɛ̏w	5863
 洮thaw	thaw	6261
 洲tsyuw	tʃiow	8582
@@ -4506,6 +4582,8 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 淡damX	dǎm'	14314
 淡yemX	jiɛ̂m	14338
 淡damH	dǎm	19746
+淢hwik	jyuə̏k	24236
+淢xwik	hyuək	24250
 淤qjo	ʔy	2142
 淤qjoH	ʔy̌	15565
 淦kom	kam	9350
@@ -4548,8 +4626,10 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 渡duH	dǔ	15774
 渢bjuwng	fvȕŋ	146
 渤bwot	bȕt	21580
+渥qaewk	ʔiɔk	20866
 渦qwa	ʔwɔ	6668
 渫sjet	siɛt	22526
+港kaewngX	kiɑ̂ŋ	9937
 渰qjemX	ʔiɛ̂m	14418
 渱huwng	ɦȕŋ	270
 渴khat	khɔt	21803
@@ -4582,6 +4662,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 湝heaj	ɦiȁi	3336
 湟hwang	ɦwɑ̏ŋ	7402
 湧yowngX	jyûŋ	9875
+湨kwek	kyuək	23996
 湩towngX	tûŋ	9927
 湩tuwngH	tǔŋ	14588
 湫tsjuw	tsiow	8546
@@ -4698,6 +4779,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 漿tsjang	tsiɑŋ	7138
 潀dzuwng	tshȕŋ	282
 潀dzowng	tshȕŋ	389
+潁ywengX	jyuə̂ŋ	13602
 潄suwH	sǒw	19525
 潅kwanH	kwɔ̌n	17642
 潎phjiet	phiɛt	22686
@@ -4757,6 +4839,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 澥heaX	ɦiǎi'	11192
 澧lejX	lî	11079
 澨dzyejH	ʃʒiɨ̌	16312
+澩haewk	ɦiɔ̏k	20902
 澪leng	lȉŋ	8144
 澬tsij	tsɨ	1340
 澮kwajH	kwǎi	16512
@@ -4783,6 +4866,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 濕thop	thap	24649
 濘nengX	nîŋ	13704
 濘nengH	nǐŋ	19158
+濙qwengX	ʔyuə̂ŋ	13699
 濛muwng	mȕŋ	205
 濛muwngX	mûŋ	9767
 濞phijH	phǐ	15012
@@ -4879,10 +4963,12 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 灸kjuwH	kiǒw	19299
 灼tsyak	tʃiɔk	22805
 災tsoj	tsai	3649
+炅kwengX	kyuə̂ŋ	13647
 炅keangX	kə̂ŋ	13564
 炊tsyhwe	tʃhui	885
 炎hjem	jiɛ̏m	9523
 炒tsrhaewX	tʂhâw	12759
+炔kwengX	kyuə̂ŋ	13647
 炔keangX	kə̂ŋ	13564
 炕khangH	khɑ̌ŋ	18985
 炘xj+n	hin	4232
@@ -4893,6 +4979,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 炬gjoX	gy̌'	10678
 炭thanH	thǎn	17514
 炮baew	phȁw	6157
+炯hwengX	ɦyuə̌ŋ'	13643
 炰baew	phȁw	6158
 炱doj	thȁi	3582
 炳pjaengX	pîŋ	13491
@@ -4916,6 +5003,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 烟qjin	ʔin	3728
 烟qen	ʔiɛn	5108
 烰bjuw	fvȍw	8799
+烱hwengX	ɦyuə̌ŋ'	13643
 烽phjowng	fuŋ	585
 焄xjun	hyun	4205
 焉qjon	ʔiɛn	4411
@@ -4931,10 +5019,12 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 無mju	vȕ	2245
 焦tsjew	tsiɛw	5814
 焫nywet	ʒyuɛ̏t	22639
+焭gjwieng	khyuə̏ŋ	7973
 焮xj+nH	hǐn	17325
 焯tsyak	tʃiɔk	22812
 焰yemH	jiɛ̌m	19759
 焱yemH	jiɛ̌m	19760
+焱xwek	hyuək	24025
 焳tsjew	tsiɛw	5814
 然nyen	ʒiɛ̏n	5279
 焼syew	ʃiɛw	5837
@@ -4952,6 +5042,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 煙qen	ʔiɛn	5107
 煜yuwk	jyȕk	20304
 煞sreat	ʂat	22125
+煢gjwieng	khyuə̏ŋ	7972
 煤mwoj	mȕi	3443
 煥xwanH	hwɔ̌n	17692
 煦xjuX	hŷ	10858
@@ -4983,6 +5074,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 熯xanX	hɔ̂n	11912
 熯xanH	hɔ̌n	17570
 熱nyet	ʒiɛ̏t	22577
+熲kwengX	kyuə̂ŋ	13646
 熸tsjem	tsiɛm	9545
 熹xi	hi	1805
 熺xi	hi	1805
@@ -5005,6 +5097,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 燕qen	ʔiɛn	5111
 燕qenH	ʔiɛ̌n	17942
 燗lanH	lǎn	17576
+營yweng	jyuə̏ŋ	7893
 燠qawH	ʔǎw	18513
 燠qjuwk	ʔyuk	20414
 燣lom	lȁm	9300
@@ -5119,9 +5212,11 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 犴ngan	ŋɔ̏n	4606
 犴nganH	ŋɔ̌n	17553
 犺khangH	khɑ̌ŋ	18986
+狁ywinX	jyûn	11545
 狃nrjuwX	niôw	13775
 狃nrjuwH	niǒw	19409
 狄dek	dȉk	23887
+狊kwek	kyuək	23994
 狌sraeng	ʂəŋ	7683
 狎haep	ɦiȁp	25214
 狐hu	ɦȕ	2645
@@ -5209,6 +5304,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 玎teng	tiŋ	8045
 玏lok	lə̏k	24317
 玒kuwng	kuŋ	195
+玒kaewng	kiɑŋ	665
 玕kan	kɔn	4675
 玖kjuwX	kiôw	13799
 玗hju	jy̏	2274
@@ -5315,12 +5411,14 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 瑤yew	jiɛ̏w	5871
 瑦quX	ʔû	11024
 瑨tsinH	tsǐn	17175
+瑩hjwaeng	jyuə̏ŋ	7673
 瑬ljuw	liȍw	8446
 瑰kwoj	kui	3457
 瑱trinH	tʃǐn	17182
 瑱thenH	thiɛ̌n	17897
 瑳tsha	tshɔ	6421
 瑳tshaX	tshɔ̂	12919
+瑴kaewk	kiɔk	20704
 瑵tsraewX	tʂâw	12739
 瑹syo	ʃy	2006
 瑾ginH	gǐn	17187
@@ -5338,8 +5436,10 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 璘lin	lȉn	3807
 璙lew	liɛ̏w	5705
 璙lewH	liɛ̌w	18213
+璚gjwieng	khyuə̏ŋ	7971
 璜hwang	ɦwɑ̏ŋ	7389
 璞phaewk	phɔk	20816
+璟kjwaengX	kyuə̂ŋ	13530
 璡tsin	tsin	3834
 璣kj+j	ki	1960
 璧pjiek	pik	23754
@@ -5358,6 +5458,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 瓄duwk	dȕk	19950
 瓅lek	lȉk	23810
 瓈lej	lȉ	2925
+瓊gjwieng	khyuə̏ŋ	7970
 瓏luwng	lȕŋ	250
 瓐lu	lȕ	2794
 瓔qjieng	ʔiŋ	7900
@@ -5420,6 +5521,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 甥sraeng	ʂəŋ	7685
 用yowngH	jyǔŋ	14675
 甪luwk	lȕk	20066
+甪kaewk	kiɔk	20699
 甫pjuX	fû	10773
 甬yowngX	jyûŋ	9876
 田den	thiɛ̏n	5127
@@ -5437,6 +5539,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 畄ljuw	liȍw	8431
 畄ljuwH	liǒw	19379
 畆muwX	môw	13929
+畇ywin	jyȕn	4040
 畈pjonH	fǎn	17353
 畋den	thiɛ̏n	5129
 畋denH	diɛ̌n	17882
@@ -5499,6 +5602,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 疣hjuw	jiȍw	8407
 疥keajH	kiǎi	16680
 疧gjie	khȉ	933
+疫ywek	jyuə̏k	23741
 疲bje	phȉ	992
 疵dzje	tshɨ̏	1050
 疹tsyinX	tʃîn	11420
@@ -5694,6 +5798,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 睎xj+j	hi	1967
 睒syemX	ʃiɛ̂m	14400
 睗syek	ʃik	23655
+睘gjwieng	khyuə̏ŋ	7974
 睚ngeaH	jiǎi	16634
 睛tsjeng	tsiŋ	7874
 睛tshjengX	tshîŋ	13630
@@ -5713,8 +5818,9 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 睲sengH	sǐŋ	19162
 睹tuX	tû	10965
 睽khwej	khui	3191
-睿ywejH	ǔi	16223
 瞀muwH	mǒw	19479
+瞁xjwek	hyuək	23751
+瞁xwek	hyuək	24022
 瞂bjot	fvȁt	21455
 瞋tsyhin	tʃhin	3837
 瞎xaet	hiat	22182
@@ -5748,6 +5854,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 瞿gju	khy̏	2326
 矇muwng	mȕŋ	209
 矍kjwak	kyuɔk	22914
+矎xjwengH	hyuə̌ŋ	19127
 矑lu	lȕ	2801
 矔kwanH	kwɔ̌n	17635
 矕maenX	mân	12028
@@ -5769,7 +5876,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 石dzyek	ʃʒȉk	23676
 矴tengH	tǐŋ	19169
 矻khwot	khut	21682
-矼kaewng	kɑŋ	662
+砉xwek	hyuək	24021
 砊khangH	khɑ̌ŋ	18990
 砌tshejH	tshǐ	16011
 砑ngaeH	jiǎ	18691
@@ -5796,6 +5903,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 硎ngenH	jiɛ̌n	17935
 硜kheang	khəŋ	7729
 硝sjew	siɛw	5756
+硞khaewk	khiɔk	20846
 硠lang	lɑ̏ŋ	7296
 硤heap	ɦiȁp	25136
 硨tsyhae	tʃhiɛ	6704
@@ -5803,6 +5911,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 硩thek	thik	23925
 硪ngaX	ŋɔ̂	12943
 硬ngeangH	ŋə̌ŋ	19100
+确haewk	ɦiɔ̏k	20898
 硯ngenH	jiɛ̌n	17934
 硾drjweH	dʒǔi	14851
 碆pa	pwɔ	6638
@@ -5833,6 +5942,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 碭dangH	dɑ̌ŋ	18953
 碱keamX	kiâm	14505
 碱keamX	kiâm	14504
+確khaewk	khiɔk	20835
 碼maeX	mâ	13088
 碾nrjenH	niɛ̌n	18139
 磅phang	phɑŋ	7449
@@ -5848,6 +5958,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 磌den	thiɛ̏n	5139
 磎khej	khi	3171
 磐ban	phwɔ̏n	4846
+磒hwinX	jyûn	11533
 磓twoj	tui	3496
 磔traek	tʂək	23233
 磕khajH	khǎi	16557
@@ -5867,6 +5978,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 磾tej	ti	2944
 礆xjemX	hiɛ̂m	14357
 礎tsrhjoX	tʂhû	10699
+礐khaewk	khiɔk	20842
 礒ngjeX	jî	10072
 礓kjang	kiɑŋ	7077
 礙ngojH	ŋǎi	16979
@@ -5943,6 +6055,8 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 禖mwoj	mȕi	3447
 禘dejH	dǐ	15991
 禚tsyak	tʃiɔk	22820
+禜hjwaeng	jyuə̏ŋ	7671
+禜hjwaengH	jyuə̌ŋ	19067
 禠sje	sɨ	1145
 禡maeH	mǎ	18647
 禥gi	khȉ	1697
@@ -5977,6 +6091,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 秊nen	niɛ̏n	5146
 秋tshjuw	tshiow	8474
 秏xawH	hǎw	18536
+秐hjun	jyȕn	4120
 科khwa	khwɔ	6652
 秒mjiewX	miɛ̂w	12633
 秔kaeng	kəŋ	7538
@@ -6047,6 +6162,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 穌su	su	2812
 積tsjeH	tsɨ̌	14762
 積tsjek	tsik	23590
+穎ywengX	jyuə̂ŋ	13603
 穐tshjuw	tshiow	8474
 穖kj+jX	kî	10539
 穗zwijH	szǔi	14963
@@ -6193,6 +6309,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 答top	tap	24599
 策tsrheak	tʂhək	23459
 筞tsrheak	tʂhək	23459
+筠hwin	jyȕn	3895
 筤lang	lɑ̏ŋ	7315
 筥kjoX	kŷ	10721
 筦kwanX	kwɔ̂n	11943
@@ -6242,6 +6359,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 箶hu	ɦȕ	2665
 箸trjoH	tʃy̌	15546
 箸drjoH	dʒy̌	15569
+箹qaewk	ʔiɔk	20869
 箾sew	siɛw	5612
 箾sraewk	ʂɔk	20749
 節tset	tsiɛt	22267
@@ -6417,6 +6535,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 紙tsyeX	tʃiɨ̂	9956
 級kip	kip	24491
 紛phjun	fun	4216
+紜hjun	jyȕn	4123
 紞tamX	tâm	14304
 紟gimH	gǐm	19624
 素suH	sǔ	15859
@@ -6447,6 +6566,8 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 絃hen	ɦiɛ̏n	5093
 絃xwenH	hyuɛ̌n	17846
 組tsuX	tsû	11010
+絅kweng	kyuəŋ	8226
+絅khwengX	khyuə̂ŋ	13721
 絆panH	pwɔ̌n	17712
 絇gju	khy̏	2336
 絇kjuH	ky̌	15668
@@ -6483,6 +6604,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 絰det	diɛ̏t	22341
 統thowngH	thǔŋ	14670
 絲si	sɨ	1661
+絳kaewngH	kiɑ̌ŋ	14716
 絶dzjwet	dzyuɛt	22619
 絹kjwienH	kyuɛ̌n	18010
 絺trhij	tʃhi	1357
@@ -6547,6 +6669,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 緊kjinX	kîn	11465
 緋pj+j	fi	1900
 緌nywij	ʒȕi	1467
+緎hwik	jyuə̏k	24233
 緐bjon	fvȁn	4330
 緐ban	phwɔ̏n	4852
 緒zjoX	szy̌'	10729
@@ -6606,6 +6729,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 縗tshwoj	tshui	3492
 縚thaw	thaw	6263
 縛bjak	fvɔ̏k	22899
+縜hwin	jyȕn	3897
 縝trhin	tʃhin	3719
 縝tsyhin	tʃhin	3842
 縝tsyinX	tʃîn	11418
@@ -6730,6 +6854,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 缺khwet	khyuɛt	22294
 缺khjwiet	khyuɛt	22635
 缾beng	phȉŋ	8200
+缿haewngX	ɦiɑ̌ŋ'	9952
 罄khengH	khǐŋ	19178
 罅xaeH	hiǎ	18679
 罇tshwin	tshyun	4026
@@ -6758,6 +6883,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 罩traewH	tʂǎw	18353
 罪dzwojX	dzǔi'	11286
 罬trjwet	tʃyuɛt	22661
+罭hwik	jyuə̏k	24226
 置triH	tʃiɨ̌	15326
 置tsyeH	tʃiɨ̌	14738
 罰bjot	fvȁt	21450
@@ -6843,6 +6969,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 翭huw	ɦȍw	8842
 翮heak	ɦə̏k	23503
 翯howk	ɦȕk	20513
+翯haewk	ɦiɔ̏k	20905
 翰han	ɦɔ̏n	4597
 翰hanH	ɦɔ̌n	17489
 翱ngaw	ŋȁw	6351
@@ -6876,17 +7003,20 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 耔tsiX	tsɨ̂	10492
 耕keang	kəŋ	7717
 耗xawH	hǎw	18536
+耘hjun	jyȕn	4120
 耚phje	phi	892
 耜ziX	szɨ̌'	10426
 耡dzrjoH	ɖʐǔ	15580
 耤dzjek	dzȉk	23721
 耦nguwX	ŋôw	13980
 耨nuwH	nǒw	19518
+耩kaewngX	kiɑ̂ŋ	9939
 耰qjuw	ʔiow	8424
 耳nyiX	ɻ̂	10438
 耶yae	jiɛ̏	6709
 耽tom	tam	9318
 耿keangX	kə̂ŋ	13564
+耿kwengX	kyuə̂ŋ	13647
 聅dan	thȁn	4658
 聅trhjet	tʃhiɛt	22748
 聆leng	lȉŋ	8106
@@ -7020,6 +7150,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 腑pjuX	fû	10779
 腒gjo	khy̏	2035
 腓bj+j	fvȉ	1910
+腔khaewng	khiɑŋ	735
 腘kweak	kwək	23418
 腝nwonH	nǔn	17442
 腠tshuwH	tshǒw	19560
@@ -7133,6 +7264,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 舞mjuX	vû	10793
 舟tsyuw	tʃiow	8585
 舠taw	taw	6292
+舡xaewng	hiɑŋ	733
 舥phae	pha	6823
 航hang	ɦɑ̏ŋ	7467
 舫pjangH	fɑ̌ŋ	18939
@@ -7210,6 +7342,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 芳phjang	fɑŋ	7241
 芴mjut	vȕt	21318
 芷tsyiX	tʃiɨ̂	10397
+芸hjun	jyȕn	4116
 芸ngjiejH	jǐ	16351
 芹gj+n	khȉn	4239
 芻tsrhju	tʂhu	2243
@@ -7312,6 +7445,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 荷ha	ɦɔ̏	6524
 荷haX	ɦɔ̌'	12960
 荹buH	bǔ	15916
+荺hwin	jyȕn	3898
 荻dek	dȉk	23886
 荼du	thȕ	2712
 荼drae	ʈʂhȁ	6882
@@ -7432,6 +7566,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 葩phae	pha	6818
 葬tsangH	tsɑ̌ŋ	18971
 葭kae	kia	6781
+葯qaewk	ʔiɔk	20874
 葯qjak	ʔiɔk	22844
 葰srwaeX	ʂwâ	13202
 葴tsyim	tʃim	9067
@@ -7601,12 +7736,14 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 藏dzang	tshɑ̏ŋ	7527
 藏dzangH	dzɑ̌ŋ	18974
 藐maewk	mɔ̏k	20788
+藑gjwieng	khyuə̏ŋ	7977
 藗suwk	suk	20025
 藘ljo	ly̏	2157
 藙ngj+jH	jǐ	15471
 藚zjowk	szyȕk	20680
 藜lej	lȉ	2915
 藝ngjiejH	jǐ	16351
+藝hjun	jyȕn	4116
 藟lwijX	lûi	10332
 藣pje	pi	909
 藣pjeH	pǐ	14787
@@ -7691,6 +7828,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 虱srit	ʂət	21311
 虹huwng	ɦȕŋ	261
 虹kuwngH	kǔŋ	14571
+虹kaewngH	kiɑ̌ŋ	14717
 虺xwoj	hui	3406
 蚃xjangX	hiɑ̂ŋ	13280
 蚃xjangH	hiɑ̌ŋ	18872
@@ -7772,6 +7910,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 蜩dew	thiɛ̏w	5659
 蜪daw	thȁw	6338
 蜫kwon	kun	4457
+蜮hwik	jyuə̏k	24225
 蜯baewngX	bɑ̌ŋ'	9946
 蜰pj+jX	fî	10553
 蜲qjwe	ʔui	845
@@ -7878,6 +8017,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 蠎mangX	mɑ̂ŋ	13415
 蠏heaX	ɦiǎi'	11188
 蠐dzej	tshȉ	2904
+蠑hjwaeng	jyuə̏ŋ	7672
 蠓muwngX	mûŋ	9764
 蠖qwak	ʔwɔk	23191
 蠙bjin	phȉn	3864
@@ -7921,6 +8061,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 術zywit	ʃʒyȕt	21203
 衕duwng	thȕŋ	51
 衕duwngH	dǔŋ	14623
+衖haewngH	ɦiɑ̌ŋ	14722
 街kea	kiai	3236
 街keaj	kiai	3326
 街trhjowk	tʃhyuk	20691
@@ -8043,6 +8184,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 褠kuw	kow	8951
 褢hweaj	ɦwȁi	3360
 褥nyowk	ʒyȕk	20614
+褧khwengX	khyuə̂ŋ	13716
 褫trhjeX	tʃhiɨ̂	10239
 褫trhiX	tʃhiɨ̂	10508
 褭newX	niɛ̂w	12549
@@ -8123,6 +8265,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 覘trhjem	tʃhiɛm	9527
 覘trhjemH	tʃhiɛ̌m	19794
 覚kaewH	kiǎw	18342
+覚kaewk	kiɔk	20697
 覛meak	mə̏k	23404
 覜thewH	thiɛ̌w	18170
 覡hek	ɦȉk	23874
@@ -8143,11 +8286,13 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 覵keanH	kiǎn	17803
 覸keanH	kiǎn	17803
 覺kaewH	kiǎw	18342
+覺kaewk	kiɔk	20697
 覽lamX	lâm	14289
 覿dek	dȉk	23892
 觀kwan	kwɔn	4798
 觀kwanH	kwɔ̌n	17653
 角luwk	lȕk	20066
+角kaewk	kiɔk	20699
 觓gjiw	khiȍw	8999
 觔kj+n	kin	4247
 觕tshu	tshu	2868
@@ -8165,6 +8310,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 解heaH	ɦiǎi	16616
 觥kwaeng	kwəŋ	7588
 觩gjiw	khiȍw	8997
+觪sjweng	syuəŋ	7990
 觭khje	khi	970
 觭khjeX	khî	10066
 觱pjit	pit	21100
@@ -8238,10 +8384,13 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 評bjaengH	bǐŋ	19048
 詖pje	pi	900
 詖pjeH	pǐ	14783
+詗xwengX	hyuə̂ŋ	13735
+詗xjwengH	hyuə̌ŋ	19125
 詘khjut	khyut	21367
 詛tsrjoH	tʂǔ	15584
 詞zi	szɨ̏	1753
 詟tsyep	tʃiɛp	24941
+詠hjwaengH	jyuə̌ŋ	19064
 詡xjuX	hŷ	10847
 詢swin	syun	3969
 詣ngejH	jǐ	16025
@@ -8366,6 +8515,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 謄dong	thə̏ŋ	8386
 謇kjenX	kiɛ̂n	12283
 謌ka	kɔ	6410
+謍yweng	jyuə̏ŋ	7898
 謏sewX	siɛ̂w	12485
 謏suwH	sǒw	19527
 謐mjit	mȉt	21082
@@ -8376,9 +8526,9 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 謘drijH	dʒǐ	15104
 謙khem	khiɛm	9616
 謚zyijH	ʃʒiɨ̌	15223
+講kaewngX	kiɑ̂ŋ	9936
 謜ngjwon	jyuɛ̏n	4278
 謝zjaeH	sziɛ̌	18718
-謞xaewk	hɔk	20912
 謞xak	hɔk	23104
 謟thaw	thaw	6264
 謠yew	jiɛ̏w	5854
@@ -8833,6 +8983,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 輀nyi	ɻ̏	1718
 輂kjowk	kyuk	20579
 較kaewH	kiǎw	18344
+較kaewk	kiɔk	20701
 輅luH	lǔ	15782
 輈trjuw	tʃiow	8729
 載tsojX	tsâi	11366
@@ -8955,6 +9106,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 迕nguH	ŋǔ	15828
 迡nejH	nǐ	16170
 迢dew	thiɛ̏w	5652
+迥hwengX	ɦyuə̌ŋ'	13641
 迦kae	kia	6797
 迨dojX	dǎi'	11371
 迪dek	dȉk	23891
@@ -8980,6 +9132,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 逄baewng	phɑ̏ŋ	726
 逅huwH	ɦǒw	19449
 逆ngjaek	jȉk	23308
+逈hwengX	ɦyuə̌ŋ'	13641
 逋pu	pu	2840
 逍sjew	siɛw	5751
 透thuwH	thǒw	19531
@@ -9027,6 +9180,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 遇qju	ʔy	2583
 遉trhjengH	tʃhǐŋ	19114
 遊yuw	jiȍw	8513
+運hjunH	jyǔn	17277
 過kwa	kwɔ	6546
 過kwaH	kwɔ̌	18576
 遏qat	ʔɔt	21776
@@ -9147,6 +9301,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 鄂ngak	ŋɔ̏k	23046
 鄃syu	ʃy	2589
 鄄kjwienH	kyuɛ̌n	18012
+鄆hjunH	jyǔn	17282
 鄈gjwij	khȕi	1449
 鄉xjang	hiɑŋ	7013
 鄍meng	mȉŋ	8187
@@ -9154,6 +9309,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 鄑tsje	tsɨ	1064
 鄔quX	ʔû	11023
 鄕xjang	hiɑŋ	7013
+鄖hjun	jyȕn	4121
 鄗khaew	khiaw	6131
 鄗hawX	ɦǎw'	12777
 鄗xak	hɔk	23100
@@ -9233,6 +9389,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 醝dza	tshɔ̏	6464
 醞qjunX	ʔyûn	11620
 醞qjunH	ʔyǔn	17310
+醟hjwaengH	jyuə̌ŋ	19068
 醠qangH	ʔɑ̌ŋ	18967
 醢xojX	hâi	11352
 醤tsjangH	tsiɑ̌ŋ	18910
@@ -9287,7 +9444,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 釬hanH	ɦɔ̌n	17496
 釭kuwng	kuŋ	196
 釭kowng	kuŋ	410
-釭kaewng	kɑŋ	661
 釱dejH	dǐ	15993
 釱dajH	dǎi	16459
 釳xj+t	hit	21414
@@ -9355,7 +9511,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 銜haem	ɦiȁm	9708
 銭dzjen	tshiɛ̏n	5265
 銭tsjenX	tsiɛ̂n	12308
-銳ywejH	ǔi	16220
 銶gjuw	khiȍw	8770
 銷sjew	siɛw	5754
 銻dej	thȉ	3017
@@ -9380,7 +9535,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 鋪phju	fu	2519
 鋪phu	phu	2890
 鋪phuH	phǔ	15890
-鋭ywejH	ǔi	16220
 鋳tsyuH	tʃy̌	15653
 鋸kjoH	ky̌	15513
 鋹trhjangX	tʃhiɑ̂ŋ	13303
@@ -9550,7 +9704,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 钜gjoX	gy̌'	10673
 钟tsyowng	tʃyuŋ	423
 钳gjem	khiɛ̏m	9560
-锐ywejH	ǔi	16220
 長drjang	tʃhiɑ̏ŋ	7082
 長trjangX	tʃiɑ̂ŋ	13350
 長drjangH	dʒiɑ̌ŋ	18877
@@ -9577,6 +9730,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 閣kak	kɔk	23037
 閥bjot	fvȁt	21451
 閧huwngH	ɦǔŋ	14657
+閧haewngH	ɦiɑ̌ŋ	14723
 閨kwej	kui	3179
 閩min	mȉn	3909
 閫khwonX	khûn	11817
@@ -9594,6 +9748,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 閼qjot	ʔiɛt	21534
 閼qat	ʔɔt	21780
 閽xwon	hun	4571
+闃khwek	khyuək	23991
 闉qjin	ʔin	3725
 闊khwat	khwɔt	21928
 闋khwet	khyuɛt	22292
@@ -9650,6 +9805,8 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 陊drjeX	dʒǐ'	10106
 陋luwH	lǒw	19567
 陌maek	mə̏k	23215
+降haewng	ɦiɑ̏ŋ	705
+降kaewngH	kiɑ̌ŋ	14718
 陏zjwe	szȕi	911
 陏thwaX	thwɔ̂	13035
 限heanX	ɦiǎn'	12047
@@ -9698,6 +9855,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 階keaj	kiai	3317
 隒ngjemX	jiɛ̂m	14372
 隔keak	kək	23509
+隕hwinX	jyûn	11534
 隖quX	ʔû	11021
 隗ngwojX	ŋûi	11332
 際tsjejH	tsǐ	16176
@@ -9755,6 +9913,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 雯mjun	vȕn	4104
 雰phjun	fun	4225
 雱phang	phɑŋ	7447
+雲hjun	jyȕn	4115
 零len	liɛ̏n	5126
 零leng	lȉŋ	8113
 零lengH	lǐŋ	19196
@@ -9787,6 +9946,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 霜srjang	ʂwɑŋ	7179
 霞hae	ɦiȁ	6807
 霢meak	mə̏k	23402
+霣hwinX	jyûn	11535
 霤ljuwH	liǒw	19373
 霥muwng	mȕŋ	229
 霦pin	pin	3941
@@ -9901,6 +10061,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 韒sjewH	siɛ̌w	18229
 韓han	ɦɔ̏n	4595
 韔trhjangH	tʃhiɑ̌ŋ	18861
+韗hjunH	jyǔn	17281
 韗xjwonH	hyuɛ̌n	17412
 韘syep	ʃiɛp	24869
 韜thaw	thaw	6262
@@ -9918,13 +10079,17 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 韶dzyew	ʃʒiɛ̏w	5875
 韸buwng	phȕŋ	344
 韺qjaeng	ʔiŋ	7629
+韻hjunH	jyǔn	17288
 韽qom	ʔam	9273
 韽qeamH	ʔiǎm	19851
 響xjangX	hiɑ̂ŋ	13278
 頀huH	ɦǔ	15841
 頂tengX	tîŋ	13661
+頃khjwieng	khyuəŋ	7963
+頃khjwiengX	khyuə̂ŋ	13616
 頄gwij	khȕi	1530
 頄gjuw	khiȍw	8747
+項haewngX	ɦiɑ̌ŋ'	9951
 順zywinH	ʃʒyǔn	17264
 須sju	sy	2359
 頉yi	jȉ	1635
@@ -10064,6 +10229,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 餧nwojX	nûi	11321
 餧qjweH	ʔǔi	14885
 館kwanH	kwɔ̌n	17637
+餫hjunH	jyǔn	17279
 餬hu	ɦȕ	2647
 餮thet	thiɛt	22370
 餱huw	ɦȍw	8844
@@ -10131,6 +10297,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 駆khjuH	khy̌	15758
 駈khju	khy	2445
 駈khjuH	khy̌	15758
+駉kweng	kyuəŋ	8221
 駏gjoX	gy̌'	10685
 駑nu	nȕ	2733
 駒kju	ky	2602
@@ -10166,6 +10333,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 駿tswinH	tsyǔn	17246
 騀ngaX	ŋɔ̂	12940
 騁trhjengX	tʃhîŋ	13592
+騂sjweng	syuəŋ	7987
 騃ngeajX	jiâi	11241
 騅tsywij	tʃui	1555
 騈ben	phiɛ̏n	5192
@@ -10479,7 +10647,6 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 鶂ngek	jȉk	23882
 鶄tsjeng	tsiŋ	7869
 鶅tsri	tʂɨ	1788
-鶅tsriH	tʂɨ	15281
 鶉dzywin	ʃʒyȕn	3985
 鶊kaeng	kəŋ	7535
 鶋kjo	ky	2017
@@ -10530,10 +10697,12 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 鷸ywit	jyȕt	21230
 鷹qing	ʔiŋ	8264
 鷺luH	lǔ	15783
+鷽haewk	ɦiɔ̏k	20901
 鸂khej	khi	3172
 鸅draek	ɖʐə̏k	23377
 鸆ngju	jy̏	2241
 鸇tsyen	tʃiɛn	5307
+鸑ngaewk	jiɔ̏k	20718
 鸒yo	jy̏	2079
 鸘srjang	ʂwɑŋ	7180
 鸙yak	jiɔ̏k	22781
@@ -10665,6 +10834,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 鼬yuwH	jiǒw	19420
 鼮deng	thȉŋ	8024
 鼯ngu	ŋȕ	2755
+鼳kwek	kyuək	23997
 鼴qjonX	ʔiɛ̂n	11677
 鼷hej	ɦȉ	3065
 鼻bjijH	bǐ	15180
@@ -10719,6 +10889,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 龜kwij	kui	1459
 龠yak	jiɔ̏k	22772
 龢hwa	ɦwɔ̏	6647
+龣kaewk	kiɔk	20714
 㑥yeH	jǐ	14818
 㒚qj+nH	ʔǐn	17337
 㒟newX	niɛ̂w	12548
@@ -10822,7 +10993,9 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 㰦khjoH	khy̌	15528
 㱟phje	phi	898
 㱥longH	lə̌ŋ	19278
+㱿khaewk	khiɔk	20831
 㲈dzyew	ʃʒiɛ̏w	5876
+㲉khaewk	khiɔk	20838
 㲚srae	ʂa	6855
 㲪tong	təŋ	8330
 㳁tsrik	tʂək	24271
@@ -10865,6 +11038,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 㾐ljejH	lǐ	16372
 㾓qwen	ʔyuɛn	5203
 㿃tajH	tǎi	16470
+㿥haewk	ɦiɔ̏k	20904
 㿮qjangH	ʔiɑ̌ŋ	18900
 䀋yem	jiɛ̏m	9425
 䀋yemH	jiɛ̌m	19762
@@ -10983,6 +11157,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 䟴tsyinH	tʃǐn	17074
 䠷thewX	thiɛ̂w	12525
 䠻khjuwngH	khyǔŋ	14636
+䡈kaewk	kiɔk	20702
 䡊pjonX	fân	11706
 䡝qjunX	ʔyûn	11618
 䡴tsyhowng	tʃhyuŋ	464
@@ -11010,6 +11185,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 䩦dew	thiɛ̏w	5668
 䩨trhjangH	tʃhiɑ̌ŋ	18862
 䩩qjwon	ʔyuɛn	4382
+䩵hjunH	jyǔn	17280
 䪎swoj	sui	3513
 䪒tsyuH	tʃy̌	15663
 䪜tsyhemH	tʃhiɛ̌m	19801
@@ -11075,6 +11251,7 @@ middle_chinese	mandarin	kwang_ghiunh_char_index
 𠹀swonH	sǔn	17433
 𡇈dangH	dɑ̌ŋ	18956
 𡍩trhaek	tʂhək	23321
+𡞦gjwieng	khyuə̏ŋ	7979
 𡨢kjo	ky	2012
 𡫏tsimH	tsǐm	19606
 𡰥yij	jȉ	1286
