@@ -917,7 +917,7 @@ tciengh_ghiunh_volume_index	tciengh_ghiunh_separator	tciengh_ghiunh_pronunciatio
 8	○	在簡切	dzǎn'	瓚	瓚	896
 8		清産切	tsân	儧	儹	897
 8		多簡切	tân	亶	亶	898
-8	○	徃但切	thân	坦	坦	ytenx_digitalization_error
+8	○	徃但切	thân	坦	坦	ytenx_digitalization_error_898_899
 8	○	徒亶切	dǎn'	但	但	899
 8	○	魯簡切	lân	嬾	嬾	900
 8	○	薛簡切	sân	散	散	901
@@ -1839,7 +1839,7 @@ tciengh_ghiunh_volume_index	tciengh_ghiunh_separator	tciengh_ghiunh_pronunciatio
 13	○	式正切	ʃǐŋ	聖	聖	1762
 13	○	時正切	ʃʒǐŋ	盛	盛	1763
 13	○	丑正切	tʃhǐŋ	稱	稱	1764
-13	○	直正切	dʒǐŋ	鄭	鄭	ytenx_digitalization_error
+13	○	直正切	dʒǐŋ	鄭	鄭	ytenx_digitalization_error_1764_1765
 13	○	之盛切	tʃǐŋ	正	正	1765
 13	○	力正切	lǐŋ	令	令	1766
 13	○	not_a_new_pronunciation	lǐŋ	零	零	1766
@@ -2048,7 +2048,7 @@ tciengh_ghiunh_volume_index	tciengh_ghiunh_separator	tciengh_ghiunh_pronunciatio
 14	○	敷勿切	fut	拂	拂	1959
 14		符勿切	fvȕt	佛	佛	1960
 14	○	許勿切	hyut	欻	欻	1961
-14	○	王勿切	wȕ	䬑	䬑	ytenx_digitalization_error
+14	○	王勿切	wȕ	䬑	䬑	ytenx_digitalization_error_1961_1962
 14	○	曲勿切	khyut	屈	屈	1962
 14	○	九勿切	kyut	屈	屈	1963
 14	○	渠勿切	gyȕt	倔	倔	1964
