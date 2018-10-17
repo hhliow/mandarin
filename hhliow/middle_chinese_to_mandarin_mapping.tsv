@@ -8,7 +8,7 @@
 # Breathy fricatives ʂʐ ʃʒ sz fv ɦ may each be merged into [ʂ] [ʃ] [s] [f] [h]~[x] respectively;
 # While preceding /i/ or /y/, velar and glottal consonants /k/ /kh/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ may be palatalized to [tɕ] [tɕʰ] [dʑ] [j] [j] [ɕ] [ɕ]~[ɕʱ] respectively;
 # finals -iaw and -iɛw may be merged.
-kwangx_ghiunh_entry	middle_chinese_to_mc_mapping
+kwangx_ghiunh_entry	middle_chinese_to_mandarin_mapping
 1(東)	東(tuwng)->東(tuŋ)
 9(涷)	涷(tuwng)->涷(tuŋ)
 10(蝀)	蝀(tuwng)->蝀(tuŋ)
@@ -3004,6 +3004,10 @@ kwangx_ghiunh_entry	middle_chinese_to_mc_mapping
 6711(釾)	釾(yae)->釾(jiɛ̏)
 6708(邪)	邪(yae)->邪(jiɛ̏)
 6715(斜)	斜(yae)->斜(jiɛ̏)
+6682(茄)	茄(gja)->茄(kɦiɛ̏)
+6674(靴)	靴(xjwa)->靴(hyuɛ)
+6673(鞾)	鞾(xjwa)->鞾(hyuɛ)
+6693(瘸)	瘸(gjwa)->瘸(kɦyuɛ̏)
 6953(陽)	陽(yang)->陽(jiɑ̏ŋ)
 6958(昜)	昜(yang)->昜(jiɑ̏ŋ)
 6954(暘)	暘(yang)->暘(jiɑ̏ŋ)
@@ -4936,6 +4940,8 @@ kwangx_ghiunh_entry	middle_chinese_to_mc_mapping
 10301(𣷾)	𣷾(kwijX)->𣷾(kûi)
 10303(匭)	匭(kwijX)->匭(kûi)
 10569(鬼)	鬼(kjw+jX)->鬼(kûi)
+10238(跪)	跪(gjweX)->跪(gǔi')
+10337(揆)	揆(gjwijX)->揆(gǔi')
 11417(軫)	軫(tsyinX)->軫(tʃîn)
 11429(診)	診(tsyinX)->診(tʃîn)
 11420(疹)	疹(tsyinX)->疹(tʃîn)
@@ -11886,7 +11892,6 @@ kwangx_ghiunh_entry	middle_chinese_to_mc_mapping
 13647(炅)	炔(kwengX)->炔(kyuə̂ŋ)
 13564(耿)	炅(keangX)->炅(kə̂ŋ)
 13585(穽)	阱(dzjengX)->阱(dzǐŋ')
-]	
 13746(等)	朩(tongX)->朩(tə̂ŋ)
 13866(酉)	丣(yuwX)->丣(jiôw)
 13867(丣)	酉(yuwX)->酉(jiôw)
