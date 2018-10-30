@@ -8,7 +8,7 @@
 #  While preceding /i/ or /y/, velar and glottal consonants /k/ /kh/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ may be palatalized to [tɕ] [tɕʰ] [dʑ] [j] [j] [ɕ] [ɕ]~[ɕʱ] respectively;
 #  finals -iaw and -iɛw may be merged.
 #  finals -i and -iɪi may be merged.
-# 洪武正韻gloss is extracted from data digitalized by Kansei Repository.
+# 洪武正韻gloss is extracted from data digitalized by Kanseki Repository.
 # Transcription and data organization is done by hhliow (github.com/hhliow).
 volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_literal
 1	1a	平聲¶¶¶一東¶¶	東	1	tuŋ	(徳紅切春方也說文動也从日在木中漢志少陽者東方東動也陽氣動於時為春又陽韻俗作東)
