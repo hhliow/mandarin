@@ -1,5 +1,5 @@
 ﻿# 洪武正韻字表
-# version: 20181030
+# version: 20181101
 # author: hhliow (github.com/hhliow)
 # license: cc by-sa 4.0
 # The transcription is intended to reflect the system of 洪武正韻譯訓, but considering the actual phonetics of modern forms of Classic Mandarin (e.g. the Classic Mandarin vocalization found in Kun Opera), the following simplifications maybe applied upon the transcribed system:
@@ -3130,7 +3130,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 4	13a		恌	337	thiɛw	(偷薄也)
 4	13a		佻	337	thiɛw	(同上又見)¶(篠韻)
 4	13a		窕	337	thiɛw	(同上又輕小貌左傳楚師輕窕漢五行志小者不窕又見篠韻)
-4	13a		頫	337	thiɛw	(衆聘周禮殷頫曰視有兩音又嘯韻)¶¶
+4	13a		[覜/頫]	337	thiɛw	(衆聘周禮殷頫曰視有兩音又嘯韻)¶¶
 4	13b		挑	337	thiɛw	(撥也取也杖荷也又往來貌詩挑兮達兮國語挑天之功又與佻同荀子其服不挑儀禮挑匕鄭康成曰挑謂之臿)¶(讀如字又音由又見篠爻二韻)
 4	13b		朓	337	thiɛw	(晦而月見西方从日月之月與聎字不同韻譜从肉誤劉向云朓者疾也孟康曰朓)¶(者月行疾在日之前故早見又篠韻)
 4	13b		條	337	thiɛw	(枝落也詩蠶月條桑又見下)
@@ -4503,7 +4503,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 6	6a		嚶	516	ʔiŋ	(嚶嚶鳥相命聲詩鳥鳴嚶)¶(嚶又鳥鳴相如賦鴻鴈嚶嚶)
 6	6a		嬰	516	ʔiŋ	(嬰孩又加也逆也觸也賈誼傳嬰之以芒刃唐書嬰逆鱗又繞也卓茂傳論嬰城者)¶(相望又繫也縈也荀子處女嬰寳珠選詩余嬰沈痼疾)
 6	6a		瓔	516	ʔiŋ	(石似玉)
-6	6a		瓔	516	ʔiŋ	(冠系又馬鞅左傳鞶厲游纓杜預曰)¶(纓在馬膺前如索帬)
+6	6a		[纓/瓔]	516	ʔiŋ	(冠系又馬鞅左傳鞶厲游纓杜預曰)¶(纓在馬膺前如索帬)
 6	6a		攖	516	ʔiŋ	(觸也迫近也孟子莫之敢攖又縈也莊子攖寧注物縈亦縈而未甞不寧亦作嬰)
 6	6a		膺	516	ʔiŋ	¶¶(胷也又當也擊也詩戎狄是膺又馬帶詩虎䩨鏤膺爾雅膺親也)
 6	6b		應	516	ʔiŋ	(當也又料度之辭又國名又姓又敬韻)¶
@@ -5263,7 +5263,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 6	29a	○	耽	622	tam	(都含切耳大而垂又樂也書今日耽樂)
 6	29a		妉	622	tam	(樂也亦作湛媅耽)
 6	29a		耼	622	tam	(耳曼無輪也又姓老子名)¶(俗作耼又見下)
-6	29a		眈	622	tam	(視近而志逺易虎視耽耽又感韻)
+6	29a		眈	622	tam	(視近而志逺易虎視眈眈又感韻)
 6	29a	○	婪	623	lȁm	(盧含切貪也亦作惏)
 6	29a		惏	623	lȁm	(同上方言殺人)¶(而取其財曰惏)
 6	29a		嵐	623	lȁm	(岢嵐山近太原有渥洼池出良馬又山氣)
@@ -5514,7 +5514,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 7	1a		蕫	670	tûŋ	(同上又薡蕫草似蒲而細)
 7	1a		蝀	670	tûŋ	(螮蝀虹也又束送二韻)
 7	1a		湩	670	tûŋ	¶(乳汁又送韻)
-7	1a		𢝆	670	tûŋ	(懵𢝆心亂)
+7	1a		[懂/𢝆]	670	tûŋ	(懵𢝆心亂)
 7	1a		[𧄓/⿰壴重]	670	tûŋ	(⿰壴重鼓鳴也)
 7	1a	○	統	671	thûŋ	(他總切系也總也綱也緒也橅御也又送韻毛晃曰)¶(統字諸家皆去聲唯玉篇又音桶公羊傳大一統無音合從通用)
 7	1a		桶	671	thûŋ	(木器受六升又斛也月令作甬)
@@ -5925,7 +5925,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 7	13a		坻	719	tiɪ̂i	(隴坻又支紙二韻)
 7	13a		𨸝	719	tiɪ̂i	(揚雄解嘲嚮若𨸝隤師古曰蜀人名山旁堆欲墮曰𨸝)
 7	13a		弤	719	tiɪ̂i	(雕弓)¶
-7	13a		軝	719	tiɪ̂i	(車後)
+7	13a		[軧/軝]	719	tiɪ̂i	(車後)
 7	13a		疧	719	tiɪ̂i	(病也亦作疷又支韻)
 7	13a		堤	719	tiɪ̂i	(滯也亦作底劉兆曰縁邊也又齊韻)
 7	13a		疷	719	tiɪ̂i	(詩俾我疷兮又支韻)¶
@@ -9513,7 +9513,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 11	14a	○	蓋	1366	kǎi	(居大切覆也掩也苫也車蓋也張帛也又大率也發語端也俗作盖又合)¶(韻)
 11	14a		匃	1366	kǎi	(乞也亦作匄丏又曷韻)
 11	14a		匄	1366	kǎi	(漢陳湯匄貸無節西域傳乞匄無所得春秋士匄晉卿又乞與也漢西域傳我匄若)¶(馬又曷韻陳湯傳無音凡無音者合通用)
-11	14a		丏	1366	kǎi	(又銑曷二韻)
+11	14a		[丐/丏]	1366	kǎi	(又銑曷二韻)
 11	14a		漑	1366	kǎi	(灌漑又沆漑水流聲又寘韻)
 11	14a		摡	1366	kǎi	(滌也説文引詩)¶(摡之釡鬵今詩作漑周禮世婦率女官而濯摡注摡拭也又寘韻)
 11	14a		㧉	1366	kǎi	(磨也)
@@ -10552,7 +10552,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 12	10b		畋	1544	diɛ̌n	(同上書多方畋爾田尚永力畋爾田案書五子之歌畋于有洛之表釋文音田多方無音是如字)¶(去聲也廣韻平也謂平其田也又先韻)
 12	10b		鈿	1544	diɛ̌n	(以寳貝餙器有先韻)
 12	10b		淀	1544	diɛ̌n	(淺泉廣韻陂淀洎屬)
-12	10b		涎	1544	diɛ̌n	(光澤貌漢)¶(五行志燕燕尾涎涎廣韻美好貌)
+12	10b		[涏/涎]	1544	diɛ̌n	(光澤貌漢)¶(五行志燕燕尾涎涎廣韻美好貌)
 12	10b		澱	1544	diɛ̌n	(滓垽又藍韻)
 12	10b		闐	1544	diɛ̌n	(于闐西域國名又先韻)
 12	10b		塡	1544	diɛ̌n	(寒也又眞先震)¶(銑韻)
@@ -10668,7 +10668,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 12	14a		畹	1559	ʔyuɛ̌n	(田二十𤱔曰畹又銑韻)
 12	14a		婉	1559	ʔyuɛ̌n	(順也美也又銑韻)
 12	14a	○	片	1560	phiɛ̌n	¶(匹見切半也判也析木也瓣也亦作辨)
-12	14a		辨	1560	phiɛ̌n	(爾雅革中辨謂之韏又銑琰謂韻)
+12	14a		[㸤/辨]	1560	phiɛ̌n	(爾雅革中辨謂之韏又銑琰謂韻)
 12	14a		騗	1560	phiɛ̌n	(躍上馬)
 12	14a	○	麪	1561	miɛ̌n	¶(莫見切麥末)
 12	14a		眄	1561	miɛ̌n	(邪視又銑韻)
@@ -12676,7 +12676,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 14	20b		桲	1967	bȕt	(榲桲)
 14	20b	○	不	1968	put	(逋沒切不然也又見上)¶¶
 14	21a	○	窣	1969	sut	(蘇骨切穴中卒出也又勃窣行緩貌相如賦媻跚勃窣上金隄)
-14	21a		䘏	1969	sut	(曲禮以策彗䘏勿注搔摩也又見上)
+14	21a		[卹/䘏]	1969	sut	(曲禮以策彗䘏勿注搔摩也又見上)
 14	21a	○	卒	1970	tshut	(蒼沒切忽也急也速也倉遽又見下)
 14	21a		猝	1970	tshut	(大從草中暴出逐人也又倉遽也暴疾也通作卒)
 14	21a	○	卒	1971	tsut	(臧沒)¶(切兵卒周禮四兩為卒卒百人也亦作倅説文隷人給事者衣為卒卒衣有題識也故从衣从十)
@@ -12833,7 +12833,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 14	25b		磍	2004	ɦiȁt	(碣磍)¶(怒貌揚雄賦建碣磍之虡孟康曰虡刻猛獸爲之故其形碣磍而盛怒也碣音烏轄反)
 14	25b		黠	2004	ɦiȁt	(堅黑又黠慧)
 14	25b		擖	2004	ɦiȁt	¶(刮也一曰撻也)
-14	25b	○	蘖	2005	(ŋ)jiȁt	(牙八切漢貨殖傳山不蘖又屑韻)
+14	25b	○	蘖	2005	(ŋ)jiȁt	(牙八切漢貨殖傳山不⿱艸在蘖又屑韻)
 14	25b		嶭	2005	(ŋ)jiȁt	(巀嶭山貌又屑韻)
 14	25b		枿	2005	(ŋ)jiȁt	(伐木餘謂斫髠)¶(而復生也亦作蘖)
 14	25b		䡾	2005	(ŋ)jiȁt	(載高貌又屑韻)
@@ -12958,7 +12958,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 15	1b	○	孽	2035	ŋiɛ̏t	(魚列切說文庶子曰孽又盛飾貌詩庶姜孽孽又妖孽變怪也漢志蟲豸之類謂之孽孽則牙矣)¶¶
 15	2a		𧕏	2035	ŋiɛ̏t	(說文禽獸蟲蝗之怪謂之𧕏亦作㜸)
 15	2a		㜸	2035	ŋiɛ̏t	(婢妾賈誼傳庶人㜸妾又與𧕏同)
-15	2a		蘖	2035	ŋiɛ̏t	(妖蘖麴蘖又斫木餘)¶(又肄生曰蘖古文作不本無頭今文作蘖下从不非从木也从木者轉寫訛出頭耳)
+15	2a		蘖	2035	ŋiɛ̏t	(妖蘖麴蘖又斫木餘)¶(又肄生曰蘖古文作𣎴本無頭今文作蘖下从𣎴非从木也从木者轉寫訛出頭耳)
 15	2a		糵	2035	ŋiɛ̏t	(說文牙米又麴糵)
 15	2a		𪌊	2035	ŋiɛ̏t	¶(周禮媒人注齊人名麴𪌊曰媒)
 15	2a		讞	2035	ŋiɛ̏t	(議獄又銑霰韻)
@@ -13193,7 +13193,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 15	9a		鷢	2066	gyuɛ̏t	(廣韻白鷢一名楊鳥似鷹尾工白善捕䑕韓愈送文暢詩飄然)¶(逐鷹鷢)
 15	9a		掘	2066	gyuɛ̏t	(穿也亦作拙橛絀抇闕又質韻)
 15	9a		拙	2066	gyuɛ̏t	(荀子溝池不拙注掘字又曰無鈯墳墓亦掘字本亦作抇俗本)¶(訛作拑非又作鈯)
-15	9a		抇	2066	gyuɛ̏t	(列子抇其谷而得鉄又胡沒切)
+15	9a		[𢪏/抇]	2066	gyuɛ̏t	(列子抇其谷而得鉄又胡沒切)
 15	9a		撅	2066	gyuɛ̏t	(採撅見廣韻杜牧注孫子序撅其城郭與掘同又隊)¶(韻)
 15	9a		闕	2066	gyuɛ̏t	(左傳闕地及泉)
 15	9a	○	浙	2067	tʃiɛt	(之列切江名在錢唐浙者折也水勢曲折激起潮頭故曰浙江亦作淛制)¶
@@ -14087,7 +14087,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 16	15b		荻	2173	dȉk	(蘆屬易注作藡)
 16	15b		頔	2173	dȉk	(好貌唐有于頔)
 16	15b	○	厯	2174	lȉk	(郞狄)¶(切經也次也行也又厯數亦作厯書無疆大厯服漢書律厯亦作厤莊子𢊆物之意音義云古厯字廣韻治也)
-16	15b		厯	2174	lȉk	(厯數)¶(書厯象日月星辰天之厯數在爾躬通作厯厯厯義異者分押)
+16	15b		[曆/厯]	2174	lȉk	(厯數)¶(書厯象日月星辰天之厯數在爾躬通作厯厯厯義異者分押)
 16	15b		靂	2174	lȉk	(霹震霆蔡邕傳作辟厯)
 16	15b		櫪	2174	lȉk	(牛馬皁亦作櫪)¶(又櫪㯕木名韓愈山石詩時見松皆十圍又蠶箔)
 16	15b		[䍥/⿱罒厯]	2174	lȉk	(羃⿱罒厯煙貌)
@@ -14424,7 +14424,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 16	27a	○	法	2241	fap	(方甲切度也又數也常也又刑法漢紀法三章耳又方法)¶¶(凡技術可則效者皆曰法又則效也易卑法地荀子仁人法舜禹之制史湯法三聖又姓亦作灋)
 16	27b		灋	2241	fap	(周禮太宰以八)¶(灋治官府釋文云古法字)¶¶
 16	27b	十葉¶¶	葉	2242	jiɛ̏p	(弋涉切枝葉又姓又書冊歐陽脩曰唐人藏書皆作卷軸後有葉子似今策子又見下从艸从音葉俗作枼凡)¶(从枼者皆然)
-16	27b		楪	2242	jiɛ̏p	(度楪)
+16	27b		[揲/楪]	2242	jiɛ̏p	(度楪)
 16	27b		擖	2242	jiɛ̏p	(箕舌禮記少儀執箕膺擖)
 16	27b		厭	2242	jiɛ̏p	(伏也合也禳也當也塞也按也斁也又順从貌)¶(荀子天下厭然猶一也後漢紀吏士皆作厭服侯霸傳衆多不厭帝紀作猒又杜鄴傳折衝厭難厭者壓也鎭壓寇難使之銷)¶(靡也又左傳文二年書曰及晉處父盟以厭之也杜預曰厭猶損也廣韻惡夢也亦作魘又琰豔合三韻義同者當通用又鹽)¶(韻)
 16	27b		猒	2242	jiɛ̏p	(又鹽豔韻)
@@ -14450,7 +14450,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 16	28a		椄	2245	tsiɛp	(續木)
 16	28a		菨	2245	tsiɛp	(莕菨水草)¶(亦作荇菨名菨余詩傳作接余)
 16	28a		睫	2245	tsiɛp	(目睫說文作䀹)
-16	28a		眹	2245	tsiɛp	(目童子又軫韻)
+16	28a		[䀹/眹]	2245	tsiɛp	(目童子又軫韻)
 16	28a		婕	2245	tsiɛp	(女字又婕妤婦官亦作倢)¶
 16	28a		倢	2245	tsiɛp	(又見下)
 16	28a		浹	2245	tsiɛp	(浹洽潤澤周徧也又通徹也又十日幹一周曰浹日十二日辰一周曰浹辰亦作挾)　
@@ -14558,7 +14558,7 @@ volume_index	page_index	heading	char	ytenx_syllabary_entry	transcription	gloss_l
 16	31a		躞	2258	siɛp	¶(蹀躞行貌从火誤)
 16	31a		屧	2258	siɛp	(屐也又履中薦)
 16	31a	○	業	2259	ŋiɛ̏p	(魚怯切基業事業功業學業蓺業凡所攻治者皆業産業生理)¶(也又始也業業危貌又事物已爲未成曰業孟子有業屨於牖上又已然曰業史業已爲之又筍虡工版詩虡業維縱又築牆)¶(版也爾雅大版謂之業又大造曰大業易富有之謂大業建業金陵)
-16	31a		牒	2259	ŋiɛ̏p	(筍虡大版又築牆版說文作𢄁)
+16	31a		[㸣/牒]	2259	ŋiɛ̏p	(筍虡大版又築牆版說文作𢄁)
 16	31a		鄴	2259	ŋiɛ̏p	(地名)¶
 16	31a		𢢜	2259	ŋiɛ̏p	(懼也危也書作業業)
 16	31a		嶪	2259	ŋiɛ̏p	(岌業山貌方作嶫)
