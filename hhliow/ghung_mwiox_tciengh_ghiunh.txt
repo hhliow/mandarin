@@ -3,16 +3,16 @@
 # author: hhliow (github.com/hhliow)
 # license: cc by-sa 4.0
 # The transcription is intended to reflect the system of 洪武正韻譯訓, but considering the actual phonetics of modern forms of Classic Mandarin (e.g. the Classic Mandarin vocalization found in Kun Opera), the following simplifications maybe applied upon the transcribed system:
-#  Syllable codae -p -t -k maybe merged to glottal stop -[ʔ];
-#  Breathy fricatives ʂʐ ʃʒ sz fv ɦ may each be merged into [ʂ] [ʃ] [s] [f] [h]~[x] respectively;
-#  While preceding /i/ or /y/, velar and glottal consonants /k/ /kh/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ may be palatalized to [tɕ] [tɕʰ] [dʑ] [j] [j] [ɕ] [ɕ]~[ɕʱ] respectively;
-#  finals -iaw and -iɛw may be merged.
-#  finals -i and -iɪi may be merged.
+#   Syllable codae -p -t -k maybe merged to glottal stop -[ʔ];
+#   Breathy fricatives ʂʐ ʃʒ sz fv ɦ may each be merged into [ʂ] [ʃ] [s] [f] [h]~[x] respectively;
+#   While preceding /i/ or /y/, velar and glottal consonants /k/ /kh/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ may be palatalized up to [tɕ] [tɕʰ] [dʑ] [j] [j] [ɕ] [ɕ]~[ɕʱ] respectively;
+#   finals -iaw and -iɛw may be merged.
+#   finals -i and -iɪi may be merged.
 # Note that 洪武正韻譯訓 distinguishes tones by chapter index, not by transcription. The conventiaonal 上聲 marker ʿ and 去聲 marker ʾ in this document are added for convenience.
 # Credits:
-#  Digitalization of 洪武正韻 gloss is done by Kanseki Repository and reorganized by hhliow.
-#  Digitalization of 洪武正韻譯訓 syllabary is done by hhliow.
-#  IPA transcription and data organization is done by hhliow (github.com/hhliow).
+#   Digitalization of 洪武正韻 gloss is done by Kanseki Repository and reorganized by hhliow.
+#   Digitalization of 洪武正韻譯訓 syllabary is done by hhliow.
+#   IPA transcription and data organization is done by hhliow (github.com/hhliow).
 volume_index	page_index	heading	char	ytenx_syllabary_entry	jiek_hyunh	transcription	gloss_literal
 1	1a	平聲¶¶¶一東¶¶	東	1	두ᇰ	tuŋ	(徳紅切春方也說文動也从日在木中漢志少陽者東方東動也陽氣動於時為春又陽韻俗作東)
 1	1a		涷	1	두ᇰ	tuŋ	(暴雨)¶(離騷云使涷雨兮灑塵郭璞曰江東呼夏月暴雨為涷又水名出發鳩山入河一曰瀧涷沾漬又送韻)
