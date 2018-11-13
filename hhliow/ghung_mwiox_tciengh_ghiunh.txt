@@ -8,7 +8,7 @@
 #   While preceding /i/ or /y/, velar and glottal consonants /k/ /kh/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ may be palatalized up to [tɕ] [tɕʰ] [dʑ] [j] [j] [ɕ] [ɕ]~[ɕʱ] respectively;
 #   finals -iaw and -iɛw may be merged.
 #   finals -i and -iɪi may be merged.
-# Note that 洪武正韻譯訓 distinguishes tones by chapter index, not by transcription. The conventiaonal 上聲 marker ʿ and 去聲 marker ʾ in this document are added for convenience.
+# Note that 洪武正韻譯訓 distinguishes tones by chapter index, not by transcription. The conventional 上聲 marker ʿ and 去聲 marker ʾ in this document are added for convenience.
 # Credits:
 #   Digitalization of 洪武正韻 gloss is done by Kanseki Repository and reorganized by hhliow.
 #   Digitalization of 洪武正韻譯訓 syllabary is done by hhliow.
