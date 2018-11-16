@@ -1684,7 +1684,7 @@ vol02_p18b_entry18_思	vol1_p261_entry08_思	1667	141
 vol02_p19a_entry01_罳	vol1_p261_entry09_罳	1668	141
 vol02_p19a_entry02_毢	vol1_p261_entry10_毢	1669	141
 vol02_p19a_entry03_䰄	vol1_p261_entry11_䰄	1670	141
-	vol1_p261_entry12_偲	1671	141
+missing	vol1_p261_entry12_偲	1671	141
 vol02_p19a_entry04_猜	vol1_p261_entry13_猜	1672	142
 vol02_p19a_entry05_偲	missing	1672.1	142
 vol02_p19a_entry06_哉	vol1_p261_entry14_哉	1673	143
@@ -5945,7 +5945,7 @@ vol07_p14a_entry06_礼	vol2_p038_entry12_礼	5900	722
 vol07_p14a_entry07_醴	vol2_p039_entry01_醴	5901	722
 vol07_p14a_entry08_鱧	vol2_p039_entry02_鱧	5902	722
 vol07_p14a_entry09_澧	vol2_p039_entry03_澧	5903	722
-	vol2_p039_entry04_蠡	5904	722
+missing	vol2_p039_entry04_蠡	5904	722
 vol07_p14a_entry10_盠	vol2_p039_entry05_盠	5905	722
 vol07_p14a_entry11_劙	vol2_p039_entry06_劙	5906	722
 vol07_p14a_entry12_豊	vol2_p039_entry07_豊	5907	722
@@ -7948,8 +7948,8 @@ vol09_p23b_entry12_醒	vol2_p191_entry01_醒	7893	1119
 vol09_p23b_entry13_惺	vol2_p191_entry02_惺	7894	1119
 vol09_p23b_entry14_篂	vol2_p191_entry03_篂	7895	1119
 vol09_p23b_entry15_星	vol2_p191_entry04_星	7896	1119
-	vol2_p191_entry05_請	7897	1120
-	vol2_p191_entry06_睛	7898	1120
+missing	vol2_p191_entry05_請	7897	1120
+missing	vol2_p191_entry06_睛	7898	1120
 vol09_p23b_entry16_□	vol2_p191_entry07_井	7899	1121
 vol09_p24a_entry01_逞	vol2_p191_entry08_逞	7900	1122
 vol09_p24a_entry02_騁	vol2_p191_entry09_騁	7901	1122
@@ -8243,7 +8243,7 @@ vol09_p33a_entry02_頷	vol2_p214_entry17_頷	8187	1190
 vol09_p33a_entry03_糝	vol2_p214_entry18_糝	8188	1191
 vol09_p33a_entry04_參	vol2_p214_entry19_參	8189	1191
 vol09_p33a_entry05_槮	vol2_p214_entry20_槮	8190	1191
-	vol2_p214_entry21_慘	8191	1192
+missing	vol2_p214_entry21_慘	8191	1192
 vol09_p33a_entry06_㦧	vol2_p214_entry22_㦧	8192	1192
 vol09_p33a_entry07_㿊	vol2_p214_entry23_㿊	8193	1192
 vol09_p33a_entry08_黲	missing	8193.1	1192
@@ -9819,7 +9819,7 @@ vol11_p23b_entry14_繪	vol3_p095_entry03_繪	9758	1405
 vol11_p23b_entry15_繢	vol3_p095_entry04_繢	9759	1405
 vol11_p23b_entry16_禬	vol3_p095_entry05_禬	9760	1405
 vol11_p23b_entry17_靧	vol3_p095_entry06_靧	9761	1405
-	vol3_p095_entry07_頮	9762	1405
+missing	vol3_p095_entry07_頮	9762	1405
 vol11_p23b_entry18_沬	vol3_p095_entry08_沬	9763	1405
 vol11_p23b_entry19_誨	vol3_p095_entry09_誨	9764	1406
 vol11_p23b_entry20_悔	vol3_p095_entry10_悔	9765	1406
@@ -10293,7 +10293,7 @@ vol12_p01b_entry10_秆	vol3_p126_entry04_秆	10230	1484
 vol12_p01b_entry11_骭	vol3_p126_entry05_骭	10231	1484
 vol12_p01b_entry12_漢	vol3_p126_entry06_漢	10232	1485
 vol12_p01b_entry13_暵	vol3_p126_entry07_暵	10233	1485
-	vol3_p126_entry08_熯	10234	1485
+missing	vol3_p126_entry08_熯	10234	1485
 vol12_p01b_entry14_偘	missing	10234.1	1485
 vol12_p01b_entry15_看	vol3_p126_entry09_看	10235	1486
 vol12_p01b_entry16_侃	vol3_p126_entry10_侃	10236	1486
@@ -10753,7 +10753,7 @@ vol12_p17a_entry16_汴	vol3_p158_entry08_汴	10688	1578
 vol12_p17a_entry17_汳	vol3_p158_entry09_汳	10689	1578
 vol12_p17a_entry18_弁	vol3_p158_entry10_弁	10690	1578
 vol12_p17b_entry01_抃	vol3_p158_entry11_抃	10691	1578
-	vol3_p158_entry12_𢬵	10692	1578
+missing	vol3_p158_entry12_𢬵	10692	1578
 vol12_p17b_entry02_拚	vol3_p158_entry13_拚	10693	1578
 vol12_p17b_entry03_㭓	missing	10693.1	1578
 vol12_p17b_entry04_笲	vol3_p158_entry14_笲	10694	1578
@@ -11134,7 +11134,7 @@ vol13_p02a_entry12_姹	vol3_p188_entry06_姹	11064	1665
 vol13_p02a_entry13_哆	vol3_p188_entry07_哆	11065	1665
 vol13_p02a_entry14_奓	vol3_p188_entry08_奓	11066	1665
 vol13_p02a_entry15_詫	vol3_p188_entry09_詫	11067	1665
-	vol3_p188_entry10_𧩫	11068	1665
+missing	vol3_p188_entry10_𧩫	11068	1665
 vol13_p02a_entry16_差	vol3_p188_entry11_差	11069	1665
 vol13_p02a_entry17_暇	vol3_p188_entry12_暇	11070	1666
 vol13_p02a_entry18_假	vol3_p188_entry13_假	11071	1666
@@ -12965,7 +12965,7 @@ vol15_p02a_entry04_糵	vol4_p079_entry01_糵	12890	2035
 vol15_p02a_entry05_𪌊	vol4_p079_entry02_𪌊	12891	2035
 vol15_p02a_entry06_讞	vol4_p079_entry03_讞	12892	2035
 vol15_p02a_entry07_䡾	vol4_p079_entry04_䡾	12893	2035
-	vol4_p079_entry05_钀	12894	2035
+missing	vol4_p079_entry05_钀	12894	2035
 vol15_p02a_entry08_齧	vol4_p079_entry06_齧	12895	2035
 vol15_p02a_entry09_䘽	vol4_p079_entry07_䘽	12896	2035
 vol15_p02a_entry10_臬	vol4_p079_entry08_臬	12897	2035
