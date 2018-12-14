@@ -61,6 +61,7 @@ speller:
     - xform/^ɻ/zhe/
     - xform/ə/e/
     - xform/ɔ/o/
+    - xform/ɒ/o/
     - xform/ɛ/e/
     - xform/ɑ/a/
     - xform/^tci([XH]?)$/tri$1/
@@ -71,6 +72,8 @@ speller:
     - xform/y([XH]?)$/yu/
     - xform/X/x/
     - xform/H/h/
+    - derive/iw/iow/
+    - derive/ew/ow/
     - derive/iei/i/
     - derive/^ts/tz/
     - derive/^tshh/txx/
@@ -82,7 +85,7 @@ speller:
     - derive/^phh/b/
     - derive/^thh/d/
     - derive/^khh/g/
-    - derive/([^w])on([XH]?)$/$1an$2/
+    - derive/^(k|kh|ng|q|h|hh)an([XH]?)$/$1on$2/
     - derive/yu/y/
     - derive/jyu/ju/
     - derive/ji(aeou)/j$1/
