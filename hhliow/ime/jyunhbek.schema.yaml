@@ -1,0 +1,110 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: jyunhbek
+  name: 韻白拼音
+  version: "2018.12.13"
+  author:
+    - Phjong <hxliow@gmail.com>
+  description: |
+     韻白拼音
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - r10n_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+  algebra:
+    - "xform/'//"
+    - xform/ʔ/q/
+    - xform/ɦ/hh/
+    - xform/^(ʈʂ|tʃ)/tc/
+    - xform/^(ʂʐ|ʃʒ)/szh/
+    - xform/^(ʂ|ʃ)/sh/
+    - xform/^(dʒ|ɖʐ)/dr/
+    - xform/^ʒ/zh/
+    - xform/ɡ/g/
+    - xform/ŋ/ng/
+    - xform/^ɻ/zhe/
+    - xform/ə/e/
+    - xform/ɔ/o/
+    - xform/ɛ/e/
+    - xform/ɑ/a/
+    - xform/^tci([XH]?)$/tri$1/
+    - xform/^tchi([XH]?)$/thri$1/
+    - xform/iɨ/i/
+    - xform/ɨ/e/
+    - xform/iɪi/iei/
+    - xform/y([XH]?)$/yu/
+    - xform/X/x/
+    - xform/H/h/
+    - derive/iei/i/
+    - derive/^ts/tz/
+    - derive/^tshh/txx/
+    - derive/^tshh/dz/
+    - derive/^tsh([^h])/tx$1/
+    - derive/^tch/ch/
+    - derive/^tchh/dr/
+    - derive/^szh/shh/
+    - derive/^phh/b/
+    - derive/^thh/d/
+    - derive/^khh/g/
+    - derive/([^w])on([XH]?)$/$1an$2/
+    - derive/yu/y/
+    - derive/jyu/ju/
+    - derive/ji(aeou)/j$1/
+
+translator:
+  dictionary: jyunhbek
+  spelling_hints: 4
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
