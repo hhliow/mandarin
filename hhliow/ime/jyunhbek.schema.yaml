@@ -69,7 +69,7 @@ speller:
     - xform/iɨ/i/
     - xform/ɨ/e/
     - xform/iɪi/iei/
-    - xform/y([XH]?)$/yu/
+    - xform/y([XH]?)$/yu$1/
     - xform/X/x/
     - xform/H/h/
     - derive/iw/iow/
