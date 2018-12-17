@@ -99,7 +99,7 @@ speller:
     - xform/^khh/g/
     - xform/^sz/z/
     - xform/^fv/fh/
-    - xform/_/fh/
+    - xform/_//
 
 translator:
   dictionary: jyunhbek_mobile
