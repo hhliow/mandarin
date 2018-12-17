@@ -63,42 +63,43 @@ speller:
     - xform/ŋ([XHK]?)$/g$1/
     - xform/ə([mnŋg])/$1/
     - xform/un/wn/
-    - xform/ɔn/p/
+    - xform/_ɔn/p/
     - xform/ɔ([XH]?)$/o$1/
-    - xform/[oə]w/b/
+    - xform/[oə]w/_b/
     - xform/iw/jb/
-    - xform/[ɑɒɔ][ŋg]/q/
-    - xform/[ɑa]n/t/
-    - xform/am/f/
-    - xform/aw/k/
-    - xform/ai/l/
-    - xform/[ji]ɛn/x/
-    - xform/[ji]ɛm/d/
-    - xform/[ji]ɛw/c/
+    - xform/[ɑɒɔ][ŋg]/_q/
+    - xform/[ɑa]n/_t/
+    - xform/am/_f/
+    - xform/aw/_k/
+    - xform/ai/_l/
+    - xform/[ji]ɛn/_x/
+    - xform/[ji]ɛm/_d/
+    - xform/[ji]ɛw/_c/
     - xform/[ji]ɛ([XH]?)$/e$1/
-    - xform/ɨ/r/
+    - xform/ɨ/_r/
     - xform/iɪi/ji/
-    - xform/u[ŋg]/s/
-    - xform/ui/v/
+    - xform/u[ŋg]/_s/
+    - xform/ui/_v/
     - xform/y([XH]?)$/yu$1/
-    - xform/X/x/
+    - xform/X/_x/
     - xform/H/e/
     - xform/K/a/
-    - xform/^ɻ/rr/
+    - xform/^ɻ/_rr/
     - xform/^(ʂʐ|ʃʒ)/wh/
     - xform/^(ʂ|ʃ)/w/
     - xform/^(dʒ|ɖʐ)/y/
     - xform/^(dz)/u/
     - xform/^ŋ/o/
     - xform/^dz/u/
-    - xform/^ts/i/
     - xform/^phh/b/
     - xform/^thh/d/
     - xform/^tshh/u/
+    - xform/^ts/i/    
     - xform/^chh/y/
     - xform/^khh/g/
     - xform/^sz/z/
     - xform/^fv/fh/
+    - xform/_/fh/
 
 translator:
   dictionary: jyunhbek_mobile
