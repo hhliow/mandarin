@@ -56,6 +56,7 @@ speller:
     - xform/^(ʈʂ|tʃ)/c/
     - xform/^ʒ/r/
     - xform/ɡ/g/
+    - derive/^ŋ([^wuyij])/g/    
     - xform/^([wu])/j$1/
     - xform/p$/mK/
     - xform/t$/nK/
