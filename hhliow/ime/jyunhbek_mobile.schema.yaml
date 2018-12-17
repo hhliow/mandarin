@@ -56,7 +56,7 @@ speller:
     - xform/^(ʈʂ|tʃ)/c/
     - xform/^ʒ/r/
     - xform/ɡ/g/
-    - derive/^ŋ([^wuyij])/g/    
+    - derive/^ŋ([^wuyij])/g$1/    
     - xform/^([wu])/j$1/
     - xform/p$/mK/
     - xform/t$/nK/
@@ -89,7 +89,7 @@ speller:
     - xform/^(ʂʐ|ʃʒ)/wh/
     - xform/^(ʂ|ʃ)/w/
     - xform/^(dʒ|ɖʐ)/y/
-    - xform/^(dz)/u/
+    - xform/^dz/u/
     - xform/^ŋ/o/
     - xform/^dz/u/
     - xform/^phh/b/
