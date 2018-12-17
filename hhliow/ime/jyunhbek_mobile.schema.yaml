@@ -54,13 +54,9 @@ speller:
     - xform/ʔ/q/
     - xform/ɦ/hh/
     - xform/^(ʈʂ|tʃ)/c/
-    - xform/^(ʂʐ|ʃʒ)/wh/
-    - xform/^(ʂ|ʃ)/w/
-    - xform/^(dʒ|ɖʐ)/y/
     - xform/^ʒ/r/
     - xform/ɡ/g/
-    - xform/^ŋ/o/
-    - xform/^ɻ/rr/
+    - xform/^([wu])/j$1/
     - xform/p$/mK/
     - xform/t$/nK/
     - xform/k$/ŋK/
@@ -86,9 +82,24 @@ speller:
     - xform/y([XH]?)$/yu$1/
     - xform/X/x/
     - xform/H/e/
+    - xform/K/a/
+    - xform/^ɻ/rr/
+    - xform/^(ʂʐ|ʃʒ)/wh/
+    - xform/^(ʂ|ʃ)/w/
+    - xform/^(dʒ|ɖʐ)/y/
+    - xform/^(dz)/u/
+    - xform/^ŋ/o/
+    - xform/^dz/u/
+    - xform/^phh/b/
+    - xform/^thh/d/
+    - xform/^tshh/u/
+    - xform/^chh/y/
+    - xform/^khh/g/
+    - xform/^sz/z/
+    - xform/^fv/fh/
 
 translator:
-  dictionary: jyunhbek
+  dictionary: jyunhbek_mobile
   spelling_hints: 4
 
 reverse_lookup:
