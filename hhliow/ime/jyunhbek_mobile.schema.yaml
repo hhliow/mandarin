@@ -61,20 +61,21 @@ speller:
     - xform/t$/nK/
     - xform/k$/ŋK/
     - xform/ŋ([XHK]?)$/g$1/
-    - xform/ə(mnŋg)/$1/
+    - xform/ə([mnŋg])/$1/
     - xform/un/wn/
     - xform/ɔn/p/
+    - xform/ɔ([XH]?)$/o$1/
     - xform/[oə]w/b/
     - xform/iw/jb/
-    - xform/[ɑɒɔ]ŋ/q/
-    - xform/ɑn/t/
+    - xform/[ɑɒɔ][ŋg]/q/
+    - xform/[ɑa]n/t/
     - xform/am/f/
     - xform/aw/k/
     - xform/ai/l/
-    - xform/iɛn/x/
-    - xform/iɛm/d/
-    - xform/iɛw/c/
-    - xform/iɛ([XH]?)$/e/
+    - xform/[ji]ɛn/x/
+    - xform/[ji]ɛm/d/
+    - xform/[ji]ɛw/c/
+    - xform/[ji]ɛ([XH]?)$/e$1/
     - xform/ɨ/r/
     - xform/iɪi/ji/
     - xform/u[ŋg]/s/
@@ -90,6 +91,7 @@ speller:
     - xform/^(dz)/u/
     - xform/^ŋ/o/
     - xform/^dz/u/
+    - xform/^ts/i/
     - xform/^phh/b/
     - xform/^thh/d/
     - xform/^tshh/u/
