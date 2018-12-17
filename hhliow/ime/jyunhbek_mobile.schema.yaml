@@ -63,12 +63,12 @@ speller:
     - xform/ŋ([XHK]?)$/g$1/
     - xform/ə([mnŋg])/$1/
     - xform/un/wn/
-    - xform/_ɔn/p/
+    - xform/ɔn/_p/
     - xform/ɔ([XH]?)$/o$1/
     - xform/[oə]w/_b/
     - xform/iw/jb/
-    - xform/[ɑɒɔ][ŋg]/_q/
-    - xform/[ɑa]n/_t/
+    - xform/ɑg|ɒg/_q/
+    - xform/ɑn|an/_t/
     - xform/am/_f/
     - xform/aw/_k/
     - xform/ai/_l/
