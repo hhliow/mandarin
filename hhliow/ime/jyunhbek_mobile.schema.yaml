@@ -65,7 +65,7 @@ speller:
     - xform/un/wn/
     - xform/ɔn/_p/
     - xform/ɔ([XH]?)$/o$1/
-    - xform/[oə]w/_b/
+    - xform/ow|əw/_b/
     - xform/iw/jb/
     - xform/ɑg|ɒg/_q/
     - xform/ɑn|an/_t/
