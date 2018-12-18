@@ -82,6 +82,7 @@ speller:
     - xform/iɪi/ji/
     - xform/u[ŋg]/_s/
     - xform/ui/_v/
+    - derive/y([XH]?)$/_z$1/
     - xform/y([XH]?)$/yu$1/
     - xform/X/_x/
     - xform/H/e/
