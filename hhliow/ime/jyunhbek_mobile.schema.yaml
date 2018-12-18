@@ -5,7 +5,7 @@
 schema:
   schema_id: jyunhbek_mobile
   name: 韻白拼音手機式
-  version: "2018.12.16"
+  version: "2018.12.17"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -73,10 +73,11 @@ speller:
     - xform/am/_f/
     - xform/aw/_k/
     - xform/ai/_l/
-    - xform/[ji]ɛn/_x/
-    - xform/[ji]ɛm/_d/
-    - xform/[ji]ɛw/_c/
-    - xform/[ji]ɛ([XH]?)$/e$1/
+    - derive/jɛ/ɛ/
+    - xform/ɛn/_x/
+    - xform/ɛm/_d/
+    - xform/ɛw/_c/
+    - xform/ɛ([XH]?)$/e$1/
     - xform/ɨ/_r/
     - xform/iɪi/ji/
     - xform/u[ŋg]/_s/
