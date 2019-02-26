@@ -1,0 +1,87 @@
+# Rime dictionary
+# vim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+# 註音符號qwerty
+#
+# Author:
+#  - Phjong <hxliow@gmail.com>
+#
+
+---
+name: qwerty_pophomofo
+version: "2019.02.25"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+ㄅ	p
+ㄆ	ph
+ㄇ	m
+ㄈ	f
+ㄉ	t
+ㄊ	th
+ㄋ	n
+ㄌ	l
+ㄍ	k
+ㄎ	kh
+ㄏ	h
+ㄐ	kj
+ㄑ	khj
+ㄒ	hj
+ㄓ	c
+ㄔ	ch
+ㄕ	sh
+ㄖ	r
+ㄗ	ts
+ㄘ	tsh
+ㄙ	s
+ㄚ	a
+ㄛ	o
+ㄜ	eo
+ㄝ	e
+ㄞ	I
+ㄟ	ei
+ㄠ	aw
+ㄡ	ow
+ㄢ	an
+ㄣ	en
+ㄤ	ang
+ㄥ	eng
+ㄦ	er
+ㄧ	i
+ㄨ	u
+ㄩ	y
+ㄭ	Y
+ㄮ	eoo
+ㄯ	nn
+ㄪ	v
+ㄫ	ng
+ㄬ	nj
+ㆠ	b
+ㆡ	dz
+ㆢ	gj
+ㆣ	g
+ㆤ	ee
+ㆥ	enn
+ㆦ	oo
+ㆧ	onn
+ㆨ	ir
+ㆩ	ann
+ㆪ	inn
+ㆫ	unn
+ㆬ	mm
+ㆭ	ngg
+ㆮ	ainn
+ㆯ	aunn
+ㆰ	am
+ㆱ	om
+ㆲ	ong
+ㆳ	innn
+ㆴ	pp
+ㆵ	tt
+ㆶ	kk
+ㆷ	hh
+ㆸ	gh
+ㆹ	lh
+ㆺ	zj
