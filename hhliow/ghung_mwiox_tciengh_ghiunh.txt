@@ -1,5 +1,5 @@
 ﻿# 洪武正韻字表
-# version: 2019022ɵ
+# version: 20190228
 # author: hhliow (github.com/hhliow)
 # license: cc by-sa 4.0
 # The phonetic transcription follows the system of 洪武正韻譯訓 and uses the phonetics of modern forms of Classical Mandarin, primarily the Classical Mandarin vocalization found in Kun Opera.
