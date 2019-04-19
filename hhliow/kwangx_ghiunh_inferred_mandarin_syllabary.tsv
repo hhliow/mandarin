@@ -1,4 +1,4 @@
-# version: 20190404						
+# version: 20190419						
 # author: hhliow (github.com/hhliow)						
 # license: cc by-nc-sa 4.0						
 index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(IPA)	中州音(推導/傳承)	推導國音
@@ -1301,7 +1301,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1297	始	止開三上之書	syiX	ʃiɨ̂	꜂ㄕ	꜂ㄕ
 1298	歭	止開三上之澄	driX	dʒǐ'	ㄓㄧ'꜅	ㄓ꜄
 1299	起	止開三上之溪	khiX	khî	꜂ㄑㄧ	꜂ㄑㄧ
-1300	士	止開三上之崇	dzriX	ɖʐɨ̂/ʂʐɨ̌'	꜂ㄓㄭ/ㄕㄭ'꜅	꜂ㄓ/ㄕ꜄
+1300	士	止開三上之崇	dzriX	ɖʐɨ̌'/ʂʐɨ̌'	ㄓㄭ'꜅/ㄕㄭ'꜅	ㄓ꜄/ㄕ꜄
 1301	俟	止開三上之俟	zriX	ʂʐɨ̌'	ㄕㄭ'꜅	ㄕ꜄
 1302	子	止開三上之精	tsiX	tsɨ̂	꜂ㄗㄭ	꜂ㄗ
 1303	矣	止開三上之云	hiX	jî	꜂ㄧ	꜂ㄧ
@@ -1342,7 +1342,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1338	所	遇開三上魚生	srjoX	ʂû	꜂ㄕㄨ	꜂ㄕㄨ
 1339	楚	遇開三上魚初	tsrhjoX	ʈʂhû	꜂ㄔㄨ	꜂ㄔㄨ
 1340	阻	遇開三上魚莊	tsrjoX	ʈʂû	꜂ㄓㄨ	꜂ㄓㄨ
-1341	齟	遇開三上魚崇	dzrjoX	ɖʐû	꜂ㄓㄨ	꜂ㄓㄨ
+1341	齟	遇開三上魚崇	dzrjoX	ɖʐǔ'	ㄓㄨ'꜅	ㄓㄨ꜄
 1342	咀	遇開三上魚從	dzjoX	dzy̌'	ㆡㄩ'꜅	ㄗㄩ꜄
 1343	𢮁	遇開三上魚影	’joX	ʔŷ	꜂ㄩ	꜂ㄩ
 1344	舉	遇開三上魚見	kjoX	kŷ	꜂ㄐㄩ	꜂ㄐㄩ
@@ -1374,7 +1374,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1370	取	遇合三上虞清	tshjuX	tshŷ	꜂ㄘㄩ	꜂ㄘㄩ
 1371	縷	遇合三上虞來	ljuX	lŷ	꜂ㄌㄩ	꜂ㄌㄩ
 1372	𦄼	遇合三上虞心	sjuX	sŷ	꜂ㄙㄩ	꜂ㄙㄩ
-1373	䝒	遇合三上虞崇	dzrjuX	ɖʐû	꜂ㄓㄨ	꜂ㄓㄨ
+1373	䝒	遇合三上虞崇	dzrjuX	ɖʐǔ'	ㄓㄨ'꜅	ㄓㄨ꜄
 1374	姥	遇開一上模明	muX	mû	꜂ㄇㄨ	꜂ㄇㄨ
 1375	土	遇開一上模透	thuX	thû	꜂ㄊㄨ	꜂ㄊㄨ
 1376	杜	遇開一上模定	duX	dǔ'	ㄉㄨ'꜅	ㄉㄨ꜄
@@ -1413,7 +1413,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1409	蟹	蟹開二上佳匣	heaX	ɦiǎi'	ㄒㄧㄞ'꜅	ㄒㄧㄞ꜄
 1410	買	蟹開二上佳明	meaX	mâi	꜂ㄇㄞ	꜂ㄇㄞ
 1411	䒓	蟹開二上佳溪	kheaX	khiâi	꜂ㄑㄧㄞ	꜂ㄑㄧㄞ
-1412	廌	蟹開二上佳澄	dreaX	ɖʐâi	꜂ㄓㄞ	꜂ㄓㄞ
+1412	廌	蟹開二上佳澄	dreaX	ɖʐǎi'	ㄓㄞ'꜅	ㄓㄞ꜄
 1413	嬭	蟹開二上佳孃	nreaX	nâi	꜂ㄋㄞ	꜂ㄋㄞ
 1414	罷	蟹開二上佳並	beaX	bǎi'	ㆠㄞ'꜅	ㄅㄞ꜄
 1415	矮	蟹開二上佳影	’eaX	ʔiâi	꜂ㄧㄞ	꜂ㄧㄞ
@@ -1421,7 +1421,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1417	解	蟹開二上佳見	keaX	kiâi	꜂ㄐㄧㄞ	꜂ㄐㄧㄞ
 1418	灑	蟹開二上佳生	sreaX	ʂâi	꜂ㄕㄞ	꜂ㄕㄞ
 1419	𦫳	蟹合二上佳見	kweaX	kwâ	꜂ㄍㄨㄚ	꜂ㄍㄨㄚ
-1420	㧳	蟹合二上佳澄	drweaX	ɖʐwâ	꜂ㄓㄨㄚ	꜂ㄓㄨㄚ
+1420	㧳	蟹合二上佳澄	drweaX	ɖʐwǎ'	ㄓㄨㄚ'꜅	ㄓㄨㄚ꜄
 1421	夥	蟹合二上佳匣	hweaX	ɦwǎ'	ㄏㄨㄚ'꜅	ㄏㄨㄚ꜄
 1422	扮	蟹合二上佳曉	xweaX	hwâ	꜂ㄏㄨㄚ	꜂ㄏㄨㄚ
 1423	箉	蟹開二上佳羣	geaX	giǎi'	ㆢㄧㄞ'꜅	ㄐㄧㄞ꜄
@@ -1498,7 +1498,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1494	螼	臻開三上眞溪A	khjinX	khîn	꜂ㄑㄧㄣ	꜂ㄑㄧㄣ
 1495	賰	臻合三上諄書	sywinX	ʃyûn	꜂ㄕㄩㄣ	꜂ㄕㄨㄣ
 1496	脪	臻開三上眞曉A	xjinX	hîn	꜂ㄒㄧㄣ	꜂ㄒㄧㄣ
-1497	濜	臻開三上眞崇	dzrinX	ɖʐə̂n	꜂ㄓㄣ	꜂ㄓㄣ
+1497	濜	臻開三上眞崇	dzrinX	ɖʐə̌n'	ㄓㄣ'꜅	ㄓㄣ꜄
 1498	屒	臻開三上眞知	trinX	tʃîn	꜂ㄓㄧㄣ	꜂ㄓㄣ
 1499	吻	臻合三上文明	mjunX	vûn	꜂ㄪㄨㄣ	꜂ㄪㄣ
 1500	粉	臻合三上文幫	pjunX	fûn	꜂ㄈㄨㄣ	꜂ㄈㄣ
@@ -1588,7 +1588,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1584	睆	山合二上刪匣	hwaenX	ɦwǎn'	ㄏㄨㄢ'꜅	ㄏㄨㄢ꜄
 1585	阪	山開二上刪並	baenX	bǎn'	ㆠㄢ'꜅	ㄅㄢ꜄
 1586	矕	山開二上刪明	maenX	mân	꜂ㄇㄢ	꜂ㄇㄢ
-1587	𪘪	山開二上刪崇	dzraenX	ɖʐân	꜂ㄓㄢ	꜂ㄓㄢ
+1587	𪘪	山開二上刪崇	dzraenX	ɖʐǎn'	ㄓㄢ'꜅	ㄓㄢ꜄
 1588	𪗙	山開二上刪疑	ngaenX	(ŋ)iân	꜂ㄧㄚㄣ	꜂ㄧㄢ
 1589	㹽	山開二上刪初	tsrhaenX	ʈʂhân	꜂ㄔㄢ	꜂ㄔㄢ
 1590	眅	山開二上刪滂	phaenX	phân	꜂ㄆㄢ	꜂ㄆㄢ
@@ -1598,7 +1598,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1594	𥇅	山開二上山明	meanX	mân	꜂ㄇㄢ	꜂ㄇㄢ
 1595	簡	山開二上山見	keanX	kiân	꜂ㄐㄚㄣ	꜂ㄐㄢ
 1596	剗	山開二上山初	tsrheanX	ʈʂhân	꜂ㄔㄢ	꜂ㄔㄢ
-1597	棧	山開二上山崇	dzreanX	ɖʐân	꜂ㄓㄢ	꜂ㄓㄢ
+1597	棧	山開二上山崇	dzreanX	ɖʐǎn'	ㄓㄢ'꜅	ㄓㄢ꜄
 1598	眼	山開二上山疑	ngeanX	(ŋ)iân	꜂ㄧㄚㄣ	꜂ㄧㄢ
 1599	醆	山開二上山莊	tsreanX	ʈʂân	꜂ㄓㄢ	꜂ㄓㄢ
 1600	㦃	山合二上山初	tsrhweanX	ʈʂhwân	꜂ㄔㄨㄢ	꜂ㄔㄨㄢ
@@ -1654,7 +1654,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1650	篆	山合三上仙澄	drjwenX	dʒyuɛ̌n'	ㄓㄩㄢ'꜅	ㄓㄨㄢ꜄
 1651	剸	山合三上仙章	tsywenX	tʃyuɛ̂n	꜂ㄓㄩㄢ	꜂ㄓㄨㄢ
 1652	選	山合三上仙心	sjwenX	syuɛ̂n	꜂ㄙㄩㄢ	꜂ㄙㄩㄢ
-1653	撰	山合三上仙崇	dzrjwenX	ɖʐwân	꜂ㄓㄨㄢ	꜂ㄓㄨㄢ
+1653	撰	山合三上仙崇	dzrjwenX	ɖʐwǎn'	ㄓㄨㄢ'꜅	ㄓㄨㄢ꜄
 1654	蜎	山合三上仙羣A	gjwienX	gyuɛ̌n'	ㆢㄩㄢ'꜅	ㄐㄩㄢ꜄
 1655	蠉	山合三上仙曉A	xjwienX	hyuɛ̂n	꜂ㄒㄩㄢ	꜂ㄒㄩㄢ
 1656	楩	山開三上仙並A	bjienX	biɛ̌n'	ㆠㄧㄢ'꜅	ㄅㄧㄢ꜄
@@ -1664,7 +1664,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1660	㒄	山開三上仙書	syenX	ʃiɛ̂n	꜂ㄕㄧㄢ	꜂ㄕㄢ
 1661	㫃	山開三上仙影B	’jenX	ʔiɛ̂n	꜂ㄧㄝㄣ	꜂ㄧㄢ
 1662	邅	山開三上仙澄	drjenX	dʒiɛ̌n'	ㄓㄧㄢ'꜅	ㄓㄢ꜄
-1663	棧	山開三上仙崇	dzrjenX	ɖʐân	꜂ㄓㄢ	꜂ㄓㄢ
+1663	棧	山開三上仙崇	dzrjenX	ɖʐǎn'	ㄓㄢ'꜅	ㄓㄢ꜄
 1664	篠	效開四上蕭心	sewX	siɛ̂w	꜂ㄙㄧㄠ	꜂ㄙㄧㄠ
 1665	皎	效開四上蕭見	kewX	kiɛ̂w	꜂ㄐㄧㄠ	꜂ㄐㄧㄠ
 1666	鳥	效開四上蕭端	tewX	tiɛ̂w	꜂ㄉㄧㄠ	꜂ㄉㄧㄠ
@@ -1710,7 +1710,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1706	拗	效開二上肴影	’aewX	ʔiâw	꜂ㄧㄚㄨ	꜂ㄧㄠ
 1707	鮑	效開二上肴並	baewX	bǎw'	ㆠㄠ'꜅	ㄅㄠ꜄
 1708	齩	效開二上肴疑	ngaewX	(ŋ)iâw	꜂ㄧㄚㄨ	꜂ㄧㄠ
-1709	䰫	效開二上肴崇	dzraewX	ɖʐâw	꜂ㄓㄠ	꜂ㄓㄠ
+1709	䰫	效開二上肴崇	dzraewX	ɖʐǎw'	ㄓㄠ'꜅	ㄓㄠ꜄
 1710	煼	效開二上肴初	tsrhaewX	ʈʂhâw	꜂ㄔㄠ	꜂ㄔㄠ
 1711	䝤	效開二上肴知	traewX	ʈʂâw	꜂ㄓㄠ	꜂ㄓㄠ
 1712	𢾐	效開二上肴生	sraewX	ʂâw	꜂ㄕㄠ	꜂ㄕㄠ
@@ -1791,7 +1791,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1787	若	假開三上麻日	nyaeX	ʒiɛ̂	꜂ㄖㄧㄝ	꜂ㄖㄝ
 1788	鮓	假開二上麻莊	tsraeX	ʈʂâ	꜂ㄓㄚ	꜂ㄓㄚ
 1789	觰	假開二上麻知	traeX	ʈʂâ	꜂ㄓㄚ	꜂ㄓㄚ
-1790	槎	假開二上麻崇	dzraeX	ɖʐâ	꜂ㄓㄚ	꜂ㄓㄚ
+1790	槎	假開二上麻崇	dzraeX	ɖʐǎ'	ㄓㄚ'꜅	ㄓㄚ꜄
 1791	奲	假開三上麻昌	tsyhaeX	tʃhiɛ̂	꜂ㄔㄧㄝ	꜂ㄔㄝ
 1792	䋾	假開二上麻知	traeX	ʈʂâ	꜂ㄓㄚ	꜂ㄓㄚ
 1793	䋈	假開二上麻孃	nraeX	nâ	꜂ㄋㄚ	꜂ㄋㄚ
@@ -1870,7 +1870,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1866	礦	梗合二上庚見	kwaengX	kwə̂ŋ	꜂ㄍㄨㄜㄥ	꜂ㄍㄨㄥ
 1867	浜	梗開二上庚幫	paengX	pə̂ŋ	꜂ㄅㄥ	꜂ㄅㄥ
 1868	盯	梗開二上庚知	traengX	ʈʂə̂ŋ	꜂ㄓㄥ	꜂ㄓㄥ
-1869	瑒	梗開二上庚澄	draengX	ɖʐə̂ŋ	꜂ㄓㄥ	꜂ㄓㄥ
+1869	瑒	梗開二上庚澄	draengX	ɖʐə̌ŋ'	ㄓㄥ'꜅	ㄓㄥ꜄
 1870	䁝	梗合二上庚影	’waengX	ʔwə̂ŋ	꜂ㄨㄜㄥ	꜂ㄨㄥ
 1871	打	梗開二上庚端	taengX	tə̂ŋ	꜂ㄉㄥ	꜂ㄉㄥ
 1872	冷	梗開二上庚來	laengX	lə̂ŋ	꜂ㄌㄥ	꜂ㄌㄥ
@@ -1953,7 +1953,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1949	帚	流開三上尤章	tsyuwX	tʃîw	꜂ㄓㄧㄡ	꜂ㄓㄡ
 1950	㤱	流開三上尤滂	phjuwX	fə̂w	꜂ㄈㄡ	꜂ㄈㄡ
 1951	掫	流開三上尤莊	tsrjuwX	ʈʂə̂w	꜂ㄓㄡ	꜂ㄗㄡ
-1952	𥣙	流開三上尤崇	dzrjuwX	ɖʐə̂w	꜂ㄓㄡ	꜂ㄗㄡ
+1952	𥣙	流開三上尤崇	dzrjuwX	ɖʐə̌w'	ㄓㄡ'꜅	ㄗㄡ꜄
 1953	𩋄	流開三上尤初	tsrhjuwX	ʈʂhə̂w	꜂ㄔㄡ	꜂ㄘㄡ
 1954	秠	流開三上尤滂	phjuwX	fə̂w	꜂ㄈㄡ	꜂ㄈㄡ
 1955	厚	流開一上侯匣	huwX	ɦə̌w'	ㄏㄡ'꜅	ㄏㄡ꜄
@@ -1973,7 +1973,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 1969	走	流開一上侯精	tsuwX	tsə̂w	꜂ㄗㄡ	꜂ㄗㄡ
 1970	口	流開一上侯溪	khuwX	khə̂w	꜂ㄎㄡ	꜂ㄎㄡ
 1971	䕆	流開一上侯定	duwX	də̌w'	ㄉㄡ'꜅	ㄉㄡ꜄
-1972	鯫	流開一上侯崇	dzruwX	ɖʐə̂w	꜂ㄓㄡ	꜂ㄗㄡ
+1972	鯫	流開一上侯崇	dzruwX	ɖʐə̌w'	ㄓㄡ'꜅	ㄗㄡ꜄
 1973	趣	流開一上侯清	tshuwX	tshə̂w	꜂ㄘㄡ	꜂ㄘㄡ
 1974	黝	流開三上幽影	’jiwX	ʔîw	꜂ㄧㄡ	꜂ㄧㄡ
 1975	糾	流開三上幽見	kjiwX	kîw	꜂ㄐㄧㄡ	꜂ㄐㄧㄡ
@@ -2005,7 +2005,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 2001	廞	深開三上侵曉B	ximX	hîm	꜂ㄒㄧㆬ	꜂ㄒㄧㄣ
 2002	戡	深開三上侵知	trimX	tʃîm	꜂ㄓㄧㆬ	꜂ㄓㄣ
 2003	潭	深開三上侵以	yimX	jîm	꜂ㄧㆬ	꜂ㄧㄣ
-2004	𩒣	深開三上侵崇	dzrimX	ɖʐə̂m	꜂ㄓㆬ	꜂ㄓㄣ
+2004	𩒣	深開三上侵崇	dzrimX	ɖʐə̌m'	ㄓㆬ'꜅	ㄓㄣ꜄
 2005	感	咸開一上覃見	komX	kâm	꜂ㄍㆰ	꜂ㄍㄢ
 2006	禫	咸開一上覃定	domX	dǎm'	ㄉㆰ'꜅	ㄉㄢ꜄
 2007	晻	咸開一上覃影	’omX	ʔâm	꜂ㆰ	꜂ㄢ
@@ -2067,10 +2067,10 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 2063	欦	咸開三上嚴溪	khjaemX	khiɛ̂m	꜂ㄑㄧㄝㆬ	꜂ㄑㄧㄢ
 2064	埯	咸開三上嚴影	’jaemX	ʔiɛ̂m	꜂ㄧㄝㆬ	꜂ㄧㄢ
 2065	豏	咸開二上咸匣	heamX	ɦiǎm'	ㄒㄚㆬ'꜅	ㄒㄢ꜄
-2066	湛	咸開二上咸澄	dreamX	ɖʐâm	꜂ㄓㆰ	꜂ㄓㄢ
+2066	湛	咸開二上咸澄	dreamX	ɖʐǎm'	ㄓㆰ'꜅	ㄓㄢ꜄
 2067	㦿	咸開二上咸溪	kheamX	khiâm	꜂ㄑㄚㆬ	꜂ㄑㄢ
 2068	鹼	咸開二上咸見	keamX	kiâm	꜂ㄐㄚㆬ	꜂ㄐㄢ
-2069	瀺	咸開二上咸崇	dzreamX	ɖʐâm	꜂ㄓㆰ	꜂ㄓㄢ
+2069	瀺	咸開二上咸崇	dzreamX	ɖʐǎm'	ㄓㆰ'꜅	ㄓㄢ꜄
 2070	臉	咸開二上咸來	leamX	lâm	꜂ㄌㆰ	꜂ㄌㄢ
 2071	斬	咸開二上咸莊	tsreamX	ʈʂâm	꜂ㄓㆰ	꜂ㄓㄢ
 2072	䑎	咸開二上咸初	tsrheamX	ʈʂhâm	꜂ㄔㆰ	꜂ㄔㄢ
@@ -2086,7 +2086,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(推導/傳承)(
 2082	黤	咸開二上銜影	’aemX	ʔiâm	꜂ㄧㄚㆬ	꜂ㄧㄢ
 2083	醶	咸開二上銜初	tsrhaemX	ʈʂhâm	꜂ㄔㆰ	꜂ㄔㄢ
 2084	㺖	咸開二上銜曉	xaemX	hiâm	꜂ㄒㄚㆬ	꜂ㄒㄢ
-2085	巉	咸開二上銜崇	dzraemX	ɖʐâm	꜂ㄓㆰ	꜂ㄓㄢ
+2085	巉	咸開二上銜崇	dzraemX	ɖʐǎm'	ㄓㆰ'꜅	ㄓㄢ꜄
 2086	范	咸合三上凡並	bjomX	fvǎm'	ㄈㆰ'꜅	ㄈㄢ꜄
 2087	錽	咸合三上凡明	mjomX	vâm	꜂ㄪㆰ	꜂ㄪㄢ
 2088	𦜒	咸合三上凡幫	pjomX	fâm	꜂ㄈㆰ	꜂ㄈㄢ
