@@ -1,0 +1,117 @@
+﻿# Rime dictionary
+# vim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+# 洪武正韻譯訓字母
+#
+# Author:
+#  - Phjong <hxliow@gmail.com>
+#
+
+---
+name: jik_hyunh
+version: "2019.4.30"
+sort: original
+...
+
+ᄀ	k
+ᄁ	g
+ᄂ	n
+ᄃ	t
+ᄄ	d
+ᄅ	l
+ᄆ	m
+ᄇ	p
+ᄈ	b
+ᄋ	j
+ᄏ	kh
+ᄐ	th
+ᄑ	ph
+ᄒ	h
+ᄝ	v
+ᄫ	f
+ᄬ	fv
+ᄼ	s
+ᄽ	z
+ᄾ	sh
+ᄿ	shh
+ᅀ	zh
+ᅌ	ng
+ᅎ	tz
+ᅎ	ts
+ᅏ	dz
+ᅐ	tc
+ᅑ	dr
+ᅔ	tsh
+ᅕ	ch
+ᅕ	tch
+ᅗ	fh
+ᅘ	hh
+ᅙ	q
+ᅡ	a
+ᅢ	ae
+ᅣ	ia
+ᅤ	iae
+ᅥ	eo
+ᅦ	eoi
+ᅧ	ie
+ᅨ	iei
+ᅩ	o
+ᅪ	oa
+ᅫ	oae
+ᅬ	oi
+ᅭ	yo
+ᅭ	io
+ᅮ	u
+ᅯ	weo
+ᅯ	wo
+ᅰ	wei
+ᅱ	ui
+ᅲ	yu
+ᅲ	iu
+ᅳ	y
+ᅳ	eu
+ᅴ	eui
+ᅵ	i
+ᅶ	ao
+ᅷ	au
+ᅸ	iao
+ᅻ	eou
+ᆀ	oei
+ᆄ	yua
+ᆅ	yoai
+ᆆ	yoe
+ᆈ	yoi
+ᆉ	ua
+ᆊ	uai
+ᆑ	yue
+ᆔ	yui
+ᆨ	kk
+ᆩ	gg
+ᆫ	nn
+ᆮ	tt
+ᆯ	ll
+ᆷ	mm
+ᆸ	pp
+ᆺ	ss
+ᆻ	szz
+ᆼ	jj
+ᆽ	tts
+ᆾ	ttsh
+ᆿ	kkh
+ᇀ	tth
+ᇁ	pph
+ᇂ	xh
+ᇢ	w
+ᇦ	ff
+ᇫ	r
+ᇰ	ngg
+ᇴ	ffh
+ᇹ	qq
+ᄊ	lhh
+ᄉ	lh
+ᄌ	tl
+ᄍ	dl
+ᄎ	tlh
+〯	x
+〮	hs
