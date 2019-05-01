@@ -1,14 +1,13 @@
 ﻿# 洪武正韻字表
-# version: 20190430
+# version: 20190501
 # author: hhliow (github.com/hhliow)
 # license: cc by-sa 4.0
-# The phonetic transcription follows the system of 洪武正韻譯訓 and uses the phonetics of modern forms of Classical Mandarin, primarily the Classical Mandarin vocalization found in Kun Opera.
-# However, there are a few distinctions in 洪武正韻譯訓 that are rarely made in modern Classical Mandarin:
+# The phonetic transcription follows the system of 洪武正韻譯訓 and uses the phonetics of modern Classical Mandarin vocalization found in Kun Opera.
+# However, there are a few distinctions in 洪武正韻譯訓 that are rarely made in modern Classical Mandarin vocalizations:
 #   Syllable codae -p -t -k may be merged to glottal stop -[ʔ];
 #   Breathy fricatives ʂʐ ʃʒ sz fv ɦ may each be merged into [ʂ] [ʃ] [s] [f] [h]~[x] respectively;
 #   finals -iaw and -iɛw may be merged;
-#   finals -i and -iɪi may be merged.
-# Also, velar and glottal consonants /k/ /kh/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ may be palatalized up to [tɕ] [tɕʰ] [dʑ] [j] [j] [ɕ] [ɕ(ʱ)] respectively while preceding /i/ or /y/.
+# Also, velar and glottal consonants /k/ /kh/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ may be palatalized and frictivized up to [tɕ] [tɕʰ] [dʑ] [j] [j] [ɕ] [ɕ(ʱ)] respectively while preceding /i/ or /y/.
 # Credits:
 #   Digitalization of 洪武正韻 gloss is done by Kanseki Repository and reorganized by hhliow.
 #   Digitalization of 洪武正韻譯訓 syllabary is done by hhliow.
@@ -8897,11 +8896,11 @@ vol10_p15a_entry07		費	1288	ᄫᅵ〮	fǐ	ㄈㄧ꜄	(邑名史記魯世家作�
 vol10_p15a_entry08		蜚	1288	ᄫᅵ〮	fǐ	ㄈㄧ꜄	¶(負蠜一名阜螽即蝗子也又獸名又支紙二韻)
 vol10_p15a_entry09		吠	1288	ᄫᅵ〮	fǐ	ㄈㄧ꜄	(犬鳴也集韻作犻)
 vol10_p15a_entry10		茷	1288	ᄫᅵ〮	fǐ	ㄈㄧ꜄	(草葉盛貌陸徳明曰繼旐曰茷一曰)¶(斾與茷殊茷茷有法度也)
-vol10_p15a_entry11	○	世	1289	ᄾᅵ〮俗ᄾᅳᇫ〮	ʃǐ/ʂɨ̌	ㄕㄧ꜄	(始制切三十年為一世又當時為世又父子相代為一世)
-vol10_p15a_entry12		貰	1289	ᄾᅵ〮俗ᄾᅳᇫ〮	ʃǐ/ʂɨ̌	ㄕㄧ꜄	(貸也賖也又蔗)¶(韻)
-vol10_p15a_entry13		勢	1289	ᄾᅵ〮俗ᄾᅳᇫ〮	ʃǐ/ʂɨ̌	ㄕㄧ꜄	(勢力權勢形勢又氣燄也陽氣也又外腎為勢亦作埶慹)
-vol10_p15a_entry14		埶	1289	ᄾᅵ〮俗ᄾᅳᇫ〮	ʃǐ/ʂɨ̌	ㄕㄧ꜄	(同上又見上)
-vol10_p15a_entry15		𢟯	1289	ᄾᅵ〮俗ᄾᅳᇫ〮	ʃǐ/ʂɨ̌	ㄕㄧ꜄	(情態與慹字不)¶(同慹从執从心音躡此从埶)
+vol10_p15a_entry11	○	世	1289	ᄾᅵ〮俗ᄾᅵᇫ〮	ʃǐ	ㄕㄧ꜄	(始制切三十年為一世又當時為世又父子相代為一世)
+vol10_p15a_entry12		貰	1289	ᄾᅵ〮俗ᄾᅵᇫ〮	ʃǐ	ㄕㄧ꜄	(貸也賖也又蔗)¶(韻)
+vol10_p15a_entry13		勢	1289	ᄾᅵ〮俗ᄾᅵᇫ〮	ʃǐ	ㄕㄧ꜄	(勢力權勢形勢又氣燄也陽氣也又外腎為勢亦作埶慹)
+vol10_p15a_entry14		埶	1289	ᄾᅵ〮俗ᄾᅵᇫ〮	ʃǐ	ㄕㄧ꜄	(同上又見上)
+vol10_p15a_entry15		𢟯	1289	ᄾᅵ〮俗ᄾᅵᇫ〮	ʃǐ	ㄕㄧ꜄	(情態與慹字不)¶(同慹从執从心音躡此从埶)
 vol10_p15a_entry16	○	掣	1290	ᅕᅵ〮俗ᅕᅵᇫ〮	tʃhǐ	ㄔㄧ꜄	(尺制切掣曳易其牛掣王弼云滯隔不進也又與觢同鄭康成作掣牛角皆踊)¶(也又屑韻)
 vol10_p15a_entry17		觢	1290	ᅕᅵ〮俗ᅕᅵᇫ〮	tʃhǐ	ㄔㄧ꜄	(説文牛一角俯一角仰引易其牛觢本作之世功)
 vol10_p15a_entry18		懘	1290	ᅕᅵ〮俗ᅕᅵᇫ〮	tʃhǐ	ㄔㄧ꜄	(惉懘音敗不和貌又紙韻)
