@@ -1,11 +1,11 @@
 ﻿# 洪武正韻字表
-# version: 20190509
+# version: 20190510
 # author: hhliow (github.com/hhliow)
 # license: cc by-sa 4.0
 # The phonetic transcription follows the system of 洪武正韻譯訓 and uses the phonetics of modern Classical Mandarin vocalization found in Kun Opera.
 # However, there are a few distinctions in 洪武正韻譯訓 that are rarely made in modern Classical Mandarin vocalizations:
 #   Syllable codae -p -t -k may be merged to glottal stop -[ʔ];
-#   Breathy fricatives ʂʐ ʃʒ sz fv ɦ may each be merged into [ʂ] [ʃ] [s] [f] [h]~[x] respectively;
+#   Breathy fricatives ʂʱ ʃʱ sʱ fʱ ɦ may each be merged into [ʂ] [ʃ] [s] [f] [h]~[x] respectively;
 #   finals -iaw and -iɛw may be merged;
 # Also, velar and glottal consonants /k/ /kh/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ may be palatalized and frictivized up to [tɕ] [tɕʰ] [dʑ] [j] [j] [ɕ] [ɕ(ʱ)] respectively while preceding /i/ or /y/.
 # Credits:
@@ -11283,11 +11283,11 @@ vol13_p07b_entry09	○	讓	1700	ᅀᅣᇰ〮	ʒiɑ̌ŋ	ㄖㄧㄤ꜅	(而亮切�
 vol13_p07b_entry10		攘	1700	ᅀᅣᇰ〮	ʒiɑ̌ŋ	ㄖㄧㄤ꜅	(揖攘又音欀)
 vol13_p07b_entry11		欀	1700	ᅀᅣᇰ〮	ʒiɑ̌ŋ	ㄖㄧㄤ꜅	(道木)
 vol13_p07b_entry12		懹	1700	ᅀᅣᇰ〮	ʒiɑ̌ŋ	ㄖㄧㄤ꜅	(憚也)
-vol13_p07b_entry13	○	創	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	(楚浪切傷也始造也孟子創業垂綂又陽韻)
-vol13_p07b_entry14		刱	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	¶(初也說文造法刱業也通作創从刅刅楚良切俗作剏)
-vol13_p07b_entry15		愴	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	(悽愴又陽韻)
-vol13_p07b_entry16		凔	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	(寒也荀子疾養凔熱漢枚乗傳)¶↡¶(欲湯之凔)
-vol13_p08a_entry01		倉	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	(喪也詩倉兄塡兮又陽韻)
+vol13_p07b_entry13	○	創	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂʰ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	(楚浪切傷也始造也孟子創業垂綂又陽韻)
+vol13_p07b_entry14		刱	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂʰ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	¶(初也說文造法刱業也通作創从刅刅楚良切俗作剏)
+vol13_p07b_entry15		愴	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂʰ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	(悽愴又陽韻)
+vol13_p07b_entry16		凔	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂʰ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	(寒也荀子疾養凔熱漢枚乗傳)¶↡¶(欲湯之凔)
+vol13_p08a_entry01		倉	1701	ᅕᅡᇰ〮俗ᅕᅪᇰ〮	ʈʂʰ(w)ɑ̌ŋ	ㄔㄨㄤ꜄	(喪也詩倉兄塡兮又陽韻)
 vol13_p08a_entry02	○	仗	1702	ᅑᅣᇰ〮	dʒiɑ̌ŋ	ㄓㄧㄤ꜅	(直亮切兵噐一曰憑倚也又養韻)
 vol13_p08a_entry03		長	1702	ᅑᅣᇰ〮	dʒiɑ̌ŋ	ㄓㄧㄤ꜅	(多也宂也剰也)¶(陸機文賦故無取乎宂長一曰度長曰長)
 vol13_p08a_entry04		杖	1702	ᅑᅣᇰ〮	dʒiɑ̌ŋ	ㄓㄧㄤ꜅	(所以扶行又與仗同漢西域傳烏弋國以金銀飾杖顔師古曰謂所執兵)¶(噐音直亮切又憑倚也左傳襄八年杖莫如信又曰杖信以待晉漢李尋傳近臣已不足杖矣書牧誓王左杖黄鉞竝音去聲)¶(又養韻)
@@ -14428,17 +14428,17 @@ vol16_p27b_entry01		灋	2241	ᄫᅡᆸ〮俗ᄫᅡᇹ〮	faʔ(p)	ㄈㄚ꜆ㆴ	(�
 vol16_p27b_entry02	十葉¶¶	葉	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(弋涉切枝葉又姓又書冊歐陽脩曰唐人藏書皆作卷軸後有葉子似今策子又見下从艸从音葉俗作枼凡)¶(从枼者皆然)
 vol16_p27b_entry03		[揲/楪]	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(度楪)
 vol16_p27b_entry04		擖	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(箕舌禮記少儀執箕膺擖)
-vol16_p27b_entry05		厭	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(伏也合也禳也當也塞也按也斁也又順从貌)¶(荀子天下厭然猶一也後漢紀吏士皆作厭服侯霸傳衆多不厭帝紀作猒又杜鄴傳折衝厭難厭者壓也鎭壓寇難使之銷)¶(靡也又左傳文二年書曰及晉處父盟以厭之也杜預曰厭猶損也廣韻惡夢也亦作魘又琰豔合三韻義同者當通用又鹽)¶(韻)
-vol16_p27b_entry06		猒	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(又鹽豔韻)
-vol16_p27b_entry07		靨	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(頰輔)
-vol16_p27b_entry08		擪	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(持也按也)
+vol16_p27b_entry05		厭	2242	엽〮俗여ᇹ〮	jiɛʔ(p)	ㄧㄝ꜇ㆴ	(伏也合也禳也當也塞也按也斁也又順从貌)¶(荀子天下厭然猶一也後漢紀吏士皆作厭服侯霸傳衆多不厭帝紀作猒又杜鄴傳折衝厭難厭者壓也鎭壓寇難使之銷)¶(靡也又左傳文二年書曰及晉處父盟以厭之也杜預曰厭猶損也廣韻惡夢也亦作魘又琰豔合三韻義同者當通用又鹽)¶(韻)
+vol16_p27b_entry06		猒	2242	엽〮俗여ᇹ〮	jiɛʔ(p)	ㄧㄝ꜇ㆴ	(又鹽豔韻)
+vol16_p27b_entry07		靨	2242	엽〮俗여ᇹ〮	jiɛʔ(p)	ㄧㄝ꜇ㆴ	(頰輔)
+vol16_p27b_entry08		擪	2242	엽〮俗여ᇹ〮	jiɛʔ(p)	ㄧㄝ꜇ㆴ	(持也按也)
 vol16_p27b_entry09		曄	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(光曜亦作曅又緝韻)
 vol16_p27b_entry10		曅	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(宋范曅作後漢書又)¶↡¶(緝韻)
 vol16_p28a_entry01		𤑻	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(煒𤑻明盛也亦作𤍞)
 vol16_p28a_entry02		饁	2242	엽〮俗여ᇹ〮	jiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(餽餉)
-vol16_p28a_entry03		浥	2242	엽〮俗여ᇹ〮古ᅙᅧᆸ〮	ʔjiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(潤也又緝韻)
-vol16_p28a_entry04		裛	2242	엽〮俗여ᇹ〮古ᅙᅧᆸ〮	ʔjiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(書囊又纏也衣帊也衣香也又緝韻)¶
-vol16_p28a_entry05		腌	2242	엽〮俗여ᇹ〮古ᅙᅧᆸ〮	ʔjiɛ̏ʔ(p)	ㄧㄝ꜇ㆴ	(鹽漬魚也)
+vol16_p28a_entry03		浥	2242	엽〮俗여ᇹ〮古ᅙᅧᆸ〮	(ʔ)jiɛʔ(p)	ㄧㄝ꜆ㆴ	(潤也又緝韻)
+vol16_p28a_entry04		裛	2242	엽〮俗여ᇹ〮古ᅙᅧᆸ〮	(ʔ)jiɛʔ(p)	ㄧㄝ꜆ㆴ	(書囊又纏也衣帊也衣香也又緝韻)¶
+vol16_p28a_entry05		腌	2242	엽〮俗여ᇹ〮古ᅙᅧᆸ〮	(ʔ)jiɛʔ(p)	ㄧㄝ꜆ㆴ	(鹽漬魚也)
 vol16_p28a_entry06	○	笈	2243	꼅〮俗껴ᇹ〮	giɛ̏ʔ(p)	ㆢㄧㄝ꜇ㆴ	(極曄切書箱又緝韻)
 vol16_p28a_entry07		衱	2243	꼅〮俗껴ᇹ〮	giɛ̏ʔ(p)	ㆢㄧㄝ꜇ㆴ	(禮記注立衱)
 vol16_p28a_entry08		跲	2243	꼅〮俗껴ᇹ〮	giɛ̏ʔ(p)	ㆢㄧㄝ꜇ㆴ	(躓也)
