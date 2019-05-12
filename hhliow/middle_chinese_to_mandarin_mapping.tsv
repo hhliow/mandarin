@@ -9,6 +9,7 @@
 #  Palatalization and frictivization of /k/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ before /i/ or /y/;
 #  Merge of -iaw and -iɛw.
 kwangx_ghiunh_entry	middle_chinese_to_mandarin_mapping
+kwangx_ghiunh_entry	middle_chinese_to_mandarin_mapping
 1(東)	東{tuwng}->東{tuŋ}
 2(菄)	菄{tuwng}->菄{tuŋ}
 9(涷)	涷{tuwng}->涷{tuŋ}
@@ -8183,7 +8184,7 @@ kwangx_ghiunh_entry	middle_chinese_to_mandarin_mapping
 15213(肄)	肄{yijH}->肄{jǐ}
 15216(貤)	貤{yijH}->貤{jǐ}
 15217(勩)	勩{yijH}->勩{jǐ}
-15217(勩)	勩{yijH}->勩{jǐj}
+15217(勩)	勩{yijH}->勩{jǐ}
 15218(隶)	隶{yijH}->隶{jǐ}
 15221(示)	示{zyijH}->示{ʃʱɨ̌}
 15222(諡)	諡{zyijH}->諡{ʃʱɨ̌}
@@ -8810,21 +8811,21 @@ kwangx_ghiunh_entry	middle_chinese_to_mandarin_mapping
 16310(筮)	筮{dzyejH}->筮{ʃʱjǐ}
 16312(澨)	澨{dzyejH}->澨{ʃʱjǐ}
 16314(遾)	遾{dzyejH}->遾{ʃʱjǐ}
-16317(曵)	曳{yejH}->曳{jǐj}
-16317(曵)	曵{yejH}->曵{jǐj}
-16318(裔)	裔{yejH}->裔{jǐj}
+16317(曵)	曳{yejH}->曳{jǐ}
+16317(曵)	曵{yejH}->曵{jǐ}
+16318(裔)	裔{yejH}->裔{jǐ}
 16320(勩)	勩{yejH}->勩{jǐ}
-16320(勩)	勩{yejH}->勩{jǐj}
-16321(泄)	泄{yejH}->泄{jǐj}
-16322(洩)	洩{yejH}->洩{jǐj}
-16325(枻)	枻{yejH}->枻{jǐj}
-16326(詍)	詍{yejH}->詍{jǐj}
-16330(跇)	跇{yejH}->跇{jǐj}
-16332(袣)	袣{yejH}->袣{jǐj}
-16335(㵝)	㵝{yejH}->㵝{jǐj}
-16337(抴)	抴{yejH}->抴{jǐj}
-16342(㵩)	㵩{yejH}->㵩{jǐj}
-16344(呭)	呭{yejH}->呭{jǐj}
+16320(勩)	勩{yejH}->勩{jǐ}
+16321(泄)	泄{yejH}->泄{jǐ}
+16322(洩)	洩{yejH}->洩{jǐ}
+16325(枻)	枻{yejH}->枻{jǐ}
+16326(詍)	詍{yejH}->詍{jǐ}
+16330(跇)	跇{yejH}->跇{jǐ}
+16332(袣)	袣{yejH}->袣{jǐ}
+16335(㵝)	㵝{yejH}->㵝{jǐ}
+16337(抴)	抴{yejH}->抴{jǐ}
+16342(㵩)	㵩{yejH}->㵩{jǐ}
+16344(呭)	呭{yejH}->呭{jǐ}
 16347(瘞)	瘞{'jejH}->瘞{ʔjǐ}
 16348(餲)	餲{'jejH}->餲{ʔjǐ}
 16351(藝)	藝{ngjiejH}->藝{(ŋ)ǐ}
