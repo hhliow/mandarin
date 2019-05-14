@@ -1,4 +1,4 @@
-# version: 20190510						
+# version: 20190514						
 # author: hhliow (github.com/hhliow)						
 # license: cc by-nc-sa 4.0						
 index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	推導國音
@@ -2125,7 +2125,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2121	統	通開一去冬透	thowngH	tʰǔŋ	ㄊㄨㆭ꜄	ㄊㄨㄥ꜄
 2122	雺	通開一去冬明	mowngH	mǔŋ	ㄇㄨㆭ꜅	ㄇㄨㄥ꜄
 2123	䃔	通開一去冬匣	howngH	ɦǔŋ	ㄏㄨㆭ꜅	ㄏㄨㄥ꜄
-2124	用	通開三去鍾以	yowngH	jyǔŋ	ㄩㄨㆭ꜄	ㄩㄥ꜄
+2124	用	通開三去鍾以	yowngH	jyǔŋ	ㄩㄨㆭ꜅	ㄩㄥ꜄
 2125	頌	通開三去鍾邪	zjowngH	sʱyǔŋ	ㄙㄩㄨㆭ꜅	ㄙㄨㄥ꜄
 2126	俸	通開三去鍾並	bjowngH	fʱǔŋ	ㄈㄨㆭ꜅	ㄈㄨㄥ꜄
 2127	共	通開三去鍾羣	gjowngH	gyǔŋ	ㆢㄩㄨㆭ꜅	ㄍㄨㄥ꜄
@@ -2158,7 +2158,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2154	豉	止開三去支常	dzyeH	ʃʱiɨ̌	ㄕ꜅	ㄕ꜄
 2155	積	止開三去支精	tsjeH	tsɨ̌	ㄗㄭ꜄	ㄗ꜄
 2156	賜	止開三去支心	sjeH	sɨ̌	ㄙㄭ꜄	ㄙ꜄
-2157	爲	止合三去支云	hjweH	ǔi	ㄨㄟ꜄	ㄨㄟ꜄
+2157	爲	止合三去支云	hjweH	ǔi	ㄨㄟ꜅	ㄨㄟ꜄
 2158	䞈	止合三去支見B	kjweH	kǔi	ㄍㄨㄟ꜄	ㄍㄨㄟ꜄
 2159	帔	止開三去支滂B	phjeH	pʰǐ	ㄆㄧ꜄	ㄆㄧ꜄
 2160	賁	止開三去支幫B	pjeH	pǐ	ㄅㄧ꜄	ㄅㄧ꜄
@@ -2168,7 +2168,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2164	臂	止開三去支幫A	pjieH	pǐ	ㄅㄧ꜄	ㄅㄧ꜄
 2165	芰	止開三去支羣B	gjeH	gǐ	ㆢㄧ꜅	ㄐㄧ꜄
 2166	刺	止開三去支清	tshjeH	tsʰɨ̌	ㄘㄭ꜄	ㄘ꜄
-2167	易	止開三去支以	yeH	jǐ	ㄧ꜄	ㄧ꜄
+2167	易	止開三去支以	yeH	jǐ	ㄧ꜅	ㄧ꜄
 2168	議	止開三去支疑B	ngjeH	(ŋ)ǐ	ㄫㄧ꜅	ㄧ꜄
 2169	譬	止開三去支滂A	phjieH	pʰǐ	ㄆㄧ꜄	ㄆㄧ꜄
 2170	漬	止開三去支從	dzjeH	dzɨ̌	ㆡㄭ꜅	ㄗ꜄
@@ -2192,14 +2192,14 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2188	卶	止開三去支昌	tsyheH	tʃʰiɨ̌	ㄔ꜄	ㄔ꜄
 2189	䅗	止合三去支心	sjweH	sǔi	ㄙㄨㄟ꜄	ㄙㄨㄟ꜄
 2190	娷	止合三去支知	trjweH	ʈʂǔi	ㄓㄨㄟ꜄	ㄓㄨㄟ꜄
-2191	瓗	止合三去支以	yweH	ǔi	ㄨㄟ꜄	ㄨㄟ꜄
+2191	瓗	止合三去支以	yweH	ǔi	ㄨㄟ꜅	ㄨㄟ꜄
 2192	諉	止合三去支孃	nrjweH	nǔi	ㄋㄨㄟ꜅	ㄋㄨㄟ꜄
 2193	瞡	止合三去支見A	kjwieH	kǔi	ㄍㄨㄟ꜄	ㄍㄨㄟ꜄
 2194	𧙁	止開三去支莊	tsrjeH	ʈʂɨ̌	ㄓㄭ꜄	ㄓ꜄
 2195	孈	止合三去支曉A	xjwieH	hǔi	ㄏㄨㄟ꜄	ㄏㄨㄟ꜄
 2196	㞆	止開三去支溪B	khjeH	kʰǐ	ㄑㄧ꜄	ㄑㄧ꜄
 2197	至	止開三去脂章	tsyijH	tʃiɨ̌	ㄓ꜄	ㄓ꜄
-2198	位	止合三去脂云	hwijH	ǔi	ㄨㄟ꜄	ㄨㄟ꜄
+2198	位	止合三去脂云	hwijH	ǔi	ㄨㄟ꜅	ㄨㄟ꜄
 2199	郿	止開三去脂明B	mijH	mǐ	ㄇㄧ꜅	ㄇㄧ꜄
 2200	遂	止合三去脂邪	zwijH	sʱǔi	ㄙㄨㄟ꜅	ㄙㄨㄟ꜄
 2201	醉	止合三去脂精	tswijH	tsǔi	ㄗㄨㄟ꜄	ㄗㄨㄟ꜄
@@ -2227,7 +2227,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2223	臮	止開三去脂羣B	gijH	gǐ	ㆢㄧ꜅	ㄐㄧ꜄
 2224	悸	止合三去脂羣A	gjwijH	gǔi	ㆣㄨㄟ꜅	ㄍㄨㄟ꜄
 2225	翠	止合三去脂清	tshwijH	tsʰǔi	ㄘㄨㄟ꜄	ㄘㄨㄟ꜄
-2226	二	止開三去脂日	nyijH	ɻ̌	ㄦ꜄	ㄦ꜄
+2226	二	止開三去脂日	nyijH	ɻ̌	ㄦ꜅	ㄦ꜄
 2227	恣	止開三去脂精	tsijH	tsɨ̌	ㄗㄭ꜄	ㄗ꜄
 2228	次	止開三去脂清	tshijH	tsʰɨ̌	ㄘㄭ꜄	ㄘ꜄
 2229	懿	止開三去脂影B	’ijH	ʔǐ	ㄧ꜄	ㄧ꜄
@@ -2240,12 +2240,12 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2236	萃	止合三去脂從	dzwijH	dzǔi	ㆡㄨㄟ꜅	ㄗㄨㄟ꜄
 2237	地	止開三去脂定	dijH	dǐ	ㄉㄧ꜅	ㄉㄧ꜄
 2238	齂	止開三去脂曉B	xijH	hǐ	ㄒㄧ꜄	ㄒㄧ꜄
-2239	肄	止開三去脂以	yijH	jǐ	ㄧ꜄	ㄧ꜄
+2239	肄	止開三去脂以	yijH	jǐ	ㄧ꜅	ㄧ꜄
 2240	示	止開三去脂船	zyijH	ʃʱiɨ̌	ㄕ꜅	ㄕ꜄
 2241	自	止開三去脂從	dzijH	dzɨ̌	ㆡㄭ꜅	ㄗ꜄
 2242	墜	止合三去脂澄	drwijH	ɖʐǔi	ㄓㄨㄟ꜅	ㄓㄨㄟ꜄
 2243	出	止合三去脂昌	tsyhwijH	ʈʂʰǔi	ㄔㄨㄟ꜄	ㄔㄨㄟ꜄
-2244	遺	止合三去脂以	ywijH	ǔi	ㄨㄟ꜄	ㄨㄟ꜄
+2244	遺	止合三去脂以	ywijH	ǔi	ㄨㄟ꜅	ㄨㄟ꜄
 2245	侐	止合三去脂曉A	xjwijH	hǔi	ㄏㄨㄟ꜄	ㄏㄨㄟ꜄
 2246	轛	止合三去脂知	trwijH	ʈʂǔi	ㄓㄨㄟ꜄	ㄓㄨㄟ꜄
 2247	痓	止開三去脂昌	tsyhijH	tʃʰiɨ̌	ㄔ꜄	ㄔ꜄
@@ -2262,10 +2262,10 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2258	吏	止開三去之來	liH	lǐ	ㄌㄧ꜄	ㄌㄧ꜄
 2259	字	止開三去之從	dziH	dzɨ̌	ㆡㄭ꜅	ㄗ꜄
 2260	眙	止開三去之徹	trhiH	tʃʰǐ	ㄔㄧ꜄	ㄔ꜄
-2261	餌	止開三去之日	nyiH	ɻ̌	ㄦ꜄	ㄦ꜄
+2261	餌	止開三去之日	nyiH	ɻ̌	ㄦ꜅	ㄦ꜄
 2262	駛	止開三去之生	sriH	ʂɨ̌	ㄕㄭ꜄	ㄕ꜄
 2263	廁	止開三去之初	tsrhiH	ʈʂʰɨ̌	ㄔㄭ꜄	ㄔ꜄
-2264	異	止開三去之以	yiH	jǐ	ㄧ꜄	ㄧ꜄
+2264	異	止開三去之以	yiH	jǐ	ㄧ꜅	ㄧ꜄
 2265	置	止開三去之知	triH	tʃǐ	ㄓㄧ꜄	ㄓ꜄
 2266	侍	止開三去之常	dzyiH	ʃʱiɨ̌	ㄕ꜅	ㄕ꜄
 2267	事	止開三去之崇	dzriH	ɖʐɨ̌今ʂʱɨ̌	ㄓㄭ꜅/ㄕㄭ꜅	ㄓ꜄/ㄕ꜄
@@ -2278,7 +2278,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2274	亟	止開三去之溪	khiH	kʰǐ	ㄑㄧ꜄	ㄑㄧ꜄
 2275	未	止合三去微明	mj+jH	vǐ	ㄪㄧ꜅	ㄪㄟ꜄
 2276	貴	止合三去微見	kjw+jH	kǔi	ㄍㄨㄟ꜄	ㄍㄨㄟ꜄
-2277	胃	止合三去微云	hjw+jH	ǔi	ㄨㄟ꜄	ㄨㄟ꜄
+2277	胃	止合三去微云	hjw+jH	ǔi	ㄨㄟ꜅	ㄨㄟ꜄
 2278	魏	止合三去微疑	ngjw+jH	ŋǔi	ㄫㄨㄟ꜅	ㄨㄟ꜄
 2279	沸	止合三去微幫	pj+jH	fǐ	ㄈㄧ꜄	ㄈㄟ꜄
 2280	費	止合三去微滂	phj+jH	fǐ	ㄈㄧ꜄	ㄈㄟ꜄
@@ -2310,7 +2310,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2306	怚	遇開三去魚精	tsjoH	tsy̌	ㄗㄩ꜄	ㄗㄩ꜄
 2307	詛	遇開三去魚莊	tsrjoH	ʈʂǔ	ㄓㄨ꜄	ㄓㄨ꜄
 2308	洳	遇開三去魚日	nyoH	ʒy̌	ㄖㄩ꜅	ㄖㄨ꜄
-2309	豫	遇開三去魚以	yoH	jy̌	ㄩ꜄	ㄩ꜄
+2309	豫	遇開三去魚以	yoH	jy̌	ㄩ꜅	ㄩ꜄
 2310	噓	遇開三去魚曉	xjoH	hy̌	ㄒㄩ꜄	ㄒㄩ꜄
 2311	女	遇開三去魚孃	nrjoH	ny̌	ㄋㄩ꜅	ㄋㄩ꜄
 2312	楚	遇開三去魚初	tsrhjoH	ʈʂʰǔ	ㄔㄨ꜄	ㄔㄨ꜄
@@ -2326,13 +2326,13 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2322	屨	遇合三去虞見	kjuH	ky̌	ㄐㄩ꜄	ㄐㄩ꜄
 2323	昫	遇合三去虞曉	xjuH	hy̌	ㄒㄩ꜄	ㄒㄩ꜄
 2324	戍	遇合三去虞書	syuH	ʃy̌	ㄕㄩ꜄	ㄕㄨ꜄
-2325	裕	遇合三去虞以	yuH	jy̌	ㄩ꜄	ㄩ꜄
+2325	裕	遇合三去虞以	yuH	jy̌	ㄩ꜅	ㄩ꜄
 2326	孺	遇合三去虞日	nyuH	ʒy̌	ㄖㄩ꜅	ㄖㄨ꜄
 2327	赴	遇合三去虞滂	phjuH	fǔ	ㄈㄨ꜄	ㄈㄨ꜄
 2328	務	遇合三去虞明	mjuH	vǔ	ㄪㄨ꜅	ㄪㄨ꜄
 2329	緅	遇合三去虞精	tsjuH	tsy̌	ㄗㄩ꜄	ㄗㄩ꜄
 2330	懼	遇合三去虞羣	gjuH	gy̌	ㆢㄩ꜅	ㄐㄩ꜄
-2331	芋	遇合三去虞云	hjuH	jy̌	ㄩ꜄	ㄩ꜄
+2331	芋	遇合三去虞云	hjuH	jy̌	ㄩ꜅	ㄩ꜄
 2332	埾	遇合三去虞從	dzjuH	dzy̌	ㆡㄩ꜅	ㄗㄩ꜄
 2333	捒	遇合三去虞生	srjuH	ʂǔ	ㄕㄨ꜄	ㄕㄨ꜄
 2334	付	遇合三去虞幫	pjuH	fǔ	ㄈㄨ꜄	ㄈㄨ꜄
@@ -2387,12 +2387,12 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2383	㰥	蟹開四去齊曉	xejH	hiɪ̌i	ㄒㄧ꜄	ㄒㄧ꜄
 2384	祭	蟹開三去祭精	tsjejH	tsiɪ̌i	ㄗㄧ꜄	ㄗㄧ꜄
 2385	歲	蟹合三去祭心	sjwejH	sǔi	ㄙㄨㄟ꜄	ㄙㄨㄟ꜄
-2386	衞	蟹合三去祭云	hjwejH	ǔi	ㄨㄟ꜄	ㄨㄟ꜄
+2386	衞	蟹合三去祭云	hjwejH	ǔi	ㄨㄟ꜅	ㄨㄟ꜄
 2387	芮	蟹合三去祭日	nywejH	ʒǔi	ㄖㄨㄟ꜅	ㄖㄨㄟ꜄
 2388	贅	蟹合三去祭章	tsywejH	ʈʂǔi	ㄓㄨㄟ꜄	ㄓㄨㄟ꜄
 2389	𠻜	蟹合三去祭生	srjwejH	ʂwǎi	ㄕㄨㄞ꜄	ㄕㄨㄞ꜄
 2390	毳	蟹合三去祭清	tshjwejH	tsʰǔi	ㄘㄨㄟ꜄	ㄘㄨㄟ꜄
-2391	銳	蟹合三去祭以	ywejH	ǔi	ㄨㄟ꜄	ㄨㄟ꜄
+2391	銳	蟹合三去祭以	ywejH	ǔi	ㄨㄟ꜅	ㄨㄟ꜄
 2392	綴	蟹合三去祭知	trjwejH	ʈʂǔi	ㄓㄨㄟ꜄	ㄓㄨㄟ꜄
 2393	稅	蟹合三去祭書	sywejH	ʂǔi	ㄕㄨㄟ꜄	ㄕㄨㄟ꜄
 2394	𡚁	蟹開三去祭並A	bjiejH	biɪ̌i	ㆠㄧ꜅	ㄅㄧ꜄
@@ -2405,7 +2405,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2401	掣	蟹開三去祭昌	tsyhejH	tʃʰiɪ̌i	ㄔㄧ꜄	ㄔ꜄
 2402	制	蟹開三去祭章	tsyejH	tʃiɪ̌i	ㄓㄧ꜄	ㄓ꜄
 2403	逝	蟹開三去祭常	dzyejH	ʃʱiɪ̌i	ㄕㄧ꜅	ㄕ꜄
-2404	曵	蟹開三去祭以	yejH	jiɪ̌i	ㄧ꜄	ㄧ꜄
+2404	曵	蟹開三去祭以	yejH	jiɪ̌i	ㄧ꜅	ㄧ꜄
 2405	䋵	蟹開三去祭影B	’jejH	ʔiɪ̌i	ㄧ꜄	ㄧ꜄
 2406	藝	蟹開三去祭疑A	ngjiejH	(ŋ)iɪ̌i	ㄫㄧ꜅	ㄧ꜄
 2407	滯	蟹開三去祭澄	drjejH	dʒiɪ̌i	ㄓㄧ꜅	ㄓ꜄
@@ -2555,7 +2555,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2551	震	臻開三去眞章	tsyinH	tʃǐn	ㄓㄧㄣ꜄	ㄓㄣ꜄
 2552	信	臻開三去眞心	sinH	sǐn	ㄙㄧㄣ꜄	ㄙㄧㄣ꜄
 2553	刃	臻開三去眞日	nyinH	ʒǐn	ㄖㄧㄣ꜅	ㄖㄣ꜄
-2554	𦙍	臻開三去眞以	yinH	jǐn	ㄧㄣ꜄	ㄧㄣ꜄
+2554	𦙍	臻開三去眞以	yinH	jǐn	ㄧㄣ꜅	ㄧㄣ꜄
 2555	遴	臻開三去眞來	linH	lǐn	ㄌㄧㄣ꜄	ㄌㄧㄣ꜄
 2556	儐	臻開三去眞幫A	pjinH	pǐn	ㄅㄧㄣ꜄	ㄅㄧㄣ꜄
 2557	敶	臻開三去眞澄	drinH	dʒǐn	ㄓㄧㄣ꜅	ㄓㄣ꜄
@@ -2583,7 +2583,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2579	閠	臻合三去諄日	nywinH	ʒyǔn	ㄖㄩㄣ꜅	ㄖㄨㄣ꜄
 2580	順	臻合三去諄船	zywinH	ʃʱyǔn	ㄕㄩㄣ꜅	ㄕㄨㄣ꜄
 2581	問	臻合三去文明	mjunH	vǔn	ㄪㄨㄣ꜅	ㄪㄣ꜄
-2582	運	臻合三去文云	hjunH	jyǔn	ㄩㄣ꜄	ㄩㄣ꜄
+2582	運	臻合三去文云	hjunH	jyǔn	ㄩㄣ꜅	ㄩㄣ꜄
 2583	訓	臻合三去文曉	xjunH	hyǔn	ㄒㄩㄣ꜄	ㄒㄩㄣ꜄
 2584	湓	臻合三去文滂	phjunH	fǔn	ㄈㄨㄣ꜄	ㄈㄣ꜄
 2585	糞	臻合三去文幫	pjunH	fǔn	ㄈㄨㄣ꜄	ㄈㄣ꜄
@@ -2609,7 +2609,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2605	楥	臻合三去元曉	xjwonH	hyuɛ̌n	ㄒㄩㄢ꜄	ㄒㄩㄢ꜄
 2606	健	臻開三去元羣	gjonH	giɛ̌n	ㆢㄧㄝㄣ꜅	ㄐㄧㄢ꜄
 2607	𣀔	臻合三去元滂	phjonH	fǎn	ㄈㄢ꜄	ㄈㄢ꜄
-2608	遠	臻合三去元云	hjwonH	jyuɛ̌n	ㄩㄢ꜄	ㄩㄢ꜄
+2608	遠	臻合三去元云	hjwonH	jyuɛ̌n	ㄩㄢ꜅	ㄩㄢ꜄
 2609	𤬝	臻開三去元疑	ngjonH	(ŋ)iɛ̌n	ㄫㄧㄝㄣ꜅	ㄧㄢ꜄
 2610	圈	臻合三去元羣	gjwonH	gyuɛ̌n	ㆢㄩㄢ꜅	ㄐㄩㄢ꜄
 2611	㪻	臻合三去元見	kjwonH	kyuɛ̌n	ㄐㄩㄢ꜄	ㄐㄩㄢ꜄
@@ -2722,10 +2722,10 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2718	彥	山開三去仙疑B	ngjenH	(ŋ)iɛ̌n	ㄫㄧㄝㄣ꜅	ㄧㄢ꜄
 2719	譴	山開三去仙溪A	khjienH	kʰiɛ̌n	ㄑㄧㄝㄣ꜄	ㄑㄧㄢ꜄
 2720	絹	山合三去仙見A	kjwienH	kyuɛ̌n	ㄐㄩㄢ꜄	ㄐㄩㄢ꜄
-2721	瑗	山合三去仙云	hjwenH	jyuɛ̌n	ㄩㄢ꜄	ㄩㄢ꜄
+2721	瑗	山合三去仙云	hjwenH	jyuɛ̌n	ㄩㄢ꜅	ㄩㄢ꜄
 2722	面	山開三去仙明A	mjienH	miɛ̌n	ㄇㄧㄢ꜅	ㄇㄧㄢ꜄
 2723	釧	山合三去仙昌	tsyhwenH	tʃʰyuɛ̌n	ㄔㄩㄢ꜄	ㄔㄨㄢ꜄
-2724	掾	山合三去仙以	ywenH	jyuɛ̌n	ㄩㄢ꜄	ㄩㄢ꜄
+2724	掾	山合三去仙以	ywenH	jyuɛ̌n	ㄩㄢ꜅	ㄩㄢ꜄
 2725	𩥇	山開三去仙知	trjenH	tʃiɛ̌n	ㄓㄧㄢ꜄	ㄓㄢ꜄
 2726	𤲬	山合三去仙日	nywenH	ʒyuɛ̌n	ㄖㄩㄢ꜅	ㄖㄨㄢ꜄
 2727	箭	山開三去仙精	tsjenH	tsiɛ̌n	ㄗㄧㄢ꜄	ㄗㄧㄢ꜄
@@ -2751,7 +2751,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2747	𢮨	山合三去仙常	dzywenH	ʃʱyuɛ̌n	ㄕㄩㄢ꜅	ㄕㄨㄢ꜄
 2748	輾	山開三去仙孃	nrjenH	niɛ̌n	ㄋㄧㄢ꜅	ㄋㄧㄢ꜄
 2749	囀	山合三去仙知	trjwenH	tʃyuɛ̌n	ㄓㄩㄢ꜄	ㄓㄨㄢ꜄
-2750	衍	山開三去仙以	yenH	jiɛ̌n	ㄧㄝㄣ꜄	ㄧㄢ꜄
+2750	衍	山開三去仙以	yenH	jiɛ̌n	ㄧㄝㄣ꜅	ㄧㄢ꜄
 2751	便	山開三去仙並A	bjienH	biɛ̌n	ㆠㄧㄢ꜅	ㄅㄧㄢ꜄
 2752	邅	山開三去仙澄	drjenH	dʒiɛ̌n	ㄓㄧㄢ꜅	ㄓㄢ꜄
 2753	𤹨	山開三去仙來	ljenH	liɛ̌n	ㄌㄧㄢ꜄	ㄌㄧㄢ꜄
@@ -2771,7 +2771,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2767	𢿿	效開四去蕭曉	xewH	hiɛ̌w	ㄒㄧㄠ꜄	ㄒㄧㄠ꜄
 2768	𥬇	效開三去宵心	sjewH	siɛ̌w	ㄙㄧㄠ꜄	ㄙㄧㄠ꜄
 2769	照	效開三去宵章	tsyewH	tʃiɛ̌w	ㄓㄧㄠ꜄	ㄓㄠ꜄
-2770	燿	效開三去宵以	yewH	jiɛ̌w	ㄧㄠ꜄	ㄧㄠ꜄
+2770	燿	效開三去宵以	yewH	jiɛ̌w	ㄧㄠ꜅	ㄧㄠ꜄
 2771	要	效開三去宵影A	’jiewH	ʔiɛ̌w	ㄧㄠ꜄	ㄧㄠ꜄
 2772	召	效開三去宵澄	drjewH	dʒiɛ̌w	ㄓㄧㄠ꜅	ㄓㄠ꜄
 2773	邵	效開三去宵常	dzyewH	ʃʱiɛ̌w	ㄕㄧㄠ꜅	ㄕㄠ꜄
@@ -2873,7 +2873,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2869	髂	假開二去麻溪	khaeH	kʰiǎ	ㄑㄧㄚ꜄	ㄑㄧㄚ꜄
 2870	暇	假開二去麻匣	haeH	ɦiǎ	ㄒㄧㄚ꜅	ㄒㄧㄚ꜄
 2871	褯	假開三去麻從	dzjaeH	dziɛ̌	ㆡㄧㄝ꜅	ㄗㄧㄝ꜄
-2872	夜	假開三去麻以	yaeH	jiɛ̌	ㄧㄝ꜄	ㄧㄝ꜄
+2872	夜	假開三去麻以	yaeH	jiɛ̌	ㄧㄝ꜅	ㄧㄝ꜄
 2873	䞣	假開三去麻昌	tsyhaeH	tʃʰiɛ̌	ㄔㄧㄝ꜄	ㄔㄝ꜄
 2874	蝑	假開三去麻心	sjaeH	siɛ̌	ㄙㄧㄝ꜄	ㄙㄧㄝ꜄
 2875	柘	假開三去麻章	tsyaeH	tʃiɛ̌	ㄓㄧㄝ꜄	ㄓㄝ꜄
@@ -2894,7 +2894,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2890	䖳	假開二去麻澄	draeH	ɖʐǎ	ㄓㄚ꜅	ㄓㄚ꜄
 2891	瓦	假合二去麻疑	ngwaeH	ŋwǎ	ㄫㄨㄚ꜅	ㄨㄚ꜄
 2892	攨	假合二去麻影	’waeH	ʔwǎ	ㄨㄚ꜄	ㄨㄚ꜄
-2893	漾	宕開三去陽以	yangH	jiɑ̌ŋ	ㄧㄤ꜄	ㄧㄤ꜄
+2893	漾	宕開三去陽以	yangH	jiɑ̌ŋ	ㄧㄤ꜅	ㄧㄤ꜄
 2894	亮	宕開三去陽來	ljangH	liɑ̌ŋ	ㄌㄧㄤ꜄	ㄌㄧㄤ꜄
 2895	狀	宕開三去陽崇	dzrjangH	ɖʐwɑ̌ŋ	ㄓㄨㄤ꜅	ㄓㄨㄤ꜄
 2896	讓	宕開三去陽日	nyangH	ʒiɑ̌ŋ	ㄖㄧㄤ꜅	ㄖㄤ꜄
@@ -2918,7 +2918,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2914	妄	宕合三去陽明	mjangH	vɑ̌ŋ	ㄪㄤ꜅	ㄪㄤ꜄
 2915	況	宕合三去陽曉	xjwangH	hwɑ̌ŋ	ㄏㄨㄤ꜄	ㄏㄨㄤ꜄
 2916	誑	宕合三去陽見	kjwangH	kwɑ̌ŋ	ㄍㄨㄤ꜄	ㄍㄨㄤ꜄
-2917	迋	宕合三去陽云	hjwangH	wɑ̌ŋ	ㄨㄤ꜄	ㄨㄤ꜄
+2917	迋	宕合三去陽云	hjwangH	wɑ̌ŋ	ㄨㄤ꜅	ㄨㄤ꜄
 2918	放	宕合三去陽幫	pjangH	fɑ̌ŋ	ㄈㄤ꜄	ㄈㄤ꜄
 2919	相	宕開三去陽心	sjangH	siɑ̌ŋ	ㄙㄧㄤ꜄	ㄙㄧㄤ꜄
 2920	彊	宕開三去陽見	kjangH	kiɑ̌ŋ	ㄐㄧㄤ꜄	ㄐㄧㄤ꜄
@@ -2957,7 +2957,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2953	孟	梗開二去庚明	maengH	mə̌ŋ	ㄇㄥ꜅	ㄇㄥ꜄
 2954	蝗	梗合二去庚匣	hwaengH	ɦwə̌ŋ	ㄏㄨㄜㄥ꜅	ㄏㄨㄥ꜄
 2955	柄	梗開三去庚幫	pjaengH	pǐŋ	ㄅㄧㄥ꜄	ㄅㄧㄥ꜄
-2956	詠	梗合三去庚云	hjwaengH	jyuə̌ŋ	ㄩㄜㄥ꜄	ㄩㄥ꜄
+2956	詠	梗合三去庚云	hjwaengH	jyuə̌ŋ	ㄩㄜㄥ꜅	ㄩㄥ꜄
 2957	行	梗開二去庚匣	haengH	ɦǐŋ	ㄒㄧㄥ꜅	ㄒㄧㄥ꜄
 2958	瀴	梗開二去庚影	’aengH	ʔǐŋ	ㄧㄥ꜄	ㄧㄥ꜄
 2959	㵾	梗開二去庚初	tsrhaengH	ʈʂʰə̌ŋ	ㄔㄥ꜄	ㄔㄥ꜄
@@ -3007,7 +3007,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3003	鎣	梗開四去青影	’wengH	ʔǐŋ	ㄧㄥ꜄	ㄧㄥ꜄
 3004	零	梗開四去青來	lengH	lǐŋ	ㄌㄧㄥ꜄	ㄌㄧㄥ꜄
 3005	證	曾開三去蒸章	tsyingH	tʃǐŋ	ㄓㄧㄥ꜄	ㄓㄥ꜄
-3006	孕	曾開三去蒸以	yingH	jǐŋ	ㄧㄥ꜄	ㄧㄥ꜄
+3006	孕	曾開三去蒸以	yingH	jǐŋ	ㄧㄥ꜅	ㄧㄥ꜄
 3007	乗	曾開三去蒸船	zyingH	ʃʱǐŋ	ㄕㄧㄥ꜅	ㄕㄥ꜄
 3008	認	曾開三去蒸日	nyingH	ʒǐŋ	ㄖㄧㄥ꜅	ㄖㄥ꜄
 3009	應	曾開三去蒸影	’ingH	ʔǐŋ	ㄧㄥ꜄	ㄧㄥ꜄
@@ -3034,7 +3034,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3030	增	曾開一去登精	tsongH	tsə̌ŋ	ㄗㄥ꜄	ㄗㄥ꜄
 3031	𡬙	曾開一去登心	songH	sə̌ŋ	ㄙㄥ꜄	ㄙㄥ꜄
 3032	𤃶	曾開一去登透	thongH	tʰə̌ŋ	ㄊㄥ꜄	ㄊㄥ꜄
-3033	宥	流開三去尤云	hjuwH	jǐw	ㄧㄡ꜄	ㄧㄡ꜄
+3033	宥	流開三去尤云	hjuwH	jǐw	ㄧㄡ꜅	ㄧㄡ꜄
 3034	救	流開三去尤見	kjuwH	kǐw	ㄐㄧㄡ꜄	ㄐㄧㄡ꜄
 3035	胄	流開三去尤澄	drjuwH	dʒǐw	ㄓㄧㄡ꜅	ㄓㄡ꜄
 3036	晝	流開三去尤知	trjuwH	tʃǐw	ㄓㄧㄡ꜄	ㄓㄡ꜄
@@ -3057,7 +3057,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3053	就	流開三去尤從	dzjuwH	dzǐw	ㆡㄧㄡ꜅	ㄗㄧㄡ꜄
 3054	糅	流開三去尤孃	nrjuwH	nǐw	ㄋㄧㄡ꜅	ㄋㄧㄡ꜄
 3055	復	流開三去尤並	bjuwH	fʱə̌w	ㄈㄡ꜅	ㄈㄡ꜄
-3056	狖	流開三去尤以	yuwH	jǐw	ㄧㄡ꜄	ㄧㄡ꜄
+3056	狖	流開三去尤以	yuwH	jǐw	ㄧㄡ꜅	ㄧㄡ꜄
 3057	授	流開三去尤常	dzyuwH	ʃʱǐw	ㄕㄧㄡ꜅	ㄕㄡ꜄
 3058	輮	流開三去尤日	nyuwH	ʒǐw	ㄖㄧㄡ꜅	ㄖㄡ꜄
 3059	莓	流開三去尤明	mjuwH	mə̌w	ㄇㄡ꜅	ㄇㄡ꜄
@@ -3103,7 +3103,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3099	揕	深開三去侵知	trimH	tʃǐm	ㄓㄧㆬ꜄	ㄓㄣ꜄
 3100	臨	深開三去侵來	limH	lǐm	ㄌㄧㆬ꜄	ㄌㄧㄣ꜄
 3101	甚	深開三去侵常	dzyimH	ʃʱǐm	ㄕㄧㆬ꜅	ㄕㄣ꜄
-3102	䫴	深開三去侵云	himH	jǐm	ㄧㆬ꜄	ㄧㄣ꜄
+3102	䫴	深開三去侵云	himH	jǐm	ㄧㆬ꜅	ㄧㄣ꜄
 3103	深	深開三去侵書	syimH	ʃǐm	ㄕㄧㆬ꜄	ㄕㄣ꜄
 3104	勘	咸開一去覃溪	khomH	kʰǎm	ㄎㆰ꜄	ㄎㄢ꜄
 3105	紺	咸開一去覃見	komH	kǎm	ㄍㆰ꜄	ㄍㄢ꜄
@@ -3129,7 +3129,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3125	暫	咸開一去談從	dzamH	dzǎm	ㆡㆰ꜅	ㄗㄢ꜄
 3126	擔	咸開一去談端	tamH	tǎm	ㄉㆰ꜄	ㄉㄢ꜄
 3127	三	咸開一去談心	samH	sǎm	ㄙㆰ꜄	ㄙㄢ꜄
-3128	豔	咸開三去鹽以	yemH	jiɛ̌m	ㄧㄝㆬ꜄	ㄧㄢ꜄
+3128	豔	咸開三去鹽以	yemH	jiɛ̌m	ㄧㄝㆬ꜅	ㄧㄢ꜄
 3129	贍	咸開三去鹽常	dzyemH	ʃʱiɛ̌m	ㄕㄧㆰ꜅	ㄕㄢ꜄
 3130	染	咸開三去鹽日	nyemH	ʒiɛ̌m	ㄖㄧㆰ꜅	ㄖㄢ꜄
 3131	厭	咸開三去鹽影A	’jiemH	ʔiɛ̌m	ㄧㄝㆬ꜄	ㄧㄢ꜄
