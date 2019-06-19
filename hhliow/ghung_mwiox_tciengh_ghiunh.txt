@@ -1,5 +1,5 @@
 ﻿# 洪武正韻字表
-# version: 20190520
+# version: 20190619
 # author: hhliow (github.com/hhliow)
 # license: cc by-sa 4.0
 # The pronunciation follows the system of 洪武正韻譯訓.
@@ -6236,7 +6236,7 @@ vol08_p01b_entry07	○	祖	754	ᅎᅮ〯	tsû	꜂ㄗㄨ	(摠五切始也法也�
 vol08_p01b_entry08		珇	754	ᅎᅮ〯	tsû	꜂ㄗㄨ	(珪琮之瑑凸起又美好也)
 vol08_p01b_entry09		組	754	ᅎᅮ〯	tsû	꜂ㄗㄨ	(印紱又綫也亦作駔又經緯也文選組織仁義)
 vol08_p01b_entry10		駔	754	ᅎᅮ〯	tsû	꜂ㄗㄨ	(考工)¶(記玉人駔琮五寸宗后以為權又曰駔琮七寸鼻寸有半天子以為權後鄭讀駔為組謂以組繫琮因名駔琮也先鄭以為稱)¶(錘以起量用為權故有鼻又駔猶麤也又駿馬又養韻)
-vol08_p01b_entry11	○	粗	755	ᅔᅮ〯	tsʰû	꜂ㄘㄨ	(坐五切略也疏也又模韻)
+vol08_p01b_entry11	○	粗	755	ᅏᅮ〯	dzǔ'	ㆡㄨ'꜅	(坐五切略也疏也又模韻)
 vol08_p01b_entry12	○	覩	756	두〯	tû	꜂ㄉㄨ	(董五切見)¶↡¶(也亦作睹)
 vol08_p02a_entry01		睹	756	두〯	tû	꜂ㄉㄨ	(莊子今我睹子之難窮也)
 vol08_p02a_entry02		堵	756	두〯	tû	꜂ㄉㄨ	(五版為堵又姓又鐘磬編挂之二八十六枚在一簴謂之堵又音者)¶(堵陽縣名)
