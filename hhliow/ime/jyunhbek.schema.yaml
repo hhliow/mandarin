@@ -5,7 +5,7 @@
 schema:
   schema_id: jyunhbek
   name: 韻白拼音
-  version: "2018.12.13"
+  version: "2019.8.17"
   author:
     - Phjong <hxliow@gmail.com>
   description: |
@@ -52,7 +52,7 @@ speller:
     - xform/ʔ/q/
     - xform/ɦ/hh/
     - xform/^(ʈʂ|tʃ)/tc/
-    - xform/^(ʂʐ|ʃʒ)/szh/
+    - xform/^(ʂʐ|ʃʒ)/shh/
     - xform/^(ʂ|ʃ)/sh/
     - xform/^(dʒ|ɖʐ)/dr/
     - xform/^ʒ/zh/
