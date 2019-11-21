@@ -1,4 +1,4 @@
-# version: 20191120						
+# version: 20191121						
 # author: hhliow (github.com/hhliow)						
 # license: cc by-nc-sa 4.0						
 index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	推導國音
@@ -268,7 +268,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 264	趨	遇合三平虞清	tshju	tsʰy	ㄘㄩ	ㄘㄩ
 265	慺	遇合三平虞來	lju	ly̏	꜁ㄌㄩ	꜁ㄌㄩ
 266	扶	遇合三平虞並	bju	fʱȕ	꜁ㄈㄨ	꜁ㄈㄨ
-267	䅳	遇合三平虞崇	dzrju	ʈʂʱȕ今tsʱȕ	꜁ㄔㄨ/꜁ㄘㄨ	꜁ㄔㄨ/꜁ㄘㄨ
+267	䅳	遇合三平虞崇	dzrju	ʈʂʱȕ	꜁ㄔㄨ	꜁ㄔㄨ
 268	㑳	遇合三平虞莊	tsrju	ʈʂu	ㄓㄨ	ㄓㄨ
 269	敷	遇合三平虞滂	phju	fu	ㄈㄨ	ㄈㄨ
 270	諏	遇合三平虞精	tsju	tsy	ㄗㄩ	ㄗㄩ
@@ -319,7 +319,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 315	谿	蟹開四平齊溪	khej	kʰiɪi	ㄑㄧ	ㄑㄧ
 316	圭	蟹合四平齊見	kwej	kui	ㄍㄨㄟ	ㄍㄨㄟ
 317	睽	蟹合四平齊溪	khwej	kʰui	ㄎㄨㄟ	ㄎㄨㄟ
-318	攜	蟹合四平齊匣	hwej	ɦȕi今ɦiɪ̏i	꜁ㄏㄨㄟ/꜁ㄒㄧ	꜁ㄏㄨㄟ/꜁ㄒㄧ
+318	攜	蟹合四平齊匣	hwej	ɦȕi今ɦiȅi	꜁ㄏㄨㄟ/꜁ㄒㄧ	꜁ㄏㄨㄟ/꜁ㄒㄧ
 319	臡	蟹開四平齊日	nyej	ʒiɪ̏i	꜁ㄖㄧ	꜁ㄖ
 320	栘	蟹開四平齊常	dzyej	ʃʱiɪ̏i	꜁ㄕㄧ	꜁ㄕ
 321	烓	蟹合四平齊影	’wej	ʔui	ㄨㄟ	ㄨㄟ
@@ -338,7 +338,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 334	娃	蟹開二平佳影	’ea	ʔiai今ʔwa	ㄧㄞ/ㄨㄚ	ㄧㄞ/ㄨㄚ
 335	崽	蟹開二平佳生	srea	ʂai	ㄕㄞ	ㄕㄞ
 336	㗨	蟹開二平佳曉	xea	hiai	ㄒㄧㄞ	ㄒㄧㄞ
-337	扠	蟹開二平佳徹	trhea	ʈʂʰai今ʈʂʰa	ㄔㄞ/ㄔㄚ	ㄔㄞ/ㄔㄚ
+337	扠	蟹開二平佳徹	trhea	ʈʂʰai	ㄔㄞ	ㄔㄞ
 338	䁲	蟹開二平佳明	mea	mȁi	꜁ㄇㄞ	꜁ㄇㄞ
 339	鼃	蟹合二平佳匣	hwea	ɦwȁ	꜁ㄏㄨㄚ	꜁ㄏㄨㄚ
 340	皆	蟹開二平皆見	keaj	kiai	ㄐㄧㄞ	ㄐㄧㄞ
@@ -803,7 +803,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 799	㚗	假開三平麻從	dzjae	tsʱiɛ̏	꜁ㄘㄧㄝ	꜁ㄘㄧㄝ
 800	若	假開三平麻日	nyae	ʒiɛ̏	꜁ㄖㄧㄝ	꜁ㄖㄝ
 801	些	假開三平麻心	sjae	siɛ	ㄙㄧㄝ	ㄙㄧㄝ
-802	爹	假開三平麻知	trjae	tʃiɛ	ㄓㄧㄝ	ㄓㄝ
+802	爹	假開三平麻知	trjae	tʃiɛ今tiɛ	ㄓㄧㄝ/ㄉㄧㄝ	ㄓㄝ/ㄉㄧㄝ
 803	𣢉	假合二平麻疑	ngwae	ŋwȁ	꜁ㄫㄨㄚ	꜁ㄨㄚ
 804	𣘟	假開二平麻溪	khae	kʰia	ㄑㄧㄚ	ㄑㄧㄚ
 805	陽	宕開三平陽以	yang	jiɑ̏ŋ	꜁ㄧㄤ	꜁ㄧㄤ
@@ -1415,7 +1415,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1411	䒓	蟹開二上佳溪	kheaX	kʰiâi	꜂ㄑㄧㄞ	꜂ㄑㄧㄞ
 1412	廌	蟹開二上佳澄	dreaX	ɖʐǎi'	ㄓㄞ'꜅	ㄓㄞ꜄
 1413	嬭	蟹開二上佳孃	nreaX	nâi	꜂ㄋㄞ	꜂ㄋㄞ
-1414	罷	蟹開二上佳並	beaX	bǎi'	ㆠㄞ'꜅	ㄅㄞ꜄
+1414	罷	蟹開二上佳並	beaX	bǎi'今bǎ'	ㆠㄞ'꜅/ㆠㄚ'꜅	ㄅㄞ꜄/ㄅㄚ꜄
 1415	矮	蟹開二上佳影	’eaX	ʔiâi	꜂ㄧㄞ	꜂ㄧㄞ
 1416	擺	蟹開二上佳幫	peaX	pâi	꜂ㄅㄞ	꜂ㄅㄞ
 1417	解	蟹開二上佳見	keaX	kiâi	꜂ㄐㄧㄞ	꜂ㄐㄧㄞ
