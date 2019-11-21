@@ -137,7 +137,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 133	厜	止開三平支精	tsje	tsɨ	ㄗㄭ	ㄗ
 134	𩓸	止合三平支見A	kjwie	kui	ㄍㄨㄟ	ㄍㄨㄟ
 135	劑	止合三平支精	tsjwe	tsui	ㄗㄨㄟ	ㄗㄨㄟ
-136	衰	止合三平支初	tsrhjwe	ʈʂʰui	ㄔㄨㄟ	ㄔㄨㄟ
+136	衰	止合三平支初	tsrhjwe	ʈʂʰui今tsʰui	ㄔㄨㄟ/ㄘㄨㄟ	ㄔㄨㄟ/ㄘㄨㄟ
 137	腄	止合三平支知	trjwe	ʈʂui	ㄓㄨㄟ	ㄓㄨㄟ
 138	䮔	止合三平支精	tsjwe	tsui	ㄗㄨㄟ	ㄗㄨㄟ
 139	眵	止開三平支昌	tsyhe	tʃʰiɨ	ㄔ	ㄔ
@@ -248,7 +248,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 244	如	遇開三平魚日	nyo	ʒy̏	꜁ㄖㄩ	꜁ㄖㄨ
 245	且	遇開三平魚精	tsjo	tsy	ㄗㄩ	ㄗㄩ
 246	虚	遇開三平魚溪	khjo	kʰy	ㄑㄩ	ㄑㄩ
-247	菹	遇開三平魚莊	tsrjo	ʈʂu	ㄓㄨ	ㄓㄨ
+247	菹	遇開三平魚莊	tsrjo	ʈʂu今tsy	ㄓㄨ/ㄗㄩ	ㄓㄨ/ㄗㄩ
 248	蜍	遇開三平魚常	dzyo	ʃʱy̏今tʃʱy̏	꜁ㄕㄩ/꜁ㄔㄩ	꜁ㄕㄨ/꜁ㄔㄨ
 249	袽	遇開三平魚孃	nrjo	ny̏	꜁ㄋㄩ	꜁ㄋㄩ
 250	虞	遇合三平虞疑	ngju	(ŋ)y̏	꜁(ㄫ)ㄩ	꜁(ㄫ)ㄩ
@@ -268,7 +268,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 264	趨	遇合三平虞清	tshju	tsʰy	ㄘㄩ	ㄘㄩ
 265	慺	遇合三平虞來	lju	ly̏	꜁ㄌㄩ	꜁ㄌㄩ
 266	扶	遇合三平虞並	bju	fʱȕ	꜁ㄈㄨ	꜁ㄈㄨ
-267	䅳	遇合三平虞崇	dzrju	ʈʂʱȕ	꜁ㄔㄨ	꜁ㄔㄨ
+267	䅳	遇合三平虞崇	dzrju	ʈʂʱȕ今tsʱȕ	꜁ㄔㄨ/꜁ㄘㄨ	꜁ㄔㄨ/꜁ㄘㄨ
 268	㑳	遇合三平虞莊	tsrju	ʈʂu	ㄓㄨ	ㄓㄨ
 269	敷	遇合三平虞滂	phju	fu	ㄈㄨ	ㄈㄨ
 270	諏	遇合三平虞精	tsju	tsy	ㄗㄩ	ㄗㄩ
@@ -335,10 +335,10 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 331	竵	蟹合二平佳曉	xwea	hwa	ㄏㄨㄚ	ㄏㄨㄚ
 332	䍲	蟹開二平佳孃	nrea	nȁi	꜁ㄋㄞ	꜁ㄋㄞ
 333	崖	蟹開二平佳疑	ngea	(ŋ)iȁi	꜁(ㄫ)ㄧㄞ	꜁(ㄫ)ㄧㄞ
-334	娃	蟹開二平佳影	’ea	ʔiai	ㄧㄞ	ㄧㄞ
+334	娃	蟹開二平佳影	’ea	ʔiai今ʔwa	ㄧㄞ/ㄨㄚ	ㄧㄞ/ㄨㄚ
 335	崽	蟹開二平佳生	srea	ʂai	ㄕㄞ	ㄕㄞ
 336	㗨	蟹開二平佳曉	xea	hiai	ㄒㄧㄞ	ㄒㄧㄞ
-337	扠	蟹開二平佳徹	trhea	ʈʂʰai	ㄔㄞ	ㄔㄞ
+337	扠	蟹開二平佳徹	trhea	ʈʂʰai今ʈʂʰa	ㄔㄞ/ㄔㄚ	ㄔㄞ/ㄔㄚ
 338	䁲	蟹開二平佳明	mea	mȁi	꜁ㄇㄞ	꜁ㄇㄞ
 339	鼃	蟹合二平佳匣	hwea	ɦwȁ	꜁ㄏㄨㄚ	꜁ㄏㄨㄚ
 340	皆	蟹開二平皆見	keaj	kiai	ㄐㄧㄞ	ㄐㄧㄞ
