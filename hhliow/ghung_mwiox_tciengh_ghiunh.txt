@@ -1,11 +1,11 @@
 ﻿# 洪武正韻字表
-# version: 20191224
+# version: 20200322
 # author: hhliow (github.com/hhliow)
 # license: cc by-sa 4.0
 # The pronunciation follows the system of 洪武正韻譯訓.
 # Trailing ' denotes 全濁上聲 syllables pronounced as 去聲.
 # The following common realization of the pronunciation is not marked explicitly:
-#   Palatalization or frictivazation of /k/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ before /i/ /y/;
+#   Palatalization or fricativization of /k/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ before /i/ /y/;
 #   Merge of syllable codae -p -t -k into [ʔ];
 #   Loss of breathiness in /ʂʱ/ /ʃʱ/ /sʱ/ /fʱ/ /ɦ/ which results in their merge into [ʂ] [ʃ] [s] [f] [h]~[x] respectively;
 #   Merges of /iaw/ and /iɛw/.
