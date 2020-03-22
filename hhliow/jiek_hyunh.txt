@@ -4,7 +4,7 @@
 # license: cc by-sa 4.0
 # Trailing ' denotes 全濁上聲 syllables pronounced as 去聲.
 # Modern vocalization (e. g. that found in theatry and Southwest Mandarin) may
-#   palatalize or frictivize /k/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ before /i/ /y/,
+#   palatalize or fricativize /k/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ before /i/ /y/,
 #   merge syllable codae -p -t -k to [ʔ],
 #   drop breathiness in /ʂʱ/ /ʃʱ/ /sʱ/ /fʱ/ /ɦ/, and
 #   merge /iaw/ and /iɛw/.
