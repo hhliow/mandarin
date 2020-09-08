@@ -1,5 +1,5 @@
 ﻿# 洪武正韻字表
-# version: 20200322
+# version: 20200907
 # author: hhliow (github.com/hhliow)
 # license: cc by-sa 4.0
 # The pronunciation follows the system of 洪武正韻譯訓.
@@ -6920,8 +6920,8 @@ vol08_p22a_entry07	○	限	887	*ᅘᅣᆫ〯	ɦian'˨˦	(下簡切度也齊量�
 vol08_p22a_entry08		僩	887	*ᅘᅣᆫ〯	ɦian'˨˦	¶(武貌又寛大貌詩瑟兮僩兮韓詩武貌説文武猛又立日簡)
 vol08_p22a_entry09		𢢀	887	*ᅘᅣᆫ〯	ɦian'˨˦	(寛大貌通作僩又不安貌漢文帝紀𢢀然念外人之有非)¶(又勁忿貌唐王叔文傳𢢀然以為天下無人又刪韻)
 vol08_p22a_entry10		撊	887	*ᅘᅣᆫ〯	ɦian'˨˦	(勁忿貌春秋傳𢵧然授兵)
-vol08_p22a_entry11	○	綰	888	*ᅙᅣᆫ〯	ʔian˥˧	(烏版切繫也又諌韻)¶
-vol08_p22a_entry12		攌	888	*ᅙᅣᆫ〯	ʔian˥˧	(史記賈誼賦攌如囚拘)
+vol08_p22a_entry11	○	綰	888	*ᅙᅪᆫ〯	ʔwan˥˧	(烏版切繫也又諌韻)¶
+vol08_p22a_entry12		攌	888	*ᅙᅪᆫ〯	ʔwan˥˧	(史記賈誼賦攌如囚拘)
 vol08_p22a_entry13	○	版	889	*반〯	pan˥˧	(補綰切判也爾雅版版僻也亦作板)
 vol08_p22a_entry14		板	889	*반〯	pan˥˧	(詩大雅板篇上帝板板音)¶(版注板板反也反謂反側不正也又木片又與鈑同莊子金板六𡸅)
 vol08_p22a_entry15		鈑	889	*반〯	pan˥˧	(鉼金曰鈑)
