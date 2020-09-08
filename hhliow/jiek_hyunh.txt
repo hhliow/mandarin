@@ -1,10 +1,10 @@
 ﻿# 洪武正韻譯訓字表
-# v20200322
+# v20200907
 # Compiled by hhliow (github.com/hhliow)
 # license: cc by-sa 4.0
 # Trailing ' denotes 全濁上聲 syllables pronounced as 去聲.
-# Modern vocalization (e. g. that found in theatry and Southwest Mandarin) may
-#   palatalize or fricativize /k/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ before /i/ /y/,
+# Modern vocalization (e. g. Theater Mandarin and Southwest Mandarin) may
+#   palatalize and fricativize /k/ /g/ /ŋ/ /ʔ/ /h/ /ɦ/ before /i/ /y/,
 #   merge syllable codae -p -t -k to [ʔ],
 #   drop breathiness in /ʂʱ/ /ʃʱ/ /sʱ/ /fʱ/ /ɦ/, and
 #   merge /iaw/ and /iɛw/.
@@ -6921,8 +6921,8 @@ char	譯訓	ipa	gloss
 僩	*ᅘᅣᆫ〯	ɦian'˨˦	武貌又寛大貌詩瑟兮僩兮韓詩武貌説文武猛又立日簡
 𢢀	*ᅘᅣᆫ〯	ɦian'˨˦	寛大貌通作僩又不安貌漢文帝紀𢢀然念外人之有非又勁忿貌唐王叔文傳𢢀然以為天下無人又刪韻
 撊	*ᅘᅣᆫ〯	ɦian'˨˦	勁忿貌春秋傳𢵧然授兵
-綰	*ᅙᅣᆫ〯	ʔian˥˧	烏版切繫也又諌韻
-攌	*ᅙᅣᆫ〯	ʔian˥˧	史記賈誼賦攌如囚拘
+綰	*ᅙᅪᆫ〯	ʔwan˥˧	烏版切繫也又諌韻
+攌	*ᅙᅪᆫ〯	ʔwan˥˧	史記賈誼賦攌如囚拘
 版	*반〯	pan˥˧	補綰切判也爾雅版版僻也亦作板
 板	*반〯	pan˥˧	詩大雅板篇上帝板板音版注板板反也反謂反側不正也又木片又與鈑同莊子金板六𡸅
 鈑	*반〯	pan˥˧	鉼金曰鈑
