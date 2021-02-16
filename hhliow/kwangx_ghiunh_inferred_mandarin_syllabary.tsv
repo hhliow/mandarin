@@ -1,4 +1,4 @@
-# version: 20210208						
+# version: 20210216						
 # author: hhliow (github.com/hhliow)						
 # license: cc by-nc-sa 4.0						
 index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	推導國音
@@ -86,7 +86,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 82	幢	江開二平江澄	draewng	ʈʂʱwɑŋ˩	꜁ㄔㄨㄤ	꜁ㄔㄨㄤ
 83	憃	江開二平江徹	trhaewng	ʈʂʰwɑŋ	ㄔㄨㄤ	ㄔㄨㄤ
 84	樁	江開二平江知	traewng	ʈʂwɑŋ	ㄓㄨㄤ	ㄓㄨㄤ
-85	㟅	江開二平江疑	ngaewng	(ŋ)iɑŋ˩	꜁(ㄫ)ㄧㄤ	꜁(ㄫ)ㄧㄤ
+85	㟅	江開二平江疑	ngaewng	(ŋ)iɑŋ˩	꜁(ㄫ)ㄧㄤ	꜁ㄧㄤ
 86	淙	江開二平江崇	dzraewng	ʈʂʱwɑŋ˩	꜁ㄔㄨㄤ	꜁ㄔㄨㄤ
 87	支	止開三平支章	tsye	tʃiɨ	ㄓ	ㄓ
 88	移	止開三平支以	ye	ji˩	꜁ㄧ	꜁ㄧ
@@ -249,7 +249,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 245	且	遇開三平魚精	tsjo	tsy	ㄗㄩ	ㄗㄩ
 246	虚	遇開三平魚溪	khjo	kʰy	ㄑㄩ	ㄑㄩ
 247	菹	遇開三平魚莊	tsrjo	ʈʂu今tsy	ㄓㄨ/ㄗㄩ	ㄓㄨ/ㄗㄩ
-248	蜍	遇開三平魚常	dzyo	ʃʱy˩今tʃʱy˩	꜁ㄕㄩ/꜁ㄔㄩ	꜁ㄕㄨ/꜁ㄔㄨ
+248	蜍	遇開三平魚常	dzyo	ʃʱy˩今tʃʱy˩	꜁ㄕㄩ/꜁ㄔㄩ	꜁ㄕㄨ
 249	袽	遇開三平魚孃	nrjo	ny˩	꜁ㄋㄩ	꜁ㄋㄩ
 250	虞	遇合三平虞疑	ngju	(ŋ)y˩	꜁(ㄫ)ㄩ	꜁(ㄫ)ㄩ
 251	芻	遇合三平虞初	tsrhju	ʈʂʰu	ㄔㄨ	ㄔㄨ
@@ -307,7 +307,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 303	雞	蟹開四平齊見	kej	kiɪi	ㄐㄧ	ㄐㄧ
 304	奚	蟹開四平齊匣	hej	ɦiɪi˩	꜁ㄒㄧ	꜁ㄒㄧ
 305	鷖	蟹開四平齊影	’ej	ʔiɪi	ㄧ	ㄧ
-306	倪	蟹開四平齊疑	ngej	(ŋ)iɪi˩	꜁(ㄫ)ㄧ	꜁(ㄫ)ㄧ
+306	倪	蟹開四平齊疑	ngej	(ŋ)iɪi˩	꜁(ㄫ)ㄧ	꜁ㄬㄧ
 307	醯	蟹開四平齊曉	xej	hiɪi	ㄒㄧ	ㄒㄧ
 308	西	蟹開四平齊心	sej	siɪi	ㄙㄧ	ㄙㄧ
 309	梯	蟹開四平齊透	thej	tʰiɪi	ㄊㄧ	ㄊㄧ
@@ -334,7 +334,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 330	釵	蟹開二平佳初	tsrhea	ʈʂʰai	ㄔㄞ	ㄔㄞ
 331	竵	蟹合二平佳曉	xwea	hwa	ㄏㄨㄚ	ㄏㄨㄚ
 332	䍲	蟹開二平佳孃	nrea	nai˩	꜁ㄋㄞ	꜁ㄋㄞ
-333	崖	蟹開二平佳疑	ngea	(ŋ)iai˩	꜁(ㄫ)ㄧㄞ	꜁(ㄫ)ㄧㄞ
+333	崖	蟹開二平佳疑	ngea	(ŋ)iai˩	꜁(ㄫ)ㄧㄞ	꜁ㄧㄞ
 334	娃	蟹開二平佳影	’ea	ʔiai今ʔwa	ㄧㄞ/ㄨㄚ	ㄧㄞ/ㄨㄚ
 335	崽	蟹開二平佳生	srea	ʂai	ㄕㄞ	ㄕㄞ
 336	㗨	蟹開二平佳曉	xea	hiai	ㄒㄧㄞ	ㄒㄧㄞ
@@ -360,7 +360,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 356	揩	蟹開二平皆溪	kheaj	kʰiai	ㄑㄧㄞ	ㄑㄧㄞ
 357	摨	蟹開二平皆孃	nreaj	nai˩	꜁ㄋㄞ	꜁ㄋㄞ
 358	崽	蟹開二平皆生	sreaj	ʂai	ㄕㄞ	ㄕㄞ
-359	𩂢	蟹開二平皆疑	ngeaj	(ŋ)iai˩	꜁(ㄫ)ㄧㄞ	꜁(ㄫ)ㄧㄞ
+359	𩂢	蟹開二平皆疑	ngeaj	(ŋ)iai˩	꜁(ㄫ)ㄧㄞ	꜁ㄧㄞ
 360	搋	蟹開二平皆徹	trheaj	ʈʂʰai	ㄔㄞ	ㄔㄞ
 361	𢓬	蟹開二平皆曉	xeaj	hiai	ㄒㄧㄞ	ㄒㄧㄞ
 362	䐯	蟹合二平皆來	lweaj	lwai˩	꜁ㄌㄨㄞ	꜁ㄌㄨㄞ
@@ -439,9 +439,9 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 435	椿	臻合三平諄徹	trhwin	tʃʰyun	ㄔㄩㄣ	ㄔㄨㄣ
 436	䣩	臻合三平諄澄	drwin	tʃʱyun˩	꜁ㄔㄩㄣ	꜁ㄔㄨㄣ
 437	荀	臻合三平諄心	swin	syun	ㄙㄩㄣ	ㄙㄩㄣ
-438	純	臻合三平諄常	dzywin	ʃʱyun˩	꜁ㄕㄩㄣ	꜁ㄕㄨㄣ
+438	純	臻合三平諄常	dzywin	ʃʱyun˩	꜁ㄕㄩㄣ	꜁ㄔㄨㄣ
 439	犉	臻合三平諄日	nywin	ʒyun˩	꜁ㄖㄩㄣ	꜁ㄖㄨㄣ
-440	脣	臻合三平諄船	zywin	ʃʱyun˩	꜁ㄕㄩㄣ	꜁ㄕㄨㄣ
+440	脣	臻合三平諄船	zywin	ʃʱyun˩	꜁ㄕㄩㄣ	꜁ㄔㄨㄣ
 441	淪	臻合三平諄來	lwin	lyun˩	꜁ㄌㄩㄣ	꜁ㄌㄨㄣ
 442	屯	臻合三平諄知	trwin	tʃyun	ㄓㄩㄣ	ㄓㄨㄣ
 443	逡	臻合三平諄清	tshwin	tsʰyun	ㄘㄩㄣ	ㄘㄩㄣ
@@ -547,7 +547,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 543	還	山合二平刪匣	hwaen	ɦwan˩	꜁ㄏㄨㄢ	꜁ㄏㄨㄢ
 544	班	山開二平刪幫	paen	pan	ㄅㄢ	ㄅㄢ
 545	蠻	山開二平刪明	maen	man˩	꜁ㄇㄢ	꜁ㄇㄢ
-546	顏	山開二平刪疑	ngaen	(ŋ)ian˩	꜁(ㄫ)ㄧㄚㄣ	꜁(ㄫ)ㄧㄢ
+546	顏	山開二平刪疑	ngaen	(ŋ)ian˩	꜁(ㄫ)ㄧㄚㄣ	꜁ㄧㄢ
 547	姦	山開二平刪見	kaen	kian	ㄐㄚㄣ	ㄐㄢ
 548	攀	山開二平刪滂	phaen	pʰan	ㄆㄢ	ㄆㄢ
 549	奻	山合二平刪孃	nrwaen	nwan˩	꜁ㄋㄨㄢ	꜁ㄋㄨㄢ
@@ -562,7 +562,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 558	慳	山開二平山溪	khean	kʰian	ㄑㄚㄣ	ㄑㄢ
 559	虥	山開二平山崇	dzrean	ʈʂʱan˩	꜁ㄔㄢ	꜁ㄔㄢ
 560	羴	山開二平山曉	xean	hian	ㄒㄚㄣ	ㄒㄢ
-561	詽	山開二平山疑	ngean	(ŋ)ian˩	꜁(ㄫ)ㄧㄚㄣ	꜁(ㄫ)ㄧㄢ
+561	詽	山開二平山疑	ngean	(ŋ)ian˩	꜁(ㄫ)ㄧㄚㄣ	꜁ㄧㄢ
 562	黰	山開二平山影	’ean	ʔian	ㄧㄚㄣ	ㄧㄢ
 563	斒	山開二平山幫	pean	pan	ㄅㄢ	ㄅㄢ
 564	斕	山開二平山來	lean	lan˩	꜁ㄌㄢ	꜁ㄌㄢ
@@ -611,7 +611,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 607	潺	山開三平仙崇	dzrjen	ʈʂʱan˩	꜁ㄔㄢ	꜁ㄔㄢ
 608	羶	山開三平仙書	syen	ʃiɛn	ㄕㄧㄢ	ㄕㄢ
 609	脠	山開三平仙徹	trhjen	tʃʰiɛn	ㄔㄧㄢ	ㄔㄢ
-610	鋋	山開三平仙常	dzyen	tʃʱiɛn˩今(t)ʃʱiɛn˩	꜁ㄔㄧㄢ/꜁ㄕㄧㄢ	꜁ㄔㄢ/꜁ㄕㄢ
+610	鋋	山開三平仙常	dzyen	tʃʱiɛn˩今(t)ʃʱiɛn˩	꜁ㄔㄧㄢ/꜁ㄕㄧㄢ	꜁ㄕㄢ
 611	纏	山開三平仙澄	drjen	tʃʱiɛn˩	꜁ㄔㄧㄢ	꜁ㄔㄢ
 612	嘕	山開三平仙曉A	xjien	hiɛn	ㄒㄧㄝㄣ	ㄒㄧㄢ
 613	連	山開三平仙來	ljen	liɛn˩	꜁ㄌㄧㄢ	꜁ㄌㄧㄢ
@@ -627,7 +627,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 623	沿	山合三平仙以	ywen	jyuɛn˩	꜁ㄩㄢ	꜁ㄩㄢ
 624	旋	山合三平仙邪	zjwen	sʱyuɛn˩	꜁ㄙㄩㄢ	꜁ㄙㄩㄢ
 625	娟	山合三平仙影A	’jwien	ʔyuɛn	ㄩㄢ	ㄩㄢ
-626	船	山合三平仙船	zywen	ʃʱyuɛn˩今tʃʱyuɛn˩	꜁ㄕㄩㄢ/꜁ㄔㄩㄢ	꜁ㄕㄨㄢ/꜁ㄔㄨㄢ
+626	船	山合三平仙船	zywen	ʃʱyuɛn˩今tʃʱyuɛn˩	꜁ㄕㄩㄢ/꜁ㄔㄩㄢ	꜁ㄔㄨㄢ
 627	鞭	山開三平仙幫A	pjien	piɛn	ㄅㄧㄢ	ㄅㄧㄢ
 628	㳄	山開三平仙邪	zjen	sʱiɛn˩	꜁ㄙㄧㄢ	꜁ㄙㄧㄢ
 629	詮	山合三平仙清	tshjwen	tsʰyuɛn	ㄘㄩㄢ	ㄘㄩㄢ
@@ -698,7 +698,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 694	包	效開二平肴幫	paew	paw	ㄅㄠ	ㄅㄠ
 695	胞	效開二平肴滂	phaew	pʰaw	ㄆㄠ	ㄆㄠ
 696	敲	效開二平肴溪	khaew	kʰiaw	ㄑㄚㄨ	ㄑㄠ
-697	聱	效開二平肴疑	ngaew	(ŋ)iaw˩	꜁(ㄫ)ㄧㄚㄨ	꜁(ㄫ)ㄧㄠ
+697	聱	效開二平肴疑	ngaew	(ŋ)iaw˩	꜁(ㄫ)ㄧㄚㄨ	꜁ㄧㄠ
 698	𦗔	效開二平肴莊	tsraew	ʈʂaw	ㄓㄠ	ㄓㄠ
 699	嘲	效開二平肴知	traew	ʈʂaw	ㄓㄠ	ㄓㄠ
 700	䜈	效開二平肴初	tsrhaew	ʈʂʰaw	ㄔㄠ	ㄔㄠ
@@ -786,7 +786,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 782	巴	假開二平麻幫	pae	pa	ㄅㄚ	ㄅㄚ
 783	叉	假開二平麻初	tsrhae	ʈʂʰa	ㄔㄚ	ㄔㄚ
 784	鯊	假開二平麻生	srae	ʂa	ㄕㄚ	ㄕㄚ
-785	牙	假開二平麻疑	ngae	(ŋ)ia˩	꜁(ㄫ)ㄧㄚ	꜁(ㄫ)ㄧㄚ
+785	牙	假開二平麻疑	ngae	(ŋ)ia˩	꜁(ㄫ)ㄧㄚ	꜁ㄧㄚ
 786	樝	假開二平麻莊	tsrae	ʈʂa	ㄓㄚ	ㄓㄚ
 787	𡨀	假開二平麻澄	drae	ʈʂʱa˩	꜁ㄔㄚ	꜁ㄔㄚ
 788	衺	假開三平麻邪	zjae	sʱiɛ˩	꜁ㄙㄧㄝ	꜁ㄙㄧㄝ
@@ -907,7 +907,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 903	橙	梗開二平耕澄	dreang	ʈʂʱəŋ˩	꜁ㄔㄥ	꜁ㄔㄥ
 904	泓	梗合二平耕影	’weang	ʔwəŋ	ㄨㄜㄥ	ㄨㄥ
 905	輣	梗開二平耕並	beang	pʱəŋ˩	꜁ㄆㄥ	꜁ㄆㄥ
-906	娙	梗開二平耕疑	ngeang	(ŋ)iŋ˩	꜁(ㄫ)ㄧㄥ	꜁(ㄫ)ㄧㄥ
+906	娙	梗開二平耕疑	ngeang	(ŋ)iŋ˩	꜁(ㄫ)ㄧㄥ	꜁ㄧㄥ
 907	爭	梗開二平耕莊	tsreang	ʈʂəŋ	ㄓㄥ	ㄓㄥ
 908	清	梗開三平清清	tshjeng	tsʰiŋ	ㄘㄧㄥ	ㄘㄧㄥ
 909	情	梗開三平清從	dzjeng	tsʱiŋ˩	꜁ㄘㄧㄥ	꜁ㄘㄧㄥ
@@ -961,7 +961,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 957	兢	曾開三平蒸見	king	kiŋ	ㄐㄧㄥ	ㄐㄧㄥ
 958	徵	曾開三平蒸知	tring	tʃiŋ	ㄓㄧㄥ	ㄓㄥ
 959	繒	曾開三平蒸從	dzing	tsʱiŋ˩	꜁ㄘㄧㄥ	꜁ㄘㄧㄥ
-960	凝	曾開三平蒸疑	nging	(ŋ)iŋ˩	꜁(ㄫ)ㄧㄥ	꜁(ㄫ)ㄧㄥ
+960	凝	曾開三平蒸疑	nging	(ŋ)iŋ˩	꜁(ㄫ)ㄧㄥ	꜁ㄬㄧㄥ
 961	興	曾開三平蒸曉	xing	hiŋ	ㄒㄧㄥ	ㄒㄧㄥ
 962	稱	曾開三平蒸昌	tsyhing	tʃʰiŋ	ㄔㄧㄥ	ㄔㄥ
 963	殑	曾開三平蒸羣	ging	kʱiŋ˩	꜁ㄑㄧㄥ	꜁ㄑㄧㄥ
@@ -992,7 +992,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 988	劉	流開三平尤來	ljuw	liw˩	꜁ㄌㄧㄡ	꜁ㄌㄧㄡ
 989	秋	流開三平尤清	tshjuw	tsʰiw	ㄘㄧㄡ	ㄘㄧㄡ
 990	猷	流開三平尤以	yuw	jiw˩	꜁ㄧㄡ	꜁ㄧㄡ
-991	牛	流開三平尤疑	ngjuw	(ŋ)iw˩	꜁(ㄫ)ㄧㄡ	꜁(ㄫ)ㄧㄡ
+991	牛	流開三平尤疑	ngjuw	(ŋ)iw˩	꜁(ㄫ)ㄧㄡ	꜁ㄬㄧㄡ
 992	遒	流開三平尤精	tsjuw	tsiw	ㄗㄧㄡ	ㄗㄧㄡ
 993	酋	流開三平尤從	dzjuw	tsʱiw˩	꜁ㄘㄧㄡ	꜁ㄘㄧㄡ
 994	脩	流開三平尤心	sjuw	siw	ㄙㄧㄡ	ㄙㄧㄡ
@@ -1000,7 +1000,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 996	恘	流開三平尤溪	khjuw	kʰiw	ㄑㄧㄡ	ㄑㄧㄡ
 997	犫	流開三平尤昌	tsyhuw	tʃʰiw	ㄔㄧㄡ	ㄔㄡ
 998	周	流開三平尤章	tsyuw	tʃiw	ㄓㄧㄡ	ㄓㄡ
-999	讎	流開三平尤常	dzyuw	ʃʱiw˩今tʃʱiw˩	꜁ㄕㄧㄡ/꜁ㄔㄧㄡ	꜁ㄕㄡ/꜁ㄔㄡ
+999	讎	流開三平尤常	dzyuw	ʃʱiw˩今tʃʱiw˩	꜁ㄕㄧㄡ/꜁ㄔㄧㄡ	꜁ㄔㄡ
 1000	柔	流開三平尤日	nyuw	ʒiw˩	꜁ㄖㄧㄡ	꜁ㄖㄡ
 1001	收	流開三平尤書	syuw	ʃiw	ㄕㄧㄡ	ㄕㄡ
 1002	丘	流開三平尤溪	khjuw	kʰiw	ㄑㄧㄡ	ㄑㄧㄡ
@@ -1053,7 +1053,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1049	斟	深開三平侵章	tsyim	tʃim	ㄓㄧㆬ	ㄓㄣ
 1050	沈	深開三平侵澄	drim	tʃʱim˩	꜁ㄔㄧㆬ	꜁ㄔㄣ
 1051	碪	深開三平侵知	trim	tʃim	ㄓㄧㆬ	ㄓㄣ
-1052	諶	深開三平侵常	dzyim	tʃʱim˩今(t)ʃʱim˩	꜁ㄔㄧㆬ/꜁ㄕㄧㆬ	꜁ㄔㄣ/꜁ㄕㄣ
+1052	諶	深開三平侵常	dzyim	tʃʱim˩今(t)ʃʱim˩	꜁ㄔㄧㆬ/꜁ㄕㄧㆬ	꜁ㄔㄣ
 1053	任	深開三平侵日	nyim	ʒim˩	꜁ㄖㄧㆬ	꜁ㄖㄣ
 1054	深	深開三平侵書	syim	ʃim	ㄕㄧㆬ	ㄕㄣ
 1055	淫	深開三平侵以	yim	jim˩	꜁ㄧㆬ	꜁ㄧㄣ
@@ -1106,7 +1106,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1102	銛	咸開三平鹽心	sjem	siɛm	ㄙㄧㆰ	ㄙㄧㄢ
 1103	籤	咸開三平鹽清	tshjem	tsʰiɛm	ㄘㄧㆰ	ㄘㄧㄢ
 1104	詹	咸開三平鹽章	tsyem	tʃiɛm	ㄓㄧㆰ	ㄓㄢ
-1105	棎	咸開三平鹽常	dzyem	tʃʱiɛm˩今(t)ʃʱiɛm˩	꜁ㄔㄧㆰ/꜁ㄕㄧㆰ	꜁ㄔㄢ/꜁ㄕㄢ
+1105	棎	咸開三平鹽常	dzyem	tʃʱiɛm˩今(t)ʃʱiɛm˩	꜁ㄔㄧㆰ/꜁ㄕㄧㆰ	꜁ㄕㄢ
 1106	苫	咸開三平鹽書	syem	ʃiɛm	ㄕㄧㆰ	ㄕㄢ
 1107	䪜	咸開三平鹽昌	tsyhem	tʃʰiɛm	ㄔㄧㆰ	ㄔㄢ
 1108	𩓾	咸開三平鹽日	nyem	ʒiɛm˩	꜁ㄖㄧㆰ	꜁ㄖㄢ
@@ -1146,7 +1146,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1142	鵮	咸開二平咸溪	kheam	kʰiam	ㄑㄚㆬ	ㄑㄢ
 1143	銜	咸開二平銜匣	haem	ɦiam˩	꜁ㄒㄚㆬ	꜁ㄒㄢ
 1144	巉	咸開二平銜崇	dzraem	ʈʂʱam˩	꜁ㄔㆰ	꜁ㄔㄢ
-1145	巖	咸開二平銜疑	ngaem	(ŋ)iam˩	꜁(ㄫ)ㄧㄚㆬ	꜁(ㄫ)ㄧㄢ
+1145	巖	咸開二平銜疑	ngaem	(ŋ)iam˩	꜁(ㄫ)ㄧㄚㆬ	꜁ㄧㄢ
 1146	攙	咸開二平銜初	tsrhaem	ʈʂʰam	ㄔㆰ	ㄔㄢ
 1147	衫	咸開二平銜生	sraem	ʂam	ㄕㆰ	ㄕㄢ
 1148	監	咸開二平銜見	kaem	kiam	ㄐㄚㆬ	ㄐㄢ
@@ -1305,7 +1305,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1301	俟	止開三上之俟	zriX	ʂʱɨ'˨˦今sʱɨ'˨˦	ㄕㄭ'꜅/ㄙㄭ'꜅	ㄕ꜄/ㄙ꜄
 1302	子	止開三上之精	tsiX	tsɨ˥˧	꜂ㄗㄭ	꜂ㄗ
 1303	矣	止開三上之云	hiX	ji˥˧	꜃ㄧ	꜂ㄧ
-1304	擬	止開三上之疑	ngiX	(ŋ)i˥˧	꜃(ㄫ)ㄧ	꜂(ㄫ)ㄧ
+1304	擬	止開三上之疑	ngiX	(ŋ)i˥˧	꜃(ㄫ)ㄧ	꜂ㄬㄧ
 1305	齒	止開三上之昌	tsyhiX	tʃʰiɨ˥˧	꜂ㄔ	꜂ㄔ
 1306	恥	止開三上之徹	trhiX	tʃʰi˥˧	꜂ㄔㄧ	꜂ㄔ
 1307	㓼	止開三上之初	tsrhiX	ʈʂʰɨ˥˧	꜂ㄔㄭ	꜂ㄔ
@@ -1408,7 +1408,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1404	米	蟹開四上齊明	mejX	miɪi˥˧	꜃ㄇㄧ	꜂ㄇㄧ
 1405	陛	蟹開四上齊並	bejX	biɪi'˨˦	ㆠㄧ'꜅	ㄅㄧ꜄
 1406	𠯋	蟹開四上齊影	’ejX	ʔiɪi˥˧	꜂ㄧ	꜂ㄧ
-1407	堄	蟹開四上齊疑	ngejX	ŋiɪi˥˧今(ŋ)i˥˧	꜃ㄫㄧ/꜃(ㄫ)ㄧ	꜂ㄧ/꜂(ㄫ)ㄧ
+1407	堄	蟹開四上齊疑	ngejX	ŋiɪi˥˧今(ŋ)i˥˧	꜃ㄫㄧ/꜃(ㄫ)ㄧ	꜂ㄬㄧ
 1408	㪏	蟹開四上齊幫	pejX	piɪi˥˧	꜂ㄅㄧ	꜂ㄅㄧ
 1409	蟹	蟹開二上佳匣	heaX	ɦiai'˨˦	ㄒㄧㄞ'꜅	ㄒㄧㄞ꜄
 1410	買	蟹開二上佳明	meaX	mai˥˧	꜃ㄇㄞ	꜂ㄇㄞ
@@ -1427,7 +1427,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1423	箉	蟹開二上佳羣	geaX	giai'˨˦	ㆢㄧㄞ'꜅	ㄐㄧㄞ꜄
 1424	駭	蟹開二上皆匣	heajX	ɦiai'˨˦	ㄒㄧㄞ'꜅	ㄒㄧㄞ꜄
 1425	楷	蟹開二上皆溪	kheajX	kʰiai˥˧	꜂ㄑㄧㄞ	꜂ㄑㄧㄞ
-1426	騃	蟹開二上皆疑	ngeajX	(ŋ)iai˥˧	꜃(ㄫ)ㄧㄞ	꜂(ㄫ)ㄧㄞ
+1426	騃	蟹開二上皆疑	ngeajX	(ŋ)iai˥˧	꜃(ㄫ)ㄧㄞ	꜂ㄧㄞ
 1427	挨	蟹開二上皆影	’eajX	ʔiai˥˧	꜂ㄧㄞ	꜂ㄧㄞ
 1428	賄	蟹合一上灰曉	xwojX	hui˥˧	꜂ㄏㄨㄟ	꜂ㄏㄨㄟ
 1429	猥	蟹合一上灰影	’wojX	ʔui˥˧	꜂ㄨㄟ	꜂ㄨㄟ
@@ -1589,7 +1589,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1585	阪	山開二上刪並	baenX	ban'˨˦	ㆠㄢ'꜅	ㄅㄢ꜄
 1586	矕	山開二上刪明	maenX	man˥˧	꜃ㄇㄢ	꜂ㄇㄢ
 1587	𪘪	山開二上刪崇	dzraenX	ɖʐan'˨˦	ㄓㄢ'꜅	ㄓㄢ꜄
-1588	𪗙	山開二上刪疑	ngaenX	(ŋ)ian˥˧	꜃(ㄫ)ㄧㄚㄣ	꜂(ㄫ)ㄧㄢ
+1588	𪗙	山開二上刪疑	ngaenX	(ŋ)ian˥˧	꜃(ㄫ)ㄧㄚㄣ	꜂ㄧㄢ
 1589	㹽	山開二上刪初	tsrhaenX	ʈʂʰan˥˧	꜂ㄔㄢ	꜂ㄔㄢ
 1590	眅	山開二上刪滂	phaenX	pʰan˥˧	꜂ㄆㄢ	꜂ㄆㄢ
 1591	撰	山合二上刪崇	dzrwaenX	ɖʐwan'˨˦	ㄓㄨㄢ'꜅	ㄓㄨㄢ꜄
@@ -1599,7 +1599,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1595	簡	山開二上山見	keanX	kian˥˧	꜂ㄐㄚㄣ	꜂ㄐㄢ
 1596	剗	山開二上山初	tsrheanX	ʈʂʰan˥˧	꜂ㄔㄢ	꜂ㄔㄢ
 1597	棧	山開二上山崇	dzreanX	ɖʐan'˨˦	ㄓㄢ'꜅	ㄓㄢ꜄
-1598	眼	山開二上山疑	ngeanX	(ŋ)ian˥˧	꜃(ㄫ)ㄧㄚㄣ	꜂(ㄫ)ㄧㄢ
+1598	眼	山開二上山疑	ngeanX	(ŋ)ian˥˧	꜃(ㄫ)ㄧㄚㄣ	꜂ㄧㄢ
 1599	醆	山開二上山莊	tsreanX	ʈʂan˥˧	꜂ㄓㄢ	꜂ㄓㄢ
 1600	㦃	山合二上山初	tsrhweanX	ʈʂʰwan˥˧	꜂ㄔㄨㄢ	꜂ㄔㄨㄢ
 1601	齦	山開二上山溪	kheanX	kʰian˥˧	꜂ㄑㄚㄣ	꜂ㄑㄢ
@@ -1709,7 +1709,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1705	爪	效開二上肴莊	tsraewX	ʈʂaw˥˧	꜂ㄓㄠ	꜂ㄓㄠ
 1706	拗	效開二上肴影	’aewX	ʔiaw˥˧	꜂ㄧㄚㄨ	꜂ㄧㄠ
 1707	鮑	效開二上肴並	baewX	baw'˨˦	ㆠㄠ'꜅	ㄅㄠ꜄
-1708	齩	效開二上肴疑	ngaewX	(ŋ)iaw˥˧	꜃(ㄫ)ㄧㄚㄨ	꜂(ㄫ)ㄧㄠ
+1708	齩	效開二上肴疑	ngaewX	(ŋ)iaw˥˧	꜃(ㄫ)ㄧㄚㄨ	꜂ㄧㄠ
 1709	䰫	效開二上肴崇	dzraewX	ɖʐaw'˨˦	ㄓㄠ'꜅	ㄓㄠ꜄
 1710	煼	效開二上肴初	tsrhaewX	ʈʂʰaw˥˧	꜂ㄔㄠ	꜂ㄔㄠ
 1711	䝤	效開二上肴知	traewX	ʈʂaw˥˧	꜂ㄓㄠ	꜂ㄓㄠ
@@ -1768,7 +1768,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1764	馬	假開二上麻明	maeX	ma˥˧	꜃ㄇㄚ	꜂ㄇㄚ
 1765	者	假開三上麻章	tsyaeX	tʃiɛ˥˧	꜂ㄓㄧㄝ	꜂ㄓㄝ
 1766	野	假開三上麻以	yaeX	jiɛ˥˧	꜃ㄧㄝ	꜂ㄧㄝ
-1767	雅	假開二上麻疑	ngaeX	(ŋ)ia˥˧	꜃(ㄫ)ㄧㄚ	꜂(ㄫ)ㄧㄚ
+1767	雅	假開二上麻疑	ngaeX	(ŋ)ia˥˧	꜃(ㄫ)ㄧㄚ	꜂ㄧㄚ
 1768	檟	假開二上麻見	kaeX	kia˥˧	꜂ㄐㄧㄚ	꜂ㄐㄧㄚ
 1769	灑	假開二上麻生	sraeX	ʂa˥˧	꜂ㄕㄚ	꜂ㄕㄚ
 1770	啞	假開二上麻影	’aeX	ʔia˥˧	꜂ㄧㄚ	꜂ㄧㄚ
@@ -1919,7 +1919,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 1915	笭	梗開四上青來	lengX	liŋ˥˧	꜂ㄌㄧㄥ	꜂ㄌㄧㄥ
 1916	竝	梗開四上青並	bengX	biŋ'˨˦	ㆠㄧㄥ'꜅	ㄅㄧㄥ꜄
 1917	詗	梗合四上青曉	xwengX	hyuəŋ˥˧	꜂ㄒㄩㄜㄥ	꜂ㄒㄩㄥ
-1918	䀴	梗開四上青疑	ngengX	(ŋ)iŋ˥˧	꜃(ㄫ)ㄧㄥ	꜂(ㄫ)ㄧㄥ
+1918	䀴	梗開四上青疑	ngengX	(ŋ)iŋ˥˧	꜃(ㄫ)ㄧㄥ	꜂ㄬㄧㄥ
 1919	拯	曾開三上蒸章	tsyingX	tʃiŋ˥˧	꜂ㄓㄧㄥ	꜂ㄓㄥ
 1920	庱	曾開三上蒸徹	trhingX	tʃʰiŋ˥˧	꜂ㄔㄧㄥ	꜂ㄔㄥ
 1921	殑	曾開三上蒸羣	gingX	giŋ'˨˦	ㆢㄧㄥ'꜅	ㄐㄧㄥ꜄
@@ -2369,7 +2369,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2365	第	蟹開四去齊定	dejH	diɪi˨˦	ㄉㄧ꜅	ㄉㄧ꜄
 2366	砌	蟹開四去齊清	tshejH	tsʰiɪi˨˦	ㄘㄧ꜄	ㄘㄧ꜄
 2367	細	蟹開四去齊心	sejH	siɪi˨˦	ㄙㄧ꜄	ㄙㄧ꜄
-2368	詣	蟹開四去齊疑	ngejH	ŋiɪi˨˦今ji˨˦	ㄫㄧ꜅/ㄧ꜅	ㄧ꜄/ㄧ꜄
+2368	詣	蟹開四去齊疑	ngejH	ŋiɪi˨˦今ji˨˦	ㄫㄧ꜅/ㄧ꜅	ㄧ꜄/ㄬㄧ꜄
 2369	計	蟹開四去齊見	kejH	kiɪi˨˦	ㄐㄧ꜄	ㄐㄧ꜄
 2370	蒵	蟹開四去齊匣	hejH	ɦiɪi˨˦	ㄒㄧ꜅	ㄒㄧ꜄
 2371	契	蟹開四去齊溪	khejH	kʰiɪi˨˦	ㄑㄧ꜄	ㄑㄧ꜄
@@ -2461,7 +2461,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2457	賣	蟹開二去佳明	meaH	mai˨˦	ㄇㄞ꜅	ㄇㄞ꜄
 2458	畫	蟹合二去佳匣	hweaH	ɦwa˨˦	ㄏㄨㄚ꜅	ㄏㄨㄚ꜄
 2459	差	蟹開二去佳初	tsrheaH	ʈʂʰai˨˦	ㄔㄞ꜄	ㄔㄞ꜄
-2460	睚	蟹開二去佳疑	ngeaH	(ŋ)iai˨˦	(ㄫ)ㄧㄞ꜅	(ㄫ)ㄧㄞ꜄
+2460	睚	蟹開二去佳疑	ngeaH	(ŋ)iai˨˦	(ㄫ)ㄧㄞ꜅	ㄧㄞ꜄
 2461	謑	蟹開二去佳曉	xeaH	hiai˨˦	ㄒㄧㄞ꜄	ㄒㄧㄞ꜄
 2462	庍	蟹開二去佳幫	peaH	pai˨˦	ㄅㄞ꜄	ㄅㄞ꜄
 2463	粺	蟹開二去佳並	beaH	bai˨˦	ㆠㄞ꜅	ㄅㄞ꜄
@@ -2480,7 +2480,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2476	褹	蟹開二去皆孃	nreajH	nai˨˦	ㄋㄞ꜅	ㄋㄞ꜄
 2477	譮	蟹開二去皆曉	xeajH	hiai˨˦	ㄒㄧㄞ꜄	ㄒㄧㄞ꜄
 2478	械	蟹開二去皆匣	heajH	ɦiai˨˦	ㄒㄧㄞ꜅	ㄒㄧㄞ꜄
-2479	𦗐	蟹開二去皆疑	ngeajH	(ŋ)iai˨˦	(ㄫ)ㄧㄞ꜅	(ㄫ)ㄧㄞ꜄
+2479	𦗐	蟹開二去皆疑	ngeajH	(ŋ)iai˨˦	(ㄫ)ㄧㄞ꜅	ㄧㄞ꜄
 2480	蒯	蟹合二去皆溪	khweajH	kʰwai˨˦	ㄎㄨㄞ꜄	ㄎㄨㄞ꜄
 2481	𢷎	蟹開二去皆幫	peajH	pai˨˦	ㄅㄞ꜄	ㄅㄞ꜄
 2482	湃	蟹開二去皆滂	pheajH	pʰai˨˦	ㄆㄞ꜄	ㄆㄞ꜄
@@ -2670,7 +2670,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2666	攅	山合一去桓從	dzwanH	dzwɔn˨˦	ㆡㄨ干꜅	ㄗㄨㄢ꜄
 2667	䥗	山合一去桓溪	khwanH	kʰwɔn˨˦	ㄎㄨ干꜄	ㄎㄨㄢ꜄
 2668	諫	山開二去刪見	kaenH	kian˨˦	ㄐㄚㄣ꜄	ㄐㄢ꜄
-2669	鴈	山開二去刪疑	ngaenH	(ŋ)ian˨˦	(ㄫ)ㄧㄚㄣ꜅	(ㄫ)ㄧㄢ꜄
+2669	鴈	山開二去刪疑	ngaenH	(ŋ)ian˨˦	(ㄫ)ㄧㄚㄣ꜅	ㄧㄢ꜄
 2670	晏	山開二去刪影	’aenH	ʔian˨˦	ㄧㄚㄣ꜄	ㄧㄢ꜄
 2671	訕	山開二去刪生	sraenH	ʂan˨˦	ㄕㄢ꜄	ㄕㄢ꜄
 2672	骭	山開二去刪匣	haenH	ɦian˨˦	ㄒㄚㄣ꜅	ㄒㄢ꜄
@@ -2807,7 +2807,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2803	靤	效開二去肴並	baewH	baw˨˦	ㆠㄠ꜅	ㄅㄠ꜄
 2804	抄	效開二去肴初	tsrhaewH	ʈʂʰaw˨˦	ㄔㄠ꜄	ㄔㄠ꜄
 2805	靿	效開二去肴影	’aewH	ʔiaw˨˦	ㄧㄚㄨ꜄	ㄧㄠ꜄
-2806	樂	效開二去肴疑	ngaewH	(ŋ)iaw˨˦	(ㄫ)ㄧㄚㄨ꜅	(ㄫ)ㄧㄠ꜄
+2806	樂	效開二去肴疑	ngaewH	(ŋ)iaw˨˦	(ㄫ)ㄧㄚㄨ꜅	ㄧㄠ꜄
 2807	巢	效開二去肴崇	dzraewH	ɖʐaw˨˦	ㄓㄠ꜅	ㄓㄠ꜄
 2808	号	效開一去豪匣	hawH	ɦaw˨˦	ㄏㄠ꜅	ㄏㄠ꜄
 2809	導	效開一去豪定	dawH	daw˨˦	ㄉㄠ꜅	ㄉㄠ꜄
@@ -2864,7 +2864,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2860	駕	假開二去麻見	kaeH	kia˨˦	ㄐㄧㄚ꜄	ㄐㄧㄚ꜄
 2861	亞	假開二去麻影	’aeH	ʔia˨˦	ㄧㄚ꜄	ㄧㄚ꜄
 2862	嚇	假開二去麻曉	xaeH	hia˨˦	ㄒㄧㄚ꜄	ㄒㄧㄚ꜄
-2863	迓	假開二去麻疑	ngaeH	(ŋ)ia˨˦	(ㄫ)ㄧㄚ꜅	(ㄫ)ㄧㄚ꜄
+2863	迓	假開二去麻疑	ngaeH	(ŋ)ia˨˦	(ㄫ)ㄧㄚ꜅	ㄧㄚ꜄
 2864	詫	假開二去麻徹	trhaeH	ʈʂʰa˨˦	ㄔㄚ꜄	ㄔㄚ꜄
 2865	吒	假開二去麻知	traeH	ʈʂa˨˦	ㄓㄚ꜄	ㄓㄚ꜄
 2866	詐	假開二去麻莊	tsraeH	ʈʂa˨˦	ㄓㄚ꜄	ㄓㄚ꜄
@@ -2974,7 +2974,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 2970	迸	梗開二去耕幫	peangH	pəŋ˨˦	ㄅㄥ꜄	ㄅㄥ꜄
 2971	𠊧	梗開二去耕並	beangH	bəŋ˨˦	ㆠㄥ꜅	ㄅㄥ꜄
 2972	䙬	梗開二去耕影	’eangH	ʔiŋ˨˦	ㄧㄥ꜄	ㄧㄥ꜄
-2973	鞕	梗開二去耕疑	ngeangH	(ŋ)iŋ˨˦	(ㄫ)ㄧㄥ꜅	(ㄫ)ㄧㄥ꜄
+2973	鞕	梗開二去耕疑	ngeangH	(ŋ)iŋ˨˦	(ㄫ)ㄧㄥ꜅	ㄧㄥ꜄
 2974	轟	梗合二去耕曉	xweangH	hwəŋ˨˦	ㄏㄨㄜㄥ꜄	ㄏㄨㄥ꜄
 2975	勁	梗開三去清見	kjiengH	kiŋ˨˦	ㄐㄧㄥ꜄	ㄐㄧㄥ꜄
 2976	倩	梗開三去清清	tshjengH	tsʰiŋ˨˦	ㄘㄧㄥ꜄	ㄘㄧㄥ꜄
@@ -3018,7 +3018,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3014	𩜁	曾開三去蒸來	lingH	liŋ˨˦	ㄌㄧㄥ꜄	ㄌㄧㄥ꜄
 3015	凭	曾開三去蒸並	bingH	biŋ˨˦	ㆠㄧㄥ꜅	ㄅㄧㄥ꜄
 3016	稱	曾開三去蒸昌	tsyhingH	tʃʰiŋ˨˦	ㄔㄧㄥ꜄	ㄔㄥ꜄
-3017	凝	曾開三去蒸疑	ngingH	(ŋ)iŋ˨˦	(ㄫ)ㄧㄥ꜅	(ㄫ)ㄧㄥ꜄
+3017	凝	曾開三去蒸疑	ngingH	(ŋ)iŋ˨˦	(ㄫ)ㄧㄥ꜅	ㄬㄧㄥ꜄
 3018	丞	曾開三去蒸常	dzyingH	ʃʱiŋ˨˦	ㄕㄧㄥ꜅	ㄕㄥ꜄
 3019	覴	曾開三去蒸徹	trhingH	tʃʰiŋ˨˦	ㄔㄧㄥ꜄	ㄔㄥ꜄
 3020	殑	曾開三去蒸羣	gingH	giŋ˨˦	ㆢㄧㄥ꜅	ㄐㄧㄥ꜄
@@ -3061,7 +3061,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3057	授	流開三去尤常	dzyuwH	ʃʱiw˨˦	ㄕㄧㄡ꜅	ㄕㄡ꜄
 3058	輮	流開三去尤日	nyuwH	ʒiw˨˦	ㄖㄧㄡ꜅	ㄖㄡ꜄
 3059	莓	流開三去尤明	mjuwH	məw˨˦	ㄇㄡ꜅	ㄇㄡ꜄
-3060	𪖐	流開三去尤疑	ngjuwH	(ŋ)iw˨˦	(ㄫ)ㄧㄡ꜅	(ㄫ)ㄧㄡ꜄
+3060	𪖐	流開三去尤疑	ngjuwH	(ŋ)iw˨˦	(ㄫ)ㄧㄡ꜅	ㄬㄧㄡ꜄
 3061	𪖛	流開三去尤溪	khjuwH	kʰiw˨˦	ㄑㄧㄡ꜄	ㄑㄧㄡ꜄
 3062	䞭	流開三去尤清	tshjuwH	tsʰiw˨˦	ㄘㄧㄡ꜄	ㄘㄧㄡ꜄
 3063	𠋫	流開一去侯匣	huwH	ɦəw˨˦	ㄏㄡ꜅	ㄏㄡ꜄
@@ -3169,7 +3169,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3165	儳	咸開二去咸崇	dzreamH	ɖʐam˨˦	ㄓㆰ꜅	ㄓㄢ꜄
 3166	𪉦	咸開二去咸見	keamH	kiam˨˦	ㄐㄚㆬ꜄	ㄐㄢ꜄
 3167	諵	咸開二去咸孃	nreamH	nam˨˦	ㄋㆰ꜅	ㄋㄢ꜄
-3168	顑	咸開二去咸疑	ngeamH	(ŋ)iam˨˦	(ㄫ)ㄧㄚㆬ꜅	(ㄫ)ㄧㄢ꜄
+3168	顑	咸開二去咸疑	ngeamH	(ŋ)iam˨˦	(ㄫ)ㄧㄚㆬ꜅	ㄧㄢ꜄
 3169	鑑	咸開二去銜見	kaemH	kiam˨˦	ㄐㄚㆬ꜄	ㄐㄢ꜄
 3170	懺	咸開二去銜初	tsrhaemH	ʈʂʰam˨˦	ㄔㆰ꜄	ㄔㄢ꜄
 3171	覱	咸開二去銜莊	tsraemH	ʈʂam˨˦	ㄓㆰ꜄	ㄓㄢ꜄
@@ -3268,7 +3268,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3264	䪁	通開三入鍾幫	pjowk	fuʔ(k)	ㄈㄨ꜆ㆶ	ㄈㄨ꜆
 3265	梀	通開三入鍾徹	trhjowk	tʃʰyuʔ(k)	ㄔㄩㄨ꜆ㆶ	ㄔㄨ꜆
 3266	覺	江開二入江見	kaewk	kiɒʔ(k)	ㄐㄧㄛ꜆ㆶ	ㄐㄧㄛ꜆
-3267	嶽	江開二入江疑	ngaewk	(ŋ)iɒʔ(k)˩	(ㄫ)ㄧㄛ꜇ㆶ	(ㄫ)ㄧㄛ꜆
+3267	嶽	江開二入江疑	ngaewk	(ŋ)iɒʔ(k)˩	(ㄫ)ㄧㄛ꜇ㆶ	ㄧㄛ꜆
 3268	浞	江開二入江崇	dzraewk	ɖʐwɒʔ(k)˩	ㄓㄨㄛ꜇ㆶ	ㄓㄨㄛ꜆
 3269	捉	江開二入江莊	tsraewk	ʈʂwɒʔ(k)	ㄓㄨㄛ꜆ㆶ	ㄓㄨㄛ꜆
 3270	朔	江開二入江生	sraewk	ʂwɒʔ(k)	ㄕㄨㄛ꜆ㆶ	ㄕㄨㄛ꜆
@@ -3317,7 +3317,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3313	密	臻開三入眞明B	mit	miʔ(t)˩	ㄇㄧ꜇ㆵ	ㄇㄧ꜆
 3314	弼	臻開三入眞並B	bit	biʔ(t)˩	ㆠㄧ꜇ㆵ	ㄅㄧ꜆
 3315	乙	臻開三入眞影B	’it	ʔiʔ(t)	ㄧ꜆ㆵ	ㄧ꜆
-3316	耴	臻開三入眞疑B	ngit	(ŋ)iʔ(t)˩	(ㄫ)ㄧ꜇ㆵ	(ㄫ)ㄧ꜆
+3316	耴	臻開三入眞疑B	ngit	(ŋ)iʔ(t)˩	(ㄫ)ㄧ꜇ㆵ	ㄬㄧ꜆
 3317	筆	臻開三入眞幫B	pit	piʔ(t)	ㄅㄧ꜆ㆵ	ㄅㄧ꜆
 3318	茁	臻合三入諄知	trwit	tʃyʔ(t)	ㄓㄩ꜆ㆵ	ㄓㄨ꜆
 3319	肸	臻開三入眞曉B	xit	hiʔ(t)	ㄒㄧ꜆ㆵ	ㄒㄧ꜆
@@ -3372,7 +3372,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3368	訐	臻開三入元見	kjot	kiɛʔ(t)	ㄐㄧㄝ꜆ㆵ	ㄐㄧㄝ꜆
 3369	𢷒	臻開三入元羣	gjot	giɛʔ(t)˩	ㆢㄧㄝ꜇ㆵ	ㄐㄧㄝ꜆
 3370	㤄	臻合三入元滂	phjot	faʔ(t)	ㄈㄚ꜆ㆵ	ㄈㄚ꜆
-3371	钀	臻開三入元疑	ngjot	(ŋ)iɛʔ(t)˩	(ㄫ)ㄧㄝ꜇ㆵ	(ㄫ)ㄧㄝ꜆
+3371	钀	臻開三入元疑	ngjot	(ŋ)iɛʔ(t)˩	(ㄫ)ㄧㄝ꜇ㆵ	ㄬㄧㄝ꜆
 3372	没	臻合一入魂明	mwot	muʔ(t)˩	ㄇㄨ꜇ㆵ	ㄇㄨ꜆
 3373	𣅝	臻合一入魂透	thwot	tʰuʔ(t)	ㄊㄨ꜆ㆵ	ㄊㄨ꜆
 3374	骨	臻合一入魂見	kwot	kuʔ(t)	ㄍㄨ꜆ㆵ	ㄍㄨ꜆
@@ -3449,7 +3449,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3445	茁	山合二入山莊	tsrweat	ʈʂwaʔ(t)	ㄓㄨㄚ꜆ㆵ	ㄓㄨㄚ꜆
 3446	鎋	山開二入刪匣	haet	ɦiaʔ(t)˩	ㄒㄧㄚ꜇ㆵ	ㄒㄧㄚ꜆
 3447	𪆰	山開二入刪影	’aet	ʔiaʔ(t)	ㄧㄚ꜆ㆵ	ㄧㄚ꜆
-3448	齾	山開二入刪疑	ngaet	(ŋ)iaʔ(t)˩	(ㄫ)ㄧㄚ꜇ㆵ	(ㄫ)ㄧㄚ꜆
+3448	齾	山開二入刪疑	ngaet	(ŋ)iaʔ(t)˩	(ㄫ)ㄧㄚ꜇ㆵ	ㄧㄚ꜆
 3449	刹	山開二入刪初	tsrhaet	ʈʂʰaʔ(t)	ㄔㄚ꜆ㆵ	ㄔㄚ꜆
 3450	𥴭	山開二入刪溪	khaet	kʰiaʔ(t)	ㄑㄧㄚ꜆ㆵ	ㄑㄧㄚ꜆
 3451	瞎	山開二入刪曉	xaet	hiaʔ(t)	ㄒㄧㄚ꜆ㆵ	ㄒㄧㄚ꜆
@@ -3482,7 +3482,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3478	纈	山開四入先匣	het	ɦiɛʔ(t)˩	ㄒㄧㄝ꜇ㆵ	ㄒㄧㄝ꜆
 3479	涅	山開四入先泥	net	niɛʔ(t)˩	ㄋㄧㄝ꜇ㆵ	ㄋㄧㄝ꜆
 3480	𢧵	山開四入先從	dzet	dziɛʔ(t)˩	ㆡㄧㄝ꜇ㆵ	ㄗㄧㄝ꜆
-3481	齧	山開四入先疑	nget	(ŋ)iɛʔ(t)˩	(ㄫ)ㄧㄝ꜇ㆵ	(ㄫ)ㄧㄝ꜆
+3481	齧	山開四入先疑	nget	(ŋ)iɛʔ(t)˩	(ㄫ)ㄧㄝ꜇ㆵ	ㄬㄧㄝ꜆
 3482	蔑	山開四入先明	met	miɛʔ(t)˩	ㄇㄧㄝ꜇ㆵ	ㄇㄧㄝ꜆
 3483	㢼	山開四入先幫	pet	piɛʔ(t)	ㄅㄧㄝ꜆ㆵ	ㄅㄧㄝ꜆
 3484	噎	山開四入先影	’et	ʔiɛʔ(t)	ㄧㄝ꜆ㆵ	ㄧㄝ꜆
@@ -3500,7 +3500,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3496	晢	山開三入仙章	tsyet	tʃiɛʔ(t)	ㄓㄧㄝ꜆ㆵ	ㄓㄝ꜆
 3497	舌	山開三入仙船	zyet	ʃʱiɛʔ(t)˩	ㄕㄧㄝ꜇ㆵ	ㄕㄝ꜆
 3498	折	山開三入仙常	dzyet	ʃʱiɛʔ(t)˩	ㄕㄧㄝ꜇ㆵ	ㄕㄝ꜆
-3499	孼	山開三入仙疑B	ngjet	(ŋ)iɛʔ(t)˩	(ㄫ)ㄧㄝ꜇ㆵ	(ㄫ)ㄧㄝ꜆
+3499	孼	山開三入仙疑B	ngjet	(ŋ)iɛʔ(t)˩	(ㄫ)ㄧㄝ꜇ㆵ	ㄬㄧㄝ꜆
 3500	滅	山開三入仙明A	mjiet	miɛʔ(t)˩	ㄇㄧㄝ꜇ㆵ	ㄇㄧㄝ꜆
 3501	朅	山開三入仙溪B	khjet	kʰiɛʔ(t)	ㄑㄧㄝ꜆ㆵ	ㄑㄧㄝ꜆
 3502	鷩	山開三入仙幫A	pjiet	piɛʔ(t)	ㄅㄧㄝ꜆ㆵ	ㄅㄧㄝ꜆
@@ -3550,7 +3550,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3546	綽	宕開三入陽昌	tsyhak	tʃʰiɒʔ(k)	ㄔㄧㄛ꜆ㆶ	ㄔㄛ꜆
 3547	約	宕開三入陽影	’jak	ʔiɒʔ(k)	ㄧㄛ꜆ㆶ	ㄧㄛ꜆
 3548	卻	宕開三入陽溪	khjak	kʰiɒʔ(k)	ㄑㄧㄛ꜆ㆶ	ㄑㄧㄛ꜆
-3549	虐	宕開三入陽疑	ngjak	(ŋ)iɒʔ(k)˩	(ㄫ)ㄧㄛ꜇ㆶ	(ㄫ)ㄧㄛ꜆
+3549	虐	宕開三入陽疑	ngjak	(ŋ)iɒʔ(k)˩	(ㄫ)ㄧㄛ꜇ㆶ	ㄬㄧㄛ꜆
 3550	妁	宕開三入陽常	dzyak	ʃʱiɒʔ(k)˩	ㄕㄧㄛ꜇ㆶ	ㄕㄛ꜆
 3551	㲋	宕開三入陽徹	trhjak	tʃʰiɒʔ(k)	ㄔㄧㄛ꜆ㆶ	ㄔㄛ꜆
 3552	削	宕開三入陽心	sjak	siɒʔ(k)	ㄙㄧㄛ꜆ㆶ	ㄙㄧㄛ꜆
@@ -3610,7 +3610,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3606	齚	梗開二入庚崇	dzraek	ɖʐəʔ(k)˩	ㄓㄜ꜇ㆶ	ㄗㄜ꜆
 3607	隙	梗開三入庚溪	khjaek	kʰiʔ(k)	ㄑㄧ꜆ㆶ	ㄑㄧ꜆
 3608	額	梗開二入庚疑	ngaek	ŋəʔ(k)˩	ㄫㄜ꜇ㆶ	ㄫㄜ꜆
-3609	逆	梗開三入庚疑	ngjaek	(ŋ)iʔ(k)˩	(ㄫ)ㄧ꜇ㆶ	(ㄫ)ㄧ꜆
+3609	逆	梗開三入庚疑	ngjaek	(ŋ)iʔ(k)˩	(ㄫ)ㄧ꜇ㆶ	ㄬㄧ꜆
 3610	客	梗開二入庚溪	khaek	kʰəʔ(k)	ㄎㄜ꜆ㆶ	ㄎㄜ꜆
 3611	啞	梗開二入庚影	’aek	ʔəʔ(k)	ㄜ꜆ㆶ	ㄜ꜆
 3612	虩	梗開三入庚曉	xjaek	hiʔ(k)	ㄒㄧ꜆ㆶ	ㄒㄧ꜆
@@ -3721,7 +3721,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3717	堛	曾開三入蒸滂	phik	pʰiʔ(k)	ㄆㄧ꜆ㆶ	ㄆㄧ꜆
 3718	稄	曾開三入蒸莊	tsrik	ʈʂəʔ(k)	ㄓㄜ꜆ㆶ	ㄗㄜ꜆
 3719	愎	曾開三入蒸並	bik	biʔ(k)˩	ㆠㄧ꜇ㆶ	ㄅㄧ꜆
-3720	嶷	曾開三入蒸疑	ngik	(ŋ)iʔ(k)˩	(ㄫ)ㄧ꜇ㆶ	(ㄫ)ㄧ꜆
+3720	嶷	曾開三入蒸疑	ngik	(ŋ)iʔ(k)˩	(ㄫ)ㄧ꜇ㆶ	ㄬㄧ꜆
 3721	堲	曾開三入蒸從	dzik	dziʔ(k)˩	ㆡㄧ꜇ㆶ	ㄗㄧ꜆
 3722	𡮞	曾開三入蒸知	trik	tʃiʔ(k)	ㄓㄧ꜆ㆶ	ㄓ꜆
 3723	䁇	曾開三入蒸明	mik	miʔ(k)˩	ㄇㄧ꜇ㆶ	ㄇㄧ꜆
@@ -3855,7 +3855,7 @@ index	廣韻小韻	middle_chinese	Baxter_transcription	中州音(IPA)	中州音	
 3851	霎	咸開二入咸生	sreap	ʂaʔ(p)	ㄕㄚ꜆ㆴ	ㄕㄚ꜆
 3852	劄	咸開二入咸知	treap	ʈʂaʔ(p)	ㄓㄚ꜆ㆴ	ㄓㄚ꜆
 3853	𨂁	咸開二入咸影	’eap	ʔiaʔ(p)	ㄧㄚ꜆ㆴ	ㄧㄚ꜆
-3854	䀴	咸開二入咸疑	ngeap	(ŋ)iaʔ(p)˩	(ㄫ)ㄧㄚ꜇ㆴ	(ㄫ)ㄧㄚ꜆
+3854	䀴	咸開二入咸疑	ngeap	(ŋ)iaʔ(p)˩	(ㄫ)ㄧㄚ꜇ㆴ	ㄧㄚ꜆
 3855	𥃐	咸開二入咸徹	trheap	ʈʂʰaʔ(p)	ㄔㄚ꜆ㆴ	ㄔㄚ꜆
 3856	狎	咸開二入銜匣	haep	ɦiaʔ(p)˩	ㄒㄧㄚ꜇ㆴ	ㄒㄧㄚ꜆
 3857	𠗨	咸開二入銜澄	draep	ɖʐaʔ(p)˩	ㄓㄚ꜇ㆴ	ㄓㄚ꜆
